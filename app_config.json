@@ -8,7 +8,7 @@
   "cours": [
     {
       "title": "Chapitre 1 : Les entiers",
-      "link": "https://lesmaths1200.github.io/cours/entiers.pdf"
+      "link": "https://github.com/lesmaths1200/lesmaths1200.github.io/a8d608d41c99c074ebc8e848f97fba2fe01462ed/cours/entiers.pdf"
     },
     {
       "title": "Chapitre 2 : Les équations",
@@ -25,7 +25,17 @@
     {
       "title": "Sujet EVACOM 11LS 2025",
       "link": "https://youtu.be/embed/tIfwtL9SQrE?list=PLZPJxPW8-WcwXJ3L2hJK7UWRhDKnodvuT"
+    },
+    {
+      "title": "Sujet EVACOM 11LS 2025 - 1",
+      "link": "https://youtu.be/tIfwtL9SQrE"
+    },
+    {
+      "title": "Sujet EVACOM 11LS 2025 - 2",
+      "link": "https://youtu.be/embed/tIfwtL9SQrE"
     }
+
+    
   ],
   "divers": [
     {

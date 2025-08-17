@@ -1,0 +1,32 @@
+{
+  "accueil": [
+    "Bienvenue dans l’application de maths !",
+    "Cette app contient des cours, exercices et vidéos.",
+    "Naviguez avec les onglets ci-dessous.",
+    "Bonne révision !"
+  ],
+  "cours": [
+    {
+      "title": "Chapitre 1 : Fractions",
+      "link": "https://drive.google.com/file/d/1AbCdEfGhIjKlMnOpQrStUvWxYz/view?usp=sharing"
+    }
+  ],
+  "exercices": [
+    {
+      "title": "Exercices Fractions",
+      "link": "https://drive.google.com/file/d/3XyZ98765z/view?usp=sharing"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Vidéo Fractions",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    }
+  ],
+  "divers": [
+    {
+      "title": "Site de référence",
+      "link": "https://www.maths-et-tiques.fr/"
+    }
+  ]
+}

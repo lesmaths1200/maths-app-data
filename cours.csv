@@ -1,0 +1,34 @@
+id;titre;type;theme;dossier;fichier
+0;Livret (Révision TAF);Révision;Révision;exercices;livret.pdf
+1;Les entiers;Cours;Nombres;cours;entiers.pdf
+2;Les fractions;Cours;Nombres;cours;fractions.pdf
+3;Les nombres relatifs;Cours;Nombres;cours;nbrel.pdf
+4;Écritures fractionnaires;Cours;Nombres;cours;ecrfrac.pdf
+5;Les puissances;Cours;Nombres;cours;puissances.pdf
+6;Les racines;Cours;Nombres;cours;racines.pdf
+7;Unités de mesure;Cours;Mesures;cours;unites.pdf
+8;Géométrie 1 - vocabulaire, construction;Cours;Géométrie;cours;geom1.pdf
+9;Géométrie 2 - les angles;Cours;Géométrie;cours;geom2.pdf
+10;Géométrie 3 - périmètre, aire & volume;Cours;Géométrie;cours;geom3.pdf
+11;Proportionnalité, pourcentage & échelle;Cours;Proportionnalité;cours;ppe.pdf
+12;Calcul littéral;Cours;Algèbre;cours;calclitt.pdf
+13;Théorème de Pythagore;Cours;Géométrie;cours;Pythagore.pdf
+14;Nombres premiers;Cours;Nombres;cours;nbprem.pdf
+15;Équations;Cours;Algèbre;cours;equations.pdf
+16;Théorème de Thalès;Cours;Géométrie;cours;Thales.pdf
+17;Liste d'exercices : les entiers;Exercice;Nombres;exercices;entiers.pdf
+18;Liste d'exercices : les fractions;Exercice;Nombres;exercices;fractions.pdf
+19;Liste d'exercices : les nombres relatifs;Exercice;Nombres;exercices;nbrel.pdf
+20;Liste d'exercices : écritures fractionnaires;Exercice;Nombres;exercices;ecrfrac.pdf
+21;Liste d'exercices : les puissances;Exercice;Nombres;exercices;puissances.pdf
+22;Liste d'exercices : les racines;Exercice;Nombres;exercices;racines.pdf
+23;Liste d'exercices : unités de mesure;Exercice;Mesures;exercices;unites.pdf
+24;Liste d'exercices : géométrie 1 - vocabulaire, construction;Exercice;Géométrie;exercices;geom1.pdf
+25;Liste d'exercices : géométrie 2 - les angles;Exercice;Géométrie;exercices;geom2.pdf
+26;Liste d'exercices : géométrie 3 - périmètre, aire & volume;Exercice;Géométrie;exercices;geom3.pdf
+27;Liste d'exercices : proportionnalité, pourcentage & échelle;Exercice;Proportionnalité;exercices;ppe.pdf
+28;Liste d'exercices : calcul littéral;Exercice;Algèbre;exercices;calclitt.pdf
+29;Liste d'exercices : théorème de Pythagore;Exercice;Géométrie;exercices;Pythagore.pdf
+30;Liste d'exercices : nombres premiers;Exercice;Nombres;exercices;nbprem.pdf
+31;Liste d'exercices : équations;Exercice;Algèbre;exercices;equations.pdf
+32;Liste d'exercices : théorème de Thalès;Exercice;Géométrie;exercices;Thales.pdf

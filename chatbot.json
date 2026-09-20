@@ -139,6 +139,26 @@
         {
           "question": "Résoudre :  $x+\\frac{3}{4}=\\frac{5}{2}$.",
           "reponse": "Solution :  $x=\\frac{10}{4}-\\frac{3}{4}=\\frac{7}{4}$."
+        },
+        {
+          "question": "Calcule : $\\frac{2}{3} + \\frac{1}{6}$",
+          "reponse": "Solution :\n$\\frac{2}{3} = \\frac{4}{6}$\n$\\frac{4}{6} + \\frac{1}{6} = \\frac{5}{6}$"
+        },
+        {
+          "question": "Calcule : $\\frac{5}{8} - \\frac{1}{4}$",
+          "reponse": "Solution :\n$\\frac{1}{4} = \\frac{2}{8}$\n$\\frac{5}{8} - \\frac{2}{8} = \\frac{3}{8}$"
+        },
+        {
+          "question": "Calcule : $\\frac{3}{4} \\times \\frac{2}{9}$",
+          "reponse": "Solution :\n$\\frac{3 \\times 2}{4 \\times 9} = \\frac{6}{36} = \\frac{1}{6}$"
+        },
+        {
+          "question": "Calcule : $\\frac{5}{6} \\div \\frac{5}{12}$",
+          "reponse": "Solution :\n$\\frac{5}{6} \\times \\frac{12}{5} = \\frac{60}{30} = 2$"
+        },
+        {
+          "question": "Simplifie : $\\frac{42}{56}$",
+          "reponse": "Solution :\nPGCD$(42,56) = 14$\n$\\frac{42 \\div 14}{56 \\div 14} = \\frac{3}{4}$"
         }
       ]
     },
@@ -263,6 +283,26 @@
         {
           "question": "Résoudre : $ 2(x+3)=14 $",
           "reponse": "Solution : $ x+3=7 \\Rightarrow x=4 .$"
+        },
+        {
+          "question": "Résous : $4x - 3 = 2x + 9$",
+          "reponse": "Solution :\n$4x - 2x = 9 + 3$\n$2x = 12$\n$x = 6$"
+        },
+        {
+          "question": "Résous : $\\frac{x}{3} + 2 = 7$",
+          "reponse": "Solution :\n$\\frac{x}{3} = 5$\n$x = 15$"
+        },
+        {
+          "question": "Résous : $5(x-2) = 3x + 4$",
+          "reponse": "Solution :\n$5x - 10 = 3x + 4$\n$2x = 14$\n$x = 7$"
+        },
+        {
+          "question": "Résous : $-2x + 5 = 15$",
+          "reponse": "Solution :\n$-2x = 10$\n$x = -5$"
+        },
+        {
+          "question": "Résous : $3(x+1) - 2(x-1) = 10$",
+          "reponse": "Solution :\n$3x + 3 - 2x + 2 = 10$\n$x + 5 = 10$\n$x = 5$"
         }
       ]
     },
@@ -377,6 +417,26 @@
         {
           "question": "Un câble relie le sommet d’un mât de 8 m à un point situé à 6 m du pied. Quelle est la longueur du câble ?",
           "reponse": "Solution : $ c=\\sqrt{8^2+6^2}=10 .$"
+        },
+        {
+          "question": "Un triangle rectangle a des côtés de l'angle droit de $6$ cm et $8$ cm. Calcule l'hypoténuse.",
+          "reponse": "Solution :\n$c^2 = 6^2 + 8^2 = 36 + 64 = 100$\n$c = \\sqrt{100} = 10$ cm"
+        },
+        {
+          "question": "L'hypoténuse d'un triangle rectangle mesure $13$ cm et un côté $5$ cm. Calcule l'autre côté.",
+          "reponse": "Solution :\n$c^2 = 13^2 - 5^2 = 169 - 25 = 144$\n$c = \\sqrt{144} = 12$ cm"
+        },
+        {
+          "question": "Un triangle a des côtés $9$, $12$, $15$ cm. Est-il rectangle ?",
+          "reponse": "Solution :\n$9^2 + 12^2 = 81 + 144 = 225$\n$15^2 = 225$\nOui, le triangle est rectangle."
+        },
+        {
+          "question": "Un triangle rectangle a ses deux côtés de l'angle droit égaux à $5$ cm. Calcule l'hypoténuse (valeur exacte).",
+          "reponse": "Solution :\n$c^2 = 5^2 + 5^2 = 50$\n$c = \\sqrt{50} = 5\\sqrt{2}$ cm"
+        },
+        {
+          "question": "Un triangle a des côtés $7$, $8$, $10$ cm. Est-il rectangle ?",
+          "reponse": "Solution :\n$7^2 + 8^2 = 49 + 64 = 113$\n$10^2 = 100$\n$113 \\neq 100$, le triangle n'est pas rectangle."
         }
       ]
     },
@@ -461,6 +521,26 @@
         {
           "question": "Une machine fabrique 120 objets en 8 heures. Combien d’objets en 5 heures ?",
           "reponse": "Solution :\nProduction par heure = 120 ÷ 8 = 15 objets/h\nEn 5 h = 15 × 5 = 75 objets"
+        },
+        {
+          "question": "$4$ stylos coûtent $6$ CHF. Combien coûtent $10$ stylos ?",
+          "reponse": "Solution :\nPrix d'un stylo : $6 \\div 4 = 1,5$ CHF\n$1,5 \\times 10 = 15$ CHF"
+        },
+        {
+          "question": "Une recette pour $4$ personnes utilise $200$ g de farine. Quelle quantité pour $6$ personnes ?",
+          "reponse": "Solution :\nPour $1$ personne : $200 \\div 4 = 50$ g\nPour $6$ personnes : $50 \\times 6 = 300$ g"
+        },
+        {
+          "question": "Ce tableau est-il proportionnel : $2 \\to 6$, $5 \\to 15$, $7 \\to 20$ ?",
+          "reponse": "Solution :\n$6 \\div 2 = 3$, $15 \\div 5 = 3$, mais $20 \\div 7 \\approx 2,86$\nNon, ce tableau n'est pas proportionnel."
+        },
+        {
+          "question": "$8$ ouvriers construisent un mur en $12$ jours. Combien de jours faudrait-il à $6$ ouvriers (même rythme) ?",
+          "reponse": "Solution :\n$8 \\times 12 = 96$ (ouvrier-jours)\n$96 \\div 6 = 16$ jours"
+        },
+        {
+          "question": "Une carte a une échelle de $1:50\\,000$. Une distance de $3$ cm sur la carte correspond à quelle distance réelle (en km) ?",
+          "reponse": "Solution :\n$3 \\times 50\\,000 = 150\\,000$ cm $= 1\\,500$ m $= 1,5$ km"
         }
       ]
     },
@@ -509,6 +589,26 @@
         {
           "question": "Calcule : $4^0 + 3^{-2}$",
           "reponse": "Solution :\n$4^0 = 1$\n$3^{-2} = \\frac{1}{3^2} = \\frac{1}{9}$\n$1 + \\frac{1}{9} = \\frac{9}{9} + \\frac{1}{9} = \\frac{10}{9}$"
+        },
+        {
+          "question": "Calcule : $2^5$",
+          "reponse": "Solution :\n$2^5 = 32$"
+        },
+        {
+          "question": "Calcule : $(-3)^3$",
+          "reponse": "Solution :\n$(-3)^3 = -27$"
+        },
+        {
+          "question": "Calcule : $10^{-2}$",
+          "reponse": "Solution :\n$10^{-2} = 0,01$"
+        },
+        {
+          "question": "Simplifie : $3^4 \\times 3^2$",
+          "reponse": "Solution :\n$3^{4+2} = 3^6 = 729$"
+        },
+        {
+          "question": "Simplifie : $\\frac{5^7}{5^4}$",
+          "reponse": "Solution :\n$5^{7-4} = 5^3 = 125$"
         }
       ]
     },
@@ -600,6 +700,26 @@
         {
           "question": "Simplifier : $ \\sqrt{48} $",
           "reponse": "Solution : $ 4\\sqrt{3} .$"
+        },
+        {
+          "question": "Calcule : $\\sqrt{144}$",
+          "reponse": "Solution :\n$\\sqrt{144} = 12$"
+        },
+        {
+          "question": "Calcule : $\\sqrt{2} \\times \\sqrt{8}$",
+          "reponse": "Solution :\n$\\sqrt{2 \\times 8} = \\sqrt{16} = 4$"
+        },
+        {
+          "question": "Simplifie : $\\sqrt{75}$",
+          "reponse": "Solution :\n$\\sqrt{75} = \\sqrt{25 \\times 3} = 5\\sqrt{3}$"
+        },
+        {
+          "question": "Calcule : $\\sqrt{49} + \\sqrt{16}$",
+          "reponse": "Solution :\n$7 + 4 = 11$"
+        },
+        {
+          "question": "$x^2 = 81$. Quelles sont les valeurs possibles de $x$ ?",
+          "reponse": "Solution :\n$x = 9$ ou $x = -9$"
         }
       ]
     },
@@ -699,6 +819,26 @@
         {
           "question": "Développer $ 2(x-5) $",
           "reponse": "Solution : $ 2x-10 $"
+        },
+        {
+          "question": "Réduis : $5x + 3 - 2x + 7$",
+          "reponse": "Solution :\n$5x - 2x + 3 + 7$\n$= 3x + 10$"
+        },
+        {
+          "question": "Développe : $(x+4)(x-4)$",
+          "reponse": "Solution :\n$(x+4)(x-4) = x^2 - 4^2$\n$= x^2 - 16$"
+        },
+        {
+          "question": "Factorise : $9x^2 - 25$",
+          "reponse": "Solution :\n$9x^2 - 25 = (3x)^2 - 5^2$\n$= (3x-5)(3x+5)$"
+        },
+        {
+          "question": "Calcule pour $x = 3$ : $2x^2 - 5x + 1$",
+          "reponse": "Solution :\n$2(3)^2 - 5(3) + 1$\n$= 2 \\times 9 - 15 + 1$\n$= 18 - 15 + 1 = 4$"
+        },
+        {
+          "question": "Développe et réduis : $3(2x-1) - (x+4)$",
+          "reponse": "Solution :\n$6x - 3 - x - 4$\n$= 5x - 7$"
         }
       ]
     },
@@ -749,6 +889,26 @@
         {
           "question": "Écris en écriture décimale : $5.6 \\times 10^{-3}$",
           "reponse": "Solution :\n$5.6 \\times 10^{-3} = 0.0056$"
+        },
+        {
+          "question": "Écris en notation scientifique : $45\\,000$",
+          "reponse": "Solution :\n$45\\,000 = 4,5 \\times 10^4$"
+        },
+        {
+          "question": "Écris en notation scientifique : $0,0032$",
+          "reponse": "Solution :\n$0,0032 = 3,2 \\times 10^{-3}$"
+        },
+        {
+          "question": "Écris sous forme décimale : $6,02 \\times 10^3$",
+          "reponse": "Solution :\n$6,02 \\times 10^3 = 6\\,020$"
+        },
+        {
+          "question": "Écris sous forme décimale : $7 \\times 10^{-2}$",
+          "reponse": "Solution :\n$7 \\times 10^{-2} = 0,07$"
+        },
+        {
+          "question": "Calcule et écris en notation scientifique : $(2 \\times 10^3) \\times (3 \\times 10^2)$",
+          "reponse": "Solution :\n$2 \\times 3 = 6$ et $10^3 \\times 10^2 = 10^5$\n$= 6 \\times 10^5$"
         }
       ]
     },
@@ -816,6 +976,26 @@
         {
           "question": "Convertis : $2 \\text{ h } 30 \\text{ min}$ en minutes",
           "reponse": "Solution :\n$2 \\text{ h} = 2 \\times 60 = 120 \\text{ min}$\n$120 + 30 = 150 \\text{ min}$"
+        },
+        {
+          "question": "Convertis : $3,5$ km en m",
+          "reponse": "Solution :\n$3,5 \\times 1\\,000 = 3\\,500$ m"
+        },
+        {
+          "question": "Convertis : $250$ cm en m",
+          "reponse": "Solution :\n$250 \\div 100 = 2,5$ m"
+        },
+        {
+          "question": "Convertis : $2$ h $15$ min en minutes",
+          "reponse": "Solution :\n$2 \\times 60 = 120$ min\n$120 + 15 = 135$ min"
+        },
+        {
+          "question": "Convertis : $4\\,500$ g en kg",
+          "reponse": "Solution :\n$4\\,500 \\div 1\\,000 = 4,5$ kg"
+        },
+        {
+          "question": "Convertis : $0,75$ L en mL",
+          "reponse": "Solution :\n$0,75 \\times 1\\,000 = 750$ mL"
         }
       ]
     },
@@ -909,6 +1089,26 @@
         {
           "question": "Trapèze : petite base 5 cm, grande base 9 cm, hauteur 4 cm. Calcule l'aire.",
           "reponse": "Solution :\n$A = \\frac{(b + B) \\times h}{2} = \\frac{(5 + 9) \\times 4}{2}$\n$= \\frac{14 \\times 4}{2} = \\frac{56}{2} = 28 \\text{ cm}^2$"
+        },
+        {
+          "question": "Calcule le volume d'un cube d'arête $4$ cm",
+          "reponse": "Solution :\n$V = 4^3 = 64$ cm³"
+        },
+        {
+          "question": "Calcule l'aire d'un disque de rayon $5$ cm (valeur exacte)",
+          "reponse": "Solution :\n$A = \\pi \\times 5^2 = 25\\pi$ cm²"
+        },
+        {
+          "question": "Calcule le périmètre d'un cercle de rayon $3$ cm (valeur exacte)",
+          "reponse": "Solution :\n$P = 2\\pi \\times 3 = 6\\pi$ cm"
+        },
+        {
+          "question": "Calcule le volume d'un parallélépipède rectangle de dimensions $5$ cm $\\times$ $4$ cm $\\times$ $3$ cm",
+          "reponse": "Solution :\n$V = 5 \\times 4 \\times 3 = 60$ cm³"
+        },
+        {
+          "question": "Calcule l'aire d'un trapèze de bases $6$ cm et $10$ cm et de hauteur $4$ cm",
+          "reponse": "Solution :\n$A = \\frac{(6+10) \\times 4}{2} = \\frac{64}{2} = 32$ cm²"
         }
       ]
     },
@@ -954,6 +1154,26 @@
         {
           "question": "AM = 2 cm, AB = 6 cm, AN = 3 cm, AC = 8 cm. (MN) // (BC) ?",
           "reponse": "Solution (contraposée) :\n$\\frac{AM}{AB} = \\frac{2}{6} = \\frac{1}{3} ≈ 0.33$\n$\\frac{AN}{AC} = \\frac{3}{8} = 0.375$\n\nLes rapports sont différents ✗\nDonc (MN) non // (BC)"
+        },
+        {
+          "question": "Dans le triangle $ABC$, $M \\in [AB]$ et $N \\in [AC]$ avec $(MN) \\parallel (BC)$. Sachant $AM=3$, $AB=9$, $AC=12$, calcule $AN$.",
+          "reponse": "Solution :\nD'après Thalès : $\\frac{AM}{AB} = \\frac{AN}{AC}$\n$\\frac{3}{9} = \\frac{AN}{12}$\n$AN = \\frac{3 \\times 12}{9} = 4$"
+        },
+        {
+          "question": "$(MN) \\parallel (BC)$, $AM=4$, $MB=6$, $AN=6$. Calcule $NC$.",
+          "reponse": "Solution :\n$AB = AM + MB = 4 + 6 = 10$\nD'après Thalès : $\\frac{AM}{AB} = \\frac{AN}{AC}$\n$\\frac{4}{10} = \\frac{6}{AC}$\n$AC = \\frac{6 \\times 10}{4} = 15$\n$NC = AC - AN = 15 - 6 = 9$"
+        },
+        {
+          "question": "$(MN) \\parallel (BC)$, $AM=2$, $AB=5$, $BC=10$. Calcule $MN$.",
+          "reponse": "Solution :\nD'après Thalès : $\\frac{AM}{AB} = \\frac{MN}{BC}$\n$\\frac{2}{5} = \\frac{MN}{10}$\n$MN = \\frac{2 \\times 10}{5} = 4$"
+        },
+        {
+          "question": "Deux droites sécantes en $A$ coupées par deux parallèles $(MN)$ et $(BC)$ : $AM=3$, $AN=4$, $MB=6$. Calcule $NC$.",
+          "reponse": "Solution :\n$AB = AM + MB = 3 + 6 = 9$\nD'après Thalès : $\\frac{AM}{AB} = \\frac{AN}{AC}$\n$\\frac{3}{9} = \\frac{4}{AC}$\n$AC = \\frac{4 \\times 9}{3} = 12$\n$NC = AC - AN = 12 - 4 = 8$"
+        },
+        {
+          "question": "$(MN) \\parallel (BC)$ avec $AM=5$, $AB=8$, $BC=12$. Calcule $MN$.",
+          "reponse": "Solution :\nD'après Thalès : $\\frac{AM}{AB} = \\frac{MN}{BC}$\n$\\frac{5}{8} = \\frac{MN}{12}$\n$MN = \\frac{5 \\times 12}{8} = 7,5$"
         }
       ]
     },
@@ -996,6 +1216,26 @@
         {
           "question": "Résous :\n$\\begin{cases} x + y = 10 & \\\\ x - y = 4 & \\end{cases}$",
           "reponse": "Solution :\nAdditionne :\n$2x = 14$\n$x = 7$\n\nDans la 1ère :\n$7 + y = 10$\n$y = 3$\n\nSolution : $(x, y) = (7, 3)$"
+        },
+        {
+          "question": "Résous : $\\begin{cases} x + y = 12 & \\\\ x - y = 2 & \\end{cases}$",
+          "reponse": "Solution :\nAdditionne les deux équations :\n$2x = 14$\n$x = 7$\n\nDans la 1ère : $7 + y = 12$, donc $y = 5$\n\nSolution : $(x, y) = (7, 5)$"
+        },
+        {
+          "question": "Résous par substitution : $\\begin{cases} y = 2x + 1 & \\\\ 3x + y = 16 & \\end{cases}$",
+          "reponse": "Solution :\nRemplace $y$ dans la 2e équation :\n$3x + (2x+1) = 16$\n$5x + 1 = 16$\n$5x = 15$\n$x = 3$\n\nDonc : $y = 2(3) + 1 = 7$\n\nSolution : $(x, y) = (3, 7)$"
+        },
+        {
+          "question": "Résous par combinaison : $\\begin{cases} 2x + 3y = 12 & \\\\ 2x - y = 4 & \\end{cases}$",
+          "reponse": "Solution :\nSoustrais la 2e équation de la 1ère :\n$4y = 8$\n$y = 2$\n\nDans la 2e : $2x - 2 = 4$, donc $x = 3$\n\nSolution : $(x, y) = (3, 2)$"
+        },
+        {
+          "question": "Résous : $\\begin{cases} x = 5 & \\\\ x + y = 9 & \\end{cases}$",
+          "reponse": "Solution :\n$x = 5$\nDans la 2e : $5 + y = 9$, donc $y = 4$\n\nSolution : $(x, y) = (5, 4)$"
+        },
+        {
+          "question": "Résous : $\\begin{cases} x - y = 1 & \\\\ x + 2y = 10 & \\end{cases}$",
+          "reponse": "Solution :\nSoustrais la 1ère de la 2e :\n$3y = 9$\n$y = 3$\n\nDans la 1ère : $x - 3 = 1$, donc $x = 4$\n\nSolution : $(x, y) = (4, 3)$"
         }
       ]
     },
@@ -1054,6 +1294,26 @@
         {
           "question": "Factorise : $x^2 - 5x + 6$",
           "reponse": "Solution :\nTrouve les racines : $x = 2$ et $x = 3$\n\nForme factorisée : $(x - 2)(x - 3)$"
+        },
+        {
+          "question": "Résous : $x^2 - 5x + 6 = 0$",
+          "reponse": "Solution :\n$a=1$, $b=-5$, $c=6$\n\n$\\Delta = (-5)^2 - 4(1)(6) = 25 - 24 = 1$\n\n$x_1 = \\frac{5 - 1}{2} = 2$\n$x_2 = \\frac{5 + 1}{2} = 3$\n\nSolutions : $x = 2$ ou $x = 3$"
+        },
+        {
+          "question": "Résous : $x^2 - 4 = 0$",
+          "reponse": "Solution :\n$x^2 = 4$\n$x = 2$ ou $x = -2$"
+        },
+        {
+          "question": "Résous : $2x^2 - 8x = 0$",
+          "reponse": "Solution :\n$2x(x - 4) = 0$\n$x = 0$ ou $x = 4$"
+        },
+        {
+          "question": "Résous : $x^2 + 4x + 4 = 0$",
+          "reponse": "Solution :\n$a=1$, $b=4$, $c=4$\n\n$\\Delta = 4^2 - 4(1)(4) = 16 - 16 = 0$\n\n$x = \\frac{-4}{2} = -2$\n\nSolution unique (racine double) : $x = -2$"
+        },
+        {
+          "question": "Résous : $x^2 - 2x - 8 = 0$",
+          "reponse": "Solution :\n$a=1$, $b=-2$, $c=-8$\n\n$\\Delta = (-2)^2 - 4(1)(-8) = 4 + 32 = 36$\n\n$x_1 = \\frac{2 - 6}{2} = -2$\n$x_2 = \\frac{2 + 6}{2} = 4$\n\nSolutions : $x = -2$ ou $x = 4$"
         }
       ]
     },
@@ -1147,6 +1407,26 @@
         {
           "question": "Une fonction est définie par $ f(x)=2x-4 . Déterminer le nombre dont l’image est 0.$",
           "reponse": "Solution : $ 2x-4=0 \\Rightarrow x=2 .$"
+        },
+        {
+          "question": "$f(x) = 3x - 5$. Calcule $f(4)$",
+          "reponse": "Solution :\n$f(4) = 3 \\times 4 - 5 = 12 - 5 = 7$"
+        },
+        {
+          "question": "$f(x) = x^2 + 1$. Calcule $f(-2)$",
+          "reponse": "Solution :\n$f(-2) = (-2)^2 + 1 = 4 + 1 = 5$"
+        },
+        {
+          "question": "$f(x) = 2x + 3$. Quel est l'antécédent de $11$ ?",
+          "reponse": "Solution :\n$2x + 3 = 11$\n$2x = 8$\n$x = 4$"
+        },
+        {
+          "question": "$f(x) = -x + 6$. Calcule $f(0)$ et $f(6)$",
+          "reponse": "Solution :\n$f(0) = -0 + 6 = 6$\n$f(6) = -6 + 6 = 0$"
+        },
+        {
+          "question": "$f(x) = \\frac{x}{2} - 1$. Calcule $f(10)$",
+          "reponse": "Solution :\n$f(10) = \\frac{10}{2} - 1 = 5 - 1 = 4$"
         }
       ]
     },
@@ -1210,6 +1490,26 @@
         {
           "question": "Angle = 30°, Hypoténuse = 10 cm. Trouve l'Opposé.",
           "reponse": "Solution :\n$\\sin(30°) = \\frac{\\text{Opposé}}{10}$\n$\\text{Opposé} = 10 \\times \\sin(30°) = 10 \\times \\frac{1}{2} = 5 cm$"
+        },
+        {
+          "question": "Dans un triangle rectangle, le côté opposé à l'angle mesure $6$ cm et l'hypoténuse $10$ cm. Calcule $\\sin$ de l'angle.",
+          "reponse": "Solution :\n$\\sin = \\frac{\\text{opposé}}{\\text{hypoténuse}} = \\frac{6}{10} = 0,6$"
+        },
+        {
+          "question": "Calcule $\\cos(60^\\circ)$",
+          "reponse": "Solution :\n$\\cos(60^\\circ) = 0,5$"
+        },
+        {
+          "question": "Dans un triangle rectangle, l'angle mesure $30^\\circ$ et l'hypoténuse $8$ cm. Calcule le côté opposé.",
+          "reponse": "Solution :\nopposé $= \\sin(30^\\circ) \\times 8 = 0,5 \\times 8 = 4$ cm"
+        },
+        {
+          "question": "Calcule $\\tan(45^\\circ)$",
+          "reponse": "Solution :\n$\\tan(45^\\circ) = 1$"
+        },
+        {
+          "question": "Dans un triangle rectangle, le côté adjacent mesure $5$ cm et l'angle $60^\\circ$. Calcule l'hypoténuse.",
+          "reponse": "Solution :\nhypoténuse $= \\frac{\\text{adjacent}}{\\cos(60^\\circ)} = \\frac{5}{0,5} = 10$ cm"
         }
       ]
     },
@@ -1277,6 +1577,26 @@
         {
           "question": "Notes : 8, 10, 12 (coef 2), 15. Calcule la moyenne pondérée.",
           "reponse": "Solution :\n$\\text{Moyenne} = \\frac{8(1) + 10(1) + 12(2) + 15(1)}{1 + 1 + 2 + 1}$\n$= \\frac{8 + 10 + 24 + 15}{5} = \\frac{57}{5} = 11.4$"
+        },
+        {
+          "question": "Calcule la moyenne de la série : $4, 6, 8, 10, 12$",
+          "reponse": "Solution :\n$\\frac{4+6+8+10+12}{5} = \\frac{40}{5} = 8$"
+        },
+        {
+          "question": "Calcule la médiane de la série : $3, 7, 9, 12, 15$",
+          "reponse": "Solution :\nLa série est déjà ordonnée, $5$ valeurs : la médiane est la valeur du milieu.\nMédiane $= 9$"
+        },
+        {
+          "question": "Calcule l'étendue de la série : $5, 12, 8, 20, 3$",
+          "reponse": "Solution :\nÉtendue $=$ max $-$ min $= 20 - 3 = 17$"
+        },
+        {
+          "question": "Calcule la moyenne pondérée de deux notes : $4$ (coefficient $1$) et $6$ (coefficient $2$)",
+          "reponse": "Solution :\n$\\frac{4 \\times 1 + 6 \\times 2}{1+2} = \\frac{4+12}{3} = \\frac{16}{3} \\approx 5,33$"
+        },
+        {
+          "question": "Calcule la médiane de la série : $2, 4, 6, 8$",
+          "reponse": "Solution :\n$4$ valeurs, la médiane est la moyenne des deux valeurs du milieu.\n$\\frac{4+6}{2} = 5$"
         }
       ]
     },
@@ -1334,6 +1654,26 @@
         {
           "question": "Prix passe de 40€ à 50€. Quel taux d'augmentation ?",
           "reponse": "Solution :\n$\\frac{50 - 40}{40} \\times 100 = \\frac{10}{40} \\times 100 = 25\\%$\n\nAugmentation de 25%"
+        },
+        {
+          "question": "Calcule $15\\%$ de $80$",
+          "reponse": "Solution :\n$\\frac{15}{100} \\times 80 = 12$"
+        },
+        {
+          "question": "Un article coûte $60$ CHF et baisse de $20\\%$. Quel est le nouveau prix ?",
+          "reponse": "Solution :\nBaisse : $\\frac{20}{100} \\times 60 = 12$\nNouveau prix : $60 - 12 = 48$ CHF"
+        },
+        {
+          "question": "Un prix passe de $50$ à $65$ CHF. Quel est le pourcentage d'augmentation ?",
+          "reponse": "Solution :\nAugmentation : $65 - 50 = 15$\n$\\frac{15}{50} \\times 100 = 30\\%$"
+        },
+        {
+          "question": "Sur $25$ élèves, $20$ ont réussi. Quel est le pourcentage de réussite ?",
+          "reponse": "Solution :\n$\\frac{20}{25} \\times 100 = 80\\%$"
+        },
+        {
+          "question": "Un article à $45$ CHF augmente de $10\\%$. Quel est le nouveau prix ?",
+          "reponse": "Solution :\nAugmentation : $\\frac{10}{100} \\times 45 = 4,5$\nNouveau prix : $45 + 4,5 = 49,5$ CHF"
         }
       ]
     }

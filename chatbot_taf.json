@@ -533,14 +533,16 @@
       ]
     },
     "racinesCarrees": {
-      "nom": "Racines Carrées",
+      "nom": "Racines carrées",
       "keywords": [
         "racine carrée",
         "rac",
         "racine",
         "racines",
         "radical",
-        "√"
+        "√",
+        "sqrt",
+        "carré"
       ],
       "explanations": [
         {
@@ -558,6 +560,10 @@
         {
           "cle": "simplification",
           "texte": "Simplifier une racine carrée :\n\n1️⃣ Cherche un carré parfait dans le nombre\n2️⃣ Factorise\n3️⃣ Simplifie\n\n📌 Exemple : $\\sqrt{18}$\n• $18 = 9 \\times 2 = 3^2 \\times 2$\n• $\\sqrt{18} = \\sqrt{3^2 \\times 2} = 3\\sqrt{2}$\n\n📌 Exemple : $\\sqrt{75}$\n• $75 = 25 \\times 3 = 5^2 \\times 3$\n• $\\sqrt{75} = 5\\sqrt{3}$"
+        },
+        {
+          "cle": "definition",
+          "texte": "**Racine carrée :**\n\n$\\sqrt{a}$ est le nombre positif dont le carré est $a$.\n\n📌 Exemples :\n• $\\sqrt{9} = 3$ car $3^2 = 9$\n• $\\sqrt{16} = 4$ car $4^2 = 16$\n• $\\sqrt{25} = 5$ car $5^2 = 25$"
         }
       ],
       "exercices": [
@@ -620,11 +626,43 @@
         {
           "question": "Simplifier : $ \\sqrt{48} $",
           "reponse": "Solution : $ 4\\sqrt{3} .$"
+        },
+        {
+          "question": "Calcule : $\\sqrt{144}$",
+          "reponse": "Solution :\n$\\sqrt{144} = 12$ car $12^2 = 144$"
+        },
+        {
+          "question": "Calcule : $\\sqrt{49}$",
+          "reponse": "Solution :\n$\\sqrt{49} = 7$ car $7^2 = 49$"
+        },
+        {
+          "question": "Calcule : $\\sqrt{100}$",
+          "reponse": "Solution :\n$\\sqrt{100} = 10$ car $10^2 = 100$"
+        },
+        {
+          "question": "Calcule : $\\sqrt{36}$",
+          "reponse": "Solution :\n$\\sqrt{36} = 6$ car $6^2 = 36$"
+        },
+        {
+          "question": "Calcule : $\\sqrt{121}$",
+          "reponse": "Solution :\n$\\sqrt{121} = 11$ car $11^2 = 121$"
+        },
+        {
+          "question": "Calcule : $\\sqrt{81}$",
+          "reponse": "Solution :\n$\\sqrt{81} = 9$ car $9^2 = 81$"
+        },
+        {
+          "question": "Calcule : $\\sqrt{16}$",
+          "reponse": "Solution :\n$\\sqrt{16} = 4$ car $4^2 = 16$"
+        },
+        {
+          "question": "Calcule : $\\sqrt{169}$",
+          "reponse": "Solution :\n$\\sqrt{169} = 13$ car $13^2 = 169$"
         }
       ]
     },
     "calculLitteral": {
-      "nom": "Calcul Littéral",
+      "nom": "Calcul littéral",
       "keywords": [
         "calcul littéral",
         "litteral",
@@ -635,7 +673,12 @@
         "réduire",
         "expression",
         "distributivité",
-        "identités remarquables"
+        "identités remarquables",
+        "littéral",
+        "variable",
+        "substitution",
+        "x",
+        "y"
       ],
       "explanations": [
         {
@@ -653,6 +696,14 @@
         {
           "cle": "identitesRemarquables",
           "texte": "Identités remarquables :\n\n1️⃣ $(a + b)^2 = a^2 + 2ab + b^2$\n\n2️⃣ $(a - b)^2 = a^2 - 2ab + b^2$\n\n3️⃣ $(a + b)(a - b) = a^2 - b^2$\n\n📌 Exemple :\n$(x + 3)^2 = x^2 + 2(x)(3) + 3^2 = x^2 + 6x + 9$\n\n$(x - 2)^2 = x^2 - 2(x)(2) + 2^2 = x^2 - 4x + 4$\n\n$(x + 5)(x - 5) = x^2 - 5^2 = x^2 - 25$"
+        },
+        {
+          "cle": "definition",
+          "texte": "**Calcul littéral :**\n\nUtiliser des lettres pour représenter des nombres.\n\n📌 Exemple :\n$2x + 5$ signifie \"deux fois un nombre $x$ plus 5\""
+        },
+        {
+          "cle": "substitution",
+          "texte": "**Substitution :**\n\nRemplacer les lettres par des valeurs numériques.\n\n📌 Exemple : Si $x = 3$\n$2x + 5 = 2(3) + 5 = 6 + 5 = 11$"
         }
       ],
       "exercices": [
@@ -719,6 +770,38 @@
         {
           "question": "Développer $ 2(x-5) $",
           "reponse": "Solution : $ 2x-10 $"
+        },
+        {
+          "question": "Calcule $3x + 7$ pour $x = 4$",
+          "reponse": "Solution :\n$3x + 7 = 3(4) + 7 = 12 + 7 = 19$"
+        },
+        {
+          "question": "Calcule $5a - 2$ pour $a = 6$",
+          "reponse": "Solution :\n$5a - 2 = 5(6) - 2 = 30 - 2 = 28$"
+        },
+        {
+          "question": "Calcule $2x + 3y$ pour $x = 5$ et $y = 2$",
+          "reponse": "Solution :\n$2x + 3y = 2(5) + 3(2) = 10 + 6 = 16$"
+        },
+        {
+          "question": "Calcule $x^2 + 4$ pour $x = 3$",
+          "reponse": "Solution :\n$x^2 + 4 = 3^2 + 4 = 9 + 4 = 13$"
+        },
+        {
+          "question": "Calcule $4n - 5$ pour $n = 8$",
+          "reponse": "Solution :\n$4n - 5 = 4(8) - 5 = 32 - 5 = 27$"
+        },
+        {
+          "question": "Calcule $a + 2b$ pour $a = 7$ et $b = 3$",
+          "reponse": "Solution :\n$a + 2b = 7 + 2(3) = 7 + 6 = 13$"
+        },
+        {
+          "question": "Calcule $10 - 3m$ pour $m = 2$",
+          "reponse": "Solution :\n$10 - 3m = 10 - 3(2) = 10 - 6 = 4$"
+        },
+        {
+          "question": "Calcule $x^2 - 5x$ pour $x = 4$",
+          "reponse": "Solution :\n$x^2 - 5x = 4^2 - 5(4) = 16 - 20 = -4$"
         }
       ]
     },
@@ -1357,60 +1440,6 @@
         }
       ]
     },
-    "racines": {
-      "nom": "Racines carrées",
-      "keywords": [
-        "racine",
-        "racines",
-        "sqrt",
-        "√",
-        "carré"
-      ],
-      "explanations": [
-        {
-          "cle": "definition",
-          "texte": "**Racine carrée :**\n\n$\\sqrt{a}$ est le nombre positif dont le carré est $a$.\n\n📌 Exemples :\n• $\\sqrt{9} = 3$ car $3^2 = 9$\n• $\\sqrt{16} = 4$ car $4^2 = 16$\n• $\\sqrt{25} = 5$ car $5^2 = 25$"
-        }
-      ],
-      "exercices": [
-        {
-          "question": "Calcule : $\\sqrt{64}$",
-          "reponse": "Solution :\n$\\sqrt{64} = 8$ car $8^2 = 64$"
-        },
-        {
-          "question": "Calcule : $\\sqrt{144}$",
-          "reponse": "Solution :\n$\\sqrt{144} = 12$ car $12^2 = 144$"
-        },
-        {
-          "question": "Calcule : $\\sqrt{49}$",
-          "reponse": "Solution :\n$\\sqrt{49} = 7$ car $7^2 = 49$"
-        },
-        {
-          "question": "Calcule : $\\sqrt{100}$",
-          "reponse": "Solution :\n$\\sqrt{100} = 10$ car $10^2 = 100$"
-        },
-        {
-          "question": "Calcule : $\\sqrt{36}$",
-          "reponse": "Solution :\n$\\sqrt{36} = 6$ car $6^2 = 36$"
-        },
-        {
-          "question": "Calcule : $\\sqrt{121}$",
-          "reponse": "Solution :\n$\\sqrt{121} = 11$ car $11^2 = 121$"
-        },
-        {
-          "question": "Calcule : $\\sqrt{81}$",
-          "reponse": "Solution :\n$\\sqrt{81} = 9$ car $9^2 = 81$"
-        },
-        {
-          "question": "Calcule : $\\sqrt{16}$",
-          "reponse": "Solution :\n$\\sqrt{16} = 4$ car $4^2 = 16$"
-        },
-        {
-          "question": "Calcule : $\\sqrt{169}$",
-          "reponse": "Solution :\n$\\sqrt{169} = 13$ car $13^2 = 169$"
-        }
-      ]
-    },
     "priorites": {
       "nom": "Priorités opératoires",
       "keywords": [
@@ -1622,62 +1651,6 @@
         {
           "question": "Complète : 2, 4, 8, 16, __",
           "reponse": "Solution :\nOn multiplie par 2\n$16 \\times 2 = 32$"
-        }
-      ]
-    },
-    "calcul_litteral": {
-      "nom": "Calcul littéral",
-      "keywords": [
-        "litteral",
-        "littéral",
-        "variable",
-        "expression",
-        "substitution",
-        "x",
-        "y"
-      ],
-      "explanations": [
-        {
-          "cle": "definition",
-          "texte": "**Calcul littéral :**\n\nUtiliser des lettres pour représenter des nombres.\n\n📌 Exemple :\n$2x + 5$ signifie \"deux fois un nombre $x$ plus 5\""
-        },
-        {
-          "cle": "substitution",
-          "texte": "**Substitution :**\n\nRemplacer les lettres par des valeurs numériques.\n\n📌 Exemple : Si $x = 3$\n$2x + 5 = 2(3) + 5 = 6 + 5 = 11$"
-        }
-      ],
-      "exercices": [
-        {
-          "question": "Calcule $3x + 7$ pour $x = 4$",
-          "reponse": "Solution :\n$3x + 7 = 3(4) + 7 = 12 + 7 = 19$"
-        },
-        {
-          "question": "Calcule $5a - 2$ pour $a = 6$",
-          "reponse": "Solution :\n$5a - 2 = 5(6) - 2 = 30 - 2 = 28$"
-        },
-        {
-          "question": "Calcule $2x + 3y$ pour $x = 5$ et $y = 2$",
-          "reponse": "Solution :\n$2x + 3y = 2(5) + 3(2) = 10 + 6 = 16$"
-        },
-        {
-          "question": "Calcule $x^2 + 4$ pour $x = 3$",
-          "reponse": "Solution :\n$x^2 + 4 = 3^2 + 4 = 9 + 4 = 13$"
-        },
-        {
-          "question": "Calcule $4n - 5$ pour $n = 8$",
-          "reponse": "Solution :\n$4n - 5 = 4(8) - 5 = 32 - 5 = 27$"
-        },
-        {
-          "question": "Calcule $a + 2b$ pour $a = 7$ et $b = 3$",
-          "reponse": "Solution :\n$a + 2b = 7 + 2(3) = 7 + 6 = 13$"
-        },
-        {
-          "question": "Calcule $10 - 3m$ pour $m = 2$",
-          "reponse": "Solution :\n$10 - 3m = 10 - 3(2) = 10 - 6 = 4$"
-        },
-        {
-          "question": "Calcule $x^2 - 5x$ pour $x = 4$",
-          "reponse": "Solution :\n$x^2 - 5x = 4^2 - 5(4) = 16 - 20 = -4$"
         }
       ]
     },

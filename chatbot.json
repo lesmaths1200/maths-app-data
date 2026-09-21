@@ -1034,7 +1034,7 @@
         },
         {
           "cle": "cercleDisque",
-          "texte": "⭕ CERCLE ET DISQUE :\n\n**Cercle** (rayon $r$, diamètre $d$) :\n• Périmètre (circonférence) : $P = 2\\pi r = \\pi d$\n\n**Disque** (rayon $r$) :\n• Aire : $A = \\pi r^2$\n\n📌 Exemples :\n• Rayon = 5 cm\n• Périmètre ≈ $2 \\times 3.14 \\times 5 ≈ 31.4 \\text{ cm}$\n• Aire ≈ $3.14 \\times 5^2 ≈ 78.5 \\text{ cm}^2$"
+          "texte": "⭕ CERCLE ET DISQUE :\n\n**Cercle** (rayon $r$, diamètre $d$) :\n• Périmètre (circonférence) : $P = 2\\pi r = \\pi d$\n\n**Disque** (rayon $r$) :\n• Aire : $A = \\pi r^2$\n\n📌 Exemples (avec $\\pi = 3$, sans calculatrice) :\n• Rayon = 5 cm\n• Périmètre $= 2 \\times 3 \\times 5 = 30 \\text{ cm}$\n• Aire $= 3 \\times 5^2 = 75 \\text{ cm}^2$"
         },
         {
           "cle": "autresFigures",
@@ -1063,28 +1063,28 @@
           "reponse": "Solution :\n$A = \\frac{10 \\times 6}{2} = \\frac{60}{2} = 30 \\text{ cm}^2$"
         },
         {
-          "question": "Cercle de rayon 4 cm. Calcule le périmètre. (π ≈ 3.14)",
-          "reponse": "Solution :\n$P = 2\\pi r = 2 \\times 3.14 \\times 4 ≈ 25.12 \\text{ cm}$"
+          "question": "Cercle de rayon 4 cm. Calcule le périmètre. (π = 3)",
+          "reponse": "Solution :\n$P = 2\\pi r = 2 \\times 3 \\times 4 = 24 \\text{ cm}$"
         },
         {
-          "question": "Disque de rayon 5 cm. Calcule l'aire. (π ≈ 3.14)",
-          "reponse": "Solution :\n$A = \\pi r^2 = 3.14 \\times 5^2 = 3.14 \\times 25 ≈ 78.5 \\text{ cm}^2$"
+          "question": "Disque de rayon 5 cm. Calcule l'aire. (π = 3)",
+          "reponse": "Solution :\n$A = \\pi r^2 = 3 \\times 5^2 = 3 \\times 25 = 75 \\text{ cm}^2$"
         },
         {
           "question": "Cube d'arête 4 cm. Calcule le volume.",
           "reponse": "Solution :\n$V = 4^3 = 64 \\text{ cm}^3$"
         },
         {
-          "question": "Cylindre : rayon 3 cm, hauteur 10 cm. Calcule le volume. (π ≈ 3.14)",
-          "reponse": "Solution :\n$V = \\pi r^2 h = 3.14 \\times 3^2 \\times 10$\n$= 3.14 \\times 9 \\times 10 ≈ 282.6 \\text{ cm}^3$"
+          "question": "Cylindre : rayon 3 cm, hauteur 10 cm. Calcule le volume. (π = 3)",
+          "reponse": "Solution :\n$V = \\pi r^2 h = 3 \\times 3^2 \\times 10$\n$= 3 \\times 9 \\times 10 = 270 \\text{ cm}^3$"
         },
         {
-          "question": "Cône : rayon 4 cm, hauteur 9 cm. Calcule le volume. (π ≈ 3.14)",
-          "reponse": "Solution :\n$V = \\frac{\\pi r^2 h}{3} = \\frac{3.14 \\times 4^2 \\times 9}{3}$\n$= \\frac{3.14 \\times 16 \\times 9}{3} ≈ 150.72 \\text{ cm}^3$"
+          "question": "Cône : rayon 4 cm, hauteur 9 cm. Calcule le volume. (π = 3)",
+          "reponse": "Solution :\n$V = \\frac{\\pi r^2 h}{3} = \\frac{3 \\times 4^2 \\times 9}{3}$\n$= \\frac{3 \\times 16 \\times 9}{3} = 144 \\text{ cm}^3$"
         },
         {
-          "question": "Sphère de rayon 3 cm. Calcule le volume. (π ≈ 3.14)",
-          "reponse": "Solution :\n$V = \\frac{4\\pi r^3}{3} = \\frac{4 \\times 3.14 \\times 3^3}{3}$\n$= \\frac{4 \\times 3.14 \\times 27}{3} ≈ 113.04 \\text{ cm}^3$"
+          "question": "Sphère de rayon 3 cm. Calcule le volume. (π = 3)",
+          "reponse": "Solution :\n$V = \\frac{4\\pi r^3}{3} = \\frac{4 \\times 3 \\times 3^3}{3}$\n$= \\frac{4 \\times 3 \\times 27}{3} = 108 \\text{ cm}^3$"
         },
         {
           "question": "Trapèze : petite base 5 cm, grande base 9 cm, hauteur 4 cm. Calcule l'aire.",

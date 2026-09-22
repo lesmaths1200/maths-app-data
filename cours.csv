@@ -35,8 +35,6 @@ id;titre;type;theme;dossier;fichier
 33;Liste d'exercices : les décimaux;ExerciceCoche;Nombres;exercices;decimaux.pdf
 34;Liste d'exercices : symétrie axiale;ExerciceCoche;Géométrie;exercices;symaxiale.pdf
 35;Liste d'exercices : gestion des données;ExerciceCoche;Statistiques;exercices;gestdonnees.pdf
-36;Liste d'exercices : théorème de Pythagore (supplémentaires);ExerciceCoche;Géométrie;exercices;pythasup.pdf
 37;Liste d'exercices : problèmes de partages équitables;ExerciceCoche;Nombres;exercices;partages.pdf
-39;Liste d'exercices : équations du second degré (1);ExerciceCoche;Algèbre;exercices;eq2deg1.pdf
-40;Liste d'exercices : équations du second degré (2);ExerciceCoche;Algèbre;exercices;eq2deg2.pdf
+39;Liste d'exercices : équations du second degré;ExerciceCoche;Algèbre;exercices;eq2deg1.pdf
 41;Liste d'exercices : système d'équations;ExerciceCoche;Algèbre;exercices;sysdeq.pdf

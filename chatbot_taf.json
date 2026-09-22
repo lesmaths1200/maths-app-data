@@ -1860,6 +1860,10 @@
       ],
       "explanations": [
         {
+          "cle": "premier",
+          "texte": "**Nombre premier :**\n\nUn nombre premier est un nombre entier qui a exactement deux diviseurs : 1 et lui-même (il n'est donc divisible par aucun autre nombre).\n\n**Les nombres premiers entre 0 et 100 :**\n2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97"
+        },
+        {
           "cle": "criteres",
           "texte": "**Critères de divisibilité :**\n\n**Par 2 :** Chiffre des unités pair (0, 2, 4, 6, 8)\n**Par 3 :** Somme des chiffres divisible par 3\n**Par 5 :** Chiffre des unités 0 ou 5\n**Par 9 :** Somme des chiffres divisible par 9\n**Par 10 :** Chiffre des unités = 0\n**Par 25 :** Deux derniers chiffres divisibles par 25\n**Par 100 :** Deux derniers chiffres = 00"
         }

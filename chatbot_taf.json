@@ -1447,7 +1447,7 @@
         },
         {
           "cle": "antecedent",
-          "texte": "Calculer un **antécédent** (ou pré-image) :\n\n1️⃣ Pose $f(x) = y$ (valeur cherchée)\n2️⃣ Résous l'équation pour trouver $x$\n\n📌 Exemple : $f(x) = 2x + 3$\n\nAntécédent de 11 :\n$2x + 3 = 11$\n$2x = 8$\n$x = 4$\n\nL'antécédent de 11 est 4"
+          "texte": "Calculer une **préimage** (ou antécédent) :\n\n1️⃣ Pose $f(x) = y$ (valeur cherchée)\n2️⃣ Résous l'équation pour trouver $x$\n\n📌 Exemple : $f(x) = 2x + 3$\n\nPréimage de 11 :\n$2x + 3 = 11$\n$2x = 8$\n$x = 4$\n\nLa préimage de 11 est 4"
         },
         {
           "cle": "lineaireAffine",
@@ -1464,51 +1464,51 @@
           "reponse": "Solution :\n$f(-3) = (-3)^2 + 2(-3)$\n$= 9 - 6 = 3$\n\nL'image de -3 est 3"
         },
         {
-          "question": "$f(x) = 2x + 7$. Trouve l'antécédent (pré image)de 15.",
-          "reponse": "Solution :\n$2x + 7 = 15$\n$2x = 8$\n$x = 4$\n\nL'antécédent de 15 est 4"
+          "question": "$f(x) = 2x + 7$. Trouve la préimage (antécédent) de $15$.",
+          "reponse": "Solution :\n$2x + 7 = 15$\n$2x = 8$\n$x = 4$\n\nLa préimage de 15 est 4"
         },
         {
-          "question": "$f(x) = -x + 10$. Trouve l'antécédent (pré image) de 3.",
-          "reponse": "Solution :\n$-x + 10 = 3$\n$-x = -7$\n$x = 7$\n\nL'antécédent de 3 est 7"
+          "question": "$f(x) = -x + 10$. Trouve la préimage (antécédent) de $3$.",
+          "reponse": "Solution :\n$-x + 10 = 3$\n$-x = -7$\n$x = 7$\n\nLa préimage de 3 est 7"
         },
         {
-          "question": "Soit $ f(x)=2x . Calculer  f(3) .$",
+          "question": "Soit $f(x)=2x$. Calculer $f(3)$.",
           "reponse": "Solution : $ f(3)=6 .$"
         },
         {
-          "question": "Soit $ f(x)=x+4 . Calculer  f(5) .$",
+          "question": "Soit $f(x)=x+4$. Calculer $f(5)$.",
           "reponse": "Solution : $ f(5)=9 .$"
         },
         {
-          "question": "Soit $ f(x)=3x-1 . Calculer  f(2) .$",
+          "question": "Soit $f(x)=3x-1$. Calculer $f(2)$.",
           "reponse": "Solution : $ f(2)=5 .$"
         },
         {
-          "question": "Soit $ f(x)=x^2 . Calculer  f(4) .$",
+          "question": "Soit $f(x)=x^2$. Calculer $f(4)$.",
           "reponse": "Solution : $ 16 .$"
         },
         {
-          "question": "Soit $ f(x)=2x+1 . Calculer  f(0) .$",
+          "question": "Soit $f(x)=2x+1$. Calculer $f(0)$.",
           "reponse": "Solution : $ 1 .$"
         },
         {
-          "question": "Soit $ f(x)=2x . Trouver la préimage de 10.$",
+          "question": "Soit $f(x)=2x$. Trouver la préimage de $10$.",
           "reponse": "Solution : $ 2x=10 \\Rightarrow x=5 .$"
         },
         {
-          "question": "Soit $ f(x)=x+3 . Trouver la préimage de 7.$",
+          "question": "Soit $f(x)=x+3$. Trouver la préimage de $7$.",
           "reponse": "Solution : $ x+3=7 \\Rightarrow x=4 .$"
         },
         {
-          "question": "Soit $ f(x)=3x-1 . Trouver la préimage de 8.$",
+          "question": "Soit $f(x)=3x-1$. Trouver la préimage de $8$.",
           "reponse": "Solution : $ 3x-1=8 \\Rightarrow x=3 .$"
         },
         {
-          "question": "Soit $ f(x)=x^2 . Trouver les préimages de 9.$",
+          "question": "Soit $f(x)=x^2$. Trouver les préimages de $9$.",
           "reponse": "Solution : $ x^2=9 \\Rightarrow x=\\pm3 .$"
         },
         {
-          "question": "Une fonction est définie par $ f(x)=2x-4 . Déterminer le nombre dont l’image est 0.$",
+          "question": "Une fonction est définie par $f(x)=2x-4$. Déterminer le nombre dont l'image est $0$.",
           "reponse": "Solution : $ 2x-4=0 \\Rightarrow x=2 .$"
         },
         {
@@ -1520,7 +1520,7 @@
           "reponse": "Solution :\n$f(-2) = (-2)^2 + 1 = 4 + 1 = 5$"
         },
         {
-          "question": "$f(x) = 2x + 3$. Quel est l'antécédent de $11$ ?",
+          "question": "$f(x) = 2x + 3$. Quelle est la préimage (antécédent) de $11$ ?",
           "reponse": "Solution :\n$2x + 3 = 11$\n$2x = 8$\n$x = 4$"
         },
         {

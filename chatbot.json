@@ -721,7 +721,7 @@
           ]
         },
         {
-          "question": "Un triangle a des côtés 5, 12 et 13. Est-il rectangle ?",
+          "question": "Un triangle a des côtés de 5, 12 et 13 cm. Est-il rectangle ?",
           "reponse": "Solution :\nVérifions si $13^2 = 5^2 + 12^2$ :\n\n$13^2 = 169$\n$5^2 + 12^2 = 25 + 144 = 169$\n\n$169 = 169$ ✓\n\nOui, le triangle est rectangle !",
           "reponseCourte": "Oui, $13^2 = 5^2+12^2$",
           "distracteurs": [
@@ -901,7 +901,7 @@
           ]
         },
         {
-          "question": "Un triangle a des côtés $9$, $12$, $15$ cm. Est-il rectangle ?",
+          "question": "Un triangle a des côtés de $9$, $12$ et $15$ cm. Est-il rectangle ?",
           "reponse": "Solution :\n$9^2 + 12^2 = 81 + 144 = 225$\n$15^2 = 225$\nOui, le triangle est rectangle.",
           "reponseCourte": "Oui, $9^2+12^2 = 15^2$",
           "distracteurs": [
@@ -921,7 +921,7 @@
           ]
         },
         {
-          "question": "Un triangle a des côtés $7$, $8$, $10$ cm. Est-il rectangle ?",
+          "question": "Un triangle a des côtés de $7$, $8$ et $10$ cm. Est-il rectangle ?",
           "reponse": "Solution :\n$7^2 + 8^2 = 49 + 64 = 113$\n$10^2 = 100$\n$113 \\neq 100$, le triangle n'est pas rectangle.",
           "reponseCourte": "Non, $7^2+8^2 \\neq 10^2$",
           "distracteurs": [

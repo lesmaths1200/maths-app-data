@@ -326,7 +326,7 @@
         },
         {
           "question": "Simplifie : $\\frac{42}{56}$",
-          "reponse": "Solution :\nPGCD$(42,56) = 14$\n$\\frac{42 \\div 14}{56 \\div 14} = \\frac{3}{4}$",
+          "reponse": "Solution :\nPGCD$(42{,}56) = 14$\n$\\frac{42 \\div 14}{56 \\div 14} = \\frac{3}{4}$",
           "reponseCourte": "$\\frac{3}{4}$",
           "distracteurs": [
             "$\\frac{4}{3}$",
@@ -1100,7 +1100,7 @@
         },
         {
           "question": "$4$ stylos coûtent $6$ CHF. Combien coûtent $10$ stylos ?",
-          "reponse": "Solution :\nPrix d'un stylo : $6 \\div 4 = 1,5$ CHF\n$1,5 \\times 10 = 15$ CHF",
+          "reponse": "Solution :\nPrix d'un stylo : $6 \\div 4 = 1{,}5$ CHF\n$1{,}5 \\times 10 = 15$ CHF",
           "reponseCourte": "$15$ CHF",
           "distracteurs": [
             "$12$ CHF",
@@ -1120,7 +1120,7 @@
         },
         {
           "question": "Ce tableau est-il proportionnel : $2 \\to 6$, $5 \\to 15$, $7 \\to 20$ ?",
-          "reponse": "Solution :\n$6 \\div 2 = 3$, $15 \\div 5 = 3$, mais $20 \\div 7 \\approx 2,86$\nNon, ce tableau n'est pas proportionnel.",
+          "reponse": "Solution :\n$6 \\div 2 = 3$, $15 \\div 5 = 3$, mais $20 \\div 7 \\approx 2{,}86$\nNon, ce tableau n'est pas proportionnel.",
           "reponseCourte": "Non, $20 \\div 7 \\approx 2{,}86 \\neq 3$",
           "distracteurs": [
             "Oui, coefficient $3$",
@@ -1140,7 +1140,7 @@
         },
         {
           "question": "Une carte a une échelle de $1:50\\,000$. Une distance de $3$ cm sur la carte correspond à quelle distance réelle (en km) ?",
-          "reponse": "Solution :\n$3 \\times 50\\,000 = 150\\,000$ cm $= 1\\,500$ m $= 1,5$ km",
+          "reponse": "Solution :\n$3 \\times 50\\,000 = 150\\,000$ cm $= 1\\,500$ m $= 1{,}5$ km",
           "reponseCourte": "$1{,}5$ km",
           "distracteurs": [
             "$150$ m",
@@ -1248,7 +1248,7 @@
         },
         {
           "question": "Calcule : $10^{-2}$",
-          "reponse": "Solution :\n$10^{-2} = 0,01$",
+          "reponse": "Solution :\n$10^{-2} = 0{,}01$",
           "reponseCourte": "$0{,}01$",
           "distracteurs": [
             "$-100$",
@@ -1784,22 +1784,22 @@
       "exercices": [
         {
           "question": "Écris en notation scientifique : $45000$",
-          "reponse": "Solution :\n$45000 = 4.5 \\times 10^4$",
-          "reponseCourte": "$4.5 \\times 10^4$",
+          "reponse": "Solution :\n$45000 = 4{,}5 \\times 10^4$",
+          "reponseCourte": "$4{,}5 \\times 10^4$",
           "distracteurs": [
             "$45 \\times 10^3$",
-            "$4.5 \\times 10^3$",
-            "$4.5 \\times 10^5$"
+            "$4{,}5 \\times 10^3$",
+            "$4{,}5 \\times 10^5$"
           ]
         },
         {
-          "question": "Écris en notation scientifique : $0.00072$",
-          "reponse": "Solution :\n$0.00072 = 7.2 \\times 10^{-4}$",
-          "reponseCourte": "$7.2 \\times 10^{-4}$",
+          "question": "Écris en notation scientifique : $0{,}00072$",
+          "reponse": "Solution :\n$0{,}00072 = 7{,}2 \\times 10^{-4}$",
+          "reponseCourte": "$7{,}2 \\times 10^{-4}$",
           "distracteurs": [
-            "$7.2 \\times 10^{4}$",
+            "$7{,}2 \\times 10^{4}$",
             "$72 \\times 10^{-5}$",
-            "$7.2 \\times 10^{-3}$"
+            "$7{,}2 \\times 10^{-3}$"
           ]
         },
         {
@@ -1823,38 +1823,38 @@
           ]
         },
         {
-          "question": "Écris en écriture décimale : $5.6 \\times 10^{-3}$",
-          "reponse": "Solution :\n$5.6 \\times 10^{-3} = 0.0056$",
-          "reponseCourte": "$0.0056$",
+          "question": "Écris en écriture décimale : $5{,}6 \\times 10^{-3}$",
+          "reponse": "Solution :\n$5{,}6 \\times 10^{-3} = 0{,}0056$",
+          "reponseCourte": "$0{,}0056$",
           "distracteurs": [
             "$5600$",
-            "$0.056$",
-            "$0.00056$"
+            "$0{,}056$",
+            "$0{,}00056$"
           ]
         },
         {
           "question": "Écris en notation scientifique : $45\\,000$",
-          "reponse": "Solution :\n$45\\,000 = 4,5 \\times 10^4$",
-          "reponseCourte": "$4,5 \\times 10^4$",
+          "reponse": "Solution :\n$45\\,000 = 4{,}5 \\times 10^4$",
+          "reponseCourte": "$4{,}5 \\times 10^4$",
           "distracteurs": [
             "$45 \\times 10^3$",
-            "$4,5 \\times 10^3$",
-            "$4,5 \\times 10^5$"
+            "$4{,}5 \\times 10^3$",
+            "$4{,}5 \\times 10^5$"
           ]
         },
         {
-          "question": "Écris en notation scientifique : $0,0032$",
-          "reponse": "Solution :\n$0,0032 = 3,2 \\times 10^{-3}$",
-          "reponseCourte": "$3,2 \\times 10^{-3}$",
+          "question": "Écris en notation scientifique : $0{,}0032$",
+          "reponse": "Solution :\n$0{,}0032 = 3{,}2 \\times 10^{-3}$",
+          "reponseCourte": "$3{,}2 \\times 10^{-3}$",
           "distracteurs": [
-            "$3,2 \\times 10^{3}$",
+            "$3{,}2 \\times 10^{3}$",
             "$32 \\times 10^{-4}$",
-            "$3,2 \\times 10^{-2}$"
+            "$3{,}2 \\times 10^{-2}$"
           ]
         },
         {
-          "question": "Écris sous forme décimale : $6,02 \\times 10^3$",
-          "reponse": "Solution :\n$6,02 \\times 10^3 = 6\\,020$",
+          "question": "Écris sous forme décimale : $6{,}02 \\times 10^3$",
+          "reponse": "Solution :\n$6{,}02 \\times 10^3 = 6\\,020$",
           "reponseCourte": "$6\\,020$",
           "distracteurs": [
             "$602$",
@@ -1864,12 +1864,12 @@
         },
         {
           "question": "Écris sous forme décimale : $7 \\times 10^{-2}$",
-          "reponse": "Solution :\n$7 \\times 10^{-2} = 0,07$",
-          "reponseCourte": "$0,07$",
+          "reponse": "Solution :\n$7 \\times 10^{-2} = 0{,}07$",
+          "reponseCourte": "$0{,}07$",
           "distracteurs": [
             "$7$",
-            "$0,7$",
-            "$0,007$"
+            "$0{,}7$",
+            "$0{,}007$"
           ]
         },
         {
@@ -1926,8 +1926,8 @@
       ],
       "exercices": [
         {
-          "question": "Convertis : $3.5 \\text{ km}$ en mètres",
-          "reponse": "Solution :\n$3.5 \\text{ km} = 3.5 \\times 1000 = 3500 \\text{ m}$",
+          "question": "Convertis : $3{,}5 \\text{ km}$ en mètres",
+          "reponse": "Solution :\n$3{,}5 \\text{ km} = 3{,}5 \\times 1000 = 3500 \\text{ m}$",
           "reponseCourte": "$3\\,500$ m",
           "distracteurs": [
             "$0{,}0035$ m",
@@ -1937,22 +1937,22 @@
         },
         {
           "question": "Convertis : $2500 \\text{ g}$ en kilogrammes",
-          "reponse": "Solution :\n$2500 \\text{ g} = 2500 \\div 1000 = 2.5 \\text{ kg}$",
-          "reponseCourte": "$2.5$ kg",
+          "reponse": "Solution :\n$2500 \\text{ g} = 2500 \\div 1000 = 2{,}5 \\text{ kg}$",
+          "reponseCourte": "$2{,}5$ kg",
           "distracteurs": [
             "$2\\,500\\,000$ kg",
             "$25$ kg",
-            "$0.25$ kg"
+            "$0{,}25$ kg"
           ]
         },
         {
           "question": "Convertis : $750 \\text{ mL}$ en litres",
-          "reponse": "Solution :\n$750 \\text{ mL} = 750 \\div 1000 = 0.75 \\text{ L}$",
-          "reponseCourte": "$0.75$ L",
+          "reponse": "Solution :\n$750 \\text{ mL} = 750 \\div 1000 = 0{,}75 \\text{ L}$",
+          "reponseCourte": "$0{,}75$ L",
           "distracteurs": [
             "$750\\,000$ L",
-            "$7.5$ L",
-            "$0.075$ L"
+            "$7{,}5$ L",
+            "$0{,}075$ L"
           ]
         },
         {
@@ -1986,8 +1986,8 @@
           ]
         },
         {
-          "question": "Convertis : $3,5$ km en m",
-          "reponse": "Solution :\n$3,5 \\times 1\\,000 = 3\\,500$ m",
+          "question": "Convertis : $3{,}5$ km en m",
+          "reponse": "Solution :\n$3{,}5 \\times 1\\,000 = 3\\,500$ m",
           "reponseCourte": "$3\\,500$ m",
           "distracteurs": [
             "$0{,}0035$ m",
@@ -1997,7 +1997,7 @@
         },
         {
           "question": "Convertis : $250$ cm en m",
-          "reponse": "Solution :\n$250 \\div 100 = 2,5$ m",
+          "reponse": "Solution :\n$250 \\div 100 = 2{,}5$ m",
           "reponseCourte": "$2{,}5$ m",
           "distracteurs": [
             "$25\\,000$ m",
@@ -2017,7 +2017,7 @@
         },
         {
           "question": "Convertis : $4\\,500$ g en kg",
-          "reponse": "Solution :\n$4\\,500 \\div 1\\,000 = 4,5$ kg",
+          "reponse": "Solution :\n$4\\,500 \\div 1\\,000 = 4{,}5$ kg",
           "reponseCourte": "$4{,}5$ kg",
           "distracteurs": [
             "$4\\,500\\,000$ kg",
@@ -2026,8 +2026,8 @@
           ]
         },
         {
-          "question": "Convertis : $0,75$ L en mL",
-          "reponse": "Solution :\n$0,75 \\times 1\\,000 = 750$ mL",
+          "question": "Convertis : $0{,}75$ L en mL",
+          "reponse": "Solution :\n$0{,}75 \\times 1\\,000 = 750$ mL",
           "reponseCourte": "$750$ mL",
           "distracteurs": [
             "$0{,}75$ mL",
@@ -2277,7 +2277,7 @@
       "exercices": [
         {
           "question": "Calcule 25% de 80€",
-          "reponse": "Solution :\n$80 \\times 0.25 = 20\\text{€}$",
+          "reponse": "Solution :\n$80 \\times 0{,}25 = 20\\text{€}$",
           "reponseCourte": "$20$€",
           "distracteurs": [
             "$25$€",
@@ -2287,7 +2287,7 @@
         },
         {
           "question": "Un prix de 50€ augmente de 20%. Nouveau prix ?",
-          "reponse": "Solution :\n$50 \\times 1.20 = 60\\text{€}$\n\nOu : $50 + (50 \\times 0.20) = 50 + 10 = 60\\text{€}$",
+          "reponse": "Solution :\n$50 \\times 1{,}20 = 60\\text{€}$\n\nOu : $50 + (50 \\times 0{,}20) = 50 + 10 = 60\\text{€}$",
           "reponseCourte": "$60$€",
           "distracteurs": [
             "$70$€",
@@ -2307,7 +2307,7 @@
         },
         {
           "question": "Réduction de 30% sur un article à 120€. Prix final ?",
-          "reponse": "Solution :\n$120 \\times 0.70 = 84\\text{€}$\n\nOu : $120 - (120 \\times 0.30) = 120 - 36 = 84\\text{€}$",
+          "reponse": "Solution :\n$120 \\times 0{,}70 = 84\\text{€}$\n\nOu : $120 - (120 \\times 0{,}30) = 120 - 36 = 84\\text{€}$",
           "reponseCourte": "$84$€",
           "distracteurs": [
             "$36$€",
@@ -2367,7 +2367,7 @@
         },
         {
           "question": "Un article à $45$ CHF augmente de $10\\%$. Quel est le nouveau prix ?",
-          "reponse": "Solution :\nAugmentation : $\\frac{10}{100} \\times 45 = 4,5$\nNouveau prix : $45 + 4,5 = 49,5$ CHF",
+          "reponse": "Solution :\nAugmentation : $\\frac{10}{100} \\times 45 = 4{,}5$\nNouveau prix : $45 + 4{,}5 = 49{,}5$ CHF",
           "reponseCourte": "$49{,}5$ CHF",
           "distracteurs": [
             "$4{,}5$ CHF",

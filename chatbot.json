@@ -1958,11 +1958,11 @@
         {
           "question": "Convertis : $5 \\text{ m}^2$ en $\\text{cm}^2$",
           "reponse": "Solution :\n$5 \\text{ m}^2 = 5 \\times 10000 = 50000 \\text{ cm}^2$",
-          "reponseCourte": "$50\\,000$ cm$^2$",
+          "reponseCourte": "$50\\,000$ $\text{cm}^2$",
           "distracteurs": [
-            "$500$ cm$^2$",
-            "$5\\,000$ cm$^2$",
-            "$500\\,000$ cm$^2$"
+            "$500$ $\text{cm}^2$",
+            "$5\\,000$ $\text{cm}^2$",
+            "$500\\,000$ $\text{cm}^2$"
           ]
         },
         {
@@ -2091,31 +2091,31 @@
         {
           "question": "Carré de côté 6 cm. Calcule périmètre et aire.",
           "reponse": "Solution :\n• Périmètre : $P = 4 \\times 6 = 24 \\text{ cm}$\n• Aire : $A = 6^2 = 36 \\text{ cm}^2$",
-          "reponseCourte": "$P = 24$ cm, $A = 36$ cm$^2$",
+          "reponseCourte": "$P = 24$ cm, $A = 36$ $\text{cm}^2$",
           "distracteurs": [
-            "$P = 36$ cm, $A = 24$ cm$^2$",
-            "$P = 12$ cm, $A = 12$ cm$^2$",
-            "$P = 24$ cm, $A = 12$ cm$^2$"
+            "$P = 36$ cm, $A = 24$ $\text{cm}^2$",
+            "$P = 12$ cm, $A = 12$ $\text{cm}^2$",
+            "$P = 24$ cm, $A = 12$ $\text{cm}^2$"
           ]
         },
         {
           "question": "Rectangle : longueur 8 cm, largeur 5 cm. Calcule l'aire.",
           "reponse": "Solution :\n$A = 8 \\times 5 = 40 \\text{ cm}^2$",
-          "reponseCourte": "$40$ cm$^2$",
+          "reponseCourte": "$40$ $\text{cm}^2$",
           "distracteurs": [
-            "$26$ cm$^2$",
-            "$20$ cm$^2$",
-            "$13$ cm$^2$"
+            "$26$ $\text{cm}^2$",
+            "$20$ $\text{cm}^2$",
+            "$13$ $\text{cm}^2$"
           ]
         },
         {
           "question": "Triangle : base 10 cm, hauteur 6 cm. Calcule l'aire.",
           "reponse": "Solution :\n$A = \\frac{10 \\times 6}{2} = \\frac{60}{2} = 30 \\text{ cm}^2$",
-          "reponseCourte": "$30$ cm$^2$",
+          "reponseCourte": "$30$ $\text{cm}^2$",
           "distracteurs": [
-            "$60$ cm$^2$",
-            "$16$ cm$^2$",
-            "$8$ cm$^2$"
+            "$60$ $\text{cm}^2$",
+            "$16$ $\text{cm}^2$",
+            "$8$ $\text{cm}^2$"
           ]
         },
         {
@@ -2131,61 +2131,61 @@
         {
           "question": "Disque de rayon 5 cm. Calcule l'aire. (π = 3)",
           "reponse": "Solution :\n$A = \\pi r^2 = 3 \\times 5^2 = 3 \\times 25 = 75 \\text{ cm}^2$",
-          "reponseCourte": "$75$ cm$^2$",
+          "reponseCourte": "$75$ $\text{cm}^2$",
           "distracteurs": [
-            "$15$ cm$^2$",
-            "$150$ cm$^2$",
-            "$20$ cm$^2$"
+            "$15$ $\text{cm}^2$",
+            "$150$ $\text{cm}^2$",
+            "$20$ $\text{cm}^2$"
           ]
         },
         {
           "question": "Cube d'arête 4 cm. Calcule le volume.",
           "reponse": "Solution :\n$V = 4^3 = 64 \\text{ cm}^3$",
-          "reponseCourte": "$64$ cm$^3$",
+          "reponseCourte": "$64$ $\text{cm}^3$",
           "distracteurs": [
-            "$16$ cm$^3$",
-            "$12$ cm$^3$",
-            "$48$ cm$^3$"
+            "$16$ $\text{cm}^3$",
+            "$12$ $\text{cm}^3$",
+            "$48$ $\text{cm}^3$"
           ]
         },
         {
           "question": "Cylindre : rayon 3 cm, hauteur 10 cm. Calcule le volume. (π = 3)",
           "reponse": "Solution :\n$V = \\pi r^2 h = 3 \\times 3^2 \\times 10$\n$= 3 \\times 9 \\times 10 = 270 \\text{ cm}^3$",
-          "reponseCourte": "$270$ cm$^3$",
+          "reponseCourte": "$270$ $\text{cm}^3$",
           "distracteurs": [
-            "$90$ cm$^3$",
-            "$60$ cm$^3$",
-            "$188{,}4$ cm$^3$"
+            "$90$ $\text{cm}^3$",
+            "$60$ $\text{cm}^3$",
+            "$188{,}4$ $\text{cm}^3$"
           ]
         },
         {
           "question": "Cône : rayon 4 cm, hauteur 9 cm. Calcule le volume. (π = 3)",
           "reponse": "Solution :\n$V = \\frac{\\pi r^2 h}{3} = \\frac{3 \\times 4^2 \\times 9}{3}$\n$= \\frac{3 \\times 16 \\times 9}{3} = 144 \\text{ cm}^3$",
-          "reponseCourte": "$144$ cm$^3$",
+          "reponseCourte": "$144$ $\text{cm}^3$",
           "distracteurs": [
-            "$432$ cm$^3$",
-            "$48$ cm$^3$",
-            "$108$ cm$^3$"
+            "$432$ $\text{cm}^3$",
+            "$48$ $\text{cm}^3$",
+            "$108$ $\text{cm}^3$"
           ]
         },
         {
           "question": "Sphère de rayon 3 cm. Calcule le volume. (π = 3)",
           "reponse": "Solution :\n$V = \\frac{4\\pi r^3}{3} = \\frac{4 \\times 3 \\times 3^3}{3}$\n$= \\frac{4 \\times 3 \\times 27}{3} = 108 \\text{ cm}^3$",
-          "reponseCourte": "$108$ cm$^3$",
+          "reponseCourte": "$108$ $\text{cm}^3$",
           "distracteurs": [
-            "$324$ cm$^3$",
-            "$36$ cm$^3$",
-            "$27$ cm$^3$"
+            "$324$ $\text{cm}^3$",
+            "$36$ $\text{cm}^3$",
+            "$27$ $\text{cm}^3$"
           ]
         },
         {
           "question": "Trapèze : petite base 5 cm, grande base 9 cm, hauteur 4 cm. Calcule l'aire.",
           "reponse": "Solution :\n$A = \\frac{(b + B) \\times h}{2} = \\frac{(5 + 9) \\times 4}{2}$\n$= \\frac{14 \\times 4}{2} = \\frac{56}{2} = 28 \\text{ cm}^2$",
-          "reponseCourte": "$28$ cm$^2$",
+          "reponseCourte": "$28$ $\text{cm}^2$",
           "distracteurs": [
-            "$56$ cm$^2$",
-            "$14$ cm$^2$",
-            "$36$ cm$^2$"
+            "$56$ $\text{cm}^2$",
+            "$14$ $\text{cm}^2$",
+            "$36$ $\text{cm}^2$"
           ]
         },
         {

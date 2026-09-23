@@ -46,119 +46,293 @@
       "exercices": [
         {
           "question": "Calcule : $\\frac{1}{4} + \\frac{1}{3}$",
-          "reponse": "Solution :\n$\\frac{1}{4} + \\frac{1}{3} = \\frac{3}{12} + \\frac{4}{12} = \\frac{7}{12}$"
+          "reponse": "Solution :\n$\\frac{1}{4} + \\frac{1}{3} = \\frac{3}{12} + \\frac{4}{12} = \\frac{7}{12}$",
+          "reponseCourte": "$\\frac{7}{12}$",
+          "distracteurs": [
+            "$\\frac{2}{7}$",
+            "$\\frac{1}{12}$",
+            "$\\frac{19}{12}$"
+          ]
         },
         {
           "question": "Simplifie : $\\frac{12}{18}$",
-          "reponse": "Solution :\nPGCD(12, 18) = 6\n$\\frac{12}{18} = \\frac{2}{3}$"
+          "reponse": "Solution :\nPGCD(12, 18) = 6\n$\\frac{12}{18} = \\frac{2}{3}$",
+          "reponseCourte": "$\\frac{2}{3}$",
+          "distracteurs": [
+            "$\\frac{3}{2}$",
+            "$\\frac{4}{3}$",
+            "$\\frac{5}{3}$"
+          ]
         },
         {
           "question": "Calcule : $\\frac{2}{3} \\times \\frac{3}{4}$",
-          "reponse": "Solution :\n$\\frac{2}{3} \\times \\frac{3}{4} = \\frac{6}{12} = \\frac{1}{2}$"
+          "reponse": "Solution :\n$\\frac{2}{3} \\times \\frac{3}{4} = \\frac{6}{12} = \\frac{1}{2}$",
+          "reponseCourte": "$\\frac{1}{2}$",
+          "distracteurs": [
+            "$\\frac{17}{12}$",
+            "$\\frac{8}{9}$",
+            "$\\frac{6}{7}$"
+          ]
         },
         {
           "question": "Calcule : $\\frac{3}{4} - \\frac{1}{3}$",
-          "reponse": "Solution :\n$\\frac{3}{4} - \\frac{1}{3} = \\frac{9}{12} - \\frac{4}{12} = \\frac{5}{12}$"
+          "reponse": "Solution :\n$\\frac{3}{4} - \\frac{1}{3} = \\frac{9}{12} - \\frac{4}{12} = \\frac{5}{12}$",
+          "reponseCourte": "$\\frac{5}{12}$",
+          "distracteurs": [
+            "$2$",
+            "$\\frac{2}{7}$",
+            "$-\\frac{5}{12}$"
+          ]
         },
         {
           "question": "Calcule : $\\frac{5}{6} \\div \\frac{2}{3}$",
-          "reponse": "Solution :\nOn inverse la deuxième fraction : $\\frac{2}{3} \\rightarrow \\frac{3}{2}$\n$\\frac{5}{6} \\times \\frac{3}{2} = \\frac{15}{12} = \\frac{5}{4}$"
+          "reponse": "Solution :\nOn inverse la deuxième fraction : $\\frac{2}{3} \\rightarrow \\frac{3}{2}$\n$\\frac{5}{6} \\times \\frac{3}{2} = \\frac{15}{12} = \\frac{5}{4}$",
+          "reponseCourte": "$\\frac{5}{4}$",
+          "distracteurs": [
+            "$\\frac{5}{9}$",
+            "$\\frac{4}{5}$",
+            "$\\frac{9}{4}$"
+          ]
         },
         {
           "question": "Calcule : $\\frac{7}{8} \\div \\frac{1}{4}$",
-          "reponse": "Solution :\n$\\frac{7}{8} \\times \\frac{4}{1} = \\frac{28}{8} = \\frac{7}{2}$"
+          "reponse": "Solution :\n$\\frac{7}{8} \\times \\frac{4}{1} = \\frac{28}{8} = \\frac{7}{2}$",
+          "reponseCourte": "$\\frac{7}{2}$",
+          "distracteurs": [
+            "$\\frac{7}{32}$",
+            "$\\frac{2}{7}$",
+            "$\\frac{9}{2}$"
+          ]
         },
         {
           "question": "Calcule : $\\frac{3}{5} + \\frac{2}{3} \\times \\frac{9}{4}$",
-          "reponse": "Solution :\nPriorité à la multiplication :\n$\\frac{2}{3} \\times \\frac{9}{4} = \\frac{18}{12} = \\frac{3}{2}$\n$\\frac{3}{5} + \\frac{3}{2} = \\frac{6}{10} + \\frac{15}{10} = \\frac{21}{10}$"
+          "reponse": "Solution :\nPriorité à la multiplication :\n$\\frac{2}{3} \\times \\frac{9}{4} = \\frac{18}{12} = \\frac{3}{2}$\n$\\frac{3}{5} + \\frac{3}{2} = \\frac{6}{10} + \\frac{15}{10} = \\frac{21}{10}$",
+          "reponseCourte": "$\\frac{21}{10}$",
+          "distracteurs": [
+            "$\\frac{57}{20}$",
+            "$\\frac{9}{10}$",
+            "$\\frac{211}{60}$"
+          ]
         },
         {
           "question": "Calcule : $\\left(\\frac{4}{5} - \\frac{1}{10}\\right) \\div \\frac{3}{5}$",
-          "reponse": "Solution :\n$\\frac{4}{5} = \\frac{8}{10}$\n$\\frac{8}{10} - \\frac{1}{10} = \\frac{7}{10}$\n$\\frac{7}{10} \\div \\frac{3}{5} = \\frac{7}{10} \\times \\frac{5}{3} = \\frac{35}{30} = \\frac{7}{6}$"
+          "reponse": "Solution :\n$\\frac{4}{5} = \\frac{8}{10}$\n$\\frac{8}{10} - \\frac{1}{10} = \\frac{7}{10}$\n$\\frac{7}{10} \\div \\frac{3}{5} = \\frac{7}{10} \\times \\frac{5}{3} = \\frac{35}{30} = \\frac{7}{6}$",
+          "reponseCourte": "$\\frac{7}{6}$",
+          "distracteurs": [
+            "$\\frac{21}{50}$",
+            "$\\frac{37}{30}$",
+            "$\\frac{7}{10}$"
+          ]
         },
         {
           "question": "Simplifie : $\\frac{18}{24}$",
-          "reponse": "Solution :\nPGCD(18,24)=6\n$\\frac{18}{24} = \\frac{3}{4}$"
+          "reponse": "Solution :\nPGCD(18,24)=6\n$\\frac{18}{24} = \\frac{3}{4}$",
+          "reponseCourte": "$\\frac{3}{4}$",
+          "distracteurs": [
+            "$\\frac{4}{3}$",
+            "$\\frac{7}{4}$",
+            "$-\\frac{1}{4}$"
+          ]
         },
         {
           "question": "Calcule : $\\frac{5}{9} - \\frac{1}{3}$",
-          "reponse": "Solution :\n$\\frac{1}{3} = \\frac{3}{9}$\n$\\frac{5}{9} - \\frac{3}{9} = \\frac{2}{9}$"
+          "reponse": "Solution :\n$\\frac{1}{3} = \\frac{3}{9}$\n$\\frac{5}{9} - \\frac{3}{9} = \\frac{2}{9}$",
+          "reponseCourte": "$\\frac{2}{9}$",
+          "distracteurs": [
+            "$\\frac{2}{3}$",
+            "$\\frac{11}{9}$",
+            "$-\\frac{7}{9}$"
+          ]
         },
         {
           "question": "Calcule : $\\frac{6}{7} \\times \\frac{14}{3}$",
-          "reponse": "Solution :\nSimplification croisée :\n$\\frac{6}{7} \\times \\frac{14}{3} = \\frac{2}{1} \\times 2 = 4$"
+          "reponse": "Solution :\nSimplification croisée :\n$\\frac{6}{7} \\times \\frac{14}{3} = \\frac{2}{1} \\times 2 = 4$",
+          "reponseCourte": "$4$",
+          "distracteurs": [
+            "$\\frac{9}{49}$",
+            "$\\frac{42}{5}$",
+            "$5$"
+          ]
         },
         {
           "question": "Calcule : $\\frac{1}{2} + \\frac{3}{4} \\div \\frac{3}{2}$",
-          "reponse": "Solution :\n$\\frac{3}{4} \\div \\frac{3}{2} = \\frac{3}{4} \\times \\frac{2}{3} = \\frac{1}{2}$\n$\\frac{1}{2} + \\frac{1}{2} = 1$"
+          "reponse": "Solution :\n$\\frac{3}{4} \\div \\frac{3}{2} = \\frac{3}{4} \\times \\frac{2}{3} = \\frac{1}{2}$\n$\\frac{1}{2} + \\frac{1}{2} = 1$",
+          "reponseCourte": "$1$",
+          "distracteurs": [
+            "$\\frac{5}{6}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{1}{4}$"
+          ]
         },
         {
           "question": "Calcule : $\\left(\\frac{2}{3} + \\frac{5}{6}\\right) \\times \\frac{3}{7}$",
-          "reponse": "Solution :\n$\\frac{2}{3} = \\frac{4}{6}$\n$\\frac{4}{6} + \\frac{5}{6} = \\frac{9}{6} = \\frac{3}{2}$\n$\\frac{3}{2} \\times \\frac{3}{7} = \\frac{9}{14}$"
+          "reponse": "Solution :\n$\\frac{2}{3} = \\frac{4}{6}$\n$\\frac{4}{6} + \\frac{5}{6} = \\frac{9}{6} = \\frac{3}{2}$\n$\\frac{3}{2} \\times \\frac{3}{7} = \\frac{9}{14}$",
+          "reponseCourte": "$\\frac{9}{14}$",
+          "distracteurs": [
+            "$\\frac{7}{2}$",
+            "$\\frac{43}{42}$",
+            "$\\frac{47}{42}$"
+          ]
         },
         {
           "question": "Calcule : $\\frac{10}{3} \\div \\frac{5}{6}$",
-          "reponse": "Solution :\n$\\frac{10}{3} \\times \\frac{6}{5} = \\frac{60}{15} = 4$"
+          "reponse": "Solution :\n$\\frac{10}{3} \\times \\frac{6}{5} = \\frac{60}{15} = 4$",
+          "reponseCourte": "$4$",
+          "distracteurs": [
+            "$\\frac{25}{9}$",
+            "$\\frac{1}{4}$",
+            "$\\frac{50}{9}$"
+          ]
         },
         {
           "question": "Calculer et simplifier :  $\\frac{1}{2}+\\frac{1}{4}$.",
-          "reponse": "Solution :  $\\frac{1}{2}=\\frac{2}{4} \\Rightarrow \\frac{2}{4}+\\frac{1}{4}=\\frac{3}{4}$."
+          "reponse": "Solution :  $\\frac{1}{2}=\\frac{2}{4} \\Rightarrow \\frac{2}{4}+\\frac{1}{4}=\\frac{3}{4}$.",
+          "reponseCourte": "$\\frac{3}{4}$",
+          "distracteurs": [
+            "$\\frac{1}{3}$",
+            "$\\frac{1}{6}$",
+            "$\\frac{1}{4}$"
+          ]
         },
         {
           "question": "Calculer :  $\\frac{5}{6}-\\frac{1}{6}$.",
-          "reponse": "Solution :  $\\frac{4}{6}=\\frac{2}{3}$."
+          "reponse": "Solution :  $\\frac{4}{6}=\\frac{2}{3}$.",
+          "reponseCourte": "$\\frac{2}{3}$",
+          "distracteurs": [
+            "$\\frac{1}{3}$",
+            "$1$",
+            "$\\frac{5}{3}$"
+          ]
         },
         {
           "question": "Calculer :  $\\frac{3}{5}\\times\\frac{2}{3}$.",
-          "reponse": "Solution :  $\\frac{6}{15}=\\frac{2}{5}$."
+          "reponse": "Solution :  $\\frac{6}{15}=\\frac{2}{5}$.",
+          "reponseCourte": "$\\frac{2}{5}$",
+          "distracteurs": [
+            "$\\frac{5}{2}$",
+            "$\\frac{19}{15}$",
+            "$\\frac{7}{5}$"
+          ]
         },
         {
           "question": "Calculer :  $\\frac{7}{8}+\\frac{5}{4}$.",
-          "reponse": "Solution :  $\\frac{7}{8}+\\frac{10}{8}=\\frac{17}{8}$."
+          "reponse": "Solution :  $\\frac{7}{8}+\\frac{10}{8}=\\frac{17}{8}$.",
+          "reponseCourte": "$\\frac{17}{8}$",
+          "distracteurs": [
+            "$1$",
+            "$-\\frac{3}{8}$",
+            "$\\frac{25}{8}$"
+          ]
         },
         {
           "question": "Calculer :  $\\frac{9}{10}\\div\\frac{3}{5}$.",
-          "reponse": "Solution :  $\\frac{9}{10}\\times\\frac{5}{3}=\\frac{3}{2}$."
+          "reponse": "Solution :  $\\frac{9}{10}\\times\\frac{5}{3}=\\frac{3}{2}$.",
+          "reponseCourte": "$\\frac{3}{2}$",
+          "distracteurs": [
+            "$\\frac{27}{50}$",
+            "$\\frac{2}{3}$",
+            "$\\frac{9}{50}$"
+          ]
         },
         {
           "question": "Un gâteau est partagé en 8 parts égales. Léa mange  $\\frac{3}{8}$  et Paul  $\\frac{1}{4}$ . Quelle fraction du gâteau est mangée ?",
-          "reponse": "Solution :  $\\frac{1}{4}=\\frac{2}{8} \\Rightarrow \\frac{3}{8}+\\frac{2}{8}=\\frac{5}{8}$ ."
+          "reponse": "Solution :  $\\frac{1}{4}=\\frac{2}{8} \\Rightarrow \\frac{3}{8}+\\frac{2}{8}=\\frac{5}{8}$ .",
+          "reponseCourte": "$\\frac{5}{8}$",
+          "distracteurs": [
+            "$\\frac{1}{3}$",
+            "$\\frac{1}{8}$",
+            "$\\frac{13}{8}$"
+          ]
         },
         {
-          "question": "Une bouteille contient  $\\frac{3}{4}$ L de jus. On ajoute $\\frac{2}{3}$ L. Quelle quantité totale ?",
-          "reponse": "Solution :  $\\frac{3}{4}=\\frac{9}{12}, \\frac{2}{3}=\\frac{8}{12} \\Rightarrow \\frac{17}{12}=1\\frac{5}{12}$."
+          "question": "Calcule la somme : $\\frac{3}{4} + \\frac{2}{3}$",
+          "reponse": "Solution :  $\\frac{3}{4}=\\frac{9}{12}, \\frac{2}{3}=\\frac{8}{12} \\Rightarrow \\frac{17}{12}=1\\frac{5}{12}$.",
+          "reponseCourte": "$\\frac{17}{12}$",
+          "distracteurs": [
+            "$\\frac{5}{7}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{29}{12}$"
+          ]
         },
         {
           "question": "Comparer  $\\frac{5}{6}$ et $\\frac{4}{5}$.",
-          "reponse": "Solution :  $\\frac{25}{30}>\\frac{24}{30} \\Rightarrow \\frac{5}{6}>\\frac{4}{5}$."
+          "reponse": "Solution :  $\\frac{25}{30}>\\frac{24}{30} \\Rightarrow \\frac{5}{6}>\\frac{4}{5}$.",
+          "reponseCourte": "$\\frac{5}{6} > \\frac{4}{5}$",
+          "distracteurs": [
+            "$\\frac{5}{6} < \\frac{4}{5}$",
+            "$\\frac{5}{6} = \\frac{4}{5}$",
+            "$\\frac{4}{5} > \\frac{5}{6}$"
+          ]
         },
         {
-          "question": "Un élève parcourt $\\frac{2}{3}$ du trajet le matin et $\\frac{1}{4}$ l’après-midi. A-t-il terminé ?",
-          "reponse": "Solution :  $\\frac{8}{12}+\\frac{3}{12}=\\frac{11}{12}<1 \\Rightarrow$ non."
+          "question": "Un élève parcourt $\\frac{2}{3}$ du trajet le matin et $\\frac{1}{4}$ l’après-midi. Quelle fraction du trajet a-t-il parcourue en tout ?",
+          "reponse": "Solution : $\\frac{2}{3}=\\frac{8}{12}, \\frac{1}{4}=\\frac{3}{12} \\Rightarrow \\frac{8}{12}+\\frac{3}{12}=\\frac{11}{12}$.",
+          "reponseCourte": "$\\frac{11}{12}$",
+          "distracteurs": [
+            "$\\frac{3}{7}$",
+            "$\\frac{5}{12}$",
+            "$1$"
+          ]
         },
         {
           "question": "Résoudre :  $x+\\frac{3}{4}=\\frac{5}{2}$.",
-          "reponse": "Solution :  $x=\\frac{10}{4}-\\frac{3}{4}=\\frac{7}{4}$."
+          "reponse": "Solution :  $x=\\frac{10}{4}-\\frac{3}{4}=\\frac{7}{4}$.",
+          "reponseCourte": "$\\frac{7}{4}$",
+          "distracteurs": [
+            "$\\frac{13}{4}$",
+            "$-\\frac{7}{4}$",
+            "$\\frac{15}{8}$"
+          ]
         },
         {
           "question": "Calcule : $\\frac{2}{3} + \\frac{1}{6}$",
-          "reponse": "Solution :\n$\\frac{2}{3} = \\frac{4}{6}$\n$\\frac{4}{6} + \\frac{1}{6} = \\frac{5}{6}$"
+          "reponse": "Solution :\n$\\frac{2}{3} = \\frac{4}{6}$\n$\\frac{4}{6} + \\frac{1}{6} = \\frac{5}{6}$",
+          "reponseCourte": "$\\frac{5}{6}$",
+          "distracteurs": [
+            "$\\frac{1}{3}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{11}{6}$"
+          ]
         },
         {
           "question": "Calcule : $\\frac{5}{8} - \\frac{1}{4}$",
-          "reponse": "Solution :\n$\\frac{1}{4} = \\frac{2}{8}$\n$\\frac{5}{8} - \\frac{2}{8} = \\frac{3}{8}$"
+          "reponse": "Solution :\n$\\frac{1}{4} = \\frac{2}{8}$\n$\\frac{5}{8} - \\frac{2}{8} = \\frac{3}{8}$",
+          "reponseCourte": "$\\frac{3}{8}$",
+          "distracteurs": [
+            "$1$",
+            "$\\frac{7}{8}$",
+            "$\\frac{11}{8}$"
+          ]
         },
         {
           "question": "Calcule : $\\frac{3}{4} \\times \\frac{2}{9}$",
-          "reponse": "Solution :\n$\\frac{3 \\times 2}{4 \\times 9} = \\frac{6}{36} = \\frac{1}{6}$"
+          "reponse": "Solution :\n$\\frac{3 \\times 2}{4 \\times 9} = \\frac{6}{36} = \\frac{1}{6}$",
+          "reponseCourte": "$\\frac{1}{6}$",
+          "distracteurs": [
+            "$\\frac{27}{8}$",
+            "$\\frac{35}{36}$",
+            "$\\frac{7}{6}$"
+          ]
         },
         {
           "question": "Calcule : $\\frac{5}{6} \\div \\frac{5}{12}$",
-          "reponse": "Solution :\n$\\frac{5}{6} \\times \\frac{12}{5} = \\frac{60}{30} = 2$"
+          "reponse": "Solution :\n$\\frac{5}{6} \\times \\frac{12}{5} = \\frac{60}{30} = 2$",
+          "reponseCourte": "$2$",
+          "distracteurs": [
+            "$\\frac{25}{72}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{25}{18}$"
+          ]
         },
         {
           "question": "Simplifie : $\\frac{42}{56}$",
-          "reponse": "Solution :\nPGCD$(42,56) = 14$\n$\\frac{42 \\div 14}{56 \\div 14} = \\frac{3}{4}$"
+          "reponse": "Solution :\nPGCD$(42,56) = 14$\n$\\frac{42 \\div 14}{56 \\div 14} = \\frac{3}{4}$",
+          "reponseCourte": "$\\frac{3}{4}$",
+          "distracteurs": [
+            "$\\frac{4}{3}$",
+            "$\\frac{7}{4}$",
+            "$-\\frac{1}{4}$"
+          ]
         }
       ]
     },
@@ -190,119 +364,293 @@
       "exercices": [
         {
           "question": "Résous : $3x + 7 = 22$",
-          "reponse": "Solution :\n$3x = 22 - 7$\n$3x = 15$\n$x = \\frac{15}{3} = 5$\n\nVérification : $3(5) + 7 = 15 + 7 = 22$ ✓"
+          "reponse": "Solution :\n$3x = 22 - 7$\n$3x = 15$\n$x = \\frac{15}{3} = 5$\n\nVérification : $3(5) + 7 = 15 + 7 = 22$ ✓",
+          "reponseCourte": "$x = 5$",
+          "distracteurs": [
+            "$x = \\frac{29}{3}$",
+            "$x = \\frac{22}{3}$",
+            "$x = 15$"
+          ]
         },
         {
           "question": "Résous : $5x - 8 = 12$",
-          "reponse": "Solution :\n$5x = 12 + 8$\n$5x = 20$\n$x = \\frac{20}{5} = 4$"
+          "reponse": "Solution :\n$5x = 12 + 8$\n$5x = 20$\n$x = \\frac{20}{5} = 4$",
+          "reponseCourte": "$x = 4$",
+          "distracteurs": [
+            "$x = \\frac{4}{5}$",
+            "$x = 20$",
+            "$x = 5$"
+          ]
         },
         {
           "question": "Résous : $2(x + 3) = 14$",
-          "reponse": "Solution :\n$2x + 6 = 14$\n$2x = 14 - 6$\n$2x = 8$\n$x = 4$"
+          "reponse": "Solution :\n$2x + 6 = 14$\n$2x = 14 - 6$\n$2x = 8$\n$x = 4$",
+          "reponseCourte": "$x = 4$",
+          "distracteurs": [
+            "$x = 1$",
+            "$x = 7$",
+            "$x = -4$"
+          ]
         },
         {
           "question": "Résous : $\\frac{x}{2} + 3 = 8$",
-          "reponse": "Solution :\n$\\frac{x}{2} = 8 - 3$\n$\\frac{x}{2} = 5$\n$x = 5 \\times 2 = 10$"
+          "reponse": "Solution :\n$\\frac{x}{2} = 8 - 3$\n$\\frac{x}{2} = 5$\n$x = 5 \\times 2 = 10$",
+          "reponseCourte": "$x = 10$",
+          "distracteurs": [
+            "$x = 2$",
+            "$x = 22$",
+            "$x = 5$"
+          ]
         },
         {
           "question": "Résous l’équation : $x + 7 = 15$",
-          "reponse": "Solution :\nOn soustrait 7 aux deux membres :\n$x = 15 - 7 = 8$"
+          "reponse": "Solution :\nOn soustrait 7 aux deux membres :\n$x = 15 - 7 = 8$",
+          "reponseCourte": "$x = 8$",
+          "distracteurs": [
+            "$x = 22$",
+            "$x = -8$",
+            "$x = 7$"
+          ]
         },
         {
           "question": "Résous l’équation : $x - 5 = 12$",
-          "reponse": "Solution :\nOn ajoute 5 aux deux membres :\n$x = 12 + 5 = 17$"
+          "reponse": "Solution :\nOn ajoute 5 aux deux membres :\n$x = 12 + 5 = 17$",
+          "reponseCourte": "$x = 17$",
+          "distracteurs": [
+            "$x = 7$",
+            "$x = -17$",
+            "$x = 12$"
+          ]
         },
         {
           "question": "Résous l’équation : $4x = 20$",
-          "reponse": "Solution :\nOn divise les deux membres par 4 :\n$x = 5$"
+          "reponse": "Solution :\nOn divise les deux membres par 4 :\n$x = 5$",
+          "reponseCourte": "$x = 5$",
+          "distracteurs": [
+            "$x = 80$",
+            "$x = 16$",
+            "$x = 24$"
+          ]
         },
         {
           "question": "Résous l’équation : $\\frac{x}{3} = 7$",
-          "reponse": "Solution :\nOn multiplie les deux membres par 3 :\n$x = 21$"
+          "reponse": "Solution :\nOn multiplie les deux membres par 3 :\n$x = 21$",
+          "reponseCourte": "$x = 21$",
+          "distracteurs": [
+            "$x = \\frac{7}{3}$",
+            "$x = 4$",
+            "$x = 10$"
+          ]
         },
         {
           "question": "Résous l’équation : $2x + 5 = 17$",
-          "reponse": "Solution :\nOn soustrait 5 aux deux membres :\n$2x = 12$\nOn divise par 2 :\n$x = 6$"
+          "reponse": "Solution :\nOn soustrait 5 aux deux membres :\n$2x = 12$\nOn divise par 2 :\n$x = 6$",
+          "reponseCourte": "$x = 6$",
+          "distracteurs": [
+            "$x = 11$",
+            "$x = \\frac{17}{2}$",
+            "$x = 12$"
+          ]
         },
         {
           "question": "Résous l’équation : $3x - 4 = 11$",
-          "reponse": "Solution :\nOn ajoute 4 aux deux membres :\n$3x = 15$\n$x = 5$"
+          "reponse": "Solution :\nOn ajoute 4 aux deux membres :\n$3x = 15$\n$x = 5$",
+          "reponseCourte": "$x = 5$",
+          "distracteurs": [
+            "$x = \\frac{11}{3}$",
+            "$x = 7$",
+            "$x = 15$"
+          ]
         },
         {
           "question": "Résous l’équation : $5x = 2x + 9$",
-          "reponse": "Solution :\nOn soustrait $2x$ aux deux membres :\n$3x = 9$\n$x = 3$"
+          "reponse": "Solution :\nOn soustrait $2x$ aux deux membres :\n$3x = 9$\n$x = 3$",
+          "reponseCourte": "$x = 3$",
+          "distracteurs": [
+            "$x = 9$",
+            "$x = \\frac{9}{7}$",
+            "$x = -3$"
+          ]
         },
         {
           "question": "Résous l’équation : $4(x - 2) = 12$",
-          "reponse": "Solution :\nOn développe :\n$4x - 8 = 12$\nOn ajoute 8 aux deux membres :\n$4x = 20$\n$x = 5$"
+          "reponse": "Solution :\nOn développe :\n$4x - 8 = 12$\nOn ajoute 8 aux deux membres :\n$4x = 20$\n$x = 5$",
+          "reponseCourte": "$x = 5$",
+          "distracteurs": [
+            "$x = 1$",
+            "$x = 3$",
+            "$x = 10$"
+          ]
         },
         {
           "question": "Résous l’équation : $2(x + 3) = x + 11$",
-          "reponse": "Solution :\nOn développe :\n$2x + 6 = x + 11$\nOn soustrait $x$ :\n$x + 6 = 11$\n$x = 5$"
+          "reponse": "Solution :\nOn développe :\n$2x + 6 = x + 11$\nOn soustrait $x$ :\n$x + 6 = 11$\n$x = 5$",
+          "reponseCourte": "$x = 5$",
+          "distracteurs": [
+            "$x = 17$",
+            "$x = -5$",
+            "$x = 8$"
+          ]
         },
         {
           "question": "Résous l’équation : $\\frac{x - 4}{2} = 6$",
-          "reponse": "Solution :\nOn multiplie par 2 :\n$x - 4 = 12$\nOn ajoute 4 :\n$x = 16$"
+          "reponse": "Solution :\nOn multiplie par 2 :\n$x - 4 = 12$\nOn ajoute 4 :\n$x = 16$",
+          "reponseCourte": "$x = 16$",
+          "distracteurs": [
+            "$x = 8$",
+            "$x = 2$",
+            "$x = 20$"
+          ]
         },
         {
-          "question": "Résoudre : $ x+7=15 $",
-          "reponse": "Solution : $ x=15-7=8 $."
+          "question": "Résoudre : $x-9=4$",
+          "reponse": "Solution : $x-9=4 \\Rightarrow x=4+9=13$.",
+          "reponseCourte": "$x=13$",
+          "distracteurs": [
+            "$x=-5$",
+            "$x=5$",
+            "$x=36$"
+          ]
         },
         {
           "question": "Résoudre : $ 3x=21 $",
-          "reponse": "Solution : $ x=7 $."
+          "reponse": "Solution : $ x=7 $.",
+          "reponseCourte": "$x = 7$",
+          "distracteurs": [
+            "$x = 63$",
+            "$x = 18$",
+            "$x = 24$"
+          ]
         },
         {
           "question": "Résoudre : $ 5x-10=0 $",
-          "reponse": "Solution : $ 5x=10 \\Rightarrow x=2 .$"
+          "reponse": "Solution : $ 5x=10 \\Rightarrow x=2 .$",
+          "reponseCourte": "$x = 2$",
+          "distracteurs": [
+            "$x = \\frac{1}{2}$",
+            "$x = -2$",
+            "$x = 10$"
+          ]
         },
         {
           "question": "Résoudre : $ 2x+4=18 $",
-          "reponse": "Solution : $ 2x=14 \\Rightarrow x=7 .$"
+          "reponse": "Solution : $ 2x=14 \\Rightarrow x=7 .$",
+          "reponseCourte": "$x = 7$",
+          "distracteurs": [
+            "$x = 11$",
+            "$x = 9$",
+            "$x = 14$"
+          ]
         },
         {
           "question": "Résoudre : $ 4x-6=10 $",
-          "reponse": "Solution : $ 4x=16 \\Rightarrow x=4 .$"
+          "reponse": "Solution : $ 4x=16 \\Rightarrow x=4 .$",
+          "reponseCourte": "$x = 4$",
+          "distracteurs": [
+            "$x = 1$",
+            "$x = 2$",
+            "$x = 16$"
+          ]
         },
         {
           "question": "Résoudre : $ 9-2x=1 $",
-          "reponse": "Solution : $ -2x=-8 \\Rightarrow x=4 .$"
+          "reponse": "Solution : $ -2x=-8 \\Rightarrow x=4 .$",
+          "reponseCourte": "$x = 4$",
+          "distracteurs": [
+            "$x = -4$",
+            "$x = \\frac{9}{2}$",
+            "$x = 5$"
+          ]
         },
         {
           "question": "Résoudre : $ 6x=3 $",
-          "reponse": "Solution : $ x=\\frac{1}{2} .$"
+          "reponse": "Solution : $ x=\\frac{1}{2} .$",
+          "reponseCourte": "$x = \\frac{1}{2}$",
+          "distracteurs": [
+            "$x = 18$",
+            "$x = 2$",
+            "$x = \\frac{1}{3}$"
+          ]
         },
         {
           "question": "Résoudre : $ x-\\frac{3}{4}=\\frac{1}{4} $",
-          "reponse": "Solution : $ x=1 .$"
+          "reponse": "Solution : $ x=1 .$",
+          "reponseCourte": "$x = 1$",
+          "distracteurs": [
+            "$x = \\frac{1}{2}$",
+            "$x = -\\frac{1}{2}$",
+            "$x = \\frac{1}{4}$"
+          ]
         },
         {
           "question": "Résoudre : $ \\frac{x}{5}=3 $",
-          "reponse": "Solution : $ x=15 .$"
+          "reponse": "Solution : $ x=15 .$",
+          "reponseCourte": "$x = 15$",
+          "distracteurs": [
+            "$x = \\frac{3}{5}$",
+            "$x = 8$",
+            "$x = 16$"
+          ]
         },
         {
-          "question": "Résoudre : $ 2(x+3)=14 $",
-          "reponse": "Solution : $ x+3=7 \\Rightarrow x=4 .$"
+          "question": "Résoudre : $3(x-2)=15$",
+          "reponse": "Solution : $3(x-2)=15 \\Rightarrow 3x-6=15 \\Rightarrow 3x=21 \\Rightarrow x=7$.",
+          "reponseCourte": "$x=7$",
+          "distracteurs": [
+            "$x=5$",
+            "$x=3$",
+            "$x=-7$"
+          ]
         },
         {
           "question": "Résous : $4x - 3 = 2x + 9$",
-          "reponse": "Solution :\n$4x - 2x = 9 + 3$\n$2x = 12$\n$x = 6$"
+          "reponse": "Solution :\n$4x - 2x = 9 + 3$\n$2x = 12$\n$x = 6$",
+          "reponseCourte": "$x = 6$",
+          "distracteurs": [
+            "$x = 3$",
+            "$x = 1$",
+            "$x = 12$"
+          ]
         },
         {
           "question": "Résous : $\\frac{x}{3} + 2 = 7$",
-          "reponse": "Solution :\n$\\frac{x}{3} = 5$\n$x = 15$"
+          "reponse": "Solution :\n$\\frac{x}{3} = 5$\n$x = 15$",
+          "reponseCourte": "$x = 15$",
+          "distracteurs": [
+            "$x = \\frac{5}{3}$",
+            "$x = 21$",
+            "$x = 27$"
+          ]
         },
         {
           "question": "Résous : $5(x-2) = 3x + 4$",
-          "reponse": "Solution :\n$5x - 10 = 3x + 4$\n$2x = 14$\n$x = 7$"
+          "reponse": "Solution :\n$5x - 10 = 3x + 4$\n$2x = 14$\n$x = 7$",
+          "reponseCourte": "$x = 7$",
+          "distracteurs": [
+            "$x = 3$",
+            "$x = -7$",
+            "$x = 2$"
+          ]
         },
         {
           "question": "Résous : $-2x + 5 = 15$",
-          "reponse": "Solution :\n$-2x = 10$\n$x = -5$"
+          "reponse": "Solution :\n$-2x = 10$\n$x = -5$",
+          "reponseCourte": "$x = -5$",
+          "distracteurs": [
+            "$x = 5$",
+            "$x = -10$",
+            "$x = 10$"
+          ]
         },
         {
           "question": "Résous : $3(x+1) - 2(x-1) = 10$",
-          "reponse": "Solution :\n$3x + 3 - 2x + 2 = 10$\n$x + 5 = 10$\n$x = 5$"
+          "reponse": "Solution :\n$3x + 3 - 2x + 2 = 10$\n$x + 5 = 10$\n$x = 5$",
+          "reponseCourte": "$x = 5$",
+          "distracteurs": [
+            "$x = 3$",
+            "$x = 15$",
+            "$x = -5$"
+          ]
         }
       ]
     },
@@ -343,100 +691,244 @@
       ],
       "exercices": [
         {
-          "question": "Triangle rectangle : côtés = 3 cm et 4 cm. Calcule l'hypoténuse.",
-          "reponse": "Solution :\n$c^2 = 3^2 + 4^2$\n$c^2 = 9 + 16 = 25$\n$c = \\sqrt{25} = 5\\text{ cm}$"
+          "question": "Triangle rectangle : cathètes = 3 cm et 4 cm. Calcule l'hypoténuse.",
+          "reponse": "Solution :\n$c^2 = 3^2 + 4^2$\n$c^2 = 9 + 16 = 25$\n$c = \\sqrt{25} = 5\\text{ cm}$",
+          "reponseCourte": "$5$ cm",
+          "distracteurs": [
+            "$7$ cm",
+            "$12$ cm",
+            "$25$ cm"
+          ]
         },
         {
-          "question": "Triangle rectangle : côtés = 6 cm et 8 cm. Calcule l'hypoténuse.",
-          "reponse": "Solution :\n$c^2 = 6^2 + 8^2$\n$c^2 = 36 + 64 = 100$\n$c = \\sqrt{100} = 10\\text{ cm}$"
+          "question": "Triangle rectangle : cathètes = 6 cm et 8 cm. Calcule l'hypoténuse.",
+          "reponse": "Solution :\n$c^2 = 6^2 + 8^2$\n$c^2 = 36 + 64 = 100$\n$c = \\sqrt{100} = 10\\text{ cm}$",
+          "reponseCourte": "$10$ cm",
+          "distracteurs": [
+            "$14$ cm",
+            "$48$ cm",
+            "$100$ cm"
+          ]
         },
         {
           "question": "Triangle rectangle : hypoténuse = 13 cm, un côté = 5 cm. Trouve l'autre côté.",
-          "reponse": "Solution :\n$a^2 = 13^2 - 5^2$\n$a^2 = 169 - 25 = 144$\n$a = \\sqrt{144} = 12\\text{ cm}$"
+          "reponse": "Solution :\n$a^2 = 13^2 - 5^2$\n$a^2 = 169 - 25 = 144$\n$a = \\sqrt{144} = 12\\text{ cm}$",
+          "reponseCourte": "$12$ cm",
+          "distracteurs": [
+            "$8$ cm",
+            "$18$ cm",
+            "$144$ cm"
+          ]
         },
         {
           "question": "Un triangle a des côtés 5, 12 et 13. Est-il rectangle ?",
-          "reponse": "Solution :\nVérifions si $13^2 = 5^2 + 12^2$ :\n\n$13^2 = 169$\n$5^2 + 12^2 = 25 + 144 = 169$\n\n$169 = 169$ ✓\n\nOui, le triangle est rectangle !"
+          "reponse": "Solution :\nVérifions si $13^2 = 5^2 + 12^2$ :\n\n$13^2 = 169$\n$5^2 + 12^2 = 25 + 144 = 169$\n\n$169 = 169$ ✓\n\nOui, le triangle est rectangle !",
+          "reponseCourte": "Oui, $13^2 = 5^2+12^2$",
+          "distracteurs": [
+            "Non, $13^2 \\neq 5^2+12^2$",
+            "Oui, $13 = 5+12$",
+            "Impossible à déterminer"
+          ]
         },
         {
           "question": "Dans un triangle rectangle, les côtés de l’angle droit mesurent 3 cm et 4 cm. Calcule l’hypoténuse.",
-          "reponse": "Solution :\n$c^2 = a^2 + b^2 = 3^2 + 4^2 = 9 + 16 = 25$\n$c = \\sqrt{25} = 5$ cm"
+          "reponse": "Solution :\n$c^2 = a^2 + b^2 = 3^2 + 4^2 = 9 + 16 = 25$\n$c = \\sqrt{25} = 5$ cm",
+          "reponseCourte": "$5$ cm",
+          "distracteurs": [
+            "$7$ cm",
+            "$12$ cm",
+            "$25$ cm"
+          ]
         },
         {
           "question": "Dans un triangle rectangle, l’hypoténuse mesure 13 cm et un côté de l’angle droit 5 cm. Trouve l’autre côté.",
-          "reponse": "Solution :\n$c^2 = a^2 + b^2 \\Rightarrow 13^2 = 5^2 + b^2$\n$169 = 25 + b^2$\n$b^2 = 144$\n$b = 12$ cm"
+          "reponse": "Solution :\n$c^2 = a^2 + b^2 \\Rightarrow 13^2 = 5^2 + b^2$\n$169 = 25 + b^2$\n$b^2 = 144$\n$b = 12$ cm",
+          "reponseCourte": "$12$ cm",
+          "distracteurs": [
+            "$8$ cm",
+            "$18$ cm",
+            "$144$ cm"
+          ]
         },
         {
           "question": "Un triangle rectangle a pour côtés de l’angle droit 7 cm et 24 cm. Calcule l’hypoténuse.",
-          "reponse": "Solution :\n$c^2 = 7^2 + 24^2 = 49 + 576 = 625$\n$c = \\sqrt{625} = 25$ cm"
+          "reponse": "Solution :\n$c^2 = 7^2 + 24^2 = 49 + 576 = 625$\n$c = \\sqrt{625} = 25$ cm",
+          "reponseCourte": "$25$ cm",
+          "distracteurs": [
+            "$31$ cm",
+            "$168$ cm",
+            "$625$ cm"
+          ]
         },
         {
           "question": "Dans un triangle rectangle, l’hypoténuse mesure 10 cm et un côté 6 cm. Calcule le second côté.",
-          "reponse": "Solution :\n$10^2 = 6^2 + b^2$\n$100 = 36 + b^2$\n$b^2 = 64$\n$b = 8$ cm"
+          "reponse": "Solution :\n$10^2 = 6^2 + b^2$\n$100 = 36 + b^2$\n$b^2 = 64$\n$b = 8$ cm",
+          "reponseCourte": "$8$ cm",
+          "distracteurs": [
+            "$4$ cm",
+            "$16$ cm",
+            "$64$ cm"
+          ]
         },
         {
-          "question": "Calcule l’hypoténuse d’un triangle rectangle dont les côtés sont 8 cm et 15 cm.",
-          "reponse": "Solution :\n$c^2 = 8^2 + 15^2 = 64 + 225 = 289$\n$c = \\sqrt{289} = 17$ cm"
+          "question": "Calcule l’hypoténuse d’un triangle rectangle dont les cathètes sont 8 cm et 15 cm.",
+          "reponse": "Solution :\n$c^2 = 8^2 + 15^2 = 64 + 225 = 289$\n$c = \\sqrt{289} = 17$ cm",
+          "reponseCourte": "$17$ cm",
+          "distracteurs": [
+            "$23$ cm",
+            "$120$ cm",
+            "$289$ cm"
+          ]
         },
         {
           "question": "Un triangle rectangle a pour hypoténuse 17 cm et un côté 8 cm. Trouve le second côté.",
-          "reponse": "Solution :\n$17^2 = 8^2 + b^2$\n$289 = 64 + b^2$\n$b^2 = 225$\n$b = 15$ cm"
+          "reponse": "Solution :\n$17^2 = 8^2 + b^2$\n$289 = 64 + b^2$\n$b^2 = 225$\n$b = 15$ cm",
+          "reponseCourte": "$15$ cm",
+          "distracteurs": [
+            "$9$ cm",
+            "$25$ cm",
+            "$225$ cm"
+          ]
         },
         {
           "question": "Dans un triangle rectangle, les côtés de l’angle droit mesurent 9 cm et 12 cm. Calcule l’hypoténuse.",
-          "reponse": "Solution :\n$c^2 = 9^2 + 12^2 = 81 + 144 = 225$\n$c = 15$ cm"
+          "reponse": "Solution :\n$c^2 = 9^2 + 12^2 = 81 + 144 = 225$\n$c = 15$ cm",
+          "reponseCourte": "$15$ cm",
+          "distracteurs": [
+            "$21$ cm",
+            "$108$ cm",
+            "$225$ cm"
+          ]
         },
         {
-          "question": "Un triangle rectangle a pour côtés 5 cm et 12 cm. Calcule l’hypoténuse.",
-          "reponse": "Solution :\n$c^2 = 5^2 + 12^2 = 25 + 144 = 169$\n$c = 13$ cm"
+          "question": "Un triangle rectangle a pour cathètes 5 cm et 12 cm. Calcule l’hypoténuse.",
+          "reponse": "Solution :\n$c^2 = 5^2 + 12^2 = 25 + 144 = 169$\n$c = 13$ cm",
+          "reponseCourte": "$13$ cm",
+          "distracteurs": [
+            "$17$ cm",
+            "$60$ cm",
+            "$169$ cm"
+          ]
         },
         {
           "question": "L’hypoténuse d’un triangle rectangle mesure 20 cm et un côté 16 cm. Trouve le second côté.",
-          "reponse": "Solution :\n$20^2 = 16^2 + b^2$\n$400 = 256 + b^2$\n$b^2 = 144$\n$b = 12$ cm"
+          "reponse": "Solution :\n$20^2 = 16^2 + b^2$\n$400 = 256 + b^2$\n$b^2 = 144$\n$b = 12$ cm",
+          "reponseCourte": "$12$ cm",
+          "distracteurs": [
+            "$4$ cm",
+            "$36$ cm",
+            "$144$ cm"
+          ]
         },
         {
           "question": "Dans un triangle rectangle, les côtés de l’angle droit mesurent 6 cm et 8 cm. Calcule l’hypoténuse.",
-          "reponse": "Solution :\n$c^2 = 6^2 + 8^2 = 36 + 64 = 100$\n$c = 10$ cm"
+          "reponse": "Solution :\n$c^2 = 6^2 + 8^2 = 36 + 64 = 100$\n$c = 10$ cm",
+          "reponseCourte": "$10$ cm",
+          "distracteurs": [
+            "$14$ cm",
+            "$48$ cm",
+            "$100$ cm"
+          ]
         },
         {
           "question": "Une échelle de 10 m est posée contre un mur. Son pied est à 6 m du mur. À quelle hauteur atteint-elle le mur ?",
-          "reponse": "Solution : $ h=\\sqrt{10^2-6^2}=8  m.$"
+          "reponse": "Solution : $ h=\\sqrt{10^2-6^2}=8  m.$",
+          "reponseCourte": "$8$ m",
+          "distracteurs": [
+            "$4$ m",
+            "$16$ m",
+            "$60$ m"
+          ]
         },
         {
           "question": "Un rectangle a une diagonale de 13 cm et une largeur de 5 cm. Calculer la longueur.",
-          "reponse": "Solution : $ L=\\sqrt{13^2-5^2}=12 .$"
+          "reponse": "Solution : $ L=\\sqrt{13^2-5^2}=12 .$",
+          "reponseCourte": "$12$ cm",
+          "distracteurs": [
+            "$8$ cm",
+            "$18$ cm",
+            "$144$ cm"
+          ]
         },
         {
           "question": "Un triangle rectangle a un côté de 7 cm et l’hypoténuse de 25 cm. Calculer l’autre côté.",
-          "reponse": "Solution : $ b=24 .$"
+          "reponse": "Solution : $ b=24 .$",
+          "reponseCourte": "$24$ cm",
+          "distracteurs": [
+            "$18$ cm",
+            "$32$ cm",
+            "$576$ cm"
+          ]
         },
         {
           "question": "Un terrain rectangulaire mesure 9 m par 12 m. Calculer la longueur de la diagonale.",
-          "reponse": "Solution : $ d=\\sqrt{9^2+12^2}=15 .$"
+          "reponse": "Solution : $ d=\\sqrt{9^2+12^2}=15 .$",
+          "reponseCourte": "$15$ m",
+          "distracteurs": [
+            "$21$ m",
+            "$108$ m",
+            "$225$ m"
+          ]
         },
         {
           "question": "Un câble relie le sommet d’un mât de 8 m à un point situé à 6 m du pied. Quelle est la longueur du câble ?",
-          "reponse": "Solution : $ c=\\sqrt{8^2+6^2}=10 .$"
+          "reponse": "Solution : $ c=\\sqrt{8^2+6^2}=10 .$",
+          "reponseCourte": "$10$ m",
+          "distracteurs": [
+            "$14$ m",
+            "$48$ m",
+            "$100$ m"
+          ]
         },
         {
           "question": "Un triangle rectangle a des côtés de l'angle droit de $6$ cm et $8$ cm. Calcule l'hypoténuse.",
-          "reponse": "Solution :\n$c^2 = 6^2 + 8^2 = 36 + 64 = 100$\n$c = \\sqrt{100} = 10$ cm"
+          "reponse": "Solution :\n$c^2 = 6^2 + 8^2 = 36 + 64 = 100$\n$c = \\sqrt{100} = 10$ cm",
+          "reponseCourte": "$10$ cm",
+          "distracteurs": [
+            "$14$ cm",
+            "$48$ cm",
+            "$100$ cm"
+          ]
         },
         {
           "question": "L'hypoténuse d'un triangle rectangle mesure $13$ cm et un côté $5$ cm. Calcule l'autre côté.",
-          "reponse": "Solution :\n$c^2 = 13^2 - 5^2 = 169 - 25 = 144$\n$c = \\sqrt{144} = 12$ cm"
+          "reponse": "Solution :\n$c^2 = 13^2 - 5^2 = 169 - 25 = 144$\n$c = \\sqrt{144} = 12$ cm",
+          "reponseCourte": "$12$ cm",
+          "distracteurs": [
+            "$8$ cm",
+            "$18$ cm",
+            "$144$ cm"
+          ]
         },
         {
           "question": "Un triangle a des côtés $9$, $12$, $15$ cm. Est-il rectangle ?",
-          "reponse": "Solution :\n$9^2 + 12^2 = 81 + 144 = 225$\n$15^2 = 225$\nOui, le triangle est rectangle."
+          "reponse": "Solution :\n$9^2 + 12^2 = 81 + 144 = 225$\n$15^2 = 225$\nOui, le triangle est rectangle.",
+          "reponseCourte": "Oui, $9^2+12^2 = 15^2$",
+          "distracteurs": [
+            "Non, $9^2+12^2 \\neq 15^2$",
+            "Oui, $9+12=15$",
+            "Impossible à déterminer"
+          ]
         },
         {
           "question": "Un triangle rectangle a ses deux côtés de l'angle droit égaux à $5$ cm. Calcule l'hypoténuse (valeur exacte).",
-          "reponse": "Solution :\n$c^2 = 5^2 + 5^2 = 50$\n$c = \\sqrt{50} = 5\\sqrt{2}$ cm"
+          "reponse": "Solution :\n$c^2 = 5^2 + 5^2 = 50$\n$c = \\sqrt{50} = 5\\sqrt{2}$ cm",
+          "reponseCourte": "$5\\sqrt{2}$ cm",
+          "distracteurs": [
+            "$10$ cm",
+            "$5$ cm",
+            "$\\sqrt{10}$ cm"
+          ]
         },
         {
           "question": "Un triangle a des côtés $7$, $8$, $10$ cm. Est-il rectangle ?",
-          "reponse": "Solution :\n$7^2 + 8^2 = 49 + 64 = 113$\n$10^2 = 100$\n$113 \\neq 100$, le triangle n'est pas rectangle."
+          "reponse": "Solution :\n$7^2 + 8^2 = 49 + 64 = 113$\n$10^2 = 100$\n$113 \\neq 100$, le triangle n'est pas rectangle.",
+          "reponseCourte": "Non, $7^2+8^2 \\neq 10^2$",
+          "distracteurs": [
+            "Oui, $7^2+8^2=10^2$",
+            "Oui, $7+8=10$... presque",
+            "Impossible à déterminer"
+          ]
         }
       ]
     },
@@ -468,79 +960,193 @@
       "exercices": [
         {
           "question": "Si 3 kg coûtent 12€, combien coûtent 5 kg ?",
-          "reponse": "Solution :\n$\\frac{3}{12} = \\frac{5}{x}$\n\n$x = \\frac{5 \\times 12}{3} = \\frac{60}{3} = 20\\text{€}$"
+          "reponse": "Solution :\n$\\frac{3}{12} = \\frac{5}{x}$\n\n$x = \\frac{5 \\times 12}{3} = \\frac{60}{3} = 20\\text{€}$",
+          "reponseCourte": "$20$€",
+          "distracteurs": [
+            "$14$€",
+            "$17$€",
+            "$60$€"
+          ]
         },
         {
           "question": "Une voiture roule à 90 km/h. Quelle distance en 3 heures ?",
-          "reponse": "Solution :\n$d = v \\times t$\n$d = 90 \\times 3 = 270\\text{ km}$"
+          "reponse": "Solution :\n$d = v \\times t$\n$d = 90 \\times 3 = 270\\text{ km}$",
+          "reponseCourte": "$270$ km",
+          "distracteurs": [
+            "$93$ km",
+            "$30$ km",
+            "$180$ km"
+          ]
         },
         {
           "question": "En 2 heures, j'ai parcouru 150 km. Quelle est ma vitesse ?",
-          "reponse": "Solution :\n$v = \\frac{d}{t} = \\frac{150}{2} = 75\\text{ km/h}$"
+          "reponse": "Solution :\n$v = \\frac{d}{t} = \\frac{150}{2} = 75\\text{ km/h}$",
+          "reponseCourte": "$75$ km/h",
+          "distracteurs": [
+            "$300$ km/h",
+            "$148$ km/h",
+            "$50$ km/h"
+          ]
         },
         {
           "question": "2 kg → 8€. Est-ce proportionnel à 5 kg → 20€ ?",
-          "reponse": "Solution :\n$\\frac{8}{2} = 4$ et $\\frac{20}{5} = 4$\n\nLe coefficient est constant (4€/kg)\n\nOui, c'est proportionnel ! ✓"
+          "reponse": "Solution :\n$\\frac{8}{2} = 4$ et $\\frac{20}{5} = 4$\n\nLe coefficient est constant (4€/kg)\n\nOui, c'est proportionnel ! ✓",
+          "reponseCourte": "Oui, coefficient $4$",
+          "distracteurs": [
+            "Non, coefficients différents",
+            "Oui, coefficient $2{,}5$",
+            "Impossible à dire"
+          ]
         },
         {
           "question": "Une voiture parcourt 180 km en 3 heures. Quelle distance parcourra-t-elle en 5 heures à la même vitesse ?",
-          "reponse": "Solution :\nVitesse = 180 ÷ 3 = 60 km/h\nDistance en 5 h = 60 × 5 = 300 km"
+          "reponse": "Solution :\nVitesse = 180 ÷ 3 = 60 km/h\nDistance en 5 h = 60 × 5 = 300 km",
+          "reponseCourte": "$300$ km",
+          "distracteurs": [
+            "$185$ km",
+            "$900$ km",
+            "$60$ km"
+          ]
         },
         {
           "question": "Si 4 kg de pommes coûtent 12 CHF, combien coûtent 7 kg de pommes ?",
-          "reponse": "Solution :\nPrix par kg = 12 ÷ 4 = 3 CHF/kg\nPrix pour 7 kg = 7 × 3 = 21 CHF"
+          "reponse": "Solution :\nPrix par kg = 12 ÷ 4 = 3 CHF/kg\nPrix pour 7 kg = 7 × 3 = 21 CHF",
+          "reponseCourte": "$21$ CHF",
+          "distracteurs": [
+            "$15$ CHF",
+            "$3$ CHF",
+            "$84$ CHF"
+          ]
         },
         {
           "question": "Une recette pour 6 personnes utilise 300 g de farine. Combien de farine pour 10 personnes ?",
-          "reponse": "Solution :\nFarine par personne = 300 ÷ 6 = 50 g\nPour 10 personnes = 10 × 50 = 500 g"
+          "reponse": "Solution :\nFarine par personne = 300 ÷ 6 = 50 g\nPour 10 personnes = 10 × 50 = 500 g",
+          "reponseCourte": "$500$ g",
+          "distracteurs": [
+            "$304$ g",
+            "$50$ g",
+            "$1\\,800$ g"
+          ]
         },
         {
           "question": "Un train parcourt 240 km en 4 heures. Quelle distance parcourra-t-il en 7 heures à la même vitesse ?",
-          "reponse": "Solution :\nVitesse = 240 ÷ 4 = 60 km/h\nDistance en 7 h = 60 × 7 = 420 km"
+          "reponse": "Solution :\nVitesse = 240 ÷ 4 = 60 km/h\nDistance en 7 h = 60 × 7 = 420 km",
+          "reponseCourte": "$420$ km",
+          "distracteurs": [
+            "$243$ km",
+            "$60$ km",
+            "$1\\,680$ km"
+          ]
         },
         {
           "question": "Si 5 litres de peinture couvrent 40 m², combien de litres pour 100 m² ?",
-          "reponse": "Solution :\nCouverture par litre = 40 ÷ 5 = 8 m²/litre\nPour 100 m² = 100 ÷ 8 = 12,5 litres"
+          "reponse": "Solution :\nCouverture par litre = 40 ÷ 5 = 8 m²/litre\nPour 100 m² = 100 ÷ 8 = 12,5 litres",
+          "reponseCourte": "$12{,}5$ L",
+          "distracteurs": [
+            "$20$ L",
+            "$8$ L",
+            "$800$ L"
+          ]
         },
         {
           "question": "Une imprimante imprime 180 pages en 15 minutes. Combien de pages en 1 heure ?",
-          "reponse": "Solution :\nPages par minute = 180 ÷ 15 = 12 pages/min\nEn 60 min = 12 × 60 = 720 pages"
+          "reponse": "Solution :\nPages par minute = 180 ÷ 15 = 12 pages/min\nEn 60 min = 12 × 60 = 720 pages",
+          "reponseCourte": "$720$ pages",
+          "distracteurs": [
+            "$195$ pages",
+            "$12$ pages",
+            "$10\\,800$ pages"
+          ]
         },
         {
           "question": "Si 3 stylos coûtent 9 CHF, combien coûtent 8 stylos ?",
-          "reponse": "Solution :\nPrix par stylo = 9 ÷ 3 = 3 CHF\nPrix pour 8 stylos = 8 × 3 = 24 CHF"
+          "reponse": "Solution :\nPrix par stylo = 9 ÷ 3 = 3 CHF\nPrix pour 8 stylos = 8 × 3 = 24 CHF",
+          "reponseCourte": "$24$ CHF",
+          "distracteurs": [
+            "$14$ CHF",
+            "$3$ CHF",
+            "$72$ CHF"
+          ]
         },
         {
           "question": "Une bicyclette parcourt 18 km en 45 minutes. Quelle distance en 1h30 à la même vitesse ?",
-          "reponse": "Solution :\nVitesse = 18 ÷ 0,75 h = 24 km/h\nDistance en 1,5 h = 24 × 1,5 = 36 km"
+          "reponse": "Solution :\nVitesse = 18 ÷ 0,75 h = 24 km/h\nDistance en 1,5 h = 24 × 1,5 = 36 km",
+          "reponseCourte": "$36$ km",
+          "distracteurs": [
+            "$19{,}5$ km",
+            "$24$ km",
+            "$13{,}5$ km"
+          ]
         },
         {
           "question": "Si 7 kg de sucre coûtent 21 CHF, combien coûtent 10 kg ?",
-          "reponse": "Solution :\nPrix par kg = 21 ÷ 7 = 3 CHF\nPrix pour 10 kg = 10 × 3 = 30 CHF"
+          "reponse": "Solution :\nPrix par kg = 21 ÷ 7 = 3 CHF\nPrix pour 10 kg = 10 × 3 = 30 CHF",
+          "reponseCourte": "$30$ CHF",
+          "distracteurs": [
+            "$24$ CHF",
+            "$3$ CHF",
+            "$70$ CHF"
+          ]
         },
         {
           "question": "Une machine fabrique 120 objets en 8 heures. Combien d’objets en 5 heures ?",
-          "reponse": "Solution :\nProduction par heure = 120 ÷ 8 = 15 objets/h\nEn 5 h = 15 × 5 = 75 objets"
+          "reponse": "Solution :\nProduction par heure = 120 ÷ 8 = 15 objets/h\nEn 5 h = 15 × 5 = 75 objets",
+          "reponseCourte": "$75$ objets",
+          "distracteurs": [
+            "$117$ objets",
+            "$15$ objets",
+            "$600$ objets"
+          ]
         },
         {
           "question": "$4$ stylos coûtent $6$ CHF. Combien coûtent $10$ stylos ?",
-          "reponse": "Solution :\nPrix d'un stylo : $6 \\div 4 = 1,5$ CHF\n$1,5 \\times 10 = 15$ CHF"
+          "reponse": "Solution :\nPrix d'un stylo : $6 \\div 4 = 1,5$ CHF\n$1,5 \\times 10 = 15$ CHF",
+          "reponseCourte": "$15$ CHF",
+          "distracteurs": [
+            "$12$ CHF",
+            "$1{,}5$ CHF",
+            "$60$ CHF"
+          ]
         },
         {
           "question": "Une recette pour $4$ personnes utilise $200$ g de farine. Quelle quantité pour $6$ personnes ?",
-          "reponse": "Solution :\nPour $1$ personne : $200 \\div 4 = 50$ g\nPour $6$ personnes : $50 \\times 6 = 300$ g"
+          "reponse": "Solution :\nPour $1$ personne : $200 \\div 4 = 50$ g\nPour $6$ personnes : $50 \\times 6 = 300$ g",
+          "reponseCourte": "$300$ g",
+          "distracteurs": [
+            "$202$ g",
+            "$50$ g",
+            "$1\\,200$ g"
+          ]
         },
         {
           "question": "Ce tableau est-il proportionnel : $2 \\to 6$, $5 \\to 15$, $7 \\to 20$ ?",
-          "reponse": "Solution :\n$6 \\div 2 = 3$, $15 \\div 5 = 3$, mais $20 \\div 7 \\approx 2,86$\nNon, ce tableau n'est pas proportionnel."
+          "reponse": "Solution :\n$6 \\div 2 = 3$, $15 \\div 5 = 3$, mais $20 \\div 7 \\approx 2,86$\nNon, ce tableau n'est pas proportionnel.",
+          "reponseCourte": "Non, $20 \\div 7 \\approx 2{,}86 \\neq 3$",
+          "distracteurs": [
+            "Oui, coefficient $3$",
+            "Oui, coefficient $2{,}86$",
+            "Impossible à dire"
+          ]
         },
         {
           "question": "$8$ ouvriers construisent un mur en $12$ jours. Combien de jours faudrait-il à $6$ ouvriers (même rythme) ?",
-          "reponse": "Solution :\n$8 \\times 12 = 96$ (ouvrier-jours)\n$96 \\div 6 = 16$ jours"
+          "reponse": "Solution :\n$8 \\times 12 = 96$ (ouvrier-jours)\n$96 \\div 6 = 16$ jours",
+          "reponseCourte": "$16$ jours",
+          "distracteurs": [
+            "$9$ jours",
+            "$96$ jours",
+            "$18$ jours"
+          ]
         },
         {
           "question": "Une carte a une échelle de $1:50\\,000$. Une distance de $3$ cm sur la carte correspond à quelle distance réelle (en km) ?",
-          "reponse": "Solution :\n$3 \\times 50\\,000 = 150\\,000$ cm $= 1\\,500$ m $= 1,5$ km"
+          "reponse": "Solution :\n$3 \\times 50\\,000 = 150\\,000$ cm $= 1\\,500$ m $= 1,5$ km",
+          "reponseCourte": "$1{,}5$ km",
+          "distracteurs": [
+            "$150$ m",
+            "$15$ km",
+            "$0{,}15$ km"
+          ]
         }
       ]
     },
@@ -572,43 +1178,103 @@
       "exercices": [
         {
           "question": "Calcule : $3^4$",
-          "reponse": "Solution :\n$3^4 = 3 \\times 3 \\times 3 \\times 3 = 81$"
+          "reponse": "Solution :\n$3^4 = 3 \\times 3 \\times 3 \\times 3 = 81$",
+          "reponseCourte": "$81$",
+          "distracteurs": [
+            "$12$",
+            "$64$",
+            "$243$"
+          ]
         },
         {
           "question": "Simplifie : $2^5 \\times 2^3$",
-          "reponse": "Solution :\n$2^5 \\times 2^3 = 2^{5+3} = 2^8 = 256$"
+          "reponse": "Solution :\n$2^5 \\times 2^3 = 2^{5+3} = 2^8 = 256$",
+          "reponseCourte": "$256$",
+          "distracteurs": [
+            "$65\\,536$",
+            "$32\\,768$",
+            "$4$"
+          ]
         },
         {
           "question": "Calcule : $\\frac{10^6}{10^2}$",
-          "reponse": "Solution :\n$\\frac{10^6}{10^2} = 10^{6-2} = 10^4 = 10000$"
+          "reponse": "Solution :\n$\\frac{10^6}{10^2} = 10^{6-2} = 10^4 = 10000$",
+          "reponseCourte": "$10\\,000$",
+          "distracteurs": [
+            "$100\\,000\\,000$",
+            "$1\\,000\\,000\\,000\\,000$",
+            "$999\\,900$"
+          ]
         },
         {
           "question": "Calcule : $(5^2)^3$",
-          "reponse": "Solution :\n$(5^2)^3 = 5^{2 \\times 3} = 5^6 = 15625$"
+          "reponse": "Solution :\n$(5^2)^3 = 5^{2 \\times 3} = 5^6 = 15625$",
+          "reponseCourte": "$15\\,625$",
+          "distracteurs": [
+            "$3\\,125$",
+            "$1\\,953\\,125$",
+            "$7\\,776$"
+          ]
         },
         {
           "question": "Calcule : $4^0 + 3^{-2}$",
-          "reponse": "Solution :\n$4^0 = 1$\n$3^{-2} = \\frac{1}{3^2} = \\frac{1}{9}$\n$1 + \\frac{1}{9} = \\frac{9}{9} + \\frac{1}{9} = \\frac{10}{9}$"
+          "reponse": "Solution :\n$4^0 = 1$\n$3^{-2} = \\frac{1}{3^2} = \\frac{1}{9}$\n$1 + \\frac{1}{9} = \\frac{9}{9} + \\frac{1}{9} = \\frac{10}{9}$",
+          "reponseCourte": "$\\frac{10}{9}$",
+          "distracteurs": [
+            "$0$",
+            "$\\frac{1}{9}$",
+            "$1$"
+          ]
         },
         {
           "question": "Calcule : $2^5$",
-          "reponse": "Solution :\n$2^5 = 32$"
+          "reponse": "Solution :\n$2^5 = 32$",
+          "reponseCourte": "$32$",
+          "distracteurs": [
+            "$10$",
+            "$25$",
+            "$64$"
+          ]
         },
         {
           "question": "Calcule : $(-3)^3$",
-          "reponse": "Solution :\n$(-3)^3 = -27$"
+          "reponse": "Solution :\n$(-3)^3 = -27$",
+          "reponseCourte": "$-27$",
+          "distracteurs": [
+            "$27$",
+            "$-9$",
+            "$9$"
+          ]
         },
         {
           "question": "Calcule : $10^{-2}$",
-          "reponse": "Solution :\n$10^{-2} = 0,01$"
+          "reponse": "Solution :\n$10^{-2} = 0,01$",
+          "reponseCourte": "$0{,}01$",
+          "distracteurs": [
+            "$-100$",
+            "$0{,}1$",
+            "$100$"
+          ]
         },
         {
           "question": "Simplifie : $3^4 \\times 3^2$",
-          "reponse": "Solution :\n$3^{4+2} = 3^6 = 729$"
+          "reponse": "Solution :\n$3^{4+2} = 3^6 = 729$",
+          "reponseCourte": "$729$",
+          "distracteurs": [
+            "$6\\,561$",
+            "$531\\,441$",
+            "$81$"
+          ]
         },
         {
           "question": "Simplifie : $\\frac{5^7}{5^4}$",
-          "reponse": "Solution :\n$5^{7-4} = 5^3 = 125$"
+          "reponse": "Solution :\n$5^{7-4} = 5^3 = 125$",
+          "reponseCourte": "$125$",
+          "distracteurs": [
+            "$5^{11}=48\\,828\\,125$",
+            "$3\\,125$",
+            "$25$"
+          ]
         }
       ]
     },
@@ -643,83 +1309,203 @@
       "exercices": [
         {
           "question": "Calcule : $\\sqrt{64}$",
-          "reponse": "Solution :\n$\\sqrt{64} = 8$ car $8^2 = 64$"
+          "reponse": "Solution :\n$\\sqrt{64} = 8$ car $8^2 = 64$",
+          "reponseCourte": "$8$",
+          "distracteurs": [
+            "$32$",
+            "$4$",
+            "$16$"
+          ]
         },
         {
           "question": "Calcule : $\\sqrt{16} \\times \\sqrt{4}$",
-          "reponse": "Solution :\n$\\sqrt{16} \\times \\sqrt{4} = 4 \\times 2 = 8$\n\nOu : $\\sqrt{16 \\times 4} = \\sqrt{64} = 8$"
+          "reponse": "Solution :\n$\\sqrt{16} \\times \\sqrt{4} = 4 \\times 2 = 8$\n\nOu : $\\sqrt{16 \\times 4} = \\sqrt{64} = 8$",
+          "reponseCourte": "$8$",
+          "distracteurs": [
+            "$20$",
+            "$\\sqrt{20}$",
+            "$2$"
+          ]
         },
         {
           "question": "Simplifie : $\\sqrt{50}$",
-          "reponse": "Solution :\n$50 = 25 \\times 2 = 5^2 \\times 2$\n$\\sqrt{50} = \\sqrt{5^2 \\times 2} = 5\\sqrt{2}$"
+          "reponse": "Solution :\n$50 = 25 \\times 2 = 5^2 \\times 2$\n$\\sqrt{50} = \\sqrt{5^2 \\times 2} = 5\\sqrt{2}$",
+          "reponseCourte": "$5\\sqrt{2}$",
+          "distracteurs": [
+            "$25\\sqrt{2}$",
+            "$10$",
+            "$5\\sqrt{4}$"
+          ]
         },
         {
           "question": "Calcule : $(\\sqrt{7})^2$",
-          "reponse": "Solution :\n$(\\sqrt{7})^2 = 7$"
+          "reponse": "Solution :\n$(\\sqrt{7})^2 = 7$",
+          "reponseCourte": "$7$",
+          "distracteurs": [
+            "$49$",
+            "$\\sqrt{7}$",
+            "$14$"
+          ]
         },
         {
           "question": "Simplifie : $\\sqrt{72}$",
-          "reponse": "Solution :\n$72 = 36 \\times 2 = 6^2 \\times 2$\n$\\sqrt{72} = 6\\sqrt{2}$"
+          "reponse": "Solution :\n$72 = 36 \\times 2 = 6^2 \\times 2$\n$\\sqrt{72} = 6\\sqrt{2}$",
+          "reponseCourte": "$6\\sqrt{2}$",
+          "distracteurs": [
+            "$36\\sqrt{2}$",
+            "$8\\sqrt{3}$",
+            "$12$"
+          ]
         },
         {
           "question": "Calculer : $ \\sqrt{81} $",
-          "reponse": "Solution : $ 9 .$"
+          "reponse": "Solution : $ 9 .$",
+          "reponseCourte": "$9$",
+          "distracteurs": [
+            "$81$",
+            "$40{,}5$",
+            "$18$"
+          ]
         },
         {
-          "question": "Simplifier : $ \\sqrt{50} $",
-          "reponse": "Solution : $ \\sqrt{25\\times2}=5\\sqrt{2} .$"
+          "question": "Simplifier : $\\sqrt{45}$",
+          "reponse": "Solution : $\\sqrt{45}=\\sqrt{9\\times5}=3\\sqrt{5}$.",
+          "reponseCourte": "$3\\sqrt{5}$",
+          "distracteurs": [
+            "$9\\sqrt{5}$",
+            "$5\\sqrt{3}$",
+            "$3\\sqrt{15}$"
+          ]
         },
         {
           "question": "Calculer : $ \\sqrt{9}\\times\\sqrt{16} $",
-          "reponse": "Solution : $ 3\\times4=12 .$"
+          "reponse": "Solution : $ 3\\times4=12 .$",
+          "reponseCourte": "$12$",
+          "distracteurs": [
+            "$25$",
+            "$\\sqrt{25}$",
+            "$144$"
+          ]
         },
         {
-          "question": "Simplifier : $ \\sqrt{72} $",
-          "reponse": "Solution : $ \\sqrt{36\\times2}=6\\sqrt{2} .$"
+          "question": "Simplifier : $\\sqrt{98}$",
+          "reponse": "Solution : $\\sqrt{98}=\\sqrt{49\\times2}=7\\sqrt{2}$.",
+          "reponseCourte": "$7\\sqrt{2}$",
+          "distracteurs": [
+            "$49\\sqrt{2}$",
+            "$2\\sqrt{49}$",
+            "$7\\sqrt{14}$"
+          ]
         },
         {
-          "question": "Calculer : $ (\\sqrt{7})^2 $",
-          "reponse": "Solution : $ 7 .$"
+          "question": "Calculer : $(\\sqrt{11})^2$",
+          "reponse": "Solution : $(\\sqrt{11})^2=11$.",
+          "reponseCourte": "$11$",
+          "distracteurs": [
+            "$\\sqrt{11}$",
+            "$121$",
+            "$-11$"
+          ]
         },
         {
           "question": "Simplifier : $ \\sqrt{200} $",
-          "reponse": "Solution : $ 10\\sqrt{2} .$"
+          "reponse": "Solution : $ 10\\sqrt{2} .$",
+          "reponseCourte": "$10\\sqrt{2}$",
+          "distracteurs": [
+            "$100\\sqrt{2}$",
+            "$2\\sqrt{50}$",
+            "$20$"
+          ]
         },
         {
           "question": "Calculer : $ \\sqrt{8}\\times\\sqrt{2} $",
-          "reponse": "Solution : $ \\sqrt{16}=4 .$"
+          "reponse": "Solution : $ \\sqrt{16}=4 .$",
+          "reponseCourte": "$4$",
+          "distracteurs": [
+            "$16$",
+            "$\\sqrt{16}$",
+            "$10$"
+          ]
         },
         {
           "question": "Simplifier : $ \\sqrt{18} $",
-          "reponse": "Solution : $ 3\\sqrt{2} .$"
+          "reponse": "Solution : $ 3\\sqrt{2} .$",
+          "reponseCourte": "$3\\sqrt{2}$",
+          "distracteurs": [
+            "$9\\sqrt{2}$",
+            "$6\\sqrt{3}$",
+            "$18$"
+          ]
         },
         {
           "question": "Calculer : $ \\sqrt{121} $",
-          "reponse": "Solution : $ 11 .$"
+          "reponse": "Solution : $ 11 .$",
+          "reponseCourte": "$11$",
+          "distracteurs": [
+            "$121$",
+            "$60{,}5$",
+            "$22$"
+          ]
         },
         {
           "question": "Simplifier : $ \\sqrt{48} $",
-          "reponse": "Solution : $ 4\\sqrt{3} .$"
+          "reponse": "Solution : $ 4\\sqrt{3} .$",
+          "reponseCourte": "$4\\sqrt{3}$",
+          "distracteurs": [
+            "$16\\sqrt{3}$",
+            "$2\\sqrt{12}$",
+            "$12$"
+          ]
         },
         {
           "question": "Calcule : $\\sqrt{144}$",
-          "reponse": "Solution :\n$\\sqrt{144} = 12$"
+          "reponse": "Solution :\n$\\sqrt{144} = 12$",
+          "reponseCourte": "$12$",
+          "distracteurs": [
+            "$144$",
+            "$6$",
+            "$24$"
+          ]
         },
         {
           "question": "Calcule : $\\sqrt{2} \\times \\sqrt{8}$",
-          "reponse": "Solution :\n$\\sqrt{2 \\times 8} = \\sqrt{16} = 4$"
+          "reponse": "Solution :\n$\\sqrt{2 \\times 8} = \\sqrt{16} = 4$",
+          "reponseCourte": "$4$",
+          "distracteurs": [
+            "$16$",
+            "$\\sqrt{16}$",
+            "$10$"
+          ]
         },
         {
           "question": "Simplifie : $\\sqrt{75}$",
-          "reponse": "Solution :\n$\\sqrt{75} = \\sqrt{25 \\times 3} = 5\\sqrt{3}$"
+          "reponse": "Solution :\n$\\sqrt{75} = \\sqrt{25 \\times 3} = 5\\sqrt{3}$",
+          "reponseCourte": "$5\\sqrt{3}$",
+          "distracteurs": [
+            "$25\\sqrt{3}$",
+            "$15\\sqrt{5}$",
+            "$15$"
+          ]
         },
         {
           "question": "Calcule : $\\sqrt{49} + \\sqrt{16}$",
-          "reponse": "Solution :\n$7 + 4 = 11$"
+          "reponse": "Solution :\n$7 + 4 = 11$",
+          "reponseCourte": "$11$",
+          "distracteurs": [
+            "$65$",
+            "$\\sqrt{65}$",
+            "$121$"
+          ]
         },
         {
           "question": "$x^2 = 81$. Quelles sont les valeurs possibles de $x$ ?",
-          "reponse": "Solution :\n$x = 9$ ou $x = -9$"
+          "reponse": "Solution :\n$x = 9$ ou $x = -9$",
+          "reponseCourte": "$x = 9$ ou $x = -9$",
+          "distracteurs": [
+            "$x = 9$",
+            "$x = 81$",
+            "$x = -9$"
+          ]
         }
       ]
     },
@@ -758,87 +1544,213 @@
       "exercices": [
         {
           "question": "Développe : $5(x + 3)$",
-          "reponse": "Solution :\n$5(x + 3) = 5x + 15$"
+          "reponse": "Solution :\n$5(x + 3) = 5x + 15$",
+          "reponseCourte": "$5x + 15$",
+          "distracteurs": [
+            "$5x + 3$",
+            "$x + 15$",
+            "$5x + 8$"
+          ]
         },
         {
           "question": "Réduis : $4x + 7 + 3x - 2$",
-          "reponse": "Solution :\n$4x + 3x + 7 - 2 = 7x + 5$"
+          "reponse": "Solution :\n$4x + 3x + 7 - 2 = 7x + 5$",
+          "reponseCourte": "$7x + 5$",
+          "distracteurs": [
+            "$7x + 9$",
+            "$x + 5$",
+            "$4x + 5$"
+          ]
         },
         {
           "question": "Factorise : $6x + 9$",
-          "reponse": "Solution :\n$6x + 9 = 3(2x + 3)$"
+          "reponse": "Solution :\n$6x + 9 = 3(2x + 3)$",
+          "reponseCourte": "$3(2x + 3)$",
+          "distracteurs": [
+            "$3(2x + 9)$",
+            "$6x + 9$",
+            "$3(2x - 3)$"
+          ]
         },
         {
           "question": "Développe : $(x + 2)(x + 5)$",
-          "reponse": "Solution :\n$(x + 2)(x + 5) = x^2 + 5x + 2x + 10 = x^2 + 7x + 10$"
+          "reponse": "Solution :\n$(x + 2)(x + 5) = x^2 + 5x + 2x + 10 = x^2 + 7x + 10$",
+          "reponseCourte": "$x^2 + 7x + 10$",
+          "distracteurs": [
+            "$x^2 + 10x + 7$",
+            "$x^2 + 10$",
+            "$2x^2 + 7x + 10$"
+          ]
         },
         {
           "question": "Développe avec identité remarquable : $(x + 4)^2$",
-          "reponse": "Solution :\n$(x + 4)^2 = x^2 + 2(x)(4) + 4^2 = x^2 + 8x + 16$"
+          "reponse": "Solution :\n$(x + 4)^2 = x^2 + 2(x)(4) + 4^2 = x^2 + 8x + 16$",
+          "reponseCourte": "$x^2 + 8x + 16$",
+          "distracteurs": [
+            "$x^2 + 16$",
+            "$x^2 + 4x + 16$",
+            "$x^2 + 8x + 8$"
+          ]
         },
         {
           "question": "Factorise : $x^2 - 9$",
-          "reponse": "Solution :\n$x^2 - 9 = x^2 - 3^2 = (x + 3)(x - 3)$"
+          "reponse": "Solution :\n$x^2 - 9 = x^2 - 3^2 = (x + 3)(x - 3)$",
+          "reponseCourte": "$(x + 3)(x - 3)$",
+          "distracteurs": [
+            "$(x - 3)^2$",
+            "$(x + 3)^2$",
+            "$(x + 9)(x - 9)$"
+          ]
         },
         {
           "question": "Développer $ 3(x+4) $",
-          "reponse": "Solution : $ 3x+12 $"
+          "reponse": "Solution : $ 3x+12 $",
+          "reponseCourte": "$3x + 12$",
+          "distracteurs": [
+            "$3x + 4$",
+            "$x + 12$",
+            "$3x + 7$"
+          ]
         },
         {
           "question": "Développer $ 5(2x-3) $",
-          "reponse": "Solution : $ 10x-15 $"
+          "reponse": "Solution : $ 10x-15 $",
+          "reponseCourte": "$10x - 15$",
+          "distracteurs": [
+            "$10x - 3$",
+            "$2x - 15$",
+            "$10x + 15$"
+          ]
         },
         {
-          "question": "Réduire $ 4x+7+3x-2 $",
-          "reponse": "Solution : $ 7x+5 $"
+          "question": "Réduire : $5x-3+2x+8$",
+          "reponse": "Solution : $ 7x+5 $",
+          "reponseCourte": "$7x+5$",
+          "distracteurs": [
+            "$3x+5$",
+            "$7x-5$",
+            "$10x+5$"
+          ]
         },
         {
           "question": "Factoriser $ 8x+12 $",
-          "reponse": "Solution : $ 4(2x+3) $"
+          "reponse": "Solution : $ 4(2x+3) $",
+          "reponseCourte": "$4(2x + 3)$",
+          "distracteurs": [
+            "$4(2x + 12)$",
+            "$8x + 12$",
+            "$4(2x - 3)$"
+          ]
         },
         {
           "question": "Développer $ (x+3)(x+5) $",
-          "reponse": "Solution : $ x^2+8x+15 $"
+          "reponse": "Solution : $ x^2+8x+15 $",
+          "reponseCourte": "$x^2 + 8x + 15$",
+          "distracteurs": [
+            "$x^2 + 15x + 8$",
+            "$x^2 + 15$",
+            "$2x^2 + 8x + 15$"
+          ]
         },
         {
           "question": "Développer $ (x+7)^2 $",
-          "reponse": "Solution : $ x^2+14x+49 $"
+          "reponse": "Solution : $ x^2+14x+49 $",
+          "reponseCourte": "$x^2 + 14x + 49$",
+          "distracteurs": [
+            "$x^2 + 49$",
+            "$x^2 + 7x + 49$",
+            "$x^2 + 14x + 14$"
+          ]
         },
         {
           "question": "Factoriser $ x^2+9x $",
-          "reponse": "Solution : $ x(x+9) $"
+          "reponse": "Solution : $ x(x+9) $",
+          "reponseCourte": "$x(x + 9)$",
+          "distracteurs": [
+            "$x^2(x+9)$",
+            "$x + 9$",
+            "$9(x+x)$"
+          ]
         },
         {
           "question": "Factoriser $ x^2-16 $",
-          "reponse": "Solution : $ (x-4)(x+4) $"
+          "reponse": "Solution : $ (x-4)(x+4) $",
+          "reponseCourte": "$(x-4)(x+4)$",
+          "distracteurs": [
+            "$(x-4)^2$",
+            "$(x+4)^2$",
+            "$(x-16)(x+16)$"
+          ]
         },
         {
           "question": "Réduire $ 6a-3+2a+5 $",
-          "reponse": "Solution : $ 8a+2 $"
+          "reponse": "Solution : $ 8a+2 $",
+          "reponseCourte": "$8a + 2$",
+          "distracteurs": [
+            "$8a - 2$",
+            "$4a + 2$",
+            "$8a + 8$"
+          ]
         },
         {
           "question": "Développer $ 2(x-5) $",
-          "reponse": "Solution : $ 2x-10 $"
+          "reponse": "Solution : $ 2x-10 $",
+          "reponseCourte": "$2x - 10$",
+          "distracteurs": [
+            "$2x - 5$",
+            "$x - 10$",
+            "$2x + 10$"
+          ]
         },
         {
           "question": "Réduis : $5x + 3 - 2x + 7$",
-          "reponse": "Solution :\n$5x - 2x + 3 + 7$\n$= 3x + 10$"
+          "reponse": "Solution :\n$5x - 2x + 3 + 7$\n$= 3x + 10$",
+          "reponseCourte": "$3x + 10$",
+          "distracteurs": [
+            "$3x + 4$",
+            "$7x + 10$",
+            "$3x - 4$"
+          ]
         },
         {
           "question": "Développe : $(x+4)(x-4)$",
-          "reponse": "Solution :\n$(x+4)(x-4) = x^2 - 4^2$\n$= x^2 - 16$"
+          "reponse": "Solution :\n$(x+4)(x-4) = x^2 - 4^2$\n$= x^2 - 16$",
+          "reponseCourte": "$x^2 - 16$",
+          "distracteurs": [
+            "$x^2 + 16$",
+            "$x^2 - 8x + 16$",
+            "$x^2 - 4$"
+          ]
         },
         {
           "question": "Factorise : $9x^2 - 25$",
-          "reponse": "Solution :\n$9x^2 - 25 = (3x)^2 - 5^2$\n$= (3x-5)(3x+5)$"
+          "reponse": "Solution :\n$9x^2 - 25 = (3x)^2 - 5^2$\n$= (3x-5)(3x+5)$",
+          "reponseCourte": "$(3x-5)(3x+5)$",
+          "distracteurs": [
+            "$(3x-5)^2$",
+            "$(9x-5)(9x+5)$",
+            "$3(x-5)(x+5)$"
+          ]
         },
         {
           "question": "Calcule pour $x = 3$ : $2x^2 - 5x + 1$",
-          "reponse": "Solution :\n$2(3)^2 - 5(3) + 1$\n$= 2 \\times 9 - 15 + 1$\n$= 18 - 15 + 1 = 4$"
+          "reponse": "Solution :\n$2(3)^2 - 5(3) + 1$\n$= 2 \\times 9 - 15 + 1$\n$= 18 - 15 + 1 = 4$",
+          "reponseCourte": "$4$",
+          "distracteurs": [
+            "$-8$",
+            "$22$",
+            "$34$"
+          ]
         },
         {
           "question": "Développe et réduis : $3(2x-1) - (x+4)$",
-          "reponse": "Solution :\n$6x - 3 - x - 4$\n$= 5x - 7$"
+          "reponse": "Solution :\n$6x - 3 - x - 4$\n$= 5x - 7$",
+          "reponseCourte": "$5x - 7$",
+          "distracteurs": [
+            "$5x - 1$",
+            "$5x + 1$",
+            "$x - 7$"
+          ]
         }
       ]
     },
@@ -872,43 +1784,103 @@
       "exercices": [
         {
           "question": "Écris en notation scientifique : $45000$",
-          "reponse": "Solution :\n$45000 = 4.5 \\times 10^4$"
+          "reponse": "Solution :\n$45000 = 4.5 \\times 10^4$",
+          "reponseCourte": "$4.5 \\times 10^4$",
+          "distracteurs": [
+            "$45 \\times 10^3$",
+            "$4.5 \\times 10^3$",
+            "$4.5 \\times 10^5$"
+          ]
         },
         {
           "question": "Écris en notation scientifique : $0.00072$",
-          "reponse": "Solution :\n$0.00072 = 7.2 \\times 10^{-4}$"
+          "reponse": "Solution :\n$0.00072 = 7.2 \\times 10^{-4}$",
+          "reponseCourte": "$7.2 \\times 10^{-4}$",
+          "distracteurs": [
+            "$7.2 \\times 10^{4}$",
+            "$72 \\times 10^{-5}$",
+            "$7.2 \\times 10^{-3}$"
+          ]
         },
         {
           "question": "Calcule : $(3 \\times 10^4) \\times (2 \\times 10^5)$",
-          "reponse": "Solution :\n$(3 \\times 10^4) \\times (2 \\times 10^5) = (3 \\times 2) \\times 10^{4+5}$\n$= 6 \\times 10^9$"
+          "reponse": "Solution :\n$(3 \\times 10^4) \\times (2 \\times 10^5) = (3 \\times 2) \\times 10^{4+5}$\n$= 6 \\times 10^9$",
+          "reponseCourte": "$6 \\times 10^9$",
+          "distracteurs": [
+            "$6 \\times 10^{20}$",
+            "$5 \\times 10^9$",
+            "$6 \\times 10^{-1}$"
+          ]
         },
         {
           "question": "Calcule : $\\frac{9 \\times 10^8}{3 \\times 10^5}$",
-          "reponse": "Solution :\n$\\frac{9 \\times 10^8}{3 \\times 10^5} = \\frac{9}{3} \\times 10^{8-5}$\n$= 3 \\times 10^3$"
+          "reponse": "Solution :\n$\\frac{9 \\times 10^8}{3 \\times 10^5} = \\frac{9}{3} \\times 10^{8-5}$\n$= 3 \\times 10^3$",
+          "reponseCourte": "$3 \\times 10^3$",
+          "distracteurs": [
+            "$3 \\times 10^{13}$",
+            "$3 \\times 10^{40}$",
+            "$27 \\times 10^3$"
+          ]
         },
         {
           "question": "Écris en écriture décimale : $5.6 \\times 10^{-3}$",
-          "reponse": "Solution :\n$5.6 \\times 10^{-3} = 0.0056$"
+          "reponse": "Solution :\n$5.6 \\times 10^{-3} = 0.0056$",
+          "reponseCourte": "$0.0056$",
+          "distracteurs": [
+            "$5600$",
+            "$0.056$",
+            "$0.00056$"
+          ]
         },
         {
           "question": "Écris en notation scientifique : $45\\,000$",
-          "reponse": "Solution :\n$45\\,000 = 4,5 \\times 10^4$"
+          "reponse": "Solution :\n$45\\,000 = 4,5 \\times 10^4$",
+          "reponseCourte": "$4,5 \\times 10^4$",
+          "distracteurs": [
+            "$45 \\times 10^3$",
+            "$4,5 \\times 10^3$",
+            "$4,5 \\times 10^5$"
+          ]
         },
         {
           "question": "Écris en notation scientifique : $0,0032$",
-          "reponse": "Solution :\n$0,0032 = 3,2 \\times 10^{-3}$"
+          "reponse": "Solution :\n$0,0032 = 3,2 \\times 10^{-3}$",
+          "reponseCourte": "$3,2 \\times 10^{-3}$",
+          "distracteurs": [
+            "$3,2 \\times 10^{3}$",
+            "$32 \\times 10^{-4}$",
+            "$3,2 \\times 10^{-2}$"
+          ]
         },
         {
           "question": "Écris sous forme décimale : $6,02 \\times 10^3$",
-          "reponse": "Solution :\n$6,02 \\times 10^3 = 6\\,020$"
+          "reponse": "Solution :\n$6,02 \\times 10^3 = 6\\,020$",
+          "reponseCourte": "$6\\,020$",
+          "distracteurs": [
+            "$602$",
+            "$60\\,200$",
+            "$6{,}02$"
+          ]
         },
         {
           "question": "Écris sous forme décimale : $7 \\times 10^{-2}$",
-          "reponse": "Solution :\n$7 \\times 10^{-2} = 0,07$"
+          "reponse": "Solution :\n$7 \\times 10^{-2} = 0,07$",
+          "reponseCourte": "$0,07$",
+          "distracteurs": [
+            "$7$",
+            "$0,7$",
+            "$0,007$"
+          ]
         },
         {
           "question": "Calcule et écris en notation scientifique : $(2 \\times 10^3) \\times (3 \\times 10^2)$",
-          "reponse": "Solution :\n$2 \\times 3 = 6$ et $10^3 \\times 10^2 = 10^5$\n$= 6 \\times 10^5$"
+          "reponse": "Solution :\n$2 \\times 3 = 6$ et $10^3 \\times 10^2 = 10^5$\n$= 6 \\times 10^5$",
+          "reponseCourte": "$6 \\times 10^5$",
+          "distracteurs": [
+            "$6 \\times 10^{6}$",
+            "$5 \\times 10^5$",
+            "$6 \\times 10^{-1}$"
+          ]
         }
       ]
     },
@@ -955,47 +1927,113 @@
       "exercices": [
         {
           "question": "Convertis : $3.5 \\text{ km}$ en mètres",
-          "reponse": "Solution :\n$3.5 \\text{ km} = 3.5 \\times 1000 = 3500 \\text{ m}$"
+          "reponse": "Solution :\n$3.5 \\text{ km} = 3.5 \\times 1000 = 3500 \\text{ m}$",
+          "reponseCourte": "$3\\,500$ m",
+          "distracteurs": [
+            "$0{,}0035$ m",
+            "$350$ m",
+            "$35\\,000$ m"
+          ]
         },
         {
           "question": "Convertis : $2500 \\text{ g}$ en kilogrammes",
-          "reponse": "Solution :\n$2500 \\text{ g} = 2500 \\div 1000 = 2.5 \\text{ kg}$"
+          "reponse": "Solution :\n$2500 \\text{ g} = 2500 \\div 1000 = 2.5 \\text{ kg}$",
+          "reponseCourte": "$2.5$ kg",
+          "distracteurs": [
+            "$2\\,500\\,000$ kg",
+            "$25$ kg",
+            "$0.25$ kg"
+          ]
         },
         {
           "question": "Convertis : $750 \\text{ mL}$ en litres",
-          "reponse": "Solution :\n$750 \\text{ mL} = 750 \\div 1000 = 0.75 \\text{ L}$"
+          "reponse": "Solution :\n$750 \\text{ mL} = 750 \\div 1000 = 0.75 \\text{ L}$",
+          "reponseCourte": "$0.75$ L",
+          "distracteurs": [
+            "$750\\,000$ L",
+            "$7.5$ L",
+            "$0.075$ L"
+          ]
         },
         {
           "question": "Convertis : $5 \\text{ m}^2$ en $\\text{cm}^2$",
-          "reponse": "Solution :\n$5 \\text{ m}^2 = 5 \\times 10000 = 50000 \\text{ cm}^2$"
+          "reponse": "Solution :\n$5 \\text{ m}^2 = 5 \\times 10000 = 50000 \\text{ cm}^2$",
+          "reponseCourte": "$50\\,000$ cm$^2$",
+          "distracteurs": [
+            "$500$ cm$^2$",
+            "$5\\,000$ cm$^2$",
+            "$500\\,000$ cm$^2$"
+          ]
         },
         {
           "question": "Convertis : $2 \\text{ m}^3$ en litres",
-          "reponse": "Solution :\n$2 \\text{ m}^3 = 2000 \\text{ dm}^3 = 2000 \\text{ L}$"
+          "reponse": "Solution :\n$2 \\text{ m}^3 = 2000 \\text{ dm}^3 = 2000 \\text{ L}$",
+          "reponseCourte": "$2\\,000$ L",
+          "distracteurs": [
+            "$2$ L",
+            "$20\\,000$ L",
+            "$200$ L"
+          ]
         },
         {
           "question": "Convertis : $2 \\text{ h } 30 \\text{ min}$ en minutes",
-          "reponse": "Solution :\n$2 \\text{ h} = 2 \\times 60 = 120 \\text{ min}$\n$120 + 30 = 150 \\text{ min}$"
+          "reponse": "Solution :\n$2 \\text{ h} = 2 \\times 60 = 120 \\text{ min}$\n$120 + 30 = 150 \\text{ min}$",
+          "reponseCourte": "$150$ min",
+          "distracteurs": [
+            "$132$ min",
+            "$170$ min",
+            "$125$ min"
+          ]
         },
         {
           "question": "Convertis : $3,5$ km en m",
-          "reponse": "Solution :\n$3,5 \\times 1\\,000 = 3\\,500$ m"
+          "reponse": "Solution :\n$3,5 \\times 1\\,000 = 3\\,500$ m",
+          "reponseCourte": "$3\\,500$ m",
+          "distracteurs": [
+            "$0{,}0035$ m",
+            "$350$ m",
+            "$35\\,000$ m"
+          ]
         },
         {
           "question": "Convertis : $250$ cm en m",
-          "reponse": "Solution :\n$250 \\div 100 = 2,5$ m"
+          "reponse": "Solution :\n$250 \\div 100 = 2,5$ m",
+          "reponseCourte": "$2{,}5$ m",
+          "distracteurs": [
+            "$25\\,000$ m",
+            "$0{,}025$ m",
+            "$25$ m"
+          ]
         },
         {
           "question": "Convertis : $2$ h $15$ min en minutes",
-          "reponse": "Solution :\n$2 \\times 60 = 120$ min\n$120 + 15 = 135$ min"
+          "reponse": "Solution :\n$2 \\times 60 = 120$ min\n$120 + 15 = 135$ min",
+          "reponseCourte": "$135$ min",
+          "distracteurs": [
+            "$117$ min",
+            "$150$ min",
+            "$120$ min"
+          ]
         },
         {
           "question": "Convertis : $4\\,500$ g en kg",
-          "reponse": "Solution :\n$4\\,500 \\div 1\\,000 = 4,5$ kg"
+          "reponse": "Solution :\n$4\\,500 \\div 1\\,000 = 4,5$ kg",
+          "reponseCourte": "$4{,}5$ kg",
+          "distracteurs": [
+            "$4\\,500\\,000$ kg",
+            "$45$ kg",
+            "$0{,}45$ kg"
+          ]
         },
         {
           "question": "Convertis : $0,75$ L en mL",
-          "reponse": "Solution :\n$0,75 \\times 1\\,000 = 750$ mL"
+          "reponse": "Solution :\n$0,75 \\times 1\\,000 = 750$ mL",
+          "reponseCourte": "$750$ mL",
+          "distracteurs": [
+            "$0{,}75$ mL",
+            "$7\\,500$ mL",
+            "$75$ mL"
+          ]
         }
       ]
     },
@@ -1052,63 +2090,153 @@
       "exercices": [
         {
           "question": "Carré de côté 6 cm. Calcule périmètre et aire.",
-          "reponse": "Solution :\n• Périmètre : $P = 4 \\times 6 = 24 \\text{ cm}$\n• Aire : $A = 6^2 = 36 \\text{ cm}^2$"
+          "reponse": "Solution :\n• Périmètre : $P = 4 \\times 6 = 24 \\text{ cm}$\n• Aire : $A = 6^2 = 36 \\text{ cm}^2$",
+          "reponseCourte": "$P = 24$ cm, $A = 36$ cm$^2$",
+          "distracteurs": [
+            "$P = 36$ cm, $A = 24$ cm$^2$",
+            "$P = 12$ cm, $A = 12$ cm$^2$",
+            "$P = 24$ cm, $A = 12$ cm$^2$"
+          ]
         },
         {
           "question": "Rectangle : longueur 8 cm, largeur 5 cm. Calcule l'aire.",
-          "reponse": "Solution :\n$A = 8 \\times 5 = 40 \\text{ cm}^2$"
+          "reponse": "Solution :\n$A = 8 \\times 5 = 40 \\text{ cm}^2$",
+          "reponseCourte": "$40$ cm$^2$",
+          "distracteurs": [
+            "$26$ cm$^2$",
+            "$20$ cm$^2$",
+            "$13$ cm$^2$"
+          ]
         },
         {
           "question": "Triangle : base 10 cm, hauteur 6 cm. Calcule l'aire.",
-          "reponse": "Solution :\n$A = \\frac{10 \\times 6}{2} = \\frac{60}{2} = 30 \\text{ cm}^2$"
+          "reponse": "Solution :\n$A = \\frac{10 \\times 6}{2} = \\frac{60}{2} = 30 \\text{ cm}^2$",
+          "reponseCourte": "$30$ cm$^2$",
+          "distracteurs": [
+            "$60$ cm$^2$",
+            "$16$ cm$^2$",
+            "$8$ cm$^2$"
+          ]
         },
         {
           "question": "Cercle de rayon 4 cm. Calcule le périmètre. (π = 3)",
-          "reponse": "Solution :\n$P = 2\\pi r = 2 \\times 3 \\times 4 = 24 \\text{ cm}$"
+          "reponse": "Solution :\n$P = 2\\pi r = 2 \\times 3 \\times 4 = 24 \\text{ cm}$",
+          "reponseCourte": "$24$ cm",
+          "distracteurs": [
+            "$12$ cm",
+            "$48$ cm",
+            "$16$ cm"
+          ]
         },
         {
           "question": "Disque de rayon 5 cm. Calcule l'aire. (π = 3)",
-          "reponse": "Solution :\n$A = \\pi r^2 = 3 \\times 5^2 = 3 \\times 25 = 75 \\text{ cm}^2$"
+          "reponse": "Solution :\n$A = \\pi r^2 = 3 \\times 5^2 = 3 \\times 25 = 75 \\text{ cm}^2$",
+          "reponseCourte": "$75$ cm$^2$",
+          "distracteurs": [
+            "$15$ cm$^2$",
+            "$150$ cm$^2$",
+            "$20$ cm$^2$"
+          ]
         },
         {
           "question": "Cube d'arête 4 cm. Calcule le volume.",
-          "reponse": "Solution :\n$V = 4^3 = 64 \\text{ cm}^3$"
+          "reponse": "Solution :\n$V = 4^3 = 64 \\text{ cm}^3$",
+          "reponseCourte": "$64$ cm$^3$",
+          "distracteurs": [
+            "$16$ cm$^3$",
+            "$12$ cm$^3$",
+            "$48$ cm$^3$"
+          ]
         },
         {
           "question": "Cylindre : rayon 3 cm, hauteur 10 cm. Calcule le volume. (π = 3)",
-          "reponse": "Solution :\n$V = \\pi r^2 h = 3 \\times 3^2 \\times 10$\n$= 3 \\times 9 \\times 10 = 270 \\text{ cm}^3$"
+          "reponse": "Solution :\n$V = \\pi r^2 h = 3 \\times 3^2 \\times 10$\n$= 3 \\times 9 \\times 10 = 270 \\text{ cm}^3$",
+          "reponseCourte": "$270$ cm$^3$",
+          "distracteurs": [
+            "$90$ cm$^3$",
+            "$60$ cm$^3$",
+            "$188{,}4$ cm$^3$"
+          ]
         },
         {
           "question": "Cône : rayon 4 cm, hauteur 9 cm. Calcule le volume. (π = 3)",
-          "reponse": "Solution :\n$V = \\frac{\\pi r^2 h}{3} = \\frac{3 \\times 4^2 \\times 9}{3}$\n$= \\frac{3 \\times 16 \\times 9}{3} = 144 \\text{ cm}^3$"
+          "reponse": "Solution :\n$V = \\frac{\\pi r^2 h}{3} = \\frac{3 \\times 4^2 \\times 9}{3}$\n$= \\frac{3 \\times 16 \\times 9}{3} = 144 \\text{ cm}^3$",
+          "reponseCourte": "$144$ cm$^3$",
+          "distracteurs": [
+            "$432$ cm$^3$",
+            "$48$ cm$^3$",
+            "$108$ cm$^3$"
+          ]
         },
         {
           "question": "Sphère de rayon 3 cm. Calcule le volume. (π = 3)",
-          "reponse": "Solution :\n$V = \\frac{4\\pi r^3}{3} = \\frac{4 \\times 3 \\times 3^3}{3}$\n$= \\frac{4 \\times 3 \\times 27}{3} = 108 \\text{ cm}^3$"
+          "reponse": "Solution :\n$V = \\frac{4\\pi r^3}{3} = \\frac{4 \\times 3 \\times 3^3}{3}$\n$= \\frac{4 \\times 3 \\times 27}{3} = 108 \\text{ cm}^3$",
+          "reponseCourte": "$108$ cm$^3$",
+          "distracteurs": [
+            "$324$ cm$^3$",
+            "$36$ cm$^3$",
+            "$27$ cm$^3$"
+          ]
         },
         {
           "question": "Trapèze : petite base 5 cm, grande base 9 cm, hauteur 4 cm. Calcule l'aire.",
-          "reponse": "Solution :\n$A = \\frac{(b + B) \\times h}{2} = \\frac{(5 + 9) \\times 4}{2}$\n$= \\frac{14 \\times 4}{2} = \\frac{56}{2} = 28 \\text{ cm}^2$"
+          "reponse": "Solution :\n$A = \\frac{(b + B) \\times h}{2} = \\frac{(5 + 9) \\times 4}{2}$\n$= \\frac{14 \\times 4}{2} = \\frac{56}{2} = 28 \\text{ cm}^2$",
+          "reponseCourte": "$28$ cm$^2$",
+          "distracteurs": [
+            "$56$ cm$^2$",
+            "$14$ cm$^2$",
+            "$36$ cm$^2$"
+          ]
         },
         {
           "question": "Calcule le volume d'un cube d'arête $4$ cm",
-          "reponse": "Solution :\n$V = 4^3 = 64$ cm³"
+          "reponse": "Solution :\n$V = 4^3 = 64$ cm³",
+          "reponseCourte": "$64$ cm³",
+          "distracteurs": [
+            "$16$ cm³",
+            "$12$ cm³",
+            "$48$ cm³"
+          ]
         },
         {
           "question": "Calcule l'aire d'un disque de rayon $5$ cm (valeur exacte)",
-          "reponse": "Solution :\n$A = \\pi \\times 5^2 = 25\\pi$ cm²"
+          "reponse": "Solution :\n$A = \\pi \\times 5^2 = 25\\pi$ cm²",
+          "reponseCourte": "$25\\pi$ cm²",
+          "distracteurs": [
+            "$10\\pi$ cm²",
+            "$5\\pi$ cm²",
+            "$50\\pi$ cm²"
+          ]
         },
         {
           "question": "Calcule le périmètre d'un cercle de rayon $3$ cm (valeur exacte)",
-          "reponse": "Solution :\n$P = 2\\pi \\times 3 = 6\\pi$ cm"
+          "reponse": "Solution :\n$P = 2\\pi \\times 3 = 6\\pi$ cm",
+          "reponseCourte": "$6\\pi$ cm",
+          "distracteurs": [
+            "$3\\pi$ cm",
+            "$9\\pi$ cm²",
+            "$36\\pi$ cm"
+          ]
         },
         {
           "question": "Calcule le volume d'un parallélépipède rectangle de dimensions $5$ cm $\\times$ $4$ cm $\\times$ $3$ cm",
-          "reponse": "Solution :\n$V = 5 \\times 4 \\times 3 = 60$ cm³"
+          "reponse": "Solution :\n$V = 5 \\times 4 \\times 3 = 60$ cm³",
+          "reponseCourte": "$60$ cm³",
+          "distracteurs": [
+            "$12$ cm³",
+            "$20$ cm³",
+            "$120$ cm³"
+          ]
         },
         {
           "question": "Calcule l'aire d'un trapèze de bases $6$ cm et $10$ cm et de hauteur $4$ cm",
-          "reponse": "Solution :\n$A = \\frac{(6+10) \\times 4}{2} = \\frac{64}{2} = 32$ cm²"
+          "reponse": "Solution :\n$A = \\frac{(6+10) \\times 4}{2} = \\frac{64}{2} = 32$ cm²",
+          "reponseCourte": "$32$ cm²",
+          "distracteurs": [
+            "$64$ cm²",
+            "$16$ cm²",
+            "$40$ cm²"
+          ]
         }
       ]
     },
@@ -1149,43 +2277,103 @@
       "exercices": [
         {
           "question": "Calcule 25% de 80€",
-          "reponse": "Solution :\n$80 \\times 0.25 = 20\\text{€}$"
+          "reponse": "Solution :\n$80 \\times 0.25 = 20\\text{€}$",
+          "reponseCourte": "$20$€",
+          "distracteurs": [
+            "$25$€",
+            "$60$€",
+            "$100$€"
+          ]
         },
         {
           "question": "Un prix de 50€ augmente de 20%. Nouveau prix ?",
-          "reponse": "Solution :\n$50 \\times 1.20 = 60\\text{€}$\n\nOu : $50 + (50 \\times 0.20) = 50 + 10 = 60\\text{€}$"
+          "reponse": "Solution :\n$50 \\times 1.20 = 60\\text{€}$\n\nOu : $50 + (50 \\times 0.20) = 50 + 10 = 60\\text{€}$",
+          "reponseCourte": "$60$€",
+          "distracteurs": [
+            "$70$€",
+            "$20$€",
+            "$52$€"
+          ]
         },
         {
           "question": "15 est quel % de 60 ?",
-          "reponse": "Solution :\n$\\frac{15}{60} \\times 100 = 25\\%$"
+          "reponse": "Solution :\n$\\frac{15}{60} \\times 100 = 25\\%$",
+          "reponseCourte": "$25\\%$",
+          "distracteurs": [
+            "$4\\%$",
+            "$45\\%$",
+            "$60\\%$"
+          ]
         },
         {
           "question": "Réduction de 30% sur un article à 120€. Prix final ?",
-          "reponse": "Solution :\n$120 \\times 0.70 = 84\\text{€}$\n\nOu : $120 - (120 \\times 0.30) = 120 - 36 = 84\\text{€}$"
+          "reponse": "Solution :\n$120 \\times 0.70 = 84\\text{€}$\n\nOu : $120 - (120 \\times 0.30) = 120 - 36 = 84\\text{€}$",
+          "reponseCourte": "$84$€",
+          "distracteurs": [
+            "$36$€",
+            "$90$€",
+            "$150$€"
+          ]
         },
         {
           "question": "Prix passe de 40€ à 50€. Quel taux d'augmentation ?",
-          "reponse": "Solution :\n$\\frac{50 - 40}{40} \\times 100 = \\frac{10}{40} \\times 100 = 25\\%$\n\nAugmentation de 25%"
+          "reponse": "Solution :\n$\\frac{50 - 40}{40} \\times 100 = \\frac{10}{40} \\times 100 = 25\\%$\n\nAugmentation de 25%",
+          "reponseCourte": "$25\\%$",
+          "distracteurs": [
+            "$10\\%$",
+            "$20\\%$",
+            "$40\\%$"
+          ]
         },
         {
           "question": "Calcule $15\\%$ de $80$",
-          "reponse": "Solution :\n$\\frac{15}{100} \\times 80 = 12$"
+          "reponse": "Solution :\n$\\frac{15}{100} \\times 80 = 12$",
+          "reponseCourte": "$12$",
+          "distracteurs": [
+            "$1{,}2$",
+            "$65$",
+            "$95$"
+          ]
         },
         {
           "question": "Un article coûte $60$ CHF et baisse de $20\\%$. Quel est le nouveau prix ?",
-          "reponse": "Solution :\nBaisse : $\\frac{20}{100} \\times 60 = 12$\nNouveau prix : $60 - 12 = 48$ CHF"
+          "reponse": "Solution :\nBaisse : $\\frac{20}{100} \\times 60 = 12$\nNouveau prix : $60 - 12 = 48$ CHF",
+          "reponseCourte": "$48$ CHF",
+          "distracteurs": [
+            "$12$ CHF",
+            "$80$ CHF",
+            "$40$ CHF"
+          ]
         },
         {
           "question": "Un prix passe de $50$ à $65$ CHF. Quel est le pourcentage d'augmentation ?",
-          "reponse": "Solution :\nAugmentation : $65 - 50 = 15$\n$\\frac{15}{50} \\times 100 = 30\\%$"
+          "reponse": "Solution :\nAugmentation : $65 - 50 = 15$\n$\\frac{15}{50} \\times 100 = 30\\%$",
+          "reponseCourte": "$30\\%$",
+          "distracteurs": [
+            "$23\\%$",
+            "$15\\%$",
+            "$130\\%$"
+          ]
         },
         {
           "question": "Sur $25$ élèves, $20$ ont réussi. Quel est le pourcentage de réussite ?",
-          "reponse": "Solution :\n$\\frac{20}{25} \\times 100 = 80\\%$"
+          "reponse": "Solution :\n$\\frac{20}{25} \\times 100 = 80\\%$",
+          "reponseCourte": "$80\\%$",
+          "distracteurs": [
+            "$25\\%$",
+            "$20\\%$",
+            "$100\\%$"
+          ]
         },
         {
           "question": "Un article à $45$ CHF augmente de $10\\%$. Quel est le nouveau prix ?",
-          "reponse": "Solution :\nAugmentation : $\\frac{10}{100} \\times 45 = 4,5$\nNouveau prix : $45 + 4,5 = 49,5$ CHF"
+          "reponse": "Solution :\nAugmentation : $\\frac{10}{100} \\times 45 = 4,5$\nNouveau prix : $45 + 4,5 = 49,5$ CHF",
+          "reponseCourte": "$49{,}5$ CHF",
+          "distracteurs": [
+            "$4{,}5$ CHF",
+            "$55$ CHF",
+            "$40{,}5$ CHF"
+          ]
         }
       ]
     }

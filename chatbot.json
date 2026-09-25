@@ -1423,7 +1423,7 @@
           "reponseCourte": "$4$",
           "distracteurs": [
             "$16$",
-            "$\\sqrt{16}$",
+            "$2\\sqrt{2}$",
             "$10$"
           ]
         },
@@ -1473,7 +1473,7 @@
           "reponseCourte": "$4$",
           "distracteurs": [
             "$16$",
-            "$\\sqrt{16}$",
+            "$2\\sqrt{2}$",
             "$10$"
           ]
         },

@@ -1,5 +1,7 @@
 id;titre;categorie;annee;classe;url
 23;EVACOM 2026 — 11LS;EVACOM;2026;11LS;
+24;EVACOM 2026 - 11LC;EVACOM;2026;11LC;
+25;EVACOM 2026 - 11CT;EVACOM;2026;11CT;
 1;EVACOM 2025 — 11CT;EVACOM;2025;11CT;https://www.youtube.com/playlist?list=PLZPJxPW8-Wcy5Ym22g0v4bFLiSOMG_c_R
 2;EVACOM 2025 — 11LC;EVACOM;2025;11LC;https://www.youtube.com/playlist?list=PLZPJxPW8-WcwD0Zfy9QkED0n9Eh46uPp4
 3;EVACOM 2025 — 11LS;EVACOM;2025;11LS;https://www.youtube.com/playlist?list=PLZPJxPW8-WcwXJ3L2hJK7UWRhDKnodvuT
@@ -17,6 +19,8 @@ id;titre;categorie;annee;classe;url
 15;EVACOM 2021 — 11LS;EVACOM;2021;11LS;https://www.youtube.com/playlist?list=PLZPJxPW8-Wcz5mjdTALITB4gp-3F914Eo
 16;EVACOM 2020 — 11LS;EVACOM;2020;11LS;https://www.youtube.com/playlist?list=PLZPJxPW8-Wcxb1p_KQFf2wzj3O7Z9-Wv6
 22;TAF 2026;TAF;2026;;
+26;TAF 2025;TAF;2025;;
+27;TAF 2024;TAF;2024;;
 17;TAF 2023;TAF;2023;;https://www.youtube.com/playlist?list=PLZPJxPW8-Wcw8s_LvdNOt3Zx8PHzzDDEZ
 18;TAF 2022;TAF;2022;;https://www.youtube.com/playlist?list=PLZPJxPW8-WcxIeIv7VtfzJkjh72KWIvFG
 19;TAF 2021;TAF;2021;;https://www.youtube.com/playlist?list=PLZPJxPW8-WcwcehPDFYIu2f1fqdKE7atG

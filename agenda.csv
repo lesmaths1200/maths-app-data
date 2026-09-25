@@ -7,16 +7,16 @@ id;titre;date;type;date_debut;date_fin
 6;Vacances d'automne;19 octobre – 23 octobre 2026;Congé;2026-10-19;2026-10-23
 7;Soirée d'information aux responsables légaux des élèves SP;29 octobre 2026 · 18:30;COP/CIP;2026-10-29;2026-10-29
 8;Journée internationale contre la violence et le harcèlement en milieu scolaire;5 novembre 2026;;2026-11-05;2026-11-05
-9;Vacances de Noël;24 décembre 2026 – 8 janvier 2027;Congé;2026-12-24;2027-01-08
+9;Vacances de Noël et Nouvel An;24 décembre 2026 – 8 janvier 2027;Congé;2026-12-24;2027-01-08
 10;Fête de l'Escalade;11 décembre 2026;;2026-12-11;2026-12-11
 11;Fin du semestre 1;15 janvier 2027;;2027-01-15;2027-01-15
 12;Vacances de février;15 février – 19 février 2027;Congé;2027-02-15;2027-02-19
 13;Semaine de l'égalité;3 mars – 13 mars 2027;;2027-03-03;2027-03-13
-14;TAF français;10 mars 2027;CIP;2027-03-10;2027-03-10
-15;TAF mathématiques;11 mars 2027;CIP;2027-03-11;2027-03-11
-16;Vacances de printemps;26 mars – 9 avril 2027;Congé;2027-03-26;2027-04-09
+14;TAF de français;10 mars 2027;CIP;2027-03-10;2027-03-10
+15;TAF de mathématiques;11 mars 2027;CIP;2027-03-11;2027-03-11
+16;Vacances de Pâques;26 mars – 9 avril 2027;Congé;2027-03-26;2027-04-09
 17;D-Tox numérique (sans téléphone);20 avril 2027;;2027-04-20;2027-04-20
-18;Ascension;6 mai – 7 mai 2027;Congé;2027-05-06;2027-05-07
+18;Pont de l'Ascension;6 mai – 7 mai 2027;Congé;2027-05-06;2027-05-07
 19;Pentecôte;17 mai 2027;Congé;2027-05-17;2027-05-17
 20;Semaine d'examens;3 juin – 4 juin 2027;;2027-06-03;2027-06-04
 21;Semaine d'examens;7 juin – 10 juin 2027;;2027-06-07;2027-06-10
@@ -24,5 +24,5 @@ id;titre;date;type;date_debut;date_fin
 23;Fin du semestre 2;17 juin 2027;;2027-06-17;2027-06-17
 24;Rangement et nettoyage;17 juin 2027;;2027-06-17;2027-06-17
 25;Fête de fin d'année;25 juin 2027;CIP;2027-06-25;2027-06-25
-26;Début des vacances scolaires;5 juillet 2027;Congé;2027-07-05;2027-07-05
+26;Vacances d'été;5 juillet - 25 août 2027;Congé;2027-07-05;2027-08-25
 27;Rentrée scolaire;26 août 2027;;2027-08-26;2027-08-26

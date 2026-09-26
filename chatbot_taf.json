@@ -507,8 +507,8 @@
           "reponse": "Solution :\nVitesse = 180 ÷ 3 = 60 km/h\nDistance en 5 h = 60 × 5 = 300 km"
         },
         {
-          "question": "Si 4 kg de pommes coûtent 12 CHF, combien coûtent 7 kg de pommes ?",
-          "reponse": "Solution :\nPrix par kg = 12 ÷ 4 = 3 CHF/kg\nPrix pour 7 kg = 7 × 3 = 21 CHF"
+          "question": "Si 4 kg de pommes coûtent CHF 12, combien coûtent 7 kg de pommes ?",
+          "reponse": "Solution :\nPrix par kg = 12 ÷ 4 = CHF 3/kg\nPrix pour 7 kg = 7 × 3 = CHF 21"
         },
         {
           "question": "Une recette pour 6 personnes utilise 300 g de farine. Combien de farine pour 10 personnes ?",
@@ -527,24 +527,24 @@
           "reponse": "Solution :\nPages par minute = 180 ÷ 15 = 12 pages/min\nEn 60 min = 12 × 60 = 720 pages"
         },
         {
-          "question": "Si 3 stylos coûtent 9 CHF, combien coûtent 8 stylos ?",
-          "reponse": "Solution :\nPrix par stylo = 9 ÷ 3 = 3 CHF\nPrix pour 8 stylos = 8 × 3 = 24 CHF"
+          "question": "Si 3 stylos coûtent CHF 9, combien coûtent 8 stylos ?",
+          "reponse": "Solution :\nPrix par stylo = 9 ÷ 3 = CHF 3\nPrix pour 8 stylos = 8 × 3 = CHF 24"
         },
         {
           "question": "Une bicyclette parcourt 18 km en 45 minutes. Quelle distance en 1h30 à la même vitesse ?",
           "reponse": "Solution :\nVitesse = 18 ÷ 0,75 h = 24 km/h\nDistance en 1,5 h = 24 × 1,5 = 36 km"
         },
         {
-          "question": "Si 7 kg de sucre coûtent 21 CHF, combien coûtent 10 kg ?",
-          "reponse": "Solution :\nPrix par kg = 21 ÷ 7 = 3 CHF\nPrix pour 10 kg = 10 × 3 = 30 CHF"
+          "question": "Si 7 kg de sucre coûtent CHF 21, combien coûtent 10 kg ?",
+          "reponse": "Solution :\nPrix par kg = 21 ÷ 7 = CHF 3\nPrix pour 10 kg = 10 × 3 = CHF 30"
         },
         {
           "question": "Une machine fabrique 120 objets en 8 heures. Combien d’objets en 5 heures ?",
           "reponse": "Solution :\nProduction par heure = 120 ÷ 8 = 15 objets/h\nEn 5 h = 15 × 5 = 75 objets"
         },
         {
-          "question": "$4$ stylos coûtent $6$ CHF. Combien coûtent $10$ stylos ?",
-          "reponse": "Solution :\nPrix d'un stylo : $6 \\div 4 = 1,5$ CHF\n$1,5 \\times 10 = 15$ CHF"
+          "question": "$4$ stylos coûtent CHF $6$. Combien coûtent $10$ stylos ?",
+          "reponse": "Solution :\nPrix d'un stylo : CHF $6 \\div 4 = 1{,}50$\nCHF $1{,}50 \\times 10 = 15$"
         },
         {
           "question": "Une recette pour $4$ personnes utilise $200$ g de farine. Quelle quantité pour $6$ personnes ?",
@@ -1763,11 +1763,11 @@
           "reponse": "Solution :\n$\\frac{15}{100} \\times 80 = 12$"
         },
         {
-          "question": "Un article coûte $60$ CHF et baisse de $20\\%$. Quel est le nouveau prix ?",
-          "reponse": "Solution :\nBaisse : $\\frac{20}{100} \\times 60 = 12$\nNouveau prix : $60 - 12 = 48$ CHF"
+          "question": "Un article coûte CHF $60$ et baisse de $20\\%$. Quel est le nouveau prix ?",
+          "reponse": "Solution :\nBaisse : $\\frac{20}{100} \\times 60 = 12$\nNouveau prix : CHF $60 - 12 = 48$"
         },
         {
-          "question": "Un prix passe de $50$ à $65$ CHF. Quel est le pourcentage d'augmentation ?",
+          "question": "Un prix passe de $50$ à CHF $65$. Quel est le pourcentage d'augmentation ?",
           "reponse": "Solution :\nAugmentation : $65 - 50 = 15$\n$\\frac{15}{50} \\times 100 = 30\\%$"
         },
         {
@@ -1775,8 +1775,8 @@
           "reponse": "Solution :\n$\\frac{20}{25} \\times 100 = 80\\%$"
         },
         {
-          "question": "Un article à $45$ CHF augmente de $10\\%$. Quel est le nouveau prix ?",
-          "reponse": "Solution :\nAugmentation : $\\frac{10}{100} \\times 45 = 4,5$\nNouveau prix : $45 + 4,5 = 49,5$ CHF"
+          "question": "Un article à CHF $45$ augmente de $10\\%$. Quel est le nouveau prix ?",
+          "reponse": "Solution :\nAugmentation : $\\frac{10}{100} \\times 45 = 4{,}50$\nNouveau prix : CHF $45 + 4{,}50 = 49{,}50$"
         }
       ]
     },

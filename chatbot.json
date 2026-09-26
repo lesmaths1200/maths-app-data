@@ -691,13 +691,13 @@
           ]
         },
         {
-          "question": "Si 4 kg de pommes coûtent 12 CHF, combien coûtent 7 kg de pommes ?",
-          "reponse": "Solution :\nPrix par kg = 12 ÷ 4 = 3 CHF/kg\nPrix pour 7 kg = 7 × 3 = 21 CHF",
-          "reponseCourte": "$21$ CHF",
+          "question": "Si 4 kg de pommes coûtent CHF 12, combien coûtent 7 kg de pommes ?",
+          "reponse": "Solution :\nPrix par kg = 12 ÷ 4 = CHF 3/kg\nPrix pour 7 kg = 7 × 3 = CHF 21",
+          "reponseCourte": "CHF $21$",
           "distracteurs": [
-            "$15$ CHF",
-            "$3$ CHF",
-            "$84$ CHF"
+            "CHF $15$",
+            "CHF $3$",
+            "CHF $84$"
           ]
         },
         {
@@ -741,13 +741,13 @@
           ]
         },
         {
-          "question": "Si 3 stylos coûtent 9 CHF, combien coûtent 8 stylos ?",
-          "reponse": "Solution :\nPrix par stylo = 9 ÷ 3 = 3 CHF\nPrix pour 8 stylos = 8 × 3 = 24 CHF",
-          "reponseCourte": "$24$ CHF",
+          "question": "Si 3 stylos coûtent CHF 9, combien coûtent 8 stylos ?",
+          "reponse": "Solution :\nPrix par stylo = 9 ÷ 3 = CHF 3\nPrix pour 8 stylos = 8 × 3 = CHF 24",
+          "reponseCourte": "CHF $24$",
           "distracteurs": [
-            "$14$ CHF",
-            "$3$ CHF",
-            "$72$ CHF"
+            "CHF $14$",
+            "CHF $3$",
+            "CHF $72$"
           ]
         },
         {
@@ -761,13 +761,13 @@
           ]
         },
         {
-          "question": "Si 7 kg de sucre coûtent 21 CHF, combien coûtent 10 kg ?",
-          "reponse": "Solution :\nPrix par kg = 21 ÷ 7 = 3 CHF\nPrix pour 10 kg = 10 × 3 = 30 CHF",
-          "reponseCourte": "$30$ CHF",
+          "question": "Si 7 kg de sucre coûtent CHF 21, combien coûtent 10 kg ?",
+          "reponse": "Solution :\nPrix par kg = 21 ÷ 7 = CHF 3\nPrix pour 10 kg = 10 × 3 = CHF 30",
+          "reponseCourte": "CHF $30$",
           "distracteurs": [
-            "$24$ CHF",
-            "$3$ CHF",
-            "$70$ CHF"
+            "CHF $24$",
+            "CHF $3$",
+            "CHF $70$"
           ]
         },
         {
@@ -781,13 +781,13 @@
           ]
         },
         {
-          "question": "$4$ stylos coûtent $6$ CHF. Combien coûtent $10$ stylos ?",
-          "reponse": "Solution :\nPrix d'un stylo : $6 \\div 4 = 1{,}5$ CHF\n$1{,}5 \\times 10 = 15$ CHF",
-          "reponseCourte": "$15$ CHF",
+          "question": "$4$ stylos coûtent CHF $6$. Combien coûtent $10$ stylos ?",
+          "reponse": "Solution :\nPrix d'un stylo : CHF $6 \\div 4 = 1{,}50$\nCHF $1{,}50 \\times 10 = 15$",
+          "reponseCourte": "CHF $15$",
           "distracteurs": [
-            "$12$ CHF",
-            "$1{,}5$ CHF",
-            "$60$ CHF"
+            "CHF $12$",
+            "CHF $1{,}50$",
+            "CHF $60$"
           ]
         },
         {
@@ -2018,17 +2018,17 @@
           ]
         },
         {
-          "question": "Un article coûte $60$ CHF et baisse de $20\\%$. Quel est le nouveau prix ?",
-          "reponse": "Solution :\nBaisse : $\\frac{20}{100} \\times 60 = 12$\nNouveau prix : $60 - 12 = 48$ CHF",
-          "reponseCourte": "$48$ CHF",
+          "question": "Un article coûte CHF $60$ et baisse de $20\\%$. Quel est le nouveau prix ?",
+          "reponse": "Solution :\nBaisse : $\\frac{20}{100} \\times 60 = 12$\nNouveau prix : CHF $60 - 12 = 48$",
+          "reponseCourte": "CHF $48$",
           "distracteurs": [
-            "$12$ CHF",
-            "$80$ CHF",
-            "$40$ CHF"
+            "CHF $12$",
+            "CHF $80$",
+            "CHF $40$"
           ]
         },
         {
-          "question": "Un prix passe de $50$ à $65$ CHF. Quel est le pourcentage d'augmentation ?",
+          "question": "Un prix passe de $50$ à CHF $65$. Quel est le pourcentage d'augmentation ?",
           "reponse": "Solution :\nAugmentation : $65 - 50 = 15$\n$\\frac{15}{50} \\times 100 = 30\\%$",
           "reponseCourte": "$30\\%$",
           "distracteurs": [
@@ -2048,13 +2048,13 @@
           ]
         },
         {
-          "question": "Un article à $45$ CHF augmente de $10\\%$. Quel est le nouveau prix ?",
-          "reponse": "Solution :\nAugmentation : $\\frac{10}{100} \\times 45 = 4{,}5$\nNouveau prix : $45 + 4{,}5 = 49{,}5$ CHF",
-          "reponseCourte": "$49{,}5$ CHF",
+          "question": "Un article à CHF $45$ augmente de $10\\%$. Quel est le nouveau prix ?",
+          "reponse": "Solution :\nAugmentation : $\\frac{10}{100} \\times 45 = 4{,}50$\nNouveau prix : CHF $45 + 4{,}50 = 49{,}50$",
+          "reponseCourte": "CHF $49{,}50$",
           "distracteurs": [
-            "$4{,}5$ CHF",
-            "$55$ CHF",
-            "$40{,}5$ CHF"
+            "CHF $4{,}50$",
+            "CHF $55$",
+            "CHF $40{,}50$"
           ]
         }
       ]

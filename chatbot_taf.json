@@ -946,7 +946,7 @@
       ]
     },
     "notationScientifique": {
-      "nom": "Notation Scientifique",
+      "nom": "Notation scientifique",
       "keywords": [
         "notation scientifique",
         "scientifique",
@@ -1016,7 +1016,7 @@
       ]
     },
     "conversionsUnites": {
-      "nom": "Conversions d'Unités",
+      "nom": "Conversions d'unités",
       "keywords": [
         "conversion",
         "conversions",
@@ -1103,7 +1103,7 @@
       ]
     },
     "perimetresAiresVolumes": {
-      "nom": "Périmètres, Aires et Volumes",
+      "nom": "Périmètres, aires et volumes",
       "keywords": [
         "périmètre",
         "perimetre",
@@ -1281,7 +1281,7 @@
       ]
     },
     "systemesEquations": {
-      "nom": "Systèmes d'Équations",
+      "nom": "Systèmes d'équations",
       "keywords": [
         "système",
         "systeme",
@@ -1343,7 +1343,7 @@
       ]
     },
     "equationsSecondDegre": {
-      "nom": "Équations du Second Degré",
+      "nom": "Équations du second degré",
       "keywords": [
         "second degré",
         "second degre",

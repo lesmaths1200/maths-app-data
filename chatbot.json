@@ -961,7 +961,7 @@
       ]
     },
     "racinesCarrees": {
-      "nom": "Racines Carrées",
+      "nom": "Racines carrées",
       "keywords": [
         "racine carrée",
         "rac",
@@ -1192,7 +1192,7 @@
       ]
     },
     "calculLitteral": {
-      "nom": "Calcul Littéral",
+      "nom": "Calcul littéral",
       "keywords": [
         "calcul littéral",
         "litteral",
@@ -1437,7 +1437,7 @@
       ]
     },
     "notationScientifique": {
-      "nom": "Notation Scientifique",
+      "nom": "Notation scientifique",
       "keywords": [
         "notation scientifique",
         "scientifique",
@@ -1567,7 +1567,7 @@
       ]
     },
     "conversionsUnites": {
-      "nom": "Conversions d'Unités",
+      "nom": "Conversions d'unités",
       "keywords": [
         "conversion",
         "conversions",
@@ -1720,7 +1720,7 @@
       ]
     },
     "perimetresAiresVolumes": {
-      "nom": "Périmètres, Aires et Volumes",
+      "nom": "Périmètres, aires et volumes",
       "keywords": [
         "périmètre",
         "perimetre",

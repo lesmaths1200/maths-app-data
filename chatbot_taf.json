@@ -2095,11 +2095,11 @@
       "explanations": [
         {
           "cle": "triangles",
-          "texte": "**Types de triangles :**\n\n• **Équilatéral :** 3 côtés égaux, 3 angles de 60°\n• **Isocèle :** 2 côtés égaux\n• **Rectangle :** 1 angle droit\n• **Quelconque :** Aucune propriété particulière\n\n**Somme des angles :** $180°$"
+          "texte": "**Types de triangles :**\n\n• **Équilatéral :** 3 côtés égaux, 3 angles de 60°\n• **Isocèle :** 2 côtés égaux, 2 angles égaux\n• **Rectangle :** 1 angle droit\n• **Quelconque :** Aucune propriété particulière\n\n**Somme des angles dans un triangle :** 180°"
         },
         {
           "cle": "quadrilateres",
-          "texte": "**Quadrilatères :**\n\n• **Carré :** 4 côtés égaux, 4 angles droits\n• **Rectangle :** 4 angles droits\n• **Losange :** 4 côtés égaux\n• **Parallélogramme :** Côtés opposés parallèles\n• **Trapèze :** 2 côtés parallèles"
+          "texte": "**Quadrilatères :**\n\n• **Carré :** 4 côtés égaux, 4 angles droits, côtés opposés parallèles deux à deux, diagonales de même longueur qui se coupent en leur milieu et sont perpendiculaires, 4 axes de symétrie (les médiatrices des côtés et les diagonales), un centre de symétrie (le point d'intersection des diagonales)\n• **Rectangle :** 4 angles droits, côtés opposés parallèles et de même longueur, diagonales de même longueur qui se coupent en leur milieu, 2 axes de symétrie\n• **Losange :** 4 côtés égaux, diagonales qui se coupent en leur milieu et sont perpendiculaires, 2 axes de symétrie (ses diagonales)\n• **Parallélogramme :** Côtés opposés parallèles\n• **Trapèze :** 2 côtés parallèles"
         }
       ],
       "exercices": [

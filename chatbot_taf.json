@@ -1562,15 +1562,15 @@
         },
         {
           "cle": "cos-sin-tan-30456090",
-          "texte": "\n📌 À retenir :\n• $\\cos(30°) = \\sin(60°) = \\frac{\\sqrt{3}}{2}$\n• $\\cos(45°) = \\sin(45°) = \\frac{\\sqrt{2}}{2}$\n• $\\cos(60°) = \\sin(30°) = \\frac{1}{2}$"
+          "texte": "\n📌 À retenir :\n• $\\cos(30^\\circ) = \\sin(60^\\circ) = \\frac{\\sqrt{3}}{2}$\n• $\\cos(45^\\circ) = \\sin(45^\\circ) = \\frac{\\sqrt{2}}{2}$\n• $\\cos(60^\\circ) = \\sin(30^\\circ) = \\frac{1}{2}$"
         },
         {
           "cle": "calculAngle",
-          "texte": "**Calculer un angle :**\n\nUtilise les fonctions inverses :\n• $\\text{angle} = \\cos^{-1}\\left(\\frac{\\text{Adjacent}}{\\text{Hypoténuse}}\\right)$\n• $\\text{angle} = \\sin^{-1}\\left(\\frac{\\text{Opposé}}{\\text{Hypoténuse}}\\right)$\n• $\\text{angle} = \\tan^{-1}\\left(\\frac{\\text{Opposé}}{\\text{Adjacent}}\\right)$\n\n📌 Exemple :\nOpposé = 3, Hypoténuse = 5\n$\\sin(\\text{angle}) = \\frac{3}{5} = 0.6$\n$\\text{angle} = \\sin^{-1}(0.6) ≈ 37°$"
+          "texte": "**Calculer un angle :**\n\nUtilise les fonctions inverses :\n• $\\text{angle} = \\cos^{-1}\\left(\\frac{\\text{Adjacent}}{\\text{Hypoténuse}}\\right)$\n• $\\text{angle} = \\sin^{-1}\\left(\\frac{\\text{Opposé}}{\\text{Hypoténuse}}\\right)$\n• $\\text{angle} = \\tan^{-1}\\left(\\frac{\\text{Opposé}}{\\text{Adjacent}}\\right)$\n\n📌 Exemple :\nOpposé = 3, Hypoténuse = 5\n$\\sin(\\text{angle}) = \\frac{3}{5} = 0.6$\n$\\text{angle} = \\sin^{-1}(0.6) ≈ 37^\\circ$"
         },
         {
           "cle": "calculLongueur",
-          "texte": "**Calculer une longueur :**\n\n📌 Exemple 1 : Angle = 30°, Hypoténuse = 10 cm\nTrouver l'Adjacent :\n$\\cos(30°) = \\frac{\\text{Adjacent}}{10}$\n$\\text{Adjacent} = 10 \\times \\cos(30°)$\n$= 10 \\times \\frac{\\sqrt{3}}{2} ≈ 8.66 cm$\n\n📌 Exemple 2 : Angle = 45°, Adjacent = 5 cm\nTrouver l'Opposé :\n$\\tan(45°) = \\frac{\\text{Opposé}}{5}$\n$\\text{Opposé} = 5 \\times \\tan(45°) = 5 \\times 1 = 5 cm$"
+          "texte": "**Calculer une longueur :**\n\n📌 Exemple 1 : Angle = 30°, Hypoténuse = 10 cm\nTrouver l'Adjacent :\n$\\cos(30^\\circ) = \\frac{\\text{Adjacent}}{10}$\n$\\text{Adjacent} = 10 \\times \\cos(30^\\circ)$\n$= 10 \\times \\frac{\\sqrt{3}}{2} ≈ 8.66 cm$\n\n📌 Exemple 2 : Angle = 45°, Adjacent = 5 cm\nTrouver l'Opposé :\n$\\tan(45^\\circ) = \\frac{\\text{Opposé}}{5}$\n$\\text{Opposé} = 5 \\times \\tan(45^\\circ) = 5 \\times 1 = 5 cm$"
         }
       ],
       "exercices": [
@@ -1579,12 +1579,12 @@
           "reponse": "Solution :\n$\\sin(\\text{angle}) = \\frac{\\text{Opposé}}{\\text{Hypoténuse}} = \\frac{4}{8} = \\frac{1}{2}$\n\nDonc angle = 30°"
         },
         {
-          "question": "Quelle est la valeur de $\\cos(60°)$ ?",
-          "reponse": "Solution :\n$\\cos(60°) = \\frac{1}{2} = 0.5$"
+          "question": "Quelle est la valeur de $\\cos(60^\\circ)$ ?",
+          "reponse": "Solution :\n$\\cos(60^\\circ) = \\frac{1}{2} = 0.5$"
         },
         {
-          "question": "Quelle est la valeur de $\\tan(45°)$ ?",
-          "reponse": "Solution :\n$\\tan(45°) = 1$"
+          "question": "Quelle est la valeur de $\\tan(45^\\circ)$ ?",
+          "reponse": "Solution :\n$\\tan(45^\\circ) = 1$"
         },
         {
           "question": "Triangle rectangle : Adjacent = 6 cm, Hypoténuse = 12 cm. Calcule cos(angle).",
@@ -1592,7 +1592,7 @@
         },
         {
           "question": "Angle = 30°, Hypoténuse = 10 cm. Trouve l'Opposé.",
-          "reponse": "Solution :\n$\\sin(30°) = \\frac{\\text{Opposé}}{10}$\n$\\text{Opposé} = 10 \\times \\sin(30°) = 10 \\times \\frac{1}{2} = 5 cm$"
+          "reponse": "Solution :\n$\\sin(30^\\circ) = \\frac{\\text{Opposé}}{10}$\n$\\text{Opposé} = 10 \\times \\sin(30^\\circ) = 10 \\times \\frac{1}{2} = 5 cm$"
         },
         {
           "question": "Dans un triangle rectangle, le côté opposé à l'angle mesure $6$ cm et l'hypoténuse $10$ cm. Calcule $\\sin$ de l'angle.",
@@ -2105,11 +2105,11 @@
       "exercices": [
         {
           "question": "Dans un triangle, deux angles mesurent 50° et 70°. Calcule le troisième.",
-          "reponse": "Solution :\nSomme des angles = 180°\nTroisième angle = $180° - 50° - 70° = 60°$"
+          "reponse": "Solution :\nSomme des angles = 180°\nTroisième angle = $180^\\circ - 50^\\circ - 70^\\circ = 60^\\circ$"
         },
         {
           "question": "Un triangle isocèle a un angle au sommet de 40°. Calcule les angles à la base.",
-          "reponse": "Solution :\nLes deux angles à la base sont égaux\n$180° - 40° = 140°$\nChaque angle : $140° \\div 2 = 70°$"
+          "reponse": "Solution :\nLes deux angles à la base sont égaux\n$180^\\circ - 40^\\circ = 140^\\circ$\nChaque angle : $140^\\circ \\div 2 = 70^\\circ$"
         },
         {
           "question": "Construis un triangle ABC avec AB = 5 cm, AC = 4 cm et BC = 6 cm.",
@@ -2125,7 +2125,7 @@
         },
         {
           "question": "Dans un triangle rectangle, un angle aigu mesure 35°. Calcule l'autre angle aigu.",
-          "reponse": "Solution :\nUn angle = 90° (angle droit)\nDeux angles aigus : $180° - 90° = 90°$\nAutre angle : $90° - 35° = 55°$"
+          "reponse": "Solution :\nUn angle = 90° (angle droit)\nDeux angles aigus : $180^\\circ - 90^\\circ = 90^\\circ$\nAutre angle : $90^\\circ - 35^\\circ = 55^\\circ$"
         },
         {
           "question": "Trace un angle de 120° avec le rapporteur.",
@@ -2133,7 +2133,7 @@
         },
         {
           "question": "Un triangle a des angles de 90°, 45° et x°. Trouve x.",
-          "reponse": "Solution :\n$x = 180° - 90° - 45° = 45°$"
+          "reponse": "Solution :\n$x = 180^\\circ - 90^\\circ - 45^\\circ = 45^\\circ$"
         },
         {
           "question": "Réalise un croquis d'un rectangle de 8 cm sur 5 cm.",

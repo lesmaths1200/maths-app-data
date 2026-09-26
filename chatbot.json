@@ -336,324 +336,6 @@
         }
       ]
     },
-    "equations": {
-      "nom": "Équations",
-      "keywords": [
-        "équation",
-        "equations",
-        "équa",
-        "equa",
-        "résoudre",
-        "inconnu",
-        "résous"
-      ],
-      "explanations": [
-        {
-          "cle": "simple",
-          "texte": "Pour résoudre $ax + b = c$ :\n\n1️⃣ Isole les termes avec $x$ d'un côté\n2️⃣ Isole les nombres de l'autre côté\n3️⃣ Divise par le coefficient de $x$\n\n📌 Exemple : $2x + 5 = 13$\n\n$2x = 13 - 5$\n$2x = 8$\n$x = \\frac{8}{2} = 4$"
-        },
-        {
-          "cle": "verification",
-          "texte": "⚠️ Toujours vérifier ta solution !\n\nRemplace $x$ par ta valeur dans l'équation d'origine.\n\n📌 Vérification pour $x = 4$ dans $2x + 5 = 13$ :\n\n$2(4) + 5 = 8 + 5 = 13$ ✓"
-        },
-        {
-          "cle": "avecParentheses",
-          "texte": "Avec des parenthèses :\n\n1️⃣ Développe d'abord\n2️⃣ Puis résous normalement\n\n📌 Exemple : $3(x + 2) = 15$\n\n$3x + 6 = 15$\n$3x = 15 - 6$\n$3x = 9$\n$x = 3$"
-        }
-      ],
-      "exercices": [
-        {
-          "question": "Résous : $3x + 7 = 22$",
-          "reponse": "Solution :\n$3x = 22 - 7$\n$3x = 15$\n$x = \\frac{15}{3} = 5$\n\nVérification : $3(5) + 7 = 15 + 7 = 22$ ✓",
-          "reponseCourte": "$x = 5$",
-          "distracteurs": [
-            "$x = \\frac{29}{3}$",
-            "$x = \\frac{22}{3}$",
-            "$x = 15$"
-          ]
-        },
-        {
-          "question": "Résous : $5x - 8 = 12$",
-          "reponse": "Solution :\n$5x = 12 + 8$\n$5x = 20$\n$x = \\frac{20}{5} = 4$",
-          "reponseCourte": "$x = 4$",
-          "distracteurs": [
-            "$x = \\frac{4}{5}$",
-            "$x = 20$",
-            "$x = 5$"
-          ]
-        },
-        {
-          "question": "Résous : $2(x + 3) = 14$",
-          "reponse": "Solution :\n$2x + 6 = 14$\n$2x = 14 - 6$\n$2x = 8$\n$x = 4$",
-          "reponseCourte": "$x = 4$",
-          "distracteurs": [
-            "$x = 1$",
-            "$x = 7$",
-            "$x = -4$"
-          ]
-        },
-        {
-          "question": "Résous : $\\frac{x}{2} + 3 = 8$",
-          "reponse": "Solution :\n$\\frac{x}{2} = 8 - 3$\n$\\frac{x}{2} = 5$\n$x = 5 \\times 2 = 10$",
-          "reponseCourte": "$x = 10$",
-          "distracteurs": [
-            "$x = 2$",
-            "$x = 22$",
-            "$x = 5$"
-          ]
-        },
-        {
-          "question": "Résous l’équation : $x + 7 = 15$",
-          "reponse": "Solution :\nOn soustrait 7 aux deux membres :\n$x = 15 - 7 = 8$",
-          "reponseCourte": "$x = 8$",
-          "distracteurs": [
-            "$x = 22$",
-            "$x = -8$",
-            "$x = 7$"
-          ]
-        },
-        {
-          "question": "Résous l’équation : $x - 5 = 12$",
-          "reponse": "Solution :\nOn ajoute 5 aux deux membres :\n$x = 12 + 5 = 17$",
-          "reponseCourte": "$x = 17$",
-          "distracteurs": [
-            "$x = 7$",
-            "$x = -17$",
-            "$x = 12$"
-          ]
-        },
-        {
-          "question": "Résous l’équation : $4x = 20$",
-          "reponse": "Solution :\nOn divise les deux membres par 4 :\n$x = 5$",
-          "reponseCourte": "$x = 5$",
-          "distracteurs": [
-            "$x = 80$",
-            "$x = 16$",
-            "$x = 24$"
-          ]
-        },
-        {
-          "question": "Résous l’équation : $\\frac{x}{3} = 7$",
-          "reponse": "Solution :\nOn multiplie les deux membres par 3 :\n$x = 21$",
-          "reponseCourte": "$x = 21$",
-          "distracteurs": [
-            "$x = \\frac{7}{3}$",
-            "$x = 4$",
-            "$x = 10$"
-          ]
-        },
-        {
-          "question": "Résous l’équation : $2x + 5 = 17$",
-          "reponse": "Solution :\nOn soustrait 5 aux deux membres :\n$2x = 12$\nOn divise par 2 :\n$x = 6$",
-          "reponseCourte": "$x = 6$",
-          "distracteurs": [
-            "$x = 11$",
-            "$x = \\frac{17}{2}$",
-            "$x = 12$"
-          ]
-        },
-        {
-          "question": "Résous l’équation : $3x - 4 = 11$",
-          "reponse": "Solution :\nOn ajoute 4 aux deux membres :\n$3x = 15$\n$x = 5$",
-          "reponseCourte": "$x = 5$",
-          "distracteurs": [
-            "$x = \\frac{11}{3}$",
-            "$x = 7$",
-            "$x = 15$"
-          ]
-        },
-        {
-          "question": "Résous l’équation : $5x = 2x + 9$",
-          "reponse": "Solution :\nOn soustrait $2x$ aux deux membres :\n$3x = 9$\n$x = 3$",
-          "reponseCourte": "$x = 3$",
-          "distracteurs": [
-            "$x = 9$",
-            "$x = \\frac{9}{7}$",
-            "$x = -3$"
-          ]
-        },
-        {
-          "question": "Résous l’équation : $4(x - 2) = 12$",
-          "reponse": "Solution :\nOn développe :\n$4x - 8 = 12$\nOn ajoute 8 aux deux membres :\n$4x = 20$\n$x = 5$",
-          "reponseCourte": "$x = 5$",
-          "distracteurs": [
-            "$x = 1$",
-            "$x = 3$",
-            "$x = 10$"
-          ]
-        },
-        {
-          "question": "Résous l’équation : $2(x + 3) = x + 11$",
-          "reponse": "Solution :\nOn développe :\n$2x + 6 = x + 11$\nOn soustrait $x$ :\n$x + 6 = 11$\n$x = 5$",
-          "reponseCourte": "$x = 5$",
-          "distracteurs": [
-            "$x = 17$",
-            "$x = -5$",
-            "$x = 8$"
-          ]
-        },
-        {
-          "question": "Résous l’équation : $\\frac{x - 4}{2} = 6$",
-          "reponse": "Solution :\nOn multiplie par 2 :\n$x - 4 = 12$\nOn ajoute 4 :\n$x = 16$",
-          "reponseCourte": "$x = 16$",
-          "distracteurs": [
-            "$x = 8$",
-            "$x = 2$",
-            "$x = 20$"
-          ]
-        },
-        {
-          "question": "Résoudre : $x-9=4$",
-          "reponse": "Solution : $x-9=4 \\Rightarrow x=4+9=13$.",
-          "reponseCourte": "$x=13$",
-          "distracteurs": [
-            "$x=-5$",
-            "$x=5$",
-            "$x=36$"
-          ]
-        },
-        {
-          "question": "Résoudre : $ 3x=21 $",
-          "reponse": "Solution : $ x=7 $.",
-          "reponseCourte": "$x = 7$",
-          "distracteurs": [
-            "$x = 63$",
-            "$x = 18$",
-            "$x = 24$"
-          ]
-        },
-        {
-          "question": "Résoudre : $ 5x-10=0 $",
-          "reponse": "Solution : $ 5x=10 \\Rightarrow x=2 .$",
-          "reponseCourte": "$x = 2$",
-          "distracteurs": [
-            "$x = \\frac{1}{2}$",
-            "$x = -2$",
-            "$x = 10$"
-          ]
-        },
-        {
-          "question": "Résoudre : $ 2x+4=18 $",
-          "reponse": "Solution : $ 2x=14 \\Rightarrow x=7 .$",
-          "reponseCourte": "$x = 7$",
-          "distracteurs": [
-            "$x = 11$",
-            "$x = 9$",
-            "$x = 14$"
-          ]
-        },
-        {
-          "question": "Résoudre : $ 4x-6=10 $",
-          "reponse": "Solution : $ 4x=16 \\Rightarrow x=4 .$",
-          "reponseCourte": "$x = 4$",
-          "distracteurs": [
-            "$x = 1$",
-            "$x = 2$",
-            "$x = 16$"
-          ]
-        },
-        {
-          "question": "Résoudre : $ 9-2x=1 $",
-          "reponse": "Solution : $ -2x=-8 \\Rightarrow x=4 .$",
-          "reponseCourte": "$x = 4$",
-          "distracteurs": [
-            "$x = -4$",
-            "$x = \\frac{9}{2}$",
-            "$x = 5$"
-          ]
-        },
-        {
-          "question": "Résoudre : $ 6x=3 $",
-          "reponse": "Solution : $ x=\\frac{1}{2} .$",
-          "reponseCourte": "$x = \\frac{1}{2}$",
-          "distracteurs": [
-            "$x = 18$",
-            "$x = 2$",
-            "$x = \\frac{1}{3}$"
-          ]
-        },
-        {
-          "question": "Résoudre : $ x-\\frac{3}{4}=\\frac{1}{4} $",
-          "reponse": "Solution : $ x=1 .$",
-          "reponseCourte": "$x = 1$",
-          "distracteurs": [
-            "$x = \\frac{1}{2}$",
-            "$x = -\\frac{1}{2}$",
-            "$x = \\frac{1}{4}$"
-          ]
-        },
-        {
-          "question": "Résoudre : $ \\frac{x}{5}=3 $",
-          "reponse": "Solution : $ x=15 .$",
-          "reponseCourte": "$x = 15$",
-          "distracteurs": [
-            "$x = \\frac{3}{5}$",
-            "$x = 8$",
-            "$x = 16$"
-          ]
-        },
-        {
-          "question": "Résoudre : $3(x-2)=15$",
-          "reponse": "Solution : $3(x-2)=15 \\Rightarrow 3x-6=15 \\Rightarrow 3x=21 \\Rightarrow x=7$.",
-          "reponseCourte": "$x=7$",
-          "distracteurs": [
-            "$x=5$",
-            "$x=3$",
-            "$x=-7$"
-          ]
-        },
-        {
-          "question": "Résous : $4x - 3 = 2x + 9$",
-          "reponse": "Solution :\n$4x - 2x = 9 + 3$\n$2x = 12$\n$x = 6$",
-          "reponseCourte": "$x = 6$",
-          "distracteurs": [
-            "$x = 3$",
-            "$x = 1$",
-            "$x = 12$"
-          ]
-        },
-        {
-          "question": "Résous : $\\frac{x}{3} + 2 = 7$",
-          "reponse": "Solution :\n$\\frac{x}{3} = 5$\n$x = 15$",
-          "reponseCourte": "$x = 15$",
-          "distracteurs": [
-            "$x = \\frac{5}{3}$",
-            "$x = 21$",
-            "$x = 27$"
-          ]
-        },
-        {
-          "question": "Résous : $5(x-2) = 3x + 4$",
-          "reponse": "Solution :\n$5x - 10 = 3x + 4$\n$2x = 14$\n$x = 7$",
-          "reponseCourte": "$x = 7$",
-          "distracteurs": [
-            "$x = 3$",
-            "$x = -7$",
-            "$x = 2$"
-          ]
-        },
-        {
-          "question": "Résous : $-2x + 5 = 15$",
-          "reponse": "Solution :\n$-2x = 10$\n$x = -5$",
-          "reponseCourte": "$x = -5$",
-          "distracteurs": [
-            "$x = 5$",
-            "$x = -10$",
-            "$x = 10$"
-          ]
-        },
-        {
-          "question": "Résous : $3(x+1) - 2(x-1) = 10$",
-          "reponse": "Solution :\n$3x + 3 - 2x + 2 = 10$\n$x + 5 = 10$\n$x = 5$",
-          "reponseCourte": "$x = 5$",
-          "distracteurs": [
-            "$x = 3$",
-            "$x = 15$",
-            "$x = -5$"
-          ]
-        }
-      ]
-    },
     "pythagore": {
       "nom": "Théorème de Pythagore",
       "keywords": [
@@ -2374,6 +2056,581 @@
             "$55$ CHF",
             "$40{,}5$ CHF"
           ]
+        }
+      ]
+    },
+    "priorites": {
+      "nom": "Priorités opératoires",
+      "keywords": [
+        "priorité",
+        "priorites",
+        "priorités",
+        "parenthèses",
+        "ordre",
+        "operations"
+      ],
+      "explanations": [
+        {
+          "cle": "ordre",
+          "texte": "**Ordre des opérations (PEMDAS) :**\n\n1️⃣ **P**arenthèses\n2️⃣ **E**xposants (puissances, racines)\n3️⃣ **M**ultiplication et **D**ivision (de gauche à droite)\n4️⃣ **A**ddition et **S**oustraction (de gauche à droite)"
+        }
+      ],
+      "exercices": [
+        {
+          "question": "Calcule : $7 + 3 \\times 4$",
+          "reponse": "Solution :\nMultiplication d'abord :\n$3 \\times 4 = 12$\n$7 + 12 = 19$"
+        },
+        {
+          "question": "Calcule : $(7 + 3) \\times 4$",
+          "reponse": "Solution :\nParenthèses d'abord :\n$7 + 3 = 10$\n$10 \\times 4 = 40$"
+        },
+        {
+          "question": "Calcule : $20 - 8 \\div 2$",
+          "reponse": "Solution :\nDivision d'abord :\n$8 \\div 2 = 4$\n$20 - 4 = 16$"
+        },
+        {
+          "question": "Calcule : $15 + 6 \\times 2 - 3$",
+          "reponse": "Solution :\nMultiplication d'abord : $6 \\times 2 = 12$\n$15 + 12 - 3 = 24$"
+        },
+        {
+          "question": "Calcule : $3 \\times (5 + 2)$",
+          "reponse": "Solution :\nParenthèses d'abord : $5 + 2 = 7$\n$3 \\times 7 = 21$"
+        },
+        {
+          "question": "Calcule : $18 \\div 3 + 2 \\times 4$",
+          "reponse": "Solution :\nDivision et multiplication d'abord :\n$18 \\div 3 = 6$ et $2 \\times 4 = 8$\n$6 + 8 = 14$"
+        },
+        {
+          "question": "Calcule : $2^3 + 5 \\times 3$",
+          "reponse": "Solution :\nPuissance d'abord : $2^3 = 8$\nMultiplication : $5 \\times 3 = 15$\n$8 + 15 = 23$"
+        },
+        {
+          "question": "Calcule : $3 + 4 \\times 5$",
+          "reponse": "Solution :\n$3 + 20 = 23$"
+        },
+        {
+          "question": "Calcule : $(3+4) \\times 5$",
+          "reponse": "Solution :\n$7 \\times 5 = 35$"
+        },
+        {
+          "question": "Calcule : $20 - 6 \\div 2$",
+          "reponse": "Solution :\n$20 - 3 = 17$"
+        },
+        {
+          "question": "Calcule : $2 \\times 3^2 + 4$",
+          "reponse": "Solution :\n$2 \\times 9 + 4$\n$= 18 + 4 = 22$"
+        },
+        {
+          "question": "Calcule : $(8-2) \\times (3+1)$",
+          "reponse": "Solution :\n$6 \\times 4 = 24$"
+        }
+      ]
+    },
+    "divisibilite": {
+      "nom": "Divisibilité et nombres premiers",
+      "keywords": [
+        "divisibilité",
+        "divisibilite",
+        "divisible",
+        "premier",
+        "pgcd",
+        "ppcm",
+        "decomposition"
+      ],
+      "explanations": [
+        {
+          "cle": "premier",
+          "texte": "**Nombre premier :**\n\nUn nombre premier est un nombre entier qui a exactement deux diviseurs : 1 et lui-même (il n'est donc divisible par aucun autre nombre).\n\n**Les nombres premiers entre 0 et 100 :**\n2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97"
+        },
+        {
+          "cle": "criteres",
+          "texte": "**Critères de divisibilité :**\n\n**Par 2 :** Chiffre des unités pair (0, 2, 4, 6, 8)\n**Par 3 :** Somme des chiffres divisible par 3\n**Par 5 :** Chiffre des unités 0 ou 5\n**Par 9 :** Somme des chiffres divisible par 9\n**Par 10 :** Chiffre des unités = 0\n**Par 25 :** Deux derniers chiffres divisibles par 25\n**Par 100 :** Deux derniers chiffres = 00"
+        }
+      ],
+      "exercices": [
+        {
+          "question": "126 est-il divisible par 3 ?",
+          "reponse": "Solution :\nSomme des chiffres : $1 + 2 + 6 = 9$\n9 est divisible par 3\nDonc 126 est divisible par 3"
+        },
+        {
+          "question": "585 est-il divisible par 9 ?",
+          "reponse": "Solution :\nSomme des chiffres : $5 + 8 + 5 = 18$\n18 est divisible par 9\nDonc 585 est divisible par 9"
+        },
+        {
+          "question": "Détermine le PGCD de 24 et 36.",
+          "reponse": "Solution :\nDiviseurs de 24 : 1, 2, 3, 4, 6, 8, 12, 24\nDiviseurs de 36 : 1, 2, 3, 4, 6, 9, 12, 18, 36\nPGCD(24, 36) = 12"
+        },
+        {
+          "question": "Détermine le PPCM de 6 et 8.",
+          "reponse": "Solution :\nMultiples de 6 : 6, 12, 18, 24, 30...\nMultiples de 8 : 8, 16, 24, 32...\nPPCM(6, 8) = 24"
+        },
+        {
+          "question": "Décompose 72 en produit de facteurs premiers.",
+          "reponse": "Solution :\n$72 = 2 \\times 36 = 2 \\times 2 \\times 18 = 2 \\times 2 \\times 2 \\times 9$\n$= 2 \\times 2 \\times 2 \\times 3 \\times 3 = 2^3 \\times 3^2$"
+        },
+        {
+          "question": "450 est-il divisible par 25 ?",
+          "reponse": "Solution :\nDeux derniers chiffres : 50\n$50 = 2 \\times 25$\nDonc 450 est divisible par 25"
+        },
+        {
+          "question": "Décompose 150 en produit de facteurs premiers.",
+          "reponse": "Solution :\n$150 = 2 \\times 75 = 2 \\times 3 \\times 25 = 2 \\times 3 \\times 5 \\times 5$\n$= 2 \\times 3 \\times 5^2$"
+        },
+        {
+          "question": "$84$ est-il divisible par $7$ ?",
+          "reponse": "Solution :\n$84 \\div 7 = 12$\nOui, $84$ est divisible par $7$."
+        },
+        {
+          "question": "Décompose $60$ en produit de facteurs premiers",
+          "reponse": "Solution :\n$60 = 2 \\times 30 = 2 \\times 2 \\times 15 = 2 \\times 2 \\times 3 \\times 5$\n$60 = 2^2 \\times 3 \\times 5$"
+        },
+        {
+          "question": "Quel est le PGCD de $18$ et $24$ ?",
+          "reponse": "Solution :\nDiviseurs de $18$ : $1, 2, 3, 6, 9, 18$\nDiviseurs de $24$ : $1, 2, 3, 4, 6, 8, 12, 24$\nPGCD $= 6$"
+        },
+        {
+          "question": "$91$ est-il un nombre premier ?",
+          "reponse": "Solution :\n$91 = 7 \\times 13$\nNon, $91$ n'est pas premier."
+        },
+        {
+          "question": "Quel est le PPCM de $4$ et $6$ ?",
+          "reponse": "Solution :\nMultiples de $4$ : $4, 8, 12, ...$\nMultiples de $6$ : $6, 12, ...$\nPPCM $= 12$"
+        }
+      ]
+    },
+    "entiers_relatifs": {
+      "nom": "Nombres entiers relatifs",
+      "keywords": [
+        "relatif",
+        "relatifs",
+        "négatif",
+        "negatif",
+        "positif",
+        "signe",
+        "-",
+        "+"
+      ],
+      "explanations": [
+        {
+          "cle": "definition",
+          "texte": "**Nombres entiers relatifs :**\n\n• **Positifs :** $+1, +2, +3...$ (ou $1, 2, 3...$)\n• **Négatifs :** $-1, -2, -3...$\n• **Zéro :** $0$ (ni positif, ni négatif)"
+        },
+        {
+          "cle": "comparaison",
+          "texte": "**Comparer des relatifs :**\n\n• Un nombre positif > 0 > un nombre négatif\n• Entre deux nombres négatifs, le plus grand est celui le plus proche de 0"
+        }
+      ],
+      "exercices": [
+        {
+          "question": "Compare : $-5$ et $-2$",
+          "reponse": "Solution :\n$-2$ est plus proche de 0\nDonc : $-5 < -2$"
+        },
+        {
+          "question": "Ordonne : $3$, $-1$, $0$, $-4$, $2$",
+          "reponse": "Solution :\nOrdre croissant : $-4 < -1 < 0 < 2 < 3$"
+        },
+        {
+          "question": "Quel est le nombre entier entre $-2$ et $0$ ?",
+          "reponse": "Solution :\nLe nombre entier entre $-2$ et $0$ est $-1$"
+        },
+        {
+          "question": "Quel est l'opposé de $-7$ ?",
+          "reponse": "Solution :\nL'opposé de $-7$ est $+7$"
+        },
+        {
+          "question": "Compare : $-10$ et $-15$",
+          "reponse": "Solution :\n$-10$ est plus proche de 0\nDonc : $-15 < -10$"
+        },
+        {
+          "question": "Ordonne du plus grand au plus petit : $-2$, $5$, $-8$, $0$",
+          "reponse": "Solution :\nOrdre décroissant : $5 > 0 > -2 > -8$"
+        },
+        {
+          "question": "Encadre $-4$ par deux entiers consécutifs.",
+          "reponse": "Solution :\n$-5 < -4 < -3$"
+        },
+        {
+          "question": "Intercale un entier entre $-5$ et $-3$.",
+          "reponse": "Solution :\nOn peut intercaler $-4$ :\n$-5 < -4 < -3$"
+        },
+        {
+          "question": "Extrais le nombre de milliers de 3456.",
+          "reponse": "Solution :\n$3456 = 3 \\times 1000 + 456$\nLe nombre de milliers est 3"
+        },
+        {
+          "question": "Extrais le nombre d'unités de 5728.",
+          "reponse": "Solution :\nLe chiffre des unités est 8"
+        },
+        {
+          "question": "Calcule : $(-8) + (+3)$",
+          "reponse": "Solution :\n$(-8) + (+3) = -5$"
+        },
+        {
+          "question": "Calcule : $(-5) - (-9)$",
+          "reponse": "Solution :\n$(-5) - (-9) = (-5) + (+9) = 4$"
+        },
+        {
+          "question": "Calcule : $(-4) \\times (-7)$",
+          "reponse": "Solution :\n$(-4) \\times (-7) = 28$"
+        },
+        {
+          "question": "Calcule : $(-36) \\div (+4)$",
+          "reponse": "Solution :\n$(-36) \\div (+4) = -9$"
+        },
+        {
+          "question": "Range dans l'ordre croissant : $-8 ; 3 ; -1 ; 0 ; -5$",
+          "reponse": "Solution :\n$-8 ; -5 ; -1 ; 0 ; 3$"
+        }
+      ]
+    },
+    "geometrie": {
+      "nom": "Géométrie plane",
+      "keywords": [
+        "géométrie",
+        "geometrie",
+        "triangle",
+        "quadrilatère",
+        "quadrilatere",
+        "cercle",
+        "angle",
+        "droite",
+        "parallèle",
+        "perpendiculaire"
+      ],
+      "explanations": [
+        {
+          "cle": "triangles",
+          "texte": "**Types de triangles :**\n\n• **Équilatéral :** 3 côtés égaux, 3 angles de 60°\n• **Isocèle :** 2 côtés égaux\n• **Rectangle :** 1 angle droit\n• **Quelconque :** Aucune propriété particulière\n\n**Somme des angles :** $180°$"
+        },
+        {
+          "cle": "quadrilateres",
+          "texte": "**Quadrilatères :**\n\n• **Carré :** 4 côtés égaux, 4 angles droits\n• **Rectangle :** 4 angles droits\n• **Losange :** 4 côtés égaux\n• **Parallélogramme :** Côtés opposés parallèles\n• **Trapèze :** 2 côtés parallèles"
+        }
+      ],
+      "exercices": [
+        {
+          "question": "Dans un triangle, deux angles mesurent 50° et 70°. Calcule le troisième.",
+          "reponse": "Solution :\nSomme des angles = 180°\nTroisième angle = $180° - 50° - 70° = 60°$"
+        },
+        {
+          "question": "Un triangle isocèle a un angle au sommet de 40°. Calcule les angles à la base.",
+          "reponse": "Solution :\nLes deux angles à la base sont égaux\n$180° - 40° = 140°$\nChaque angle : $140° \\div 2 = 70°$"
+        },
+        {
+          "question": "Construis un triangle ABC avec AB = 5 cm, AC = 4 cm et BC = 6 cm.",
+          "reponse": "Solution :\n1. Trace AB = 5 cm\n2. Avec le compas : rayon 4 cm depuis A\n3. Rayon 6 cm depuis B\n4. Les arcs se croisent en C"
+        },
+        {
+          "question": "Trace deux droites parallèles distantes de 3 cm.",
+          "reponse": "Solution :\n1. Trace une droite (d1)\n2. Place un point A sur (d1)\n3. Trace la perpendiculaire à (d1) passant par A\n4. Place B à 3 cm de A sur cette perpendiculaire\n5. Trace la perpendiculaire à AB en B : c'est (d2)"
+        },
+        {
+          "question": "Un cercle a un rayon de 4 cm. Calcule son diamètre.",
+          "reponse": "Solution :\n$d = 2r = 2 \\times 4 = 8$ cm"
+        },
+        {
+          "question": "Dans un triangle rectangle, un angle aigu mesure 35°. Calcule l'autre angle aigu.",
+          "reponse": "Solution :\nUn angle = 90° (angle droit)\nDeux angles aigus : $180° - 90° = 90°$\nAutre angle : $90° - 35° = 55°$"
+        },
+        {
+          "question": "Trace un angle de 120° avec le rapporteur.",
+          "reponse": "Solution :\n1. Trace une demi-droite [OA)\n2. Place le centre du rapporteur en O\n3. Marque 120° sur le rapporteur\n4. Trace [OB) passant par cette marque"
+        },
+        {
+          "question": "Un triangle a des angles de 90°, 45° et x°. Trouve x.",
+          "reponse": "Solution :\n$x = 180° - 90° - 45° = 45°$"
+        },
+        {
+          "question": "Réalise un croquis d'un rectangle de 8 cm sur 5 cm.",
+          "reponse": "Solution :\nCroquis (proportions respectées)\n8 cm × 5 cm"
+        },
+        {
+          "question": "Calcule le périmètre d'un triangle équilatéral de côté $7$ cm",
+          "reponse": "Solution :\n$P = 3 \\times 7 = 21$ cm"
+        },
+        {
+          "question": "Un angle mesure $35^\\circ$. Quelle est la mesure de son complémentaire ?",
+          "reponse": "Solution :\nDeux angles complémentaires ont une somme de $90^\\circ$.\n$90^\\circ - 35^\\circ = 55^\\circ$"
+        },
+        {
+          "question": "Un angle mesure $110^\\circ$. Quelle est la mesure de son supplémentaire ?",
+          "reponse": "Solution :\nDeux angles supplémentaires ont une somme de $180^\\circ$.\n$180^\\circ - 110^\\circ = 70^\\circ$"
+        },
+        {
+          "question": "Calcule l'aire d'un triangle de base $8$ cm et de hauteur $5$ cm",
+          "reponse": "Solution :\n$A = \\frac{8 \\times 5}{2} = \\frac{40}{2} = 20$ cm²"
+        },
+        {
+          "question": "Deux angles opposés par le sommet : l'un mesure $47^\\circ$. Quelle est la mesure de l'autre ?",
+          "reponse": "Solution :\nDeux angles opposés par le sommet sont toujours égaux.\nL'autre angle mesure aussi $47^\\circ$."
+        }
+      ]
+    },
+    "solides": {
+      "nom": "Solides",
+      "keywords": [
+        "solide",
+        "solides",
+        "cube",
+        "parallélépipède",
+        "parallelepipede",
+        "prisme",
+        "pyramide",
+        "cylindre",
+        "cône",
+        "cone",
+        "sphère",
+        "sphere",
+        "développement",
+        "developpement"
+      ],
+      "explanations": [
+        {
+          "cle": "types",
+          "texte": "**Types de solides :**\n\n• **Polyèdres :** faces planes (cube, prisme, pyramide)\n• **Non-polyèdres :** faces courbes (cylindre, cône, sphère)"
+        }
+      ],
+      "exercices": [
+        {
+          "question": "Identifie le solide : 6 faces carrées identiques.",
+          "reponse": "Solution :\nC'est un **cube**"
+        },
+        {
+          "question": "Identifie le solide : 2 bases circulaires, surface latérale courbe.",
+          "reponse": "Solution :\nC'est un **cylindre**"
+        },
+        {
+          "question": "Identifie le solide : 1 base carrée, 4 faces triangulaires.",
+          "reponse": "Solution :\nC'est une **pyramide à base carrée**"
+        },
+        {
+          "question": "Identifie le solide : 6 faces rectangulaires, angles droits.",
+          "reponse": "Solution :\nC'est un **parallélépipède rectangle**"
+        },
+        {
+          "question": "Identifie le solide : forme de ballon, surface courbe.",
+          "reponse": "Solution :\nC'est une **sphère**"
+        },
+        {
+          "question": "Identifie le solide : 1 base circulaire, sommet pointu.",
+          "reponse": "Solution :\nC'est un **cône**"
+        },
+        {
+          "question": "Identifie le solide : 2 bases triangulaires, 3 faces rectangulaires.",
+          "reponse": "Solution :\nC'est un **prisme droit à base triangulaire**"
+        },
+        {
+          "question": "Combien de faces a un cube ?",
+          "reponse": "Solution :\nUn cube a **6 faces**"
+        },
+        {
+          "question": "Quel solide obtient-on en repliant 6 carrés disposés en croix ?",
+          "reponse": "Solution :\nOn obtient un **cube**"
+        },
+        {
+          "question": "Combien de faces a un prisme droit à base triangulaire ?",
+          "reponse": "Solution :\n2 bases triangulaires + 3 faces rectangulaires = **5 faces**"
+        },
+        {
+          "question": "Combien de faces a un cube ?",
+          "reponse": "Solution :\nUn cube a $6$ faces."
+        },
+        {
+          "question": "Combien d'arêtes a un tétraèdre ?",
+          "reponse": "Solution :\nUn tétraèdre a $6$ arêtes."
+        },
+        {
+          "question": "Calcule le volume d'une pyramide de base $12$ cm² et de hauteur $9$ cm",
+          "reponse": "Solution :\n$V = \\frac{12 \\times 9}{3} = \\frac{108}{3} = 36$ cm³"
+        },
+        {
+          "question": "Quel solide a $5$ faces, $8$ arêtes et $5$ sommets ?",
+          "reponse": "Solution :\nC'est une pyramide à base carrée (4 faces triangulaires + 1 base)."
+        },
+        {
+          "question": "Calcule le volume d'un cylindre de rayon $3$ cm et de hauteur $10$ cm (valeur exacte)",
+          "reponse": "Solution :\n$V = \\pi \\times 3^2 \\times 10 = 90\\pi$ cm³"
+        }
+      ]
+    },
+    "reperage": {
+      "nom": "Repérage dans le plan",
+      "keywords": [
+        "repérage",
+        "reperage",
+        "coordonnées",
+        "coordonnees",
+        "axe",
+        "abscisse",
+        "ordonnée",
+        "ordonnee",
+        "origine",
+        "plan"
+      ],
+      "explanations": [
+        {
+          "cle": "definition",
+          "texte": "**Repérage dans le plan :**\n\n• **Axes :** axe horizontal (abscisses) et vertical (ordonnées)\n• **Origine :** point O (0, 0)\n• **Coordonnées d'un point :** M(x, y)\n  - x = abscisse\n  - y = ordonnée"
+        }
+      ],
+      "exercices": [
+        {
+          "question": "Place le point A(4; 3) dans un repère.",
+          "reponse": "Solution :\n1. Partir de O\n2. Aller à 4 sur l'axe horizontal\n3. Monter de 3\n4. Marquer A"
+        },
+        {
+          "question": "Quelles sont les coordonnées de l'origine ?",
+          "reponse": "Solution :\nO(0; 0)"
+        },
+        {
+          "question": "Un point est à l'abscisse 5 et ordonnée 2. Écris ses coordonnées.",
+          "reponse": "Solution :\nM(5; 2)"
+        },
+        {
+          "question": "Place les points A(2; 1), B(5; 1), C(5; 4), D(2; 4) et relie-les. Quelle figure obtiens-tu ?",
+          "reponse": "Solution :\nOn obtient un **rectangle**"
+        },
+        {
+          "question": "Le point M a pour abscisse 3. Il est sur l'axe des abscisses. Quelles sont ses coordonnées ?",
+          "reponse": "Solution :\nM(3; 0) car ordonnée = 0 sur l'axe horizontal"
+        },
+        {
+          "question": "Place le point B(-2; 3) dans un repère.",
+          "reponse": "Solution :\n1. Partir de O\n2. Aller à -2 sur l'axe horizontal (gauche)\n3. Monter de 3\n4. Marquer B"
+        },
+        {
+          "question": "Place les points E(1; 1) et F(4; 1). Quelle est la longueur EF ?",
+          "reponse": "Solution :\nMême ordonnée (1) → segment horizontal\n$EF = 4 - 1 = 3$ unités"
+        },
+        {
+          "question": "Construis un carré ABCD avec A(1; 1) et B(4; 1), côté horizontal.",
+          "reponse": "Solution :\nCôté = 3\nC(4; 4)\nD(1; 4)"
+        },
+        {
+          "question": "Quelles sont les coordonnées du point $A$ situé $3$ à droite et $2$ au-dessus de l'origine ?",
+          "reponse": "Solution :\n$A(3 ; 2)$"
+        },
+        {
+          "question": "Calcule la distance entre $A(0 ; 0)$ et $B(3 ; 4)$",
+          "reponse": "Solution :\n$AB = \\sqrt{3^2 + 4^2} = \\sqrt{9+16} = \\sqrt{25} = 5$"
+        },
+        {
+          "question": "Quel est le milieu du segment $[AB]$ avec $A(2 ; 4)$ et $B(6 ; 8)$ ?",
+          "reponse": "Solution :\n$x = \\frac{2+6}{2} = 4$\n$y = \\frac{4+8}{2} = 6$\nMilieu : $(4 ; 6)$"
+        },
+        {
+          "question": "Le point $C(-3 ; 5)$ est situé dans quel quadrant ?",
+          "reponse": "Solution :\n$x < 0$ et $y > 0$ : $C$ est dans le deuxième quadrant."
+        },
+        {
+          "question": "Calcule la distance entre $A(1 ; 1)$ et $B(4 ; 5)$",
+          "reponse": "Solution :\n$AB = \\sqrt{(4-1)^2 + (5-1)^2} = \\sqrt{9+16} = \\sqrt{25} = 5$"
+        }
+      ]
+    },
+    "grandeurs_mesures": {
+      "nom": "Grandeurs et mesures",
+      "keywords": [
+        "grandeur",
+        "grandeurs",
+        "mesure",
+        "mesures",
+        "longueur",
+        "masse",
+        "aire",
+        "volume",
+        "capacité",
+        "capacite",
+        "conversion",
+        "unité",
+        "unite"
+      ],
+      "explanations": [
+        {
+          "cle": "longueurs",
+          "texte": "**Unités de longueur :**\n\n$1$ km $= 1000$ m\n$1$ m $= 10$ dm $= 100$ cm $= 1000$ mm"
+        },
+        {
+          "cle": "masses",
+          "texte": "**Unités de masse :**\n\n$1$ t $= 1000$ kg\n$1$ kg $= 1000$ g"
+        },
+        {
+          "cle": "aires",
+          "texte": "**Unités d'aire :**\n\n$1$ m² $= 100$ dm² $= 10000$ cm²"
+        },
+        {
+          "cle": "volumes",
+          "texte": "**Unités de volume et capacité :**\n\n$1$ m³ $= 1000$ dm³\n$1$ dm³ $= 1$ L\n$1$ L $= 1000$ mL"
+        }
+      ],
+      "exercices": [
+        {
+          "question": "Convertis 3.5 km en m.",
+          "reponse": "Solution :\n$3.5$ km $= 3.5 \\times 1000 = 3500$ m"
+        },
+        {
+          "question": "Convertis 250 cm en m.",
+          "reponse": "Solution :\n$250$ cm $= 250 \\div 100 = 2.5$ m"
+        },
+        {
+          "question": "Convertis 4.2 kg en g.",
+          "reponse": "Solution :\n$4.2$ kg $= 4.2 \\times 1000 = 4200$ g"
+        },
+        {
+          "question": "Convertis 5600 mL en L.",
+          "reponse": "Solution :\n$5600$ mL $= 5600 \\div 1000 = 5.6$ L"
+        },
+        {
+          "question": "Un rectangle a pour dimensions 8 m et 5 m. Calcule son aire.",
+          "reponse": "Solution :\n$A = L \\times l = 8 \\times 5 = 40$ m²"
+        },
+        {
+          "question": "Convertis 2.5 m² en cm².",
+          "reponse": "Solution :\n$2.5$ m² $= 2.5 \\times 10000 = 25000$ cm²"
+        },
+        {
+          "question": "Un cube a un côté de 3 dm. Calcule son volume.",
+          "reponse": "Solution :\n$V = c^3 = 3^3 = 27$ dm³ $= 27$ L"
+        },
+        {
+          "question": "Un carré a un côté de 12 cm. Calcule son périmètre.",
+          "reponse": "Solution :\n$P = 4 \\times c = 4 \\times 12 = 48$ cm"
+        },
+        {
+          "question": "Un rectangle a une longueur de 15 cm et une largeur de 8 cm. Calcule son périmètre.",
+          "reponse": "Solution :\n$P = 2(L + l) = 2(15 + 8) = 2 \\times 23 = 46$ cm"
+        },
+        {
+          "question": "Un disque a un rayon de 5 cm. Calcule son aire. (Utilise $\\pi = 3$)",
+          "reponse": "Solution :\n$A = \\pi r^2 = 3 \\times 5^2 = 3 \\times 25 = 75$ cm²"
+        },
+        {
+          "question": "Un cylindre a un rayon de 4 cm et une hauteur de 10 cm. Calcule son volume. (Utilise $\\pi = 3$)",
+          "reponse": "Solution :\n$V = \\pi r^2 h = 3 \\times 4^2 \\times 10 = 3 \\times 16 \\times 10 = 480$ cm³"
+        },
+        {
+          "question": "Un parallélépipède rectangle a pour dimensions : L = 8 cm, l = 5 cm, h = 3 cm. Calcule l'aire d'une face de 8 cm × 5 cm.",
+          "reponse": "Solution :\n$A = L \\times l = 8 \\times 5 = 40$ cm²"
+        },
+        {
+          "question": "Une voiture parcourt $180$ km en $2$ h. Quelle est sa vitesse moyenne ?",
+          "reponse": "Solution :\n$v = \\frac{180}{2} = 90$ km/h"
+        },
+        {
+          "question": "Un objet de $500$ g a un volume de $200$ cm³. Quelle est sa masse volumique ?",
+          "reponse": "Solution :\n$\\frac{500}{200} = 2,5$ g/cm³"
+        },
+        {
+          "question": "Convertis $72$ km/h en m/s",
+          "reponse": "Solution :\n$72$ km/h $= \\frac{72 \\times 1\\,000}{3\\,600} = 20$ m/s"
+        },
+        {
+          "question": "Un robinet remplit $15$ L en $3$ min. Quel est son débit en L/min ?",
+          "reponse": "Solution :\n$\\frac{15}{3} = 5$ L/min"
+        },
+        {
+          "question": "Calcule la durée d'un trajet de $150$ km à $50$ km/h",
+          "reponse": "Solution :\n$t = \\frac{150}{50} = 3$ h"
         }
       ]
     }

@@ -1,6 +1,7 @@
 id;titre;type;theme;dossier;fichier
 0;Livret (Révision TAF);Révision;Révision;exercices;livret.pdf
 1;Les entiers;Cours;Nombres;cours;entiers.pdf
+42;Les décimaux;Cours;Nombres;cours;decimaux.pdf
 2;Les fractions;Cours;Nombres;cours;fractions.pdf
 3;Les nombres relatifs;Cours;Nombres;cours;nbrel.pdf
 4;Écritures fractionnaires;Cours;Nombres;cours;ecrfrac.pdf
@@ -17,6 +18,8 @@ id;titre;type;theme;dossier;fichier
 15;Équations;Cours;Algèbre;cours;equations.pdf
 16;Théorème de Thalès;Cours;Géométrie;cours;Thales.pdf
 17;Liste d'exercices : les entiers;Exercice;Nombres;exercices;entiers.pdf
+43;Liste d'exercices : les décimaux;Exercice;Nombres;exercices;decimaux.pdf
+33;Liste d'exercices : les décimaux;ExerciceCoche;Nombres;exercices;decimaux.pdf
 18;Liste d'exercices : les fractions;Exercice;Nombres;exercices;fractions.pdf
 19;Liste d'exercices : les nombres relatifs;Exercice;Nombres;exercices;nbrel.pdf
 20;Liste d'exercices : écritures fractionnaires;Exercice;Nombres;exercices;ecrfrac.pdf
@@ -30,11 +33,10 @@ id;titre;type;theme;dossier;fichier
 28;Liste d'exercices : calcul littéral;Exercice;Algèbre;exercices;calclitt.pdf
 29;Liste d'exercices : théorème de Pythagore;Exercice;Géométrie;exercices;Pythagore.pdf
 30;Liste d'exercices : nombres premiers;Exercice;Nombres;exercices;nbprem.pdf
+37;Liste d'exercices : problèmes de partages équitables;ExerciceCoche;Nombres;exercices;partages.pdf
 31;Liste d'exercices : équations;Exercice;Algèbre;exercices;equations.pdf
 32;Liste d'exercices : théorème de Thalès;Exercice;Géométrie;exercices;Thales.pdf
-33;Liste d'exercices : les décimaux;ExerciceCoche;Nombres;exercices;decimaux.pdf
 34;Liste d'exercices : symétrie axiale;ExerciceCoche;Géométrie;exercices;symaxiale.pdf
 35;Liste d'exercices : gestion des données;ExerciceCoche;Statistiques;exercices;gestdonnees.pdf
-37;Liste d'exercices : problèmes de partages équitables;ExerciceCoche;Nombres;exercices;partages.pdf
 39;Liste d'exercices : équations du second degré;ExerciceCoche;Algèbre;exercices;eq2deg1.pdf
 41;Liste d'exercices : système d'équations;ExerciceCoche;Algèbre;exercices;sysdeq.pdf

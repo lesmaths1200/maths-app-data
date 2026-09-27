@@ -368,13 +368,13 @@
         },
         {
           "cle": "reciproque",
-          "texte": "Réciproque de Pythagore :\n\nSi $c^2 = a^2 + b^2$ alors le triangle est rectangle.\n\n📌 Exemple : côtés 5, 12 et 13 cm\n\n$13^2 = 169$\n$5^2 + 12^2 = 25 + 144 = 169$\n\nÉgalité vérifiée ? ✓ → Le triangle est rectangle !"
+          "texte": "**Réciproque de Pythagore** — pour prouver qu'un triangle est rectangle, à partir de ses 3 côtés :\n\nSi $c^2 = a^2 + b^2$ (où $c$ est le côté le plus long), alors d'après la réciproque du théorème de Pythagore, le triangle est rectangle.\n\n📌 Exemple : côtés 5, 12 et 13 cm\n\n$13^2 = 169$\n$5^2 + 12^2 = 25 + 144 = 169$\n\nÉgalité vérifiée ✓ → D'après la réciproque du théorème de Pythagore, le triangle est rectangle !\n\n**Contraposée de Pythagore** — si l'égalité n'est pas vérifiée, le triangle n'est pas rectangle.\n\n📌 Exemple : côtés 7, 8 et 10 cm\n\n$10^2 = 100$\n$7^2 + 8^2 = 49 + 64 = 113$\n\n$100 \\neq 113$ → D'après la contraposée du théorème de Pythagore, le triangle n'est pas rectangle."
         }
       ],
       "exercices": [
         {
           "question": "Triangle rectangle : cathètes = 3 cm et 4 cm. Calcule l'hypoténuse.",
-          "reponse": "Solution :\n$c^2 = 3^2 + 4^2$\n$c^2 = 9 + 16 = 25$\n$c = \\sqrt{25} = 5\\text{ cm}$",
+          "reponse": "Solution :\nLe triangle est rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$c^2 = 3^2 + 4^2$\n$c^2 = 9 + 16 = 25$\n$c = \\sqrt{25} = 5\\text{ cm}$",
           "reponseCourte": "$5$ cm",
           "distracteurs": [
             "$7$ cm",
@@ -384,7 +384,7 @@
         },
         {
           "question": "Triangle rectangle : cathètes = 6 cm et 8 cm. Calcule l'hypoténuse.",
-          "reponse": "Solution :\n$c^2 = 6^2 + 8^2$\n$c^2 = 36 + 64 = 100$\n$c = \\sqrt{100} = 10\\text{ cm}$",
+          "reponse": "Solution :\nLe triangle est rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$c^2 = 6^2 + 8^2$\n$c^2 = 36 + 64 = 100$\n$c = \\sqrt{100} = 10\\text{ cm}$",
           "reponseCourte": "$10$ cm",
           "distracteurs": [
             "$14$ cm",
@@ -394,7 +394,7 @@
         },
         {
           "question": "Triangle rectangle : hypoténuse = 13 cm, un côté = 5 cm. Trouve l'autre côté.",
-          "reponse": "Solution :\n$a^2 = 13^2 - 5^2$\n$a^2 = 169 - 25 = 144$\n$a = \\sqrt{144} = 12\\text{ cm}$",
+          "reponse": "Solution :\nLe triangle est rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$c^2 = a^2 + b^2$, donc $a^2 = c^2 - b^2$ :\n$a^2 = 13^2 - 5^2$\n$a^2 = 169 - 25 = 144$\n$a = \\sqrt{144} = 12\\text{ cm}$",
           "reponseCourte": "$12$ cm",
           "distracteurs": [
             "$8$ cm",
@@ -404,7 +404,7 @@
         },
         {
           "question": "Un triangle a des côtés de 5, 12 et 13 cm. Est-il rectangle ?",
-          "reponse": "Solution :\nVérifions si $13^2 = 5^2 + 12^2$ :\n\n$13^2 = 169$\n$5^2 + 12^2 = 25 + 144 = 169$\n\n$169 = 169$ ✓\n\nOui, le triangle est rectangle !",
+          "reponse": "Solution :\nVérifions si $13^2 = 5^2 + 12^2$ (le côté le plus long au carré doit être égal à la somme des carrés des deux autres) :\n\n$13^2 = 169$\n$5^2 + 12^2 = 25 + 144 = 169$\n\n$169 = 169$ ✓ L'égalité est vérifiée.\n\nD'après la réciproque du théorème de Pythagore, le triangle est rectangle.",
           "reponseCourte": "Oui, $13^2 = 5^2+12^2$",
           "distracteurs": [
             "Non, $13^2 \\neq 5^2+12^2$",
@@ -414,7 +414,7 @@
         },
         {
           "question": "Dans un triangle rectangle, les côtés de l’angle droit mesurent 3 cm et 4 cm. Calcule l’hypoténuse.",
-          "reponse": "Solution :\n$c^2 = a^2 + b^2 = 3^2 + 4^2 = 9 + 16 = 25$\n$c = \\sqrt{25} = 5$ cm",
+          "reponse": "Solution :\nLe triangle est rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$c^2 = a^2 + b^2 = 3^2 + 4^2 = 9 + 16 = 25$\n$c = \\sqrt{25} = 5$ cm",
           "reponseCourte": "$5$ cm",
           "distracteurs": [
             "$7$ cm",
@@ -424,7 +424,7 @@
         },
         {
           "question": "Dans un triangle rectangle, l’hypoténuse mesure 13 cm et un côté de l’angle droit 5 cm. Trouve l’autre côté.",
-          "reponse": "Solution :\n$c^2 = a^2 + b^2 \\Rightarrow 13^2 = 5^2 + b^2$\n$169 = 25 + b^2$\n$b^2 = 144$\n$b = 12$ cm",
+          "reponse": "Solution :\nLe triangle est rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$c^2 = a^2 + b^2 \\Rightarrow 13^2 = 5^2 + b^2$\n$169 = 25 + b^2$\n$b^2 = 144$\n$b = \\sqrt{144} = 12$ cm",
           "reponseCourte": "$12$ cm",
           "distracteurs": [
             "$8$ cm",
@@ -434,7 +434,7 @@
         },
         {
           "question": "Un triangle rectangle a pour côtés de l’angle droit 7 cm et 24 cm. Calcule l’hypoténuse.",
-          "reponse": "Solution :\n$c^2 = 7^2 + 24^2 = 49 + 576 = 625$\n$c = \\sqrt{625} = 25$ cm",
+          "reponse": "Solution :\nLe triangle est rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$c^2 = 7^2 + 24^2 = 49 + 576 = 625$\n$c = \\sqrt{625} = 25$ cm",
           "reponseCourte": "$25$ cm",
           "distracteurs": [
             "$31$ cm",
@@ -444,7 +444,7 @@
         },
         {
           "question": "Dans un triangle rectangle, l’hypoténuse mesure 10 cm et un côté 6 cm. Calcule le second côté.",
-          "reponse": "Solution :\n$10^2 = 6^2 + b^2$\n$100 = 36 + b^2$\n$b^2 = 64$\n$b = 8$ cm",
+          "reponse": "Solution :\nLe triangle est rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$10^2 = 6^2 + b^2$\n$100 = 36 + b^2$\n$b^2 = 64$\n$b = \\sqrt{64} = 8$ cm",
           "reponseCourte": "$8$ cm",
           "distracteurs": [
             "$4$ cm",
@@ -454,7 +454,7 @@
         },
         {
           "question": "Calcule l’hypoténuse d’un triangle rectangle dont les cathètes sont 8 cm et 15 cm.",
-          "reponse": "Solution :\n$c^2 = 8^2 + 15^2 = 64 + 225 = 289$\n$c = \\sqrt{289} = 17$ cm",
+          "reponse": "Solution :\nLe triangle est rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$c^2 = 8^2 + 15^2 = 64 + 225 = 289$\n$c = \\sqrt{289} = 17$ cm",
           "reponseCourte": "$17$ cm",
           "distracteurs": [
             "$23$ cm",
@@ -464,7 +464,7 @@
         },
         {
           "question": "Un triangle rectangle a pour hypoténuse 17 cm et un côté 8 cm. Trouve le second côté.",
-          "reponse": "Solution :\n$17^2 = 8^2 + b^2$\n$289 = 64 + b^2$\n$b^2 = 225$\n$b = 15$ cm",
+          "reponse": "Solution :\nLe triangle est rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$17^2 = 8^2 + b^2$\n$289 = 64 + b^2$\n$b^2 = 225$\n$b = \\sqrt{225} = 15$ cm",
           "reponseCourte": "$15$ cm",
           "distracteurs": [
             "$9$ cm",
@@ -474,7 +474,7 @@
         },
         {
           "question": "Dans un triangle rectangle, les côtés de l’angle droit mesurent 9 cm et 12 cm. Calcule l’hypoténuse.",
-          "reponse": "Solution :\n$c^2 = 9^2 + 12^2 = 81 + 144 = 225$\n$c = 15$ cm",
+          "reponse": "Solution :\nLe triangle est rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$c^2 = 9^2 + 12^2 = 81 + 144 = 225$\n$c = \\sqrt{225} = 15$ cm",
           "reponseCourte": "$15$ cm",
           "distracteurs": [
             "$21$ cm",
@@ -484,7 +484,7 @@
         },
         {
           "question": "Un triangle rectangle a pour cathètes 5 cm et 12 cm. Calcule l’hypoténuse.",
-          "reponse": "Solution :\n$c^2 = 5^2 + 12^2 = 25 + 144 = 169$\n$c = 13$ cm",
+          "reponse": "Solution :\nLe triangle est rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$c^2 = 5^2 + 12^2 = 25 + 144 = 169$\n$c = \\sqrt{169} = 13$ cm",
           "reponseCourte": "$13$ cm",
           "distracteurs": [
             "$17$ cm",
@@ -494,7 +494,7 @@
         },
         {
           "question": "L’hypoténuse d’un triangle rectangle mesure 20 cm et un côté 16 cm. Trouve le second côté.",
-          "reponse": "Solution :\n$20^2 = 16^2 + b^2$\n$400 = 256 + b^2$\n$b^2 = 144$\n$b = 12$ cm",
+          "reponse": "Solution :\nLe triangle est rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$20^2 = 16^2 + b^2$\n$400 = 256 + b^2$\n$b^2 = 144$\n$b = \\sqrt{144} = 12$ cm",
           "reponseCourte": "$12$ cm",
           "distracteurs": [
             "$4$ cm",
@@ -504,7 +504,7 @@
         },
         {
           "question": "Dans un triangle rectangle, les côtés de l’angle droit mesurent 6 cm et 8 cm. Calcule l’hypoténuse.",
-          "reponse": "Solution :\n$c^2 = 6^2 + 8^2 = 36 + 64 = 100$\n$c = 10$ cm",
+          "reponse": "Solution :\nLe triangle est rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$c^2 = 6^2 + 8^2 = 36 + 64 = 100$\n$c = \\sqrt{100} = 10$ cm",
           "reponseCourte": "$10$ cm",
           "distracteurs": [
             "$14$ cm",
@@ -514,7 +514,7 @@
         },
         {
           "question": "Une échelle de 10 m est posée contre un mur. Son pied est à 6 m du mur. À quelle hauteur atteint-elle le mur ?",
-          "reponse": "Solution : $ h=\\sqrt{10^2-6^2}=8  m.$",
+          "reponse": "Solution :\nLe mur, le sol et l'échelle forment un triangle rectangle (l'angle entre le mur et le sol est droit), donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$10^2 = 6^2 + h^2$\n$100 = 36 + h^2$\n$h^2 = 64$\n$h = \\sqrt{64} = 8$ m",
           "reponseCourte": "$8$ m",
           "distracteurs": [
             "$4$ m",
@@ -524,7 +524,7 @@
         },
         {
           "question": "Un rectangle a une diagonale de 13 cm et une largeur de 5 cm. Calculer la longueur.",
-          "reponse": "Solution : $ L=\\sqrt{13^2-5^2}=12 .$",
+          "reponse": "Solution :\nLa diagonale, la largeur et la longueur du rectangle forment un triangle rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$13^2 = 5^2 + L^2$\n$169 = 25 + L^2$\n$L^2 = 144$\n$L = \\sqrt{144} = 12$ cm",
           "reponseCourte": "$12$ cm",
           "distracteurs": [
             "$8$ cm",
@@ -534,7 +534,7 @@
         },
         {
           "question": "Un triangle rectangle a un côté de 7 cm et l’hypoténuse de 25 cm. Calculer l’autre côté.",
-          "reponse": "Solution : $ b=24 .$",
+          "reponse": "Solution :\nLe triangle est rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$25^2 = 7^2 + b^2$\n$625 = 49 + b^2$\n$b^2 = 576$\n$b = \\sqrt{576} = 24$ cm",
           "reponseCourte": "$24$ cm",
           "distracteurs": [
             "$18$ cm",
@@ -544,7 +544,7 @@
         },
         {
           "question": "Un terrain rectangulaire mesure 9 m par 12 m. Calculer la longueur de la diagonale.",
-          "reponse": "Solution : $ d=\\sqrt{9^2+12^2}=15 .$",
+          "reponse": "Solution :\nLe terrain rectangulaire, sa diagonale, sa longueur et sa largeur forment un triangle rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$d^2 = 9^2 + 12^2$\n$d^2 = 81 + 144 = 225$\n$d = \\sqrt{225} = 15$ m",
           "reponseCourte": "$15$ m",
           "distracteurs": [
             "$21$ m",
@@ -554,7 +554,7 @@
         },
         {
           "question": "Un câble relie le sommet d’un mât de 8 m à un point situé à 6 m du pied. Quelle est la longueur du câble ?",
-          "reponse": "Solution : $ c=\\sqrt{8^2+6^2}=10 .$",
+          "reponse": "Solution :\nLe mât, le sol et le câble forment un triangle rectangle (l'angle entre le mât et le sol est droit), donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$c^2 = 8^2 + 6^2$\n$c^2 = 64 + 36 = 100$\n$c = \\sqrt{100} = 10$ m",
           "reponseCourte": "$10$ m",
           "distracteurs": [
             "$14$ m",
@@ -564,7 +564,7 @@
         },
         {
           "question": "Un triangle rectangle a des côtés de l'angle droit de $6$ cm et $8$ cm. Calcule l'hypoténuse.",
-          "reponse": "Solution :\n$c^2 = 6^2 + 8^2 = 36 + 64 = 100$\n$c = \\sqrt{100} = 10$ cm",
+          "reponse": "Solution :\nLe triangle est rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$c^2 = 6^2 + 8^2 = 36 + 64 = 100$\n$c = \\sqrt{100} = 10$ cm",
           "reponseCourte": "$10$ cm",
           "distracteurs": [
             "$14$ cm",
@@ -574,7 +574,7 @@
         },
         {
           "question": "L'hypoténuse d'un triangle rectangle mesure $13$ cm et un côté $5$ cm. Calcule l'autre côté.",
-          "reponse": "Solution :\n$c^2 = 13^2 - 5^2 = 169 - 25 = 144$\n$c = \\sqrt{144} = 12$ cm",
+          "reponse": "Solution :\nLe triangle est rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$c^2 = 13^2 - 5^2 = 169 - 25 = 144$\n$c = \\sqrt{144} = 12$ cm",
           "reponseCourte": "$12$ cm",
           "distracteurs": [
             "$8$ cm",
@@ -584,7 +584,7 @@
         },
         {
           "question": "Un triangle a des côtés de $9$, $12$ et $15$ cm. Est-il rectangle ?",
-          "reponse": "Solution :\n$9^2 + 12^2 = 81 + 144 = 225$\n$15^2 = 225$\nOui, le triangle est rectangle.",
+          "reponse": "Solution :\nVérifions si $15^2 = 9^2 + 12^2$ (le côté le plus long au carré doit être égal à la somme des carrés des deux autres) :\n\n$9^2 + 12^2 = 81 + 144 = 225$\n$15^2 = 225$\n\n$225 = 225$ ✓ L'égalité est vérifiée.\n\nD'après la réciproque du théorème de Pythagore, le triangle est rectangle.",
           "reponseCourte": "Oui, $9^2+12^2 = 15^2$",
           "distracteurs": [
             "Non, $9^2+12^2 \\neq 15^2$",
@@ -594,7 +594,7 @@
         },
         {
           "question": "Un triangle rectangle a ses deux côtés de l'angle droit égaux à $5$ cm. Calcule l'hypoténuse (valeur exacte).",
-          "reponse": "Solution :\n$c^2 = 5^2 + 5^2 = 50$\n$c = \\sqrt{50} = 5\\sqrt{2}$ cm",
+          "reponse": "Solution :\nLe triangle est rectangle, donc d'après le théorème de Pythagore, on peut écrire l'égalité suivante :\n$c^2 = 5^2 + 5^2 = 50$\n$c = \\sqrt{50} = 5\\sqrt{2}$ cm",
           "reponseCourte": "$5\\sqrt{2}$ cm",
           "distracteurs": [
             "$10$ cm",
@@ -604,7 +604,7 @@
         },
         {
           "question": "Un triangle a des côtés de $7$, $8$ et $10$ cm. Est-il rectangle ?",
-          "reponse": "Solution :\n$7^2 + 8^2 = 49 + 64 = 113$\n$10^2 = 100$\n$113 \\neq 100$, le triangle n'est pas rectangle.",
+          "reponse": "Solution :\nVérifions si $10^2 = 7^2 + 8^2$ (le côté le plus long au carré doit être égal à la somme des carrés des deux autres) :\n\n$7^2 + 8^2 = 49 + 64 = 113$\n$10^2 = 100$\n\n$113 \\neq 100$ : l'égalité n'est pas vérifiée.\n\nD'après la contraposée du théorème de Pythagore, le triangle n'est pas rectangle.",
           "reponseCourte": "Non, $7^2+8^2 \\neq 10^2$",
           "distracteurs": [
             "Oui, $7^2+8^2=10^2$",

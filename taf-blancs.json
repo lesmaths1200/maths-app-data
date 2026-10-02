@@ -1,0 +1,2001 @@
+{
+  "_metadata": {
+    "description": "Épreuves blanches du TAF de mathématiques 11e, écrites d'après le champ officiel (DGEO, juin 2026) et la structure des TAF 2023, 2024 et 2025. Contenu original : aucun énoncé n'est repris d'une épreuve réelle.",
+    "dureeNormaleMinutes": 45,
+    "dureeAmenageeMinutes": 60,
+    "consignes": [
+      "Les raisonnements doivent figurer sur ta feuille.",
+      "Matériel autorisé : instruments de géométrie, crayon gris et gomme.",
+      "La calculatrice est interdite.",
+      "Aucun document, aide-mémoire compris, n'est autorisé."
+    ],
+    "avertissementConstruction": "Le TAF comporte parfois une construction géométrique (2 à 3 points), qui ne peut pas se faire à l'écran. Entraîne-toi sur papier : tu dois maîtriser le compas, l'équerre, le rapporteur et la règle graduée."
+  },
+  "epreuves": [
+    {
+      "id": "blanc1",
+      "titre": "TAF blanc n° 1",
+      "totalPoints": 43,
+      "questions": [
+        {
+          "numero": 1,
+          "points": 6,
+          "consigne": "Calcule et donne les réponses sous forme d'un nombre entier ou décimal. Écris les étapes si nécessaire.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$(9 - 4)^2 =$",
+              "reponse": "$25$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$20 + 20 : 2^2 =$",
+              "reponse": "$25$\n\n$20 + 20 : 4 = 20 + 5 = 25$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$48{,}37 \\cdot 100 =$",
+              "reponse": "$4837$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$0{,}2^2 =$",
+              "reponse": "$0{,}04$"
+            },
+            {
+              "libelle": "e",
+              "enonce": "$\\sqrt{9 \\cdot 16} =$",
+              "reponse": "$12$\n\n$\\sqrt{144} = 12$"
+            },
+            {
+              "libelle": "f",
+              "enonce": "$18 : 0{,}1 =$",
+              "reponse": "$180$"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "points": 5,
+          "consigne": "Calcule et donne les réponses sous forme d'une fraction irréductible ou d'un nombre entier.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\frac{17}{12} + \\frac{7}{12} =$",
+              "reponse": "$2$\n\n$\\frac{17}{12} + \\frac{7}{12} = \\frac{24}{12} = 2$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\frac{2}{5} + \\frac{1}{4} =$",
+              "reponse": "$\\frac{13}{20}$\n\nDénominateur commun : $20$.\n\n$\\frac{8}{20} + \\frac{5}{20} = \\frac{13}{20}$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$\\frac{5}{6} - \\frac{1}{3} =$",
+              "reponse": "$\\frac{1}{2}$\n\n$\\frac{5}{6} - \\frac{2}{6} = \\frac{3}{6} = \\frac{1}{2}$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$3{,}5 + \\frac{1}{2} =$",
+              "reponse": "$4$\n\n$\\frac{7}{2} + \\frac{1}{2} = \\frac{8}{2} = 4$"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "points": 3,
+          "consigne": "Entoure les nombres égaux à $0{,}25$ et barre les intrus.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "$\\frac{1}{4}$    $25\\%$    $\\sqrt{25}$    $2{,}5\\%$    $\\frac{5}{20}$    $4^0$",
+              "reponse": "Égaux à $0{,}25$ : $\\frac{1}{4}$, $25\\%$ et $\\frac{5}{20}$.\n\nIntrus : $\\sqrt{25} = 5$, $2{,}5\\% = 0{,}025$ et $4^0 = 1$."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "points": 4,
+          "consigne": "Les affirmations suivantes sont-elles vraies ou fausses ?",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$4320$ est divisible par $2$ · par $3$ · par $9$ · par $25$",
+              "reponse": "Par $2$ : vrai (le chiffre des unités est $0$).\nPar $3$ : vrai ($4+3+2+0 = 9$, divisible par $3$).\nPar $9$ : vrai (la somme des chiffres vaut $9$).\nPar $25$ : faux (il faudrait finir par $00$, $25$, $50$ ou $75$)."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$1575$ est divisible par $2$ · par $5$ · par $9$ · par $10$",
+              "reponse": "Par $2$ : faux (le nombre est impair).\nPar $5$ : vrai (il finit par $5$).\nPar $9$ : vrai ($1+5+7+5 = 18$, divisible par $9$).\nPar $10$ : faux (il ne finit pas par $0$)."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "points": 3,
+          "consigne": "Un fleuriste a reçu $30$ roses et $75$ tulipes. Il veut composer des bouquets identiques en utilisant **toutes** les fleurs.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Quel est le plus grand nombre de bouquets qu'il peut composer ?",
+              "reponse": "$15$ bouquets\n\nIl faut le plus grand diviseur commun de $30$ et $75$.\n\nDiviseurs de $30$ : $1, 2, 3, 5, 6, 10, 15, 30$\nDiviseurs de $75$ : $1, 3, 5, 15, 25, 75$\n\nLe pgdc est $15$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Combien de roses et de tulipes y aura-t-il dans chaque bouquet ?",
+              "reponse": "$2$ roses et $5$ tulipes\n\n$30 : 15 = 2$ roses\n$75 : 15 = 5$ tulipes"
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "points": 3,
+          "consigne": "Le prix d'un pantalon est de $80$ CHF. Le magasin applique une réduction de $20\\%$.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Quel est le montant de la réduction ?",
+              "reponse": "$16$ CHF\n\n$20\\%$ de $80$ CHF $= \\frac{20}{100} \\cdot 80 = 16$ CHF."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Quel est le prix final du pantalon ?",
+              "reponse": "$64$ CHF\n\n$80 - 16 = 64$ CHF."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "points": 2,
+          "consigne": "Une maquette d'immeuble est réalisée à l'échelle $1 : 50$.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Une porte mesure $2$ m dans la réalité. Quelle est sa hauteur sur la maquette ?",
+              "reponse": "$4$ cm\n\n$2$ m $= 200$ cm, et $200 : 50 = 4$ cm."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Sur la maquette, un mur mesure $12$ cm. Quelle est sa longueur réelle ?",
+              "reponse": "$6$ m\n\n$12 \\cdot 50 = 600$ cm $= 6$ m."
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "points": 2,
+          "consigne": "Le volume d'une pyramide est donné par la formule $V = \\frac{B \\cdot h}{3}$, où $B$ est l'aire de la base.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Substitue puis calcule le volume pour $B = 24$ cm$^2$ et $h = 5$ cm.",
+              "reponse": "$40$ cm$^3$\n\n$V = \\frac{24 \\cdot 5}{3} = \\frac{120}{3} = 40$ cm$^3$."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 4,
+          "consigne": "Un terrain rectangulaire mesure $24$ m de long et $10$ m de large.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Calcule la longueur de sa diagonale.",
+              "reponse": "$26$ m\n\nLa longueur, la largeur et la diagonale forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$d^2 = 24^2 + 10^2 = 576 + 100 = 676$\n\n$d = \\sqrt{676} = 26$ m."
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "points": 5,
+          "consigne": "Deux réservoirs d'eau sont proposés. Le réservoir A est un pavé droit de $5$ m de long, $3$ m de large et $2$ m de haut. Le réservoir B est un cylindre de $2$ m de rayon et $2$ m de haut. Utilise $\\pi = 3$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Quel réservoir contient le plus d'eau ? Calcule cette différence de volume, en m$^3$.",
+              "reponse": "Le réservoir A, avec $6$ m$^3$ de plus.\n\nRéservoir A : $V = 5 \\cdot 3 \\cdot 2 = 30$ m$^3$\n\nRéservoir B : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 2^2 \\cdot 2 = 3 \\cdot 4 \\cdot 2 = 24$ m$^3$\n\nDifférence : $30 - 24 = 6$ m$^3$."
+            }
+          ]
+        },
+        {
+          "numero": 11,
+          "points": 3,
+          "consigne": "Complète.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$3{,}4$ km $=$ ______ m",
+              "reponse": "$3400$ m"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$250$ cl $=$ ______ dm$^3$",
+              "reponse": "$2{,}5$ dm$^3$\n\n$250$ cl $= 2{,}5$ L, et $1$ L $= 1$ dm$^3$."
+            },
+            {
+              "libelle": "c",
+              "enonce": "$0{,}7$ m$^2$ $=$ ______ dm$^2$",
+              "reponse": "$70$ dm$^2$\n\n$1$ m$^2 = 100$ dm$^2$."
+            }
+          ]
+        },
+        {
+          "numero": 12,
+          "points": 3,
+          "consigne": "Les angles d'un triangle.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "reponse": "$180^\\circ$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $65^\\circ$ et l'angle $B$ mesure $48^\\circ$. Calcule l'angle $C$.",
+              "reponse": "$67^\\circ$\n\n$180^\\circ - 65^\\circ - 48^\\circ = 67^\\circ$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blanc2",
+      "titre": "TAF blanc n° 2",
+      "questions": [
+        {
+          "numero": 1,
+          "points": 6,
+          "consigne": "Calcule et donne les réponses sous forme d'un nombre entier ou décimal. Écris les étapes si nécessaire.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$(11 - 3)^2 =$",
+              "reponse": "$64$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$50 + 50 : 5^2 =$",
+              "reponse": "$52$\n\n$50 + 50 : 25 = 50 + 2 = 52$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$7{,}25 \\cdot 1000 =$",
+              "reponse": "$7250$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$0{,}4^2 =$",
+              "reponse": "$0{,}16$"
+            },
+            {
+              "libelle": "e",
+              "enonce": "$\\sqrt{16 \\cdot 9} =$",
+              "reponse": "$12$\n\n$\\sqrt{144} = 12$"
+            },
+            {
+              "libelle": "f",
+              "enonce": "$24 : 0{,}01 =$",
+              "reponse": "$2400$"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "points": 5,
+          "consigne": "Calcule et donne les réponses sous forme d'une fraction irréductible ou d'un nombre entier.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\frac{13}{8} + \\frac{3}{8} =$",
+              "reponse": "$2$\n\n$\\frac{16}{8} = 2$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\frac{1}{2} + \\frac{1}{3} =$",
+              "reponse": "$\\frac{5}{6}$\n\nDénominateur commun : $6$.\n\n$\\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$\\frac{7}{9} - \\frac{1}{3} =$",
+              "reponse": "$\\frac{4}{9}$\n\n$\\frac{7}{9} - \\frac{3}{9} = \\frac{4}{9}$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$2{,}25 + \\frac{3}{4} =$",
+              "reponse": "$3$\n\n$\\frac{9}{4} + \\frac{3}{4} = \\frac{12}{4} = 3$"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "points": 3,
+          "consigne": "Place le plus précisément possible les nombres suivants sur une droite graduée allant de $-3$ à $4$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "$A = -2{,}5$        $B = \\sqrt{9}$        $C = 150\\%$",
+              "reponse": "$A = -2{,}5$ : entre $-3$ et $-2$, au milieu.\n\n$B = \\sqrt{9} = 3$.\n\n$C = 150\\% = 1{,}5$ : entre $1$ et $2$, au milieu."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "points": 3,
+          "consigne": "Deux bus partent ensemble du terminus à $6$ h. Le premier repasse toutes les $12$ minutes, le second toutes les $18$ minutes.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "À quelle heure repartiront-ils ensemble pour la première fois ?",
+              "reponse": "À $6$ h $36$.\n\nIl faut le plus petit multiple commun de $12$ et $18$.\n\nMultiples de $12$ : $12, 24, 36, 48\\ldots$\nMultiples de $18$ : $18, 36, 54\\ldots$\n\nLe ppmc est $36$ minutes."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "points": 3,
+          "consigne": "Un vélo coûte $240$ CHF. Le magasin applique une réduction de $25\\%$.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Quel est le montant de la réduction ?",
+              "reponse": "$60$ CHF\n\n$\\frac{25}{100} \\cdot 240 = 60$ CHF."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Quel est le prix final du vélo ?",
+              "reponse": "$180$ CHF\n\n$240 - 60 = 180$ CHF."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "points": 3,
+          "consigne": "Le plan d'un appartement est dessiné à l'échelle $1 : 200$.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Une pièce mesure $6$ m dans la réalité. Quelle est sa longueur sur le plan ?",
+              "reponse": "$3$ cm\n\n$6$ m $= 600$ cm, et $600 : 200 = 3$ cm."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Sur le plan, un couloir mesure $4{,}5$ cm. Quelle est sa longueur réelle ?",
+              "reponse": "$9$ m\n\n$4{,}5 \\cdot 200 = 900$ cm $= 9$ m."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "points": 2,
+          "consigne": "L'aire $A$ d'un trapèze est donnée par la formule $A = \\frac{B + b}{2} \\cdot h$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Substitue puis calcule l'aire pour $B = 7$ cm, $b = 3$ cm et $h = 4$ cm.",
+              "reponse": "$20$ cm$^2$\n\n$A = \\frac{7 + 3}{2} \\cdot 4 = \\frac{10}{2} \\cdot 4 = 5 \\cdot 4 = 20$ cm$^2$."
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "points": 4,
+          "consigne": "Une échelle de $15$ m est appuyée contre un mur. Son pied est posé à $9$ m du mur.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "À quelle hauteur l'échelle touche-t-elle le mur ?",
+              "reponse": "$12$ m\n\nLe mur, le sol et l'échelle forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$h^2 = 15^2 - 9^2 = 225 - 81 = 144$\n\n$h = \\sqrt{144} = 12$ m."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 5,
+          "consigne": "Deux boîtes de biscuits sont proposées. La boîte A est un pavé droit de $6$ cm de long, $5$ cm de large et $4$ cm de haut. La boîte B est un cylindre de $3$ cm de rayon et $4$ cm de haut. Utilise $\\pi = 3$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Quelle boîte contient le plus de biscuits ? Calcule cette différence de volume, en cm$^3$.",
+              "reponse": "La boîte A, avec $12$ cm$^3$ de plus.\n\nBoîte A : $V = 6 \\cdot 5 \\cdot 4 = 120$ cm$^3$\n\nBoîte B : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 3^2 \\cdot 4 = 3 \\cdot 9 \\cdot 4 = 108$ cm$^3$\n\nDifférence : $120 - 108 = 12$ cm$^3$."
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "points": 3,
+          "consigne": "Complète.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$2{,}5$ m $=$ ______ cm",
+              "reponse": "$250$ cm"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$3$ L $=$ ______ dm$^3$",
+              "reponse": "$3$ dm$^3$\n\n$1$ L $= 1$ dm$^3$."
+            },
+            {
+              "libelle": "c",
+              "enonce": "$450$ cm$^2$ $=$ ______ dm$^2$",
+              "reponse": "$4{,}5$ dm$^2$\n\n$1$ dm$^2 = 100$ cm$^2$."
+            }
+          ]
+        },
+        {
+          "numero": 11,
+          "points": 3,
+          "consigne": "Les angles d'un triangle.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "reponse": "$180^\\circ$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $90^\\circ$ et l'angle $B$ mesure $35^\\circ$. Calcule l'angle $C$.",
+              "reponse": "$55^\\circ$\n\n$180^\\circ - 90^\\circ - 35^\\circ = 55^\\circ$."
+            }
+          ]
+        }
+      ],
+      "totalPoints": 40
+    },
+    {
+      "id": "blanc3",
+      "titre": "TAF blanc n° 3",
+      "questions": [
+        {
+          "numero": 1,
+          "points": 6,
+          "consigne": "Calcule et donne les réponses sous forme d'un nombre entier ou décimal. Écris les étapes si nécessaire.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$(6 + 4)^2 =$",
+              "reponse": "$100$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$30 + 3 \\cdot (4^2 - 6) =$",
+              "reponse": "$60$\n\n$30 + 3 \\cdot (16 - 6) = 30 + 3 \\cdot 10 = 30 + 30 = 60$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$0{,}835 \\cdot 100 =$",
+              "reponse": "$83{,}5$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$5^0 =$",
+              "reponse": "$1$"
+            },
+            {
+              "libelle": "e",
+              "enonce": "$\\sqrt{49} =$",
+              "reponse": "$7$"
+            },
+            {
+              "libelle": "f",
+              "enonce": "$42 : 0{,}1 =$",
+              "reponse": "$420$"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "points": 5,
+          "consigne": "Calcule et donne les réponses sous forme d'une fraction irréductible ou d'un nombre entier.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\frac{5}{6} + \\frac{7}{6} =$",
+              "reponse": "$2$\n\n$\\frac{12}{6} = 2$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\frac{3}{4} + \\frac{1}{6} =$",
+              "reponse": "$\\frac{11}{12}$\n\nDénominateur commun : $12$.\n\n$\\frac{9}{12} + \\frac{2}{12} = \\frac{11}{12}$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$\\frac{9}{10} - \\frac{2}{5} =$",
+              "reponse": "$\\frac{1}{2}$\n\n$\\frac{9}{10} - \\frac{4}{10} = \\frac{5}{10} = \\frac{1}{2}$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$1{,}75 + \\frac{1}{4} =$",
+              "reponse": "$2$\n\n$\\frac{7}{4} + \\frac{1}{4} = \\frac{8}{4} = 2$"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "points": 3,
+          "consigne": "Entoure les nombres égaux à $0{,}5$ et barre les intrus.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "$\\frac{1}{2}$    $50\\%$    $\\sqrt{25}$    $\\frac{4}{8}$    $5\\%$    $2^0$",
+              "reponse": "Égaux à $0{,}5$ : $\\frac{1}{2}$, $50\\%$ et $\\frac{4}{8}$.\n\nIntrus : $\\sqrt{25} = 5$, $5\\% = 0{,}05$ et $2^0 = 1$."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "points": 3,
+          "consigne": "Un pâtissier a préparé $24$ éclairs et $36$ tartelettes. Il veut composer des plateaux identiques en utilisant **toutes** les pâtisseries.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Quel est le plus grand nombre de plateaux qu'il peut composer ?",
+              "reponse": "$12$ plateaux\n\nIl faut le plus grand diviseur commun de $24$ et $36$.\n\nDiviseurs de $24$ : $1, 2, 3, 4, 6, 8, 12, 24$\nDiviseurs de $36$ : $1, 2, 3, 4, 6, 9, 12, 18, 36$\n\nLe pgdc est $12$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Combien d'éclairs et de tartelettes y aura-t-il sur chaque plateau ?",
+              "reponse": "$2$ éclairs et $3$ tartelettes\n\n$24 : 12 = 2$ et $36 : 12 = 3$."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "points": 4,
+          "consigne": "Dans un magasin de sport.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Une paire de baskets coûte $120$ CHF et bénéficie d'une réduction de $15\\%$. Quel est le prix final ?",
+              "reponse": "$102$ CHF\n\nRéduction : $\\frac{15}{100} \\cdot 120 = 18$ CHF.\n\nPrix final : $120 - 18 = 102$ CHF."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Un ballon soldé est passé de $40$ CHF à $30$ CHF. Quel pourcentage de réduction a été appliqué ?",
+              "reponse": "$25\\%$\n\nRéduction : $40 - 30 = 10$ CHF.\n\n$\\frac{10}{40} = \\frac{1}{4} = 25\\%$."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "points": 2,
+          "consigne": "Le volume $V$ d'un cône est donné par la formule $V = \\frac{\\pi \\cdot r^2 \\cdot h}{3}$. Utilise $\\pi = 3$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Substitue puis calcule le volume pour $r = 2$ cm et $h = 5$ cm.",
+              "reponse": "$20$ cm$^3$\n\n$V = \\frac{3 \\cdot 2^2 \\cdot 5}{3} = \\frac{3 \\cdot 4 \\cdot 5}{3} = \\frac{60}{3} = 20$ cm$^3$."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "points": 4,
+          "consigne": "Un écran de télévision rectangulaire mesure $80$ cm de large et $60$ cm de haut.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Calcule la longueur de sa diagonale.",
+              "reponse": "$100$ cm\n\nLa largeur, la hauteur et la diagonale forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$d^2 = 80^2 + 60^2 = 6400 + 3600 = 10\\,000$\n\n$d = \\sqrt{10\\,000} = 100$ cm."
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "points": 5,
+          "consigne": "Deux bacs à fleurs sont proposés. Le bac A est un pavé droit de $8$ dm de long, $5$ dm de large et $3$ dm de haut. Le bac B est un cylindre de $4$ dm de rayon et $2$ dm de haut. Utilise $\\pi = 3$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Quel bac contient le plus de terre ? Calcule cette différence de volume, en dm$^3$.",
+              "reponse": "Le bac A, avec $24$ dm$^3$ de plus.\n\nBac A : $V = 8 \\cdot 5 \\cdot 3 = 120$ dm$^3$\n\nBac B : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 4^2 \\cdot 2 = 3 \\cdot 16 \\cdot 2 = 96$ dm$^3$\n\nDifférence : $120 - 96 = 24$ dm$^3$."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 3,
+          "consigne": "Complète.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$4{,}2$ km $=$ ______ m",
+              "reponse": "$4200$ m"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$75$ cl $=$ ______ dm$^3$",
+              "reponse": "$0{,}75$ dm$^3$\n\n$75$ cl $= 0{,}75$ L, et $1$ L $= 1$ dm$^3$."
+            },
+            {
+              "libelle": "c",
+              "enonce": "$3200$ g $= 3{,}2$ ______",
+              "reponse": "$3{,}2$ kg"
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "points": 3,
+          "consigne": "Les angles d'un triangle.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "reponse": "$180^\\circ$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $72^\\circ$ et l'angle $B$ mesure $58^\\circ$. Calcule l'angle $C$.",
+              "reponse": "$50^\\circ$\n\n$180^\\circ - 72^\\circ - 58^\\circ = 50^\\circ$."
+            }
+          ]
+        }
+      ],
+      "totalPoints": 38
+    },
+    {
+      "id": "blanc4",
+      "titre": "TAF blanc n° 4",
+      "questions": [
+        {
+          "numero": 1,
+          "points": 6,
+          "consigne": "Calcule et donne les réponses sous forme d'un nombre entier ou décimal. Écris les étapes si nécessaire.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$(8 - 5)^2 =$",
+              "reponse": "$9$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$45 + 45 : 3^2 =$",
+              "reponse": "$50$\n\n$45 + 45 : 9 = 45 + 5 = 50$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$2{,}5 \\cdot 1000 =$",
+              "reponse": "$2500$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$0{,}5^2 =$",
+              "reponse": "$0{,}25$"
+            },
+            {
+              "libelle": "e",
+              "enonce": "$\\sqrt{25 \\cdot 4} =$",
+              "reponse": "$10$\n\n$\\sqrt{100} = 10$"
+            },
+            {
+              "libelle": "f",
+              "enonce": "$36 : 0{,}1 =$",
+              "reponse": "$360$"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "points": 5,
+          "consigne": "Calcule et donne les réponses sous forme d'une fraction irréductible ou d'un nombre entier.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\frac{11}{9} + \\frac{7}{9} =$",
+              "reponse": "$2$\n\n$\\frac{18}{9} = 2$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\frac{1}{3} + \\frac{1}{5} =$",
+              "reponse": "$\\frac{8}{15}$\n\nDénominateur commun : $15$.\n\n$\\frac{5}{15} + \\frac{3}{15} = \\frac{8}{15}$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$\\frac{11}{12} - \\frac{1}{4} =$",
+              "reponse": "$\\frac{2}{3}$\n\n$\\frac{11}{12} - \\frac{3}{12} = \\frac{8}{12} = \\frac{2}{3}$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$4{,}5 + \\frac{1}{2} =$",
+              "reponse": "$5$\n\n$\\frac{9}{2} + \\frac{1}{2} = \\frac{10}{2} = 5$"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "points": 4,
+          "consigne": "Les affirmations suivantes sont-elles vraies ou fausses ?",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$2340$ est divisible par $2$ · par $5$ · par $9$ · par $100$",
+              "reponse": "Par $2$ : vrai (il finit par $0$).\nPar $5$ : vrai (il finit par $0$).\nPar $9$ : vrai ($2+3+4+0 = 9$).\nPar $100$ : faux (il ne finit pas par deux zéros)."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$1125$ est divisible par $3$ · par $5$ · par $25$ · par $10$",
+              "reponse": "Par $3$ : vrai ($1+1+2+5 = 9$).\nPar $5$ : vrai (il finit par $5$).\nPar $25$ : vrai (il finit par $25$).\nPar $10$ : faux (il ne finit pas par $0$)."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "points": 3,
+          "consigne": "Une enseignante dispose de $42$ crayons et $56$ gommes. Elle veut préparer des trousses identiques en utilisant **tout** le matériel.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Quel est le plus grand nombre de trousses qu'elle peut préparer ?",
+              "reponse": "$14$ trousses\n\nIl faut le plus grand diviseur commun de $42$ et $56$.\n\nDiviseurs de $42$ : $1, 2, 3, 6, 7, 14, 21, 42$\nDiviseurs de $56$ : $1, 2, 4, 7, 8, 14, 28, 56$\n\nLe pgdc est $14$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Combien de crayons et de gommes y aura-t-il dans chaque trousse ?",
+              "reponse": "$3$ crayons et $4$ gommes\n\n$42 : 14 = 3$ et $56 : 14 = 4$."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "points": 3,
+          "consigne": "Un manteau coûte $150$ CHF. Le magasin applique une réduction de $30\\%$.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Quel est le montant de la réduction ?",
+              "reponse": "$45$ CHF\n\n$\\frac{30}{100} \\cdot 150 = 45$ CHF."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Quel est le prix final ?",
+              "reponse": "$105$ CHF\n\n$150 - 45 = 105$ CHF."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "points": 3,
+          "consigne": "Le plan d'une maquette de voiture est dessiné à l'échelle $1 : 25$.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Un élément mesure $5$ m dans la réalité. Quelle est sa longueur sur le dessin ?",
+              "reponse": "$20$ cm\n\n$5$ m $= 500$ cm, et $500 : 25 = 20$ cm."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Sur le dessin, un autre élément mesure $6$ cm. Quelle est sa longueur réelle ?",
+              "reponse": "$1$ m\n\n$6 \\cdot 25 = 150$ cm $= 1$ m."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "points": 2,
+          "consigne": "L'aire latérale $A$ d'un cylindre est donnée par la formule $A = 2 \\cdot \\pi \\cdot r \\cdot h$. Utilise $\\pi = 3$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Substitue puis calcule l'aire latérale pour $r = 2$ cm et $h = 5$ cm.",
+              "reponse": "$60$ cm$^2$\n\n$A = 2 \\cdot 3 \\cdot 2 \\cdot 5 = 60$ cm$^2$."
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "points": 4,
+          "consigne": "Un toboggan est installé dans un parc. Son sommet est à $9$ m du sol et son pied touche le sol à $12$ m du pied du support vertical.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Quelle est la longueur de la glissière du toboggan ?",
+              "reponse": "$15$ m\n\nLe support, le sol et la glissière forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$\\ell^2 = 9^2 + 12^2 = 81 + 144 = 225$\n\n$\\ell = \\sqrt{225} = 15$ m."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 5,
+          "consigne": "Deux cartons sont proposés. Le carton A est un pavé droit de $10$ cm de long, $6$ cm de large et $5$ cm de haut. Le carton B est un cylindre de $4$ cm de rayon et $6$ cm de haut. Utilise $\\pi = 3$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en cm$^3$.",
+              "reponse": "Le carton A, avec $12$ cm$^3$ de plus.\n\nCarton a : $V = 10 \\cdot 6 \\cdot 5 = 300$ cm$^3$\n\nCarton b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 4^2 \\cdot 6 = 288$ cm$^3$\n\nDifférence : $300 - 288 = 12$ cm$^3$."
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "points": 3,
+          "consigne": "Complète.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$0{,}8$ km $=$ ______ m",
+              "reponse": "$800$ m"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$1{,}5$ L $=$ ______ dm$^3$",
+              "reponse": "$1{,}5$ dm$^3$\n\n$1$ L $= 1$ dm$^3$."
+            },
+            {
+              "libelle": "c",
+              "enonce": "$5400$ g $= 5{,}4$ ______",
+              "reponse": "$5{,}4$ kg"
+            }
+          ]
+        },
+        {
+          "numero": 11,
+          "points": 3,
+          "consigne": "Les angles d'un triangle.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "reponse": "$180^\\circ$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $105^\\circ$ et l'angle $B$ mesure $42^\\circ$. Calcule l'angle $C$.",
+              "reponse": "$33^\\circ$\n\n$180^\\circ - 105^\\circ - 42^\\circ = 33^\\circ$."
+            }
+          ]
+        }
+      ],
+      "totalPoints": 41
+    },
+    {
+      "id": "blanc5",
+      "titre": "TAF blanc n° 5",
+      "questions": [
+        {
+          "numero": 1,
+          "points": 6,
+          "consigne": "Calcule et donne les réponses sous forme d'un nombre entier ou décimal. Écris les étapes si nécessaire.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$(7 + 5)^2 =$",
+              "reponse": "$144$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$100 + 100 : 10^2 =$",
+              "reponse": "$101$\n\n$100 + 100 : 100 = 100 + 1 = 101$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$0{,}049 \\cdot 1000 =$",
+              "reponse": "$49$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$3^0 =$",
+              "reponse": "$1$"
+            },
+            {
+              "libelle": "e",
+              "enonce": "$\\sqrt{81} =$",
+              "reponse": "$9$"
+            },
+            {
+              "libelle": "f",
+              "enonce": "$7 : 0{,}01 =$",
+              "reponse": "$700$"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "points": 5,
+          "consigne": "Calcule et donne les réponses sous forme d'une fraction irréductible ou d'un nombre entier.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\frac{19}{15} + \\frac{11}{15} =$",
+              "reponse": "$2$\n\n$\\frac{30}{15} = 2$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\frac{2}{3} + \\frac{1}{4} =$",
+              "reponse": "$\\frac{11}{12}$\n\nDénominateur commun : $12$.\n\n$\\frac{8}{12} + \\frac{3}{12} = \\frac{11}{12}$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$\\frac{5}{8} - \\frac{1}{4} =$",
+              "reponse": "$\\frac{3}{8}$\n\n$\\frac{5}{8} - \\frac{2}{8} = \\frac{3}{8}$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$6{,}25 + \\frac{3}{4} =$",
+              "reponse": "$7$\n\n$\\frac{25}{4} + \\frac{3}{4} = \\frac{28}{4} = 7$"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "points": 3,
+          "consigne": "Entoure les nombres égaux à $0{,}75$ et barre les intrus.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "$\\frac{3}{4}$    $75\\%$    $\\sqrt{75}$    $\\frac{6}{8}$    $7{,}5\\%$    $7^0$",
+              "reponse": "Égaux à $0{,}75$ : $\\frac{3}{4}$, $75\\%$ et $\\frac{6}{8}$.\n\nIntrus : $\\sqrt{75}$ (environ $8{,}7$), $7{,}5\\% = 0{,}075$ et $7^0 = 1$."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "points": 3,
+          "consigne": "Deux lampes d'un carrefour clignotent en même temps. La première clignote toutes les $8$ secondes, la seconde toutes les $20$ secondes.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Au bout de combien de secondes clignoteront-elles de nouveau en même temps ?",
+              "reponse": "$40$ secondes\n\nIl faut le plus petit multiple commun de $8$ et $20$.\n\nMultiples de $8$ : $8, 16, 24, 32, 40\\ldots$\nMultiples de $20$ : $20, 40\\ldots$\n\nLe ppmc est $40$."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "points": 4,
+          "consigne": "Dans un magasin d'électronique.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Une console coûte $400$ CHF et bénéficie d'une réduction de $10\\%$. Quel est le prix final ?",
+              "reponse": "$360$ CHF\n\nRéduction : $\\frac{10}{100} \\cdot 400 = 40$ CHF.\n\nPrix final : $400 - 40 = 360$ CHF."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Un jeu soldé est passé de $60$ CHF à $45$ CHF. Quel pourcentage de réduction a été appliqué ?",
+              "reponse": "$25\\%$\n\nRéduction : $60 - 45 = 15$ CHF.\n\n$\\frac{15}{60} = \\frac{1}{4} = 25\\%$."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "points": 2,
+          "consigne": "L'aire $A$ d'un triangle est donnée par la formule $A = \\frac{b \\cdot h}{2}$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Substitue puis calcule l'aire pour $b = 12$ cm et $h = 7$ cm.",
+              "reponse": "$42$ cm$^2$\n\n$A = \\frac{12 \\cdot 7}{2} = \\frac{84}{2} = 42$ cm$^2$."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "points": 4,
+          "consigne": "Un panneau rectangulaire mesure $15$ dm de long et $8$ dm de large.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Calcule la longueur de sa diagonale.",
+              "reponse": "$17$ dm\n\nLa longueur, la largeur et la diagonale forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$d^2 = 15^2 + 8^2 = 225 + 64 = 289$\n\n$d = \\sqrt{289} = 17$ dm."
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "points": 5,
+          "consigne": "Deux récipients sont proposés. Le récipient A est un pavé droit de $7$ cm de long, $4$ cm de large et $3$ cm de haut. Le récipient B est un cylindre de $2$ cm de rayon et $6$ cm de haut. Utilise $\\pi = 3$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en cm$^3$.",
+              "reponse": "Le récipient A, avec $12$ cm$^3$ de plus.\n\nRécipient a : $V = 7 \\cdot 4 \\cdot 3 = 84$ cm$^3$\n\nRécipient b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 2^2 \\cdot 6 = 72$ cm$^3$\n\nDifférence : $84 - 72 = 12$ cm$^3$."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 3,
+          "consigne": "Complète.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$3{,}6$ hm $=$ ______ m",
+              "reponse": "$360$ m"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$0{,}25$ L $=$ ______ dm$^3$",
+              "reponse": "$0{,}25$ dm$^3$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$4{,}8$ m$^2$ $=$ ______ dm$^2$",
+              "reponse": "$480$ dm$^2$\n\n$1$ m$^2 = 100$ dm$^2$."
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "points": 3,
+          "consigne": "Les angles d'un triangle.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "reponse": "$180^\\circ$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $38^\\circ$ et l'angle $B$ mesure $97^\\circ$. Calcule l'angle $C$.",
+              "reponse": "$45^\\circ$\n\n$180^\\circ - 38^\\circ - 97^\\circ = 45^\\circ$."
+            }
+          ]
+        }
+      ],
+      "totalPoints": 38
+    },
+    {
+      "id": "blanc6",
+      "titre": "TAF blanc n° 6",
+      "questions": [
+        {
+          "numero": 1,
+          "points": 6,
+          "consigne": "Calcule et donne les réponses sous forme d'un nombre entier ou décimal. Écris les étapes si nécessaire.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$(10 - 6)^2 =$",
+              "reponse": "$16$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$20 + 4 \\cdot (3^2 - 4) =$",
+              "reponse": "$40$\n\n$20 + 4 \\cdot (9 - 4) = 20 + 4 \\cdot 5 = 20 + 20 = 40$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$61{,}4 \\cdot 100 =$",
+              "reponse": "$6140$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$0{,}3^2 =$",
+              "reponse": "$0{,}09$"
+            },
+            {
+              "libelle": "e",
+              "enonce": "$\\sqrt{4 \\cdot 36} =$",
+              "reponse": "$12$\n\n$\\sqrt{144} = 12$"
+            },
+            {
+              "libelle": "f",
+              "enonce": "$9 : 0{,}1 =$",
+              "reponse": "$90$"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "points": 5,
+          "consigne": "Calcule et donne les réponses sous forme d'une fraction irréductible ou d'un nombre entier.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\frac{7}{10} + \\frac{13}{10} =$",
+              "reponse": "$2$\n\n$\\frac{20}{10} = 2$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\frac{1}{4} + \\frac{2}{5} =$",
+              "reponse": "$\\frac{13}{20}$\n\nDénominateur commun : $20$.\n\n$\\frac{5}{20} + \\frac{8}{20} = \\frac{13}{20}$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$\\frac{5}{6} - \\frac{1}{2} =$",
+              "reponse": "$\\frac{1}{3}$\n\n$\\frac{5}{6} - \\frac{3}{6} = \\frac{2}{6} = \\frac{1}{3}$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$2{,}5 + \\frac{1}{2} =$",
+              "reponse": "$3$\n\n$\\frac{5}{2} + \\frac{1}{2} = \\frac{6}{2} = 3$"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "points": 3,
+          "consigne": "Place le plus précisément possible les nombres suivants sur une droite graduée allant de $-2$ à $5$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "$A = -1{,}5$        $B = \\sqrt{16}$        $C = 250\\%$",
+              "reponse": "$A = -1{,}5$ : entre $-2$ et $-1$, au milieu.\n\n$B = \\sqrt{16} = 4$.\n\n$C = 250\\% = 2{,}5$ : entre $2$ et $3$, au milieu."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "points": 3,
+          "consigne": "Un bijoutier a $36$ perles bleues et $48$ perles blanches. Il veut réaliser des colliers identiques en utilisant **toutes** les perles.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Quel est le plus grand nombre de colliers qu'il peut réaliser ?",
+              "reponse": "$12$ colliers\n\nIl faut le plus grand diviseur commun de $36$ et $48$.\n\nDiviseurs de $36$ : $1, 2, 3, 4, 6, 9, 12, 18, 36$\nDiviseurs de $48$ : $1, 2, 3, 4, 6, 8, 12, 16, 24, 48$\n\nLe pgdc est $12$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Combien de perles de chaque couleur y aura-t-il sur chaque collier ?",
+              "reponse": "$3$ perles bleues et $4$ perles blanches\n\n$36 : 12 = 3$ et $48 : 12 = 4$."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "points": 3,
+          "consigne": "Un sac à dos coûte $60$ CHF. Le magasin applique une réduction de $20\\%$.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Quel est le montant de la réduction ?",
+              "reponse": "$12$ CHF\n\n$\\frac{20}{100} \\cdot 60 = 12$ CHF."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Quel est le prix final ?",
+              "reponse": "$48$ CHF\n\n$60 - 12 = 48$ CHF."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "points": 3,
+          "consigne": "Le plan d'un jardin est dessiné à l'échelle $1 : 100$.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Un élément mesure $12$ m dans la réalité. Quelle est sa longueur sur le dessin ?",
+              "reponse": "$12$ cm\n\n$12$ m $= 1200$ cm, et $1200 : 100 = 12$ cm."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Sur le dessin, un autre élément mesure $8$ cm. Quelle est sa longueur réelle ?",
+              "reponse": "$8$ m\n\n$8 \\cdot 100 = 800$ cm $= 8$ m."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "points": 2,
+          "consigne": "Le volume $V$ d'un prisme droit est donné par la formule $V = B \\cdot h$, où $B$ est l'aire de la base.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Substitue puis calcule le volume pour $B = 18$ cm$^2$ et $h = 7$ cm.",
+              "reponse": "$126$ cm$^3$\n\n$V = 18 \\cdot 7 = 126$ cm$^3$."
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "points": 4,
+          "consigne": "Une rampe d'accès monte jusqu'à une porte située à $7$ m de haut. Son pied est posé à $24$ m du bâtiment.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Quelle est la longueur de la rampe ?",
+              "reponse": "$25$ m\n\nLe bâtiment, le sol et la rampe forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$\\ell^2 = 7^2 + 24^2 = 49 + 576 = 625$\n\n$\\ell = \\sqrt{625} = 25$ m."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 5,
+          "consigne": "Deux aquariums sont proposés. Le aquarium A est un pavé droit de $9$ dm de long, $5$ dm de large et $4$ dm de haut. Le aquarium B est un cylindre de $3$ dm de rayon et $5$ dm de haut. Utilise $\\pi = 3$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en dm$^3$.",
+              "reponse": "Le aquarium A, avec $45$ dm$^3$ de plus.\n\nAquarium a : $V = 9 \\cdot 5 \\cdot 4 = 180$ dm$^3$\n\nAquarium b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 3^2 \\cdot 5 = 135$ dm$^3$\n\nDifférence : $180 - 135 = 45$ dm$^3$."
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "points": 3,
+          "consigne": "Les angles d'un triangle.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "reponse": "$180^\\circ$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $64^\\circ$ et l'angle $B$ mesure $71^\\circ$. Calcule l'angle $C$.",
+              "reponse": "$45^\\circ$\n\n$180^\\circ - 64^\\circ - 71^\\circ = 45^\\circ$."
+            }
+          ]
+        }
+      ],
+      "totalPoints": 37
+    },
+    {
+      "id": "blanc7",
+      "titre": "TAF blanc n° 7",
+      "questions": [
+        {
+          "numero": 1,
+          "points": 6,
+          "consigne": "Calcule et donne les réponses sous forme d'un nombre entier ou décimal. Écris les étapes si nécessaire.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$(13 - 8)^2 =$",
+              "reponse": "$25$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$80 + 80 : 4^2 =$",
+              "reponse": "$85$\n\n$80 + 80 : 16 = 80 + 5 = 85$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$0{,}72 \\cdot 1000 =$",
+              "reponse": "$720$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$0{,}6^2 =$",
+              "reponse": "$0{,}36$"
+            },
+            {
+              "libelle": "e",
+              "enonce": "$\\sqrt{64} =$",
+              "reponse": "$8$"
+            },
+            {
+              "libelle": "f",
+              "enonce": "$15 : 0{,}01 =$",
+              "reponse": "$1500$"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "points": 5,
+          "consigne": "Calcule et donne les réponses sous forme d'une fraction irréductible ou d'un nombre entier.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\frac{9}{7} + \\frac{5}{7} =$",
+              "reponse": "$2$\n\n$\\frac{14}{7} = 2$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\frac{1}{6} + \\frac{3}{4} =$",
+              "reponse": "$\\frac{11}{12}$\n\nDénominateur commun : $12$.\n\n$\\frac{2}{12} + \\frac{9}{12} = \\frac{11}{12}$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$\\frac{7}{10} - \\frac{1}{5} =$",
+              "reponse": "$\\frac{1}{2}$\n\n$\\frac{7}{10} - \\frac{2}{10} = \\frac{5}{10} = \\frac{1}{2}$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$3{,}25 + \\frac{3}{4} =$",
+              "reponse": "$4$\n\n$\\frac{13}{4} + \\frac{3}{4} = \\frac{16}{4} = 4$"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "points": 3,
+          "consigne": "Entoure les nombres égaux à $0{,}2$ et barre les intrus.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "$\\frac{1}{5}$    $20\\%$    $\\sqrt{4}$    $\\frac{4}{20}$    $2\\%$    $9^0$",
+              "reponse": "Égaux à $0{,}2$ : $\\frac{1}{5}$, $20\\%$ et $\\frac{4}{20}$.\n\nIntrus : $\\sqrt{4} = 2$, $2\\% = 0{,}02$ et $9^0 = 1$."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "points": 4,
+          "consigne": "Les affirmations suivantes sont-elles vraies ou fausses ?",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$7425$ est divisible par $3$ · par $5$ · par $9$ · par $2$",
+              "reponse": "Par $3$ : vrai ($7+4+2+5 = 18$).\nPar $5$ : vrai (il finit par $5$).\nPar $9$ : vrai (la somme des chiffres vaut $18$).\nPar $2$ : faux (le nombre est impair)."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$6300$ est divisible par $10$ · par $25$ · par $100$ · par $9$",
+              "reponse": "Par $10$ : vrai (il finit par $0$).\nPar $25$ : vrai (il finit par $00$).\nPar $100$ : vrai (il finit par deux zéros).\nPar $9$ : vrai ($6+3+0+0 = 9$)."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "points": 3,
+          "consigne": "Un casque audio coûte $120$ CHF. Le magasin applique une réduction de $40\\%$.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Quel est le montant de la réduction ?",
+              "reponse": "$48$ CHF\n\n$\\frac{40}{100} \\cdot 120 = 48$ CHF."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Quel est le prix final ?",
+              "reponse": "$72$ CHF\n\n$120 - 48 = 72$ CHF."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "points": 3,
+          "consigne": "Le plan d'une salle de sport est dessiné à l'échelle $1 : 500$.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Un élément mesure $20$ m dans la réalité. Quelle est sa longueur sur le dessin ?",
+              "reponse": "$4$ cm\n\n$20$ m $= 2000$ cm, et $2000 : 500 = 4$ cm."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Sur le dessin, un autre élément mesure $7$ cm. Quelle est sa longueur réelle ?",
+              "reponse": "$35$ m\n\n$7 \\cdot 500 = 3500$ cm $= 35$ m."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "points": 2,
+          "consigne": "Le périmètre $P$ d'un cercle est donné par la formule $P = 2 \\cdot \\pi \\cdot r$. Utilise $\\pi = 3$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Substitue puis calcule le périmètre pour $r = 7$ cm.",
+              "reponse": "$42$ cm\n\n$P = 2 \\cdot 3 \\cdot 7 = 42$ cm."
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "points": 4,
+          "consigne": "Un terrain rectangulaire mesure $40$ m de long et $9$ m de large.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Calcule la longueur de sa diagonale.",
+              "reponse": "$41$ m\n\nLa longueur, la largeur et la diagonale forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$d^2 = 40^2 + 9^2 = 1600 + 81 = 1681$\n\n$d = \\sqrt{1681} = 41$ m."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 5,
+          "consigne": "Deux coffres sont proposés. Le coffre A est un pavé droit de $12$ cm de long, $5$ cm de large et $4$ cm de haut. Le coffre B est un cylindre de $4$ cm de rayon et $4$ cm de haut. Utilise $\\pi = 3$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en cm$^3$.",
+              "reponse": "Le coffre A, avec $48$ cm$^3$ de plus.\n\nCoffre a : $V = 12 \\cdot 5 \\cdot 4 = 240$ cm$^3$\n\nCoffre b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 4^2 \\cdot 4 = 192$ cm$^3$\n\nDifférence : $240 - 192 = 48$ cm$^3$."
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "points": 3,
+          "consigne": "Complète.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$5{,}7$ km $=$ ______ m",
+              "reponse": "$5700$ m"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$300$ cl $=$ ______ dm$^3$",
+              "reponse": "$3$ dm$^3$\n\n$300$ cl $= 3$ L, et $1$ L $= 1$ dm$^3$."
+            },
+            {
+              "libelle": "c",
+              "enonce": "$0{,}9$ m$^2$ $=$ ______ dm$^2$",
+              "reponse": "$90$ dm$^2$"
+            }
+          ]
+        },
+        {
+          "numero": 11,
+          "points": 3,
+          "consigne": "Les angles d'un triangle.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "reponse": "$180^\\circ$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $47^\\circ$ et l'angle $B$ mesure $88^\\circ$. Calcule l'angle $C$.",
+              "reponse": "$45^\\circ$\n\n$180^\\circ - 47^\\circ - 88^\\circ = 45^\\circ$."
+            }
+          ]
+        }
+      ],
+      "totalPoints": 41
+    },
+    {
+      "id": "blanc8",
+      "titre": "TAF blanc n° 8",
+      "questions": [
+        {
+          "numero": 1,
+          "points": 6,
+          "consigne": "Calcule et donne les réponses sous forme d'un nombre entier ou décimal. Écris les étapes si nécessaire.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$(4 + 9)^2 =$",
+              "reponse": "$169$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$60 + 60 : 2^2 =$",
+              "reponse": "$75$\n\n$60 + 60 : 4 = 60 + 15 = 75$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$9{,}04 \\cdot 100 =$",
+              "reponse": "$904$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$0{,}7^2 =$",
+              "reponse": "$0{,}49$"
+            },
+            {
+              "libelle": "e",
+              "enonce": "$\\sqrt{9 \\cdot 25} =$",
+              "reponse": "$15$\n\n$\\sqrt{225} = 15$"
+            },
+            {
+              "libelle": "f",
+              "enonce": "$63 : 0{,}1 =$",
+              "reponse": "$630$"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "points": 5,
+          "consigne": "Calcule et donne les réponses sous forme d'une fraction irréductible ou d'un nombre entier.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\frac{15}{11} + \\frac{7}{11} =$",
+              "reponse": "$2$\n\n$\\frac{22}{11} = 2$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\frac{3}{8} + \\frac{1}{2} =$",
+              "reponse": "$\\frac{7}{8}$\n\nDénominateur commun : $8$.\n\n$\\frac{3}{8} + \\frac{4}{8} = \\frac{7}{8}$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$\\frac{4}{5} - \\frac{3}{10} =$",
+              "reponse": "$\\frac{1}{2}$\n\n$\\frac{8}{10} - \\frac{3}{10} = \\frac{5}{10} = \\frac{1}{2}$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$1{,}5 + \\frac{1}{2} =$",
+              "reponse": "$2$\n\n$\\frac{3}{2} + \\frac{1}{2} = \\frac{4}{2} = 2$"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "points": 3,
+          "consigne": "Deux trains partent ensemble d'une gare. Le premier revient toutes les $15$ minutes, le second toutes les $25$ minutes.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Au bout de combien de minutes repartiront-ils ensemble ?",
+              "reponse": "$75$ minutes\n\nIl faut le plus petit multiple commun de $15$ et $25$.\n\nMultiples de $15$ : $15, 30, 45, 60, 75\\ldots$\nMultiples de $25$ : $25, 50, 75\\ldots$\n\nLe ppmc est $75$."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "points": 3,
+          "consigne": "Place le plus précisément possible les nombres suivants sur une droite graduée allant de $-3$ à $6$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "$A = -0{,}5$        $B = \\sqrt{25}$        $C = 175\\%$",
+              "reponse": "$A = -0{,}5$ : entre $-1$ et $0$, au milieu.\n\n$B = \\sqrt{25} = 5$.\n\n$C = 175\\% = 1{,}75$ : entre $1$ et $2$, aux trois quarts."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "points": 3,
+          "consigne": "Une raquette coûte $80$ CHF. Le magasin applique une réduction de $15\\%$.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Quel est le montant de la réduction ?",
+              "reponse": "$12$ CHF\n\n$\\frac{15}{100} \\cdot 80 = 12$ CHF."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Quel est le prix final ?",
+              "reponse": "$68$ CHF\n\n$80 - 12 = 68$ CHF."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "points": 3,
+          "consigne": "Le plan d'une maquette d'avion est dessiné à l'échelle $1 : 40$.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Un élément mesure $10$ m dans la réalité. Quelle est sa longueur sur le dessin ?",
+              "reponse": "$25$ cm\n\n$10$ m $= 1000$ cm, et $1000 : 40 = 25$ cm."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Sur le dessin, un autre élément mesure $15$ cm. Quelle est sa longueur réelle ?",
+              "reponse": "$6$ m\n\n$15 \\cdot 40 = 600$ cm $= 6$ m."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "points": 2,
+          "consigne": "L'aire $A$ d'un losange est donnée par la formule $A = \\frac{D \\cdot d}{2}$, où $D$ et $d$ sont les diagonales.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Substitue puis calcule l'aire pour $D = 14$ cm et $d = 6$ cm.",
+              "reponse": "$42$ cm$^2$\n\n$A = \\frac{14 \\cdot 6}{2} = \\frac{84}{2} = 42$ cm$^2$."
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "points": 4,
+          "consigne": "Un câble relie le sommet d'un mât à un point du sol. Le mât mesure $16$ m de haut et le câble est fixé au sol à $12$ m du pied du mât.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Quelle est la longueur du câble ?",
+              "reponse": "$20$ m\n\nLe mât, le sol et le câble forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$\\ell^2 = 16^2 + 12^2 = 256 + 144 = 400$\n\n$\\ell = \\sqrt{400} = 20$ m."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 5,
+          "consigne": "Deux seaux sont proposés. Le seau A est un pavé droit de $6$ dm de long, $5$ dm de large et $4$ dm de haut. Le seau B est un cylindre de $2$ dm de rayon et $7$ dm de haut. Utilise $\\pi = 3$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en dm$^3$.",
+              "reponse": "Le seau A, avec $36$ dm$^3$ de plus.\n\nSeau a : $V = 6 \\cdot 5 \\cdot 4 = 120$ dm$^3$\n\nSeau b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 2^2 \\cdot 7 = 84$ dm$^3$\n\nDifférence : $120 - 84 = 36$ dm$^3$."
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "points": 3,
+          "consigne": "Les angles d'un triangle.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "reponse": "$180^\\circ$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $29^\\circ$ et l'angle $B$ mesure $106^\\circ$. Calcule l'angle $C$.",
+              "reponse": "$45^\\circ$\n\n$180^\\circ - 29^\\circ - 106^\\circ = 45^\\circ$."
+            }
+          ]
+        }
+      ],
+      "totalPoints": 37
+    },
+    {
+      "id": "blanc9",
+      "titre": "TAF blanc n° 9",
+      "questions": [
+        {
+          "numero": 1,
+          "points": 6,
+          "consigne": "Calcule et donne les réponses sous forme d'un nombre entier ou décimal. Écris les étapes si nécessaire.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$(12 - 7)^2 =$",
+              "reponse": "$25$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$10 + 5 \\cdot (2^3 - 3) =$",
+              "reponse": "$35$\n\n$10 + 5 \\cdot (8 - 3) = 10 + 5 \\cdot 5 = 10 + 25 = 35$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$0{,}506 \\cdot 1000 =$",
+              "reponse": "$506$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$8^0 =$",
+              "reponse": "$1$"
+            },
+            {
+              "libelle": "e",
+              "enonce": "$\\sqrt{121} =$",
+              "reponse": "$11$"
+            },
+            {
+              "libelle": "f",
+              "enonce": "$4 : 0{,}01 =$",
+              "reponse": "$400$"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "points": 5,
+          "consigne": "Calcule et donne les réponses sous forme d'une fraction irréductible ou d'un nombre entier.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\frac{17}{13} + \\frac{9}{13} =$",
+              "reponse": "$2$\n\n$\\frac{26}{13} = 2$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\frac{2}{9} + \\frac{1}{3} =$",
+              "reponse": "$\\frac{5}{9}$\n\nDénominateur commun : $9$.\n\n$\\frac{2}{9} + \\frac{3}{9} = \\frac{5}{9}$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$\\frac{11}{15} - \\frac{1}{5} =$",
+              "reponse": "$\\frac{8}{15}$\n\n$\\frac{11}{15} - \\frac{3}{15} = \\frac{8}{15}$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$5{,}75 + \\frac{1}{4} =$",
+              "reponse": "$6$\n\n$\\frac{23}{4} + \\frac{1}{4} = \\frac{24}{4} = 6$"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "points": 3,
+          "consigne": "Entoure les nombres égaux à $0{,}4$ et barre les intrus.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "$\\frac{2}{5}$    $40\\%$    $\\sqrt{16}$    $\\frac{8}{20}$    $4\\%$    $6^0$",
+              "reponse": "Égaux à $0{,}4$ : $\\frac{2}{5}$, $40\\%$ et $\\frac{8}{20}$.\n\nIntrus : $\\sqrt{16} = 4$, $4\\% = 0{,}04$ et $6^0 = 1$."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "points": 3,
+          "consigne": "Un libraire a reçu $63$ romans et $81$ bandes dessinées. Il veut garnir des rayons identiques en utilisant **tous** les livres.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Quel est le plus grand nombre de rayons qu'il peut garnir ?",
+              "reponse": "$9$ rayons\n\nIl faut le plus grand diviseur commun de $63$ et $81$.\n\nDiviseurs de $63$ : $1, 3, 7, 9, 21, 63$\nDiviseurs de $81$ : $1, 3, 9, 27, 81$\n\nLe pgdc est $9$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Combien de romans et de bandes dessinées y aura-t-il sur chaque rayon ?",
+              "reponse": "$7$ romans et $9$ bandes dessinées\n\n$63 : 9 = 7$ et $81 : 9 = 9$."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "points": 4,
+          "consigne": "Dans un magasin de téléphonie.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Un téléphone coûte $600$ CHF et bénéficie d'une réduction de $25\\%$. Quel est le prix final ?",
+              "reponse": "$450$ CHF\n\nRéduction : $\\frac{25}{100} \\cdot 600 = 150$ CHF.\n\nPrix final : $600 - 150 = 450$ CHF."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Une coque soldée est passée de $25$ CHF à $20$ CHF. Quel pourcentage de réduction a été appliqué ?",
+              "reponse": "$20\\%$\n\nRéduction : $25 - 20 = 5$ CHF.\n\n$\\frac{5}{25} = \\frac{1}{5} = 20\\%$."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "points": 2,
+          "consigne": "Le volume $V$ d'une pyramide est donné par la formule $V = \\frac{B \\cdot h}{3}$, où $B$ est l'aire de la base.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Substitue puis calcule le volume pour $B = 27$ cm$^2$ et $h = 8$ cm.",
+              "reponse": "$72$ cm$^3$\n\n$V = \\frac{27 \\cdot 8}{3} = \\frac{216}{3} = 72$ cm$^3$."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "points": 4,
+          "consigne": "Un écran rectangulaire mesure $12$ cm de haut et $35$ cm de large.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Calcule la longueur de sa diagonale.",
+              "reponse": "$37$ cm\n\nLa hauteur, la largeur et la diagonale forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$d^2 = 12^2 + 35^2 = 144 + 1225 = 1369$\n\n$d = \\sqrt{1369} = 37$ cm."
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "points": 5,
+          "consigne": "Deux bidons sont proposés. Le bidon A est un pavé droit de $8$ dm de long, $6$ dm de large et $5$ dm de haut. Le bidon B est un cylindre de $5$ dm de rayon et $3$ dm de haut. Utilise $\\pi = 3$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en dm$^3$.",
+              "reponse": "Le bidon A, avec $15$ dm$^3$ de plus.\n\nBidon a : $V = 8 \\cdot 6 \\cdot 5 = 240$ dm$^3$\n\nBidon b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 5^2 \\cdot 3 = 225$ dm$^3$\n\nDifférence : $240 - 225 = 15$ dm$^3$."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 3,
+          "consigne": "Complète.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$2{,}3$ km $=$ ______ m",
+              "reponse": "$2300$ m"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$50$ cl $=$ ______ dm$^3$",
+              "reponse": "$0{,}5$ dm$^3$\n\n$50$ cl $= 0{,}5$ L, et $1$ L $= 1$ dm$^3$."
+            },
+            {
+              "libelle": "c",
+              "enonce": "$7800$ g $= 7{,}8$ ______",
+              "reponse": "$7{,}8$ kg"
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "points": 3,
+          "consigne": "Les angles d'un triangle.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "reponse": "$180^\\circ$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $55^\\circ$ et l'angle $B$ mesure $83^\\circ$. Calcule l'angle $C$.",
+              "reponse": "$42^\\circ$\n\n$180^\\circ - 55^\\circ - 83^\\circ = 42^\\circ$."
+            }
+          ]
+        }
+      ],
+      "totalPoints": 38
+    },
+    {
+      "id": "blanc10",
+      "titre": "TAF blanc n° 10",
+      "questions": [
+        {
+          "numero": 1,
+          "points": 6,
+          "consigne": "Calcule et donne les réponses sous forme d'un nombre entier ou décimal. Écris les étapes si nécessaire.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$(15 - 9)^2 =$",
+              "reponse": "$36$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$90 + 90 : 3^2 =$",
+              "reponse": "$100$\n\n$90 + 90 : 9 = 90 + 10 = 100$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$3{,}07 \\cdot 100 =$",
+              "reponse": "$307$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$0{,}9^2 =$",
+              "reponse": "$0{,}81$"
+            },
+            {
+              "libelle": "e",
+              "enonce": "$\\sqrt{16 \\cdot 25} =$",
+              "reponse": "$20$\n\n$\\sqrt{400} = 20$"
+            },
+            {
+              "libelle": "f",
+              "enonce": "$27 : 0{,}1 =$",
+              "reponse": "$270$"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "points": 5,
+          "consigne": "Calcule et donne les réponses sous forme d'une fraction irréductible ou d'un nombre entier.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\frac{23}{14} + \\frac{5}{14} =$",
+              "reponse": "$2$\n\n$\\frac{28}{14} = 2$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\frac{1}{2} + \\frac{1}{5} =$",
+              "reponse": "$\\frac{7}{10}$\n\nDénominateur commun : $10$.\n\n$\\frac{5}{10} + \\frac{2}{10} = \\frac{7}{10}$"
+            },
+            {
+              "libelle": "c",
+              "enonce": "$\\frac{5}{12} - \\frac{1}{4} =$",
+              "reponse": "$\\frac{1}{6}$\n\n$\\frac{5}{12} - \\frac{3}{12} = \\frac{2}{12} = \\frac{1}{6}$"
+            },
+            {
+              "libelle": "d",
+              "enonce": "$7{,}5 + \\frac{1}{2} =$",
+              "reponse": "$8$\n\n$\\frac{15}{2} + \\frac{1}{2} = \\frac{16}{2} = 8$"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "points": 4,
+          "consigne": "Les affirmations suivantes sont-elles vraies ou fausses ?",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$8100$ est divisible par $9$ · par $100$ · par $25$ · par $2$",
+              "reponse": "Par $9$ : vrai ($8+1+0+0 = 9$).\nPar $100$ : vrai (il finit par deux zéros).\nPar $25$ : vrai (il finit par $00$).\nPar $2$ : vrai (il finit par $0$)."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$2755$ est divisible par $5$ · par $3$ · par $10$ · par $2$",
+              "reponse": "Par $5$ : vrai (il finit par $5$).\nPar $3$ : faux ($2+7+5+5 = 19$, qui n'est pas divisible par $3$).\nPar $10$ : faux (il ne finit pas par $0$).\nPar $2$ : faux (le nombre est impair)."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "points": 3,
+          "consigne": "Un pâtissier a préparé $45$ macarons et $60$ sablés. Il veut composer des coffrets identiques en utilisant **toutes** les pâtisseries.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Quel est le plus grand nombre de coffrets qu'il peut composer ?",
+              "reponse": "$15$ coffrets\n\nIl faut le plus grand diviseur commun de $45$ et $60$.\n\nDiviseurs de $45$ : $1, 3, 5, 9, 15, 45$\nDiviseurs de $60$ : $1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60$\n\nLe pgdc est $15$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Combien de macarons et de sablés y aura-t-il dans chaque coffret ?",
+              "reponse": "$3$ macarons et $4$ sablés\n\n$45 : 15 = 3$ et $60 : 15 = 4$."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "points": 3,
+          "consigne": "Une veste coûte $200$ CHF. Le magasin applique une réduction de $35\\%$.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Quel est le montant de la réduction ?",
+              "reponse": "$70$ CHF\n\n$\\frac{35}{100} \\cdot 200 = 70$ CHF."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Quel est le prix final ?",
+              "reponse": "$130$ CHF\n\n$200 - 70 = 130$ CHF."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "points": 3,
+          "consigne": "Le plan d'un appartement est dessiné à l'échelle $1 : 150$.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Un élément mesure $9$ m dans la réalité. Quelle est sa longueur sur le dessin ?",
+              "reponse": "$6$ cm\n\n$9$ m $= 900$ cm, et $900 : 150 = 6$ cm."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Sur le dessin, un autre élément mesure $4$ cm. Quelle est sa longueur réelle ?",
+              "reponse": "$6$ m\n\n$4 \\cdot 150 = 600$ cm $= 6$ m."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "points": 2,
+          "consigne": "L'aire $A$ d'un trapèze est donnée par la formule $A = \\frac{B + b}{2} \\cdot h$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Substitue puis calcule l'aire pour $B = 11$ cm, $b = 5$ cm et $h = 6$ cm.",
+              "reponse": "$48$ cm$^2$\n\n$A = \\frac{11 + 5}{2} \\cdot 6 = \\frac{16}{2} \\cdot 6 = 8 \\cdot 6 = 48$ cm$^2$."
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "points": 4,
+          "consigne": "Une rampe de skateboard monte à $20$ cm de haut sur une base de $21$ cm.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Quelle est la longueur de la surface inclinée ?",
+              "reponse": "$29$ cm\n\nLa hauteur, la base et la surface inclinée forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$\\ell^2 = 20^2 + 21^2 = 400 + 441 = 841$\n\n$\\ell = \\sqrt{841} = 29$ cm."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 5,
+          "consigne": "Deux pots sont proposés. Le pot A est un pavé droit de $9$ cm de long, $4$ cm de large et $3$ cm de haut. Le pot B est un cylindre de $3$ cm de rayon et $3$ cm de haut. Utilise $\\pi = 3$.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en cm$^3$.",
+              "reponse": "Le pot A, avec $27$ cm$^3$ de plus.\n\nPot a : $V = 9 \\cdot 4 \\cdot 3 = 108$ cm$^3$\n\nPot b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 3^2 \\cdot 3 = 81$ cm$^3$\n\nDifférence : $108 - 81 = 27$ cm$^3$."
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "points": 3,
+          "consigne": "Les angles d'un triangle.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "reponse": "$180^\\circ$"
+            },
+            {
+              "libelle": "b",
+              "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $76^\\circ$ et l'angle $B$ mesure $59^\\circ$. Calcule l'angle $C$.",
+              "reponse": "$45^\\circ$\n\n$180^\\circ - 76^\\circ - 59^\\circ = 45^\\circ$."
+            }
+          ]
+        }
+      ],
+      "totalPoints": 38
+    }
+  ]
+}

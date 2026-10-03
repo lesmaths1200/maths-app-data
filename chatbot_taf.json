@@ -474,11 +474,11 @@
       "explanations": [
         {
           "cle": "reconnaissance",
-          "texte": "Reconnaître une situation de proportionnalité :\n\n• Les valeurs sont proportionnelles si le coefficient est constant\n• Vérifie : $\\frac{y}{x} = \\text{constante}$\n\n📌 Exemple : 2 kg coûtent 6€, 5 kg coûtent 15€\n\n• $\\frac{6}{2} = 3$ et $\\frac{15}{5} = 3$ ✓\n• Coefficient = 3 €/kg\n• C'est proportionnel !"
+          "texte": "Reconnaître une situation de proportionnalité :\n\n• Les valeurs sont proportionnelles si le coefficient est constant\n• Vérifie : $\\frac{y}{x} = \\text{constante}$\n\n📌 Exemple : 2 kg coûtent CHF 6, 5 kg coûtent CHF 15\n\n• $\\frac{6}{2} = 3$ et $\\frac{15}{5} = 3$ ✓\n• Coefficient = CHF 3/kg\n• C'est proportionnel !"
         },
         {
           "cle": "produitCroix",
-          "texte": "Produit en croix (règle de trois) :\n\nSi $\\frac{a}{b} = \\frac{c}{x}$ alors $x = \\frac{b \\times c}{a}$\n\n📌 Exemple : 3 kg → 12€, combien pour 5 kg ?\n\n$\\frac{3}{12} = \\frac{5}{x}$\n\n$x = \\frac{12 \\times 5}{3} = \\frac{60}{3} = 20\\text{€}$"
+          "texte": "Produit en croix (règle de trois) :\n\nSi $\\frac{a}{b} = \\frac{c}{x}$ alors $x = \\frac{b \\times c}{a}$\n\n📌 Exemple : 3 kg → CHF 12, combien pour 5 kg ?\n\n$\\frac{3}{12} = \\frac{5}{x}$\n\n$x = \\frac{12 \\times 5}{3} = \\frac{60}{3} = \\text{CHF }20$"
         },
         {
           "cle": "vitesse",
@@ -487,8 +487,8 @@
       ],
       "exercices": [
         {
-          "question": "Si 3 kg coûtent 12€, combien coûtent 5 kg ?",
-          "reponse": "Solution :\n$\\frac{3}{12} = \\frac{5}{x}$\n\n$x = \\frac{5 \\times 12}{3} = \\frac{60}{3} = 20\\text{€}$"
+          "question": "Si 3 kg coûtent CHF 12, combien coûtent 5 kg ?",
+          "reponse": "Solution :\n$\\frac{3}{12} = \\frac{5}{x}$\n\n$x = \\frac{5 \\times 12}{3} = \\frac{60}{3} = \\text{CHF }20$"
         },
         {
           "question": "Une voiture roule à 90 km/h. Quelle distance en 3 heures ?",
@@ -499,8 +499,8 @@
           "reponse": "Solution :\n$v = \\frac{d}{t} = \\frac{150}{2} = 75\\text{ km/h}$"
         },
         {
-          "question": "2 kg → 8€. Est-ce proportionnel à 5 kg → 20€ ?",
-          "reponse": "Solution :\n$\\frac{8}{2} = 4$ et $\\frac{20}{5} = 4$\n\nLe coefficient est constant (4€/kg)\n\nOui, c'est proportionnel ! ✓"
+          "question": "2 kg → CHF 8. Est-ce proportionnel à 5 kg → CHF 20 ?",
+          "reponse": "Solution :\n$\\frac{8}{2} = 4$ et $\\frac{20}{5} = 4$\n\nLe coefficient est constant (CHF 4/kg)\n\nOui, c'est proportionnel ! ✓"
         },
         {
           "question": "Une voiture parcourt 180 km en 3 heures. Quelle distance parcourra-t-elle en 5 heures à la même vitesse ?",
@@ -544,7 +544,7 @@
         },
         {
           "question": "$4$ stylos coûtent CHF $6$. Combien coûtent $10$ stylos ?",
-          "reponse": "Solution :\nPrix d'un stylo : CHF $6 \\div 4 = 1{,}50$\nCHF $1{,}50 \\times 10 = 15$"
+          "reponse": "Solution :\nPrix d'un stylo : $6 \\div 4 =$ CHF $1{,}50$\n$1{,}50 \\times 10 =$ CHF $15$"
         },
         {
           "question": "Une recette pour $4$ personnes utilise $200$ g de farine. Quelle quantité pour $6$ personnes ?",
@@ -1722,40 +1722,40 @@
         },
         {
           "cle": "application",
-          "texte": "Appliquer un pourcentage :\n\n$\\text{Résultat} = \\text{valeur} \\times \\frac{\\text{pourcentage}}{100}$\n\n📌 Exemple : 20% de 150€\n\n$150 \\times \\frac{20}{100} = 150 \\times 0.20 = 30\\text{€}$"
+          "texte": "Appliquer un pourcentage :\n\n$\\text{Résultat} = \\text{valeur} \\times \\frac{\\text{pourcentage}}{100}$\n\n📌 Exemple : 20% de CHF 150\n\n$150 \\times \\frac{20}{100} = 150 \\times 0.20 = \\text{CHF }30$"
         },
         {
           "cle": "augmentation",
-          "texte": "Augmentation de $x$% :\n\n$\\text{Nouvelle valeur} = \\text{valeur} \\times \\left(1 + \\frac{x}{100}\\right)$\n\n📌 Prix 50€, augmentation +20% :\n\n$50 \\times (1 + \\frac{20}{100}) = 50 \\times 1.20 = 60\\text{€}$"
+          "texte": "Augmentation de $x$% :\n\n$\\text{Nouvelle valeur} = \\text{valeur} \\times \\left(1 + \\frac{x}{100}\\right)$\n\n📌 Prix CHF 50, augmentation +20% :\n\n$50 \\times (1 + \\frac{20}{100}) = 50 \\times 1.20 = \\text{CHF }60$"
         },
         {
           "cle": "reduction",
-          "texte": "Réduction de $x$% :\n\n$\\text{Nouvelle valeur} = \\text{valeur} \\times \\left(1 - \\frac{x}{100}\\right)$\n\n📌 Prix 80€, réduction -25% :\n\n$80 \\times (1 - \\frac{25}{100}) = 80 \\times 0.75 = 60\\text{€}$"
+          "texte": "Réduction de $x$% :\n\n$\\text{Nouvelle valeur} = \\text{valeur} \\times \\left(1 - \\frac{x}{100}\\right)$\n\n📌 Prix CHF 80, réduction -25% :\n\n$80 \\times (1 - \\frac{25}{100}) = 80 \\times 0.75 = \\text{CHF }60$"
         },
         {
           "cle": "evolution",
-          "texte": "Calculer un taux d'évolution :\n\n$\\text{Taux} = \\frac{\\text{nouvelle valeur} - \\text{ancienne valeur}}{\\text{ancienne valeur}} \\times 100$\n\n📌 Exemple : Prix passe de 50€ à 65€\n\n$\\text{Taux} = \\frac{65 - 50}{50} \\times 100 = \\frac{15}{50} \\times 100 = 30\\%$\n\nLe prix a augmenté de 30%"
+          "texte": "Calculer un taux d'évolution :\n\n$\\text{Taux} = \\frac{\\text{nouvelle valeur} - \\text{ancienne valeur}}{\\text{ancienne valeur}} \\times 100$\n\n📌 Exemple : Prix passe de CHF 50 à CHF 65\n\n$\\text{Taux} = \\frac{65 - 50}{50} \\times 100 = \\frac{15}{50} \\times 100 = 30\\%$\n\nLe prix a augmenté de 30%"
         }
       ],
       "exercices": [
         {
-          "question": "Calcule 25% de 80€",
-          "reponse": "Solution :\n$80 \\times 0.25 = 20\\text{€}$"
+          "question": "Calcule 25% de CHF 80",
+          "reponse": "Solution :\n$80 \\times 0.25 = \\text{CHF }20$"
         },
         {
-          "question": "Un prix de 50€ augmente de 20%. Nouveau prix ?",
-          "reponse": "Solution :\n$50 \\times 1.20 = 60\\text{€}$\n\nOu : $50 + (50 \\times 0.20) = 50 + 10 = 60\\text{€}$"
+          "question": "Un prix de CHF 50 augmente de 20%. Nouveau prix ?",
+          "reponse": "Solution :\n$50 \\times 1.20 = \\text{CHF }60$\n\nOu : $50 + (50 \\times 0.20) = 50 + 10 = \\text{CHF }60$"
         },
         {
           "question": "15 est quel % de 60 ?",
           "reponse": "Solution :\n$\\frac{15}{60} \\times 100 = 25\\%$"
         },
         {
-          "question": "Réduction de 30% sur un article à 120€. Prix final ?",
-          "reponse": "Solution :\n$120 \\times 0.70 = 84\\text{€}$\n\nOu : $120 - (120 \\times 0.30) = 120 - 36 = 84\\text{€}$"
+          "question": "Réduction de 30% sur un article à CHF 120. Prix final ?",
+          "reponse": "Solution :\n$120 \\times 0.70 = \\text{CHF }84$\n\nOu : $120 - (120 \\times 0.30) = 120 - 36 = \\text{CHF }84$"
         },
         {
-          "question": "Prix passe de 40€ à 50€. Quel taux d'augmentation ?",
+          "question": "Prix passe de CHF 40 à CHF 50. Quel taux d'augmentation ?",
           "reponse": "Solution :\n$\\frac{50 - 40}{40} \\times 100 = \\frac{10}{40} \\times 100 = 25\\%$\n\nAugmentation de 25%"
         },
         {
@@ -1764,10 +1764,10 @@
         },
         {
           "question": "Un article coûte CHF $60$ et baisse de $20\\%$. Quel est le nouveau prix ?",
-          "reponse": "Solution :\nBaisse : $\\frac{20}{100} \\times 60 = 12$\nNouveau prix : CHF $60 - 12 = 48$"
+          "reponse": "Solution :\nBaisse : $\\frac{20}{100} \\times 60 = 12$\nNouveau prix : $60 - 12 =$ CHF $48$"
         },
         {
-          "question": "Un prix passe de $50$ à CHF $65$. Quel est le pourcentage d'augmentation ?",
+          "question": "Un prix passe de CHF $50$ à CHF $65$. Quel est le pourcentage d'augmentation ?",
           "reponse": "Solution :\nAugmentation : $65 - 50 = 15$\n$\\frac{15}{50} \\times 100 = 30\\%$"
         },
         {
@@ -1776,7 +1776,7 @@
         },
         {
           "question": "Un article à CHF $45$ augmente de $10\\%$. Quel est le nouveau prix ?",
-          "reponse": "Solution :\nAugmentation : $\\frac{10}{100} \\times 45 = 4{,}50$\nNouveau prix : CHF $45 + 4{,}50 = 49{,}50$"
+          "reponse": "Solution :\nAugmentation : $\\frac{10}{100} \\times 45 = 4{,}50$\nNouveau prix : $45 + 4{,}50 =$ CHF $49{,}50$"
         }
       ]
     },

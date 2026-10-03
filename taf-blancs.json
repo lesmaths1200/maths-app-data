@@ -130,17 +130,17 @@
         {
           "numero": 6,
           "points": 3,
-          "consigne": "Le prix d'un pantalon est de $80$ CHF. Le magasin applique une réduction de $20\\%$.",
+          "consigne": "Le prix d'un pantalon est de CHF $80$. Le magasin applique une réduction de $20\\%$.",
           "sousQuestions": [
             {
               "libelle": "a",
               "enonce": "Quel est le montant de la réduction ?",
-              "reponse": "$16$ CHF\n\n$20\\%$ de $80$ CHF $= \\frac{20}{100} \\cdot 80 = 16$ CHF."
+              "reponse": "CHF $16$\n\n$20\\%$ de CHF $80$ $= \\frac{20}{100} \\cdot 80 =$ CHF $16$."
             },
             {
               "libelle": "b",
               "enonce": "Quel est le prix final du pantalon ?",
-              "reponse": "$64$ CHF\n\n$80 - 16 = 64$ CHF."
+              "reponse": "CHF $64$\n\n$80 - 16 =$ CHF $64$."
             }
           ]
         },
@@ -333,17 +333,17 @@
         {
           "numero": 5,
           "points": 3,
-          "consigne": "Un vélo coûte $240$ CHF. Le magasin applique une réduction de $25\\%$.",
+          "consigne": "Un vélo coûte CHF $240$. Le magasin applique une réduction de $25\\%$.",
           "sousQuestions": [
             {
               "libelle": "a",
               "enonce": "Quel est le montant de la réduction ?",
-              "reponse": "$60$ CHF\n\n$\\frac{25}{100} \\cdot 240 = 60$ CHF."
+              "reponse": "CHF $60$\n\n$\\frac{25}{100} \\cdot 240 =$ CHF $60$."
             },
             {
               "libelle": "b",
               "enonce": "Quel est le prix final du vélo ?",
-              "reponse": "$180$ CHF\n\n$240 - 60 = 180$ CHF."
+              "reponse": "CHF $180$\n\n$240 - 60 =$ CHF $180$."
             }
           ]
         },
@@ -546,13 +546,13 @@
           "sousQuestions": [
             {
               "libelle": "a",
-              "enonce": "Une paire de baskets coûte $120$ CHF et bénéficie d'une réduction de $15\\%$. Quel est le prix final ?",
-              "reponse": "$102$ CHF\n\nRéduction : $\\frac{15}{100} \\cdot 120 = 18$ CHF.\n\nPrix final : $120 - 18 = 102$ CHF."
+              "enonce": "Une paire de baskets coûte CHF $120$ et bénéficie d'une réduction de $15\\%$. Quel est le prix final ?",
+              "reponse": "CHF $102$\n\nRéduction : $\\frac{15}{100} \\cdot 120 =$ CHF $18$.\n\nPrix final : $120 - 18 =$ CHF $102$."
             },
             {
               "libelle": "b",
-              "enonce": "Un ballon soldé est passé de $40$ CHF à $30$ CHF. Quel pourcentage de réduction a été appliqué ?",
-              "reponse": "$25\\%$\n\nRéduction : $40 - 30 = 10$ CHF.\n\n$\\frac{10}{40} = \\frac{1}{4} = 25\\%$."
+              "enonce": "Un ballon soldé est passé de CHF $40$ à CHF $30$. Quel pourcentage de réduction a été appliqué ?",
+              "reponse": "$25\\%$\n\nRéduction : $40 - 30 =$ CHF $10$.\n\n$\\frac{10}{40} = \\frac{1}{4} = 25\\%$."
             }
           ]
         },
@@ -739,17 +739,17 @@
         {
           "numero": 5,
           "points": 3,
-          "consigne": "Un manteau coûte $150$ CHF. Le magasin applique une réduction de $30\\%$.",
+          "consigne": "Un manteau coûte CHF $150$. Le magasin applique une réduction de $30\\%$.",
           "sousQuestions": [
             {
               "libelle": "a",
               "enonce": "Quel est le montant de la réduction ?",
-              "reponse": "$45$ CHF\n\n$\\frac{30}{100} \\cdot 150 = 45$ CHF."
+              "reponse": "CHF $45$\n\n$\\frac{30}{100} \\cdot 150 =$ CHF $45$."
             },
             {
               "libelle": "b",
               "enonce": "Quel est le prix final ?",
-              "reponse": "$105$ CHF\n\n$150 - 45 = 105$ CHF."
+              "reponse": "CHF $105$\n\n$150 - 45 =$ CHF $105$."
             }
           ]
         },
@@ -947,13 +947,13 @@
           "sousQuestions": [
             {
               "libelle": "a",
-              "enonce": "Une console coûte $400$ CHF et bénéficie d'une réduction de $10\\%$. Quel est le prix final ?",
-              "reponse": "$360$ CHF\n\nRéduction : $\\frac{10}{100} \\cdot 400 = 40$ CHF.\n\nPrix final : $400 - 40 = 360$ CHF."
+              "enonce": "Une console coûte CHF $400$ et bénéficie d'une réduction de $10\\%$. Quel est le prix final ?",
+              "reponse": "CHF $360$\n\nRéduction : $\\frac{10}{100} \\cdot 400 =$ CHF $40$.\n\nPrix final : $400 - 40 =$ CHF $360$."
             },
             {
               "libelle": "b",
-              "enonce": "Un jeu soldé est passé de $60$ CHF à $45$ CHF. Quel pourcentage de réduction a été appliqué ?",
-              "reponse": "$25\\%$\n\nRéduction : $60 - 45 = 15$ CHF.\n\n$\\frac{15}{60} = \\frac{1}{4} = 25\\%$."
+              "enonce": "Un jeu soldé est passé de CHF $60$ à CHF $45$. Quel pourcentage de réduction a été appliqué ?",
+              "reponse": "$25\\%$\n\nRéduction : $60 - 45 =$ CHF $15$.\n\n$\\frac{15}{60} = \\frac{1}{4} = 25\\%$."
             }
           ]
         },
@@ -1135,17 +1135,17 @@
         {
           "numero": 5,
           "points": 3,
-          "consigne": "Un sac à dos coûte $60$ CHF. Le magasin applique une réduction de $20\\%$.",
+          "consigne": "Un sac à dos coûte CHF $60$. Le magasin applique une réduction de $20\\%$.",
           "sousQuestions": [
             {
               "libelle": "a",
               "enonce": "Quel est le montant de la réduction ?",
-              "reponse": "$12$ CHF\n\n$\\frac{20}{100} \\cdot 60 = 12$ CHF."
+              "reponse": "CHF $12$\n\n$\\frac{20}{100} \\cdot 60 =$ CHF $12$."
             },
             {
               "libelle": "b",
               "enonce": "Quel est le prix final ?",
-              "reponse": "$48$ CHF\n\n$60 - 12 = 48$ CHF."
+              "reponse": "CHF $48$\n\n$60 - 12 =$ CHF $48$."
             }
           ]
         },
@@ -1322,17 +1322,17 @@
         {
           "numero": 5,
           "points": 3,
-          "consigne": "Un casque audio coûte $120$ CHF. Le magasin applique une réduction de $40\\%$.",
+          "consigne": "Un casque audio coûte CHF $120$. Le magasin applique une réduction de $40\\%$.",
           "sousQuestions": [
             {
               "libelle": "a",
               "enonce": "Quel est le montant de la réduction ?",
-              "reponse": "$48$ CHF\n\n$\\frac{40}{100} \\cdot 120 = 48$ CHF."
+              "reponse": "CHF $48$\n\n$\\frac{40}{100} \\cdot 120 =$ CHF $48$."
             },
             {
               "libelle": "b",
               "enonce": "Quel est le prix final ?",
-              "reponse": "$72$ CHF\n\n$120 - 48 = 72$ CHF."
+              "reponse": "CHF $72$\n\n$120 - 48 =$ CHF $72$."
             }
           ]
         },
@@ -1526,17 +1526,17 @@
         {
           "numero": 5,
           "points": 3,
-          "consigne": "Une raquette coûte $80$ CHF. Le magasin applique une réduction de $15\\%$.",
+          "consigne": "Une raquette coûte CHF $80$. Le magasin applique une réduction de $15\\%$.",
           "sousQuestions": [
             {
               "libelle": "a",
               "enonce": "Quel est le montant de la réduction ?",
-              "reponse": "$12$ CHF\n\n$\\frac{15}{100} \\cdot 80 = 12$ CHF."
+              "reponse": "CHF $12$\n\n$\\frac{15}{100} \\cdot 80 =$ CHF $12$."
             },
             {
               "libelle": "b",
               "enonce": "Quel est le prix final ?",
-              "reponse": "$68$ CHF\n\n$80 - 12 = 68$ CHF."
+              "reponse": "CHF $68$\n\n$80 - 12 =$ CHF $68$."
             }
           ]
         },
@@ -1717,13 +1717,13 @@
           "sousQuestions": [
             {
               "libelle": "a",
-              "enonce": "Un téléphone coûte $600$ CHF et bénéficie d'une réduction de $25\\%$. Quel est le prix final ?",
-              "reponse": "$450$ CHF\n\nRéduction : $\\frac{25}{100} \\cdot 600 = 150$ CHF.\n\nPrix final : $600 - 150 = 450$ CHF."
+              "enonce": "Un téléphone coûte CHF $600$ et bénéficie d'une réduction de $25\\%$. Quel est le prix final ?",
+              "reponse": "CHF $450$\n\nRéduction : $\\frac{25}{100} \\cdot 600 =$ CHF $150$.\n\nPrix final : $600 - 150 =$ CHF $450$."
             },
             {
               "libelle": "b",
-              "enonce": "Une coque soldée est passée de $25$ CHF à $20$ CHF. Quel pourcentage de réduction a été appliqué ?",
-              "reponse": "$20\\%$\n\nRéduction : $25 - 20 = 5$ CHF.\n\n$\\frac{5}{25} = \\frac{1}{5} = 20\\%$."
+              "enonce": "Une coque soldée est passée de CHF $25$ à CHF $20$. Quel pourcentage de réduction a été appliqué ?",
+              "reponse": "$20\\%$\n\nRéduction : $25 - 20 =$ CHF $5$.\n\n$\\frac{5}{25} = \\frac{1}{5} = 20\\%$."
             }
           ]
         },
@@ -1910,17 +1910,17 @@
         {
           "numero": 5,
           "points": 3,
-          "consigne": "Une veste coûte $200$ CHF. Le magasin applique une réduction de $35\\%$.",
+          "consigne": "Une veste coûte CHF $200$. Le magasin applique une réduction de $35\\%$.",
           "sousQuestions": [
             {
               "libelle": "a",
               "enonce": "Quel est le montant de la réduction ?",
-              "reponse": "$70$ CHF\n\n$\\frac{35}{100} \\cdot 200 = 70$ CHF."
+              "reponse": "CHF $70$\n\n$\\frac{35}{100} \\cdot 200 =$ CHF $70$."
             },
             {
               "libelle": "b",
               "enonce": "Quel est le prix final ?",
-              "reponse": "$130$ CHF\n\n$200 - 70 = 130$ CHF."
+              "reponse": "CHF $130$\n\n$200 - 70 =$ CHF $130$."
             }
           ]
         },

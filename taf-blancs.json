@@ -9,7 +9,7 @@
       "La calculatrice est interdite.",
       "Aucun document, aide-mémoire compris, n'est autorisé."
     ],
-    "avertissementConstruction": "Le TAF comporte parfois une construction géométrique (2 à 3 points), qui ne peut pas se faire à l'écran. Entraîne-toi sur papier : tu dois maîtriser le compas, l'équerre, le rapporteur et la règle graduée."
+    "avertissementConstruction": "Le TAF comporte parfois une construction géométrique, qui ne peut pas se faire à l'écran. Entraîne-toi sur papier : tu dois maîtriser le compas, l'équerre, le rapporteur et la règle graduée."
   },
   "epreuves": [
     {
@@ -88,7 +88,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "$\\frac{1}{4}$    $25\\%$    $\\sqrt{25}$    $2{,}5\\%$    $\\frac{5}{20}$    $4^0$",
+              "enonce": "$\\frac{1}{4} \\qquad 25\\% \\qquad \\sqrt{25}$\n$2{,}5\\% \\qquad \\frac{5}{20} \\qquad 4^0$",
               "reponse": "Égaux à $0{,}25$ : $\\frac{1}{4}$, $25\\%$ et $\\frac{5}{20}$.\n\nIntrus : $\\sqrt{25} = 5$, $2{,}5\\% = 0{,}025$ et $4^0 = 1$."
             }
           ]
@@ -100,12 +100,12 @@
           "sousQuestions": [
             {
               "libelle": "a",
-              "enonce": "$4320$ est divisible par $2$ · par $3$ · par $9$ · par $25$",
+              "enonce": "$4320$ est-il divisible par $2$ ? par $3$ ? par $9$ ? par $25$ ?",
               "reponse": "Par $2$ : vrai (le chiffre des unités est $0$).\nPar $3$ : vrai ($4+3+2+0 = 9$, divisible par $3$).\nPar $9$ : vrai (la somme des chiffres vaut $9$).\nPar $25$ : faux (il faudrait finir par $00$, $25$, $50$ ou $75$)."
             },
             {
               "libelle": "b",
-              "enonce": "$1575$ est divisible par $2$ · par $5$ · par $9$ · par $10$",
+              "enonce": "$1575$ est-il divisible par $2$ ? par $5$ ? par $9$ ? par $10$ ?",
               "reponse": "Par $2$ : faux (le nombre est impair).\nPar $5$ : vrai (il finit par $5$).\nPar $9$ : vrai ($1+5+7+5 = 18$, divisible par $9$).\nPar $10$ : faux (il ne finit pas par $0$)."
             }
           ]
@@ -118,7 +118,7 @@
             {
               "libelle": "a",
               "enonce": "Quel est le plus grand nombre de bouquets qu'il peut composer ?",
-              "reponse": "$15$ bouquets\n\nIl faut le plus grand diviseur commun de $30$ et $75$.\n\nDiviseurs de $30$ : $1, 2, 3, 5, 6, 10, 15, 30$\nDiviseurs de $75$ : $1, 3, 5, 15, 25, 75$\n\nLe pgdc est $15$."
+              "reponse": "$15$ bouquets\n\nIl faut chercher le plus grand diviseur commun de $30$ et $75$.\n\nDiviseurs de $30$ : $1, 2, 3, 5, 6, 10, 15, 30$\nDiviseurs de $75$ : $1, 3, 5, 15, 25, 75$\n\nLe pgdc est $15$."
             },
             {
               "libelle": "b",
@@ -168,8 +168,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Substitue puis calcule le volume pour $B = 24$ cm$^2$ et $h = 5$ cm.",
-              "reponse": "$40$ cm$^3$\n\n$V = \\frac{24 \\cdot 5}{3} = \\frac{120}{3} = 40$ cm$^3$."
+              "enonce": "Substitue puis calcule le volume pour $B = 24$ $\\mathrm{cm}^2$ et $h = 5$ cm.",
+              "reponse": "$40$ $\\mathrm{cm}^3$\n\n$V = \\frac{24 \\cdot 5}{3} = \\frac{120}{3} = 40$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -192,8 +192,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Quel réservoir contient le plus d'eau ? Calcule cette différence de volume, en m$^3$.",
-              "reponse": "Le réservoir A, avec $6$ m$^3$ de plus.\n\nRéservoir A : $V = 5 \\cdot 3 \\cdot 2 = 30$ m$^3$\n\nRéservoir B : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 2^2 \\cdot 2 = 3 \\cdot 4 \\cdot 2 = 24$ m$^3$\n\nDifférence : $30 - 24 = 6$ m$^3$."
+              "enonce": "Quel réservoir contient le plus d'eau ? Calcule cette différence de volume, en $\\mathrm{m}^3$.",
+              "reponse": "Le réservoir A, avec $6$ $\\mathrm{m}^3$ de plus.\n\nRéservoir A : $V = 5 \\cdot 3 \\cdot 2 = 30$ $\\mathrm{m}^3$\n\nRéservoir B : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 2^2 \\cdot 2 = 3 \\cdot 4 \\cdot 2 = 24$ $\\mathrm{m}^3$\n\nDifférence : $30 - 24 = 6$ $\\mathrm{m}^3$."
             }
           ]
         },
@@ -209,13 +209,13 @@
             },
             {
               "libelle": "b",
-              "enonce": "$250$ cl $=$ ______ dm$^3$",
-              "reponse": "$2{,}5$ dm$^3$\n\n$250$ cl $= 2{,}5$ L, et $1$ L $= 1$ dm$^3$."
+              "enonce": "$250$ cl $=$ ______ $\\mathrm{dm}^3$",
+              "reponse": "$2{,}5$ $\\mathrm{dm}^3$\n\n$250$ cl $= 2{,}5$ L, et $1$ L $= 1$ $\\mathrm{dm}^3$."
             },
             {
               "libelle": "c",
-              "enonce": "$0{,}7$ m$^2$ $=$ ______ dm$^2$",
-              "reponse": "$70$ dm$^2$\n\n$1$ m$^2 = 100$ dm$^2$."
+              "enonce": "$0{,}7$ $\\mathrm{m}^2$ $=$ ______ $\\mathrm{dm}^2$",
+              "reponse": "$70$ $\\mathrm{dm}^2$\n\n$1$ m$^2 = 100$ $\\mathrm{dm}^2$."
             }
           ]
         },
@@ -226,7 +226,7 @@
           "sousQuestions": [
             {
               "libelle": "a",
-              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______ degrés.",
               "reponse": "$180^\\circ$"
             },
             {
@@ -326,7 +326,7 @@
             {
               "libelle": "",
               "enonce": "À quelle heure repartiront-ils ensemble pour la première fois ?",
-              "reponse": "À $6$ h $36$.\n\nIl faut le plus petit multiple commun de $12$ et $18$.\n\nMultiples de $12$ : $12, 24, 36, 48\\ldots$\nMultiples de $18$ : $18, 36, 54\\ldots$\n\nLe ppmc est $36$ minutes."
+              "reponse": "À $6$ h $36$.\n\nIl faut chercher le plus petit multiple commun de $12$ et $18$.\n\nMultiples de $12$ : $12, 24, 36, 48\\ldots$\nMultiples de $18$ : $18, 36, 54\\ldots$\n\nLe ppmc est $36$ minutes."
             }
           ]
         },
@@ -372,7 +372,7 @@
             {
               "libelle": "",
               "enonce": "Substitue puis calcule l'aire pour $B = 7$ cm, $b = 3$ cm et $h = 4$ cm.",
-              "reponse": "$20$ cm$^2$\n\n$A = \\frac{7 + 3}{2} \\cdot 4 = \\frac{10}{2} \\cdot 4 = 5 \\cdot 4 = 20$ cm$^2$."
+              "reponse": "$20$ $\\mathrm{cm}^2$\n\n$A = \\frac{7 + 3}{2} \\cdot 4 = \\frac{10}{2} \\cdot 4 = 5 \\cdot 4 = 20$ $\\mathrm{cm}^2$."
             }
           ]
         },
@@ -395,8 +395,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Quelle boîte contient le plus de biscuits ? Calcule cette différence de volume, en cm$^3$.",
-              "reponse": "La boîte A, avec $12$ cm$^3$ de plus.\n\nBoîte A : $V = 6 \\cdot 5 \\cdot 4 = 120$ cm$^3$\n\nBoîte B : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 3^2 \\cdot 4 = 3 \\cdot 9 \\cdot 4 = 108$ cm$^3$\n\nDifférence : $120 - 108 = 12$ cm$^3$."
+              "enonce": "Quelle boîte contient le plus de biscuits ? Calcule cette différence de volume, en $\\mathrm{cm}^3$.",
+              "reponse": "La boîte A, avec $12$ $\\mathrm{cm}^3$ de plus.\n\nBoîte A : $V = 6 \\cdot 5 \\cdot 4 = 120$ $\\mathrm{cm}^3$\n\nBoîte B : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 3^2 \\cdot 4 = 3 \\cdot 9 \\cdot 4 = 108$ $\\mathrm{cm}^3$\n\nDifférence : $120 - 108 = 12$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -412,13 +412,13 @@
             },
             {
               "libelle": "b",
-              "enonce": "$3$ L $=$ ______ dm$^3$",
-              "reponse": "$3$ dm$^3$\n\n$1$ L $= 1$ dm$^3$."
+              "enonce": "$3$ L $=$ ______ $\\mathrm{dm}^3$",
+              "reponse": "$3$ $\\mathrm{dm}^3$\n\n$1$ L $= 1$ $\\mathrm{dm}^3$."
             },
             {
               "libelle": "c",
-              "enonce": "$450$ cm$^2$ $=$ ______ dm$^2$",
-              "reponse": "$4{,}5$ dm$^2$\n\n$1$ dm$^2 = 100$ cm$^2$."
+              "enonce": "$450$ $\\mathrm{cm}^2$ $=$ ______ $\\mathrm{dm}^2$",
+              "reponse": "$4{,}5$ $\\mathrm{dm}^2$\n\n$1$ dm$^2 = 100$ $\\mathrm{cm}^2$."
             }
           ]
         },
@@ -429,7 +429,7 @@
           "sousQuestions": [
             {
               "libelle": "a",
-              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______ degrés.",
               "reponse": "$180^\\circ$"
             },
             {
@@ -517,7 +517,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "$\\frac{1}{2}$    $50\\%$    $\\sqrt{25}$    $\\frac{4}{8}$    $5\\%$    $2^0$",
+              "enonce": "$\\frac{1}{2} \\qquad 50\\% \\qquad \\sqrt{25}$\n$\\frac{4}{8} \\qquad 5\\% \\qquad 2^0$",
               "reponse": "Égaux à $0{,}5$ : $\\frac{1}{2}$, $50\\%$ et $\\frac{4}{8}$.\n\nIntrus : $\\sqrt{25} = 5$, $5\\% = 0{,}05$ et $2^0 = 1$."
             }
           ]
@@ -530,7 +530,7 @@
             {
               "libelle": "a",
               "enonce": "Quel est le plus grand nombre de plateaux qu'il peut composer ?",
-              "reponse": "$12$ plateaux\n\nIl faut le plus grand diviseur commun de $24$ et $36$.\n\nDiviseurs de $24$ : $1, 2, 3, 4, 6, 8, 12, 24$\nDiviseurs de $36$ : $1, 2, 3, 4, 6, 9, 12, 18, 36$\n\nLe pgdc est $12$."
+              "reponse": "$12$ plateaux\n\nIl faut chercher le plus grand diviseur commun de $24$ et $36$.\n\nDiviseurs de $24$ : $1, 2, 3, 4, 6, 8, 12, 24$\nDiviseurs de $36$ : $1, 2, 3, 4, 6, 9, 12, 18, 36$\n\nLe pgdc est $12$."
             },
             {
               "libelle": "b",
@@ -564,7 +564,7 @@
             {
               "libelle": "",
               "enonce": "Substitue puis calcule le volume pour $r = 2$ cm et $h = 5$ cm.",
-              "reponse": "$20$ cm$^3$\n\n$V = \\frac{3 \\cdot 2^2 \\cdot 5}{3} = \\frac{3 \\cdot 4 \\cdot 5}{3} = \\frac{60}{3} = 20$ cm$^3$."
+              "reponse": "$20$ $\\mathrm{cm}^3$\n\n$V = \\frac{3 \\cdot 2^2 \\cdot 5}{3} = \\frac{3 \\cdot 4 \\cdot 5}{3} = \\frac{60}{3} = 20$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -587,8 +587,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Quel bac contient le plus de terre ? Calcule cette différence de volume, en dm$^3$.",
-              "reponse": "Le bac A, avec $24$ dm$^3$ de plus.\n\nBac A : $V = 8 \\cdot 5 \\cdot 3 = 120$ dm$^3$\n\nBac B : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 4^2 \\cdot 2 = 3 \\cdot 16 \\cdot 2 = 96$ dm$^3$\n\nDifférence : $120 - 96 = 24$ dm$^3$."
+              "enonce": "Quel bac contient le plus de terre ? Calcule cette différence de volume, en $\\mathrm{dm}^3$.",
+              "reponse": "Le bac A, avec $24$ $\\mathrm{dm}^3$ de plus.\n\nBac A : $V = 8 \\cdot 5 \\cdot 3 = 120$ $\\mathrm{dm}^3$\n\nBac B : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 4^2 \\cdot 2 = 3 \\cdot 16 \\cdot 2 = 96$ $\\mathrm{dm}^3$\n\nDifférence : $120 - 96 = 24$ $\\mathrm{dm}^3$."
             }
           ]
         },
@@ -604,8 +604,8 @@
             },
             {
               "libelle": "b",
-              "enonce": "$75$ cl $=$ ______ dm$^3$",
-              "reponse": "$0{,}75$ dm$^3$\n\n$75$ cl $= 0{,}75$ L, et $1$ L $= 1$ dm$^3$."
+              "enonce": "$75$ cl $=$ ______ $\\mathrm{dm}^3$",
+              "reponse": "$0{,}75$ $\\mathrm{dm}^3$\n\n$75$ cl $= 0{,}75$ L, et $1$ L $= 1$ $\\mathrm{dm}^3$."
             },
             {
               "libelle": "c",
@@ -621,7 +621,7 @@
           "sousQuestions": [
             {
               "libelle": "a",
-              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______ degrés.",
               "reponse": "$180^\\circ$"
             },
             {
@@ -709,12 +709,12 @@
           "sousQuestions": [
             {
               "libelle": "a",
-              "enonce": "$2340$ est divisible par $2$ · par $5$ · par $9$ · par $100$",
+              "enonce": "$2340$ est-il divisible par $2$ ? par $5$ ? par $9$ ? par $100$ ?",
               "reponse": "Par $2$ : vrai (il finit par $0$).\nPar $5$ : vrai (il finit par $0$).\nPar $9$ : vrai ($2+3+4+0 = 9$).\nPar $100$ : faux (il ne finit pas par deux zéros)."
             },
             {
               "libelle": "b",
-              "enonce": "$1125$ est divisible par $3$ · par $5$ · par $25$ · par $10$",
+              "enonce": "$1125$ est-il divisible par $3$ ? par $5$ ? par $25$ ? par $10$ ?",
               "reponse": "Par $3$ : vrai ($1+1+2+5 = 9$).\nPar $5$ : vrai (il finit par $5$).\nPar $25$ : vrai (il finit par $25$).\nPar $10$ : faux (il ne finit pas par $0$)."
             }
           ]
@@ -727,7 +727,7 @@
             {
               "libelle": "a",
               "enonce": "Quel est le plus grand nombre de trousses qu'elle peut préparer ?",
-              "reponse": "$14$ trousses\n\nIl faut le plus grand diviseur commun de $42$ et $56$.\n\nDiviseurs de $42$ : $1, 2, 3, 6, 7, 14, 21, 42$\nDiviseurs de $56$ : $1, 2, 4, 7, 8, 14, 28, 56$\n\nLe pgdc est $14$."
+              "reponse": "$14$ trousses\n\nIl faut chercher le plus grand diviseur commun de $42$ et $56$.\n\nDiviseurs de $42$ : $1, 2, 3, 6, 7, 14, 21, 42$\nDiviseurs de $56$ : $1, 2, 4, 7, 8, 14, 28, 56$\n\nLe pgdc est $14$."
             },
             {
               "libelle": "b",
@@ -778,7 +778,7 @@
             {
               "libelle": "",
               "enonce": "Substitue puis calcule l'aire latérale pour $r = 2$ cm et $h = 5$ cm.",
-              "reponse": "$60$ cm$^2$\n\n$A = 2 \\cdot 3 \\cdot 2 \\cdot 5 = 60$ cm$^2$."
+              "reponse": "$60$ $\\mathrm{cm}^2$\n\n$A = 2 \\cdot 3 \\cdot 2 \\cdot 5 = 60$ $\\mathrm{cm}^2$."
             }
           ]
         },
@@ -801,8 +801,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en cm$^3$.",
-              "reponse": "Le carton A, avec $12$ cm$^3$ de plus.\n\nCarton a : $V = 10 \\cdot 6 \\cdot 5 = 300$ cm$^3$\n\nCarton b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 4^2 \\cdot 6 = 288$ cm$^3$\n\nDifférence : $300 - 288 = 12$ cm$^3$."
+              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en $\\mathrm{cm}^3$.",
+              "reponse": "Le carton A, avec $12$ $\\mathrm{cm}^3$ de plus.\n\nCarton a : $V = 10 \\cdot 6 \\cdot 5 = 300$ $\\mathrm{cm}^3$\n\nCarton b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 4^2 \\cdot 6 = 288$ $\\mathrm{cm}^3$\n\nDifférence : $300 - 288 = 12$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -818,8 +818,8 @@
             },
             {
               "libelle": "b",
-              "enonce": "$1{,}5$ L $=$ ______ dm$^3$",
-              "reponse": "$1{,}5$ dm$^3$\n\n$1$ L $= 1$ dm$^3$."
+              "enonce": "$1{,}5$ L $=$ ______ $\\mathrm{dm}^3$",
+              "reponse": "$1{,}5$ $\\mathrm{dm}^3$\n\n$1$ L $= 1$ $\\mathrm{dm}^3$."
             },
             {
               "libelle": "c",
@@ -835,7 +835,7 @@
           "sousQuestions": [
             {
               "libelle": "a",
-              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______ degrés.",
               "reponse": "$180^\\circ$"
             },
             {
@@ -923,7 +923,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "$\\frac{3}{4}$    $75\\%$    $\\sqrt{75}$    $\\frac{6}{8}$    $7{,}5\\%$    $7^0$",
+              "enonce": "$\\frac{3}{4} \\qquad 75\\% \\qquad \\sqrt{75}$\n$\\frac{6}{8} \\qquad 7{,}5\\% \\qquad 7^0$",
               "reponse": "Égaux à $0{,}75$ : $\\frac{3}{4}$, $75\\%$ et $\\frac{6}{8}$.\n\nIntrus : $\\sqrt{75}$ (environ $8{,}7$), $7{,}5\\% = 0{,}075$ et $7^0 = 1$."
             }
           ]
@@ -936,7 +936,7 @@
             {
               "libelle": "",
               "enonce": "Au bout de combien de secondes clignoteront-elles de nouveau en même temps ?",
-              "reponse": "$40$ secondes\n\nIl faut le plus petit multiple commun de $8$ et $20$.\n\nMultiples de $8$ : $8, 16, 24, 32, 40\\ldots$\nMultiples de $20$ : $20, 40\\ldots$\n\nLe ppmc est $40$."
+              "reponse": "$40$ secondes\n\nIl faut chercher le plus petit multiple commun de $8$ et $20$.\n\nMultiples de $8$ : $8, 16, 24, 32, 40\\ldots$\nMultiples de $20$ : $20, 40\\ldots$\n\nLe ppmc est $40$."
             }
           ]
         },
@@ -965,7 +965,7 @@
             {
               "libelle": "",
               "enonce": "Substitue puis calcule l'aire pour $b = 12$ cm et $h = 7$ cm.",
-              "reponse": "$42$ cm$^2$\n\n$A = \\frac{12 \\cdot 7}{2} = \\frac{84}{2} = 42$ cm$^2$."
+              "reponse": "$42$ $\\mathrm{cm}^2$\n\n$A = \\frac{12 \\cdot 7}{2} = \\frac{84}{2} = 42$ $\\mathrm{cm}^2$."
             }
           ]
         },
@@ -988,8 +988,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en cm$^3$.",
-              "reponse": "Le récipient A, avec $12$ cm$^3$ de plus.\n\nRécipient a : $V = 7 \\cdot 4 \\cdot 3 = 84$ cm$^3$\n\nRécipient b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 2^2 \\cdot 6 = 72$ cm$^3$\n\nDifférence : $84 - 72 = 12$ cm$^3$."
+              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en $\\mathrm{cm}^3$.",
+              "reponse": "Le récipient A, avec $12$ $\\mathrm{cm}^3$ de plus.\n\nRécipient a : $V = 7 \\cdot 4 \\cdot 3 = 84$ $\\mathrm{cm}^3$\n\nRécipient b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 2^2 \\cdot 6 = 72$ $\\mathrm{cm}^3$\n\nDifférence : $84 - 72 = 12$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -1005,13 +1005,13 @@
             },
             {
               "libelle": "b",
-              "enonce": "$0{,}25$ L $=$ ______ dm$^3$",
-              "reponse": "$0{,}25$ dm$^3$"
+              "enonce": "$0{,}25$ L $=$ ______ $\\mathrm{dm}^3$",
+              "reponse": "$0{,}25$ $\\mathrm{dm}^3$"
             },
             {
               "libelle": "c",
-              "enonce": "$4{,}8$ m$^2$ $=$ ______ dm$^2$",
-              "reponse": "$480$ dm$^2$\n\n$1$ m$^2 = 100$ dm$^2$."
+              "enonce": "$4{,}8$ $\\mathrm{m}^2$ $=$ ______ $\\mathrm{dm}^2$",
+              "reponse": "$480$ $\\mathrm{dm}^2$\n\n$1$ m$^2 = 100$ $\\mathrm{dm}^2$."
             }
           ]
         },
@@ -1022,7 +1022,7 @@
           "sousQuestions": [
             {
               "libelle": "a",
-              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______ degrés.",
               "reponse": "$180^\\circ$"
             },
             {
@@ -1123,7 +1123,7 @@
             {
               "libelle": "a",
               "enonce": "Quel est le plus grand nombre de colliers qu'il peut réaliser ?",
-              "reponse": "$12$ colliers\n\nIl faut le plus grand diviseur commun de $36$ et $48$.\n\nDiviseurs de $36$ : $1, 2, 3, 4, 6, 9, 12, 18, 36$\nDiviseurs de $48$ : $1, 2, 3, 4, 6, 8, 12, 16, 24, 48$\n\nLe pgdc est $12$."
+              "reponse": "$12$ colliers\n\nIl faut chercher le plus grand diviseur commun de $36$ et $48$.\n\nDiviseurs de $36$ : $1, 2, 3, 4, 6, 9, 12, 18, 36$\nDiviseurs de $48$ : $1, 2, 3, 4, 6, 8, 12, 16, 24, 48$\n\nLe pgdc est $12$."
             },
             {
               "libelle": "b",
@@ -1173,8 +1173,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Substitue puis calcule le volume pour $B = 18$ cm$^2$ et $h = 7$ cm.",
-              "reponse": "$126$ cm$^3$\n\n$V = 18 \\cdot 7 = 126$ cm$^3$."
+              "enonce": "Substitue puis calcule le volume pour $B = 18$ $\\mathrm{cm}^2$ et $h = 7$ cm.",
+              "reponse": "$126$ $\\mathrm{cm}^3$\n\n$V = 18 \\cdot 7 = 126$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -1197,8 +1197,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en dm$^3$.",
-              "reponse": "Le aquarium A, avec $45$ dm$^3$ de plus.\n\nAquarium a : $V = 9 \\cdot 5 \\cdot 4 = 180$ dm$^3$\n\nAquarium b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 3^2 \\cdot 5 = 135$ dm$^3$\n\nDifférence : $180 - 135 = 45$ dm$^3$."
+              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en $\\mathrm{dm}^3$.",
+              "reponse": "Le aquarium A, avec $45$ $\\mathrm{dm}^3$ de plus.\n\nAquarium a : $V = 9 \\cdot 5 \\cdot 4 = 180$ $\\mathrm{dm}^3$\n\nAquarium b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 3^2 \\cdot 5 = 135$ $\\mathrm{dm}^3$\n\nDifférence : $180 - 135 = 45$ $\\mathrm{dm}^3$."
             }
           ]
         },
@@ -1209,7 +1209,7 @@
           "sousQuestions": [
             {
               "libelle": "a",
-              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______ degrés.",
               "reponse": "$180^\\circ$"
             },
             {
@@ -1297,7 +1297,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "$\\frac{1}{5}$    $20\\%$    $\\sqrt{4}$    $\\frac{4}{20}$    $2\\%$    $9^0$",
+              "enonce": "$\\frac{1}{5} \\qquad 20\\% \\qquad \\sqrt{4}$\n$\\frac{4}{20} \\qquad 2\\% \\qquad 9^0$",
               "reponse": "Égaux à $0{,}2$ : $\\frac{1}{5}$, $20\\%$ et $\\frac{4}{20}$.\n\nIntrus : $\\sqrt{4} = 2$, $2\\% = 0{,}02$ et $9^0 = 1$."
             }
           ]
@@ -1309,12 +1309,12 @@
           "sousQuestions": [
             {
               "libelle": "a",
-              "enonce": "$7425$ est divisible par $3$ · par $5$ · par $9$ · par $2$",
+              "enonce": "$7425$ est-il divisible par $3$ ? par $5$ ? par $9$ ? par $2$ ?",
               "reponse": "Par $3$ : vrai ($7+4+2+5 = 18$).\nPar $5$ : vrai (il finit par $5$).\nPar $9$ : vrai (la somme des chiffres vaut $18$).\nPar $2$ : faux (le nombre est impair)."
             },
             {
               "libelle": "b",
-              "enonce": "$6300$ est divisible par $10$ · par $25$ · par $100$ · par $9$",
+              "enonce": "$6300$ est-il divisible par $10$ ? par $25$ ? par $100$ ? par $9$ ?",
               "reponse": "Par $10$ : vrai (il finit par $0$).\nPar $25$ : vrai (il finit par $00$).\nPar $100$ : vrai (il finit par deux zéros).\nPar $9$ : vrai ($6+3+0+0 = 9$)."
             }
           ]
@@ -1384,8 +1384,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en cm$^3$.",
-              "reponse": "Le coffre A, avec $48$ cm$^3$ de plus.\n\nCoffre a : $V = 12 \\cdot 5 \\cdot 4 = 240$ cm$^3$\n\nCoffre b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 4^2 \\cdot 4 = 192$ cm$^3$\n\nDifférence : $240 - 192 = 48$ cm$^3$."
+              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en $\\mathrm{cm}^3$.",
+              "reponse": "Le coffre A, avec $48$ $\\mathrm{cm}^3$ de plus.\n\nCoffre a : $V = 12 \\cdot 5 \\cdot 4 = 240$ $\\mathrm{cm}^3$\n\nCoffre b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 4^2 \\cdot 4 = 192$ $\\mathrm{cm}^3$\n\nDifférence : $240 - 192 = 48$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -1401,13 +1401,13 @@
             },
             {
               "libelle": "b",
-              "enonce": "$300$ cl $=$ ______ dm$^3$",
-              "reponse": "$3$ dm$^3$\n\n$300$ cl $= 3$ L, et $1$ L $= 1$ dm$^3$."
+              "enonce": "$300$ cl $=$ ______ $\\mathrm{dm}^3$",
+              "reponse": "$3$ $\\mathrm{dm}^3$\n\n$300$ cl $= 3$ L, et $1$ L $= 1$ $\\mathrm{dm}^3$."
             },
             {
               "libelle": "c",
-              "enonce": "$0{,}9$ m$^2$ $=$ ______ dm$^2$",
-              "reponse": "$90$ dm$^2$"
+              "enonce": "$0{,}9$ $\\mathrm{m}^2$ $=$ ______ $\\mathrm{dm}^2$",
+              "reponse": "$90$ $\\mathrm{dm}^2$"
             }
           ]
         },
@@ -1418,7 +1418,7 @@
           "sousQuestions": [
             {
               "libelle": "a",
-              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______ degrés.",
               "reponse": "$180^\\circ$"
             },
             {
@@ -1507,7 +1507,7 @@
             {
               "libelle": "",
               "enonce": "Au bout de combien de minutes repartiront-ils ensemble ?",
-              "reponse": "$75$ minutes\n\nIl faut le plus petit multiple commun de $15$ et $25$.\n\nMultiples de $15$ : $15, 30, 45, 60, 75\\ldots$\nMultiples de $25$ : $25, 50, 75\\ldots$\n\nLe ppmc est $75$."
+              "reponse": "$75$ minutes\n\nIl faut chercher le plus petit multiple commun de $15$ et $25$.\n\nMultiples de $15$ : $15, 30, 45, 60, 75\\ldots$\nMultiples de $25$ : $25, 50, 75\\ldots$\n\nLe ppmc est $75$."
             }
           ]
         },
@@ -1565,7 +1565,7 @@
             {
               "libelle": "",
               "enonce": "Substitue puis calcule l'aire pour $D = 14$ cm et $d = 6$ cm.",
-              "reponse": "$42$ cm$^2$\n\n$A = \\frac{14 \\cdot 6}{2} = \\frac{84}{2} = 42$ cm$^2$."
+              "reponse": "$42$ $\\mathrm{cm}^2$\n\n$A = \\frac{14 \\cdot 6}{2} = \\frac{84}{2} = 42$ $\\mathrm{cm}^2$."
             }
           ]
         },
@@ -1588,8 +1588,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en dm$^3$.",
-              "reponse": "Le seau A, avec $36$ dm$^3$ de plus.\n\nSeau a : $V = 6 \\cdot 5 \\cdot 4 = 120$ dm$^3$\n\nSeau b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 2^2 \\cdot 7 = 84$ dm$^3$\n\nDifférence : $120 - 84 = 36$ dm$^3$."
+              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en $\\mathrm{dm}^3$.",
+              "reponse": "Le seau A, avec $36$ $\\mathrm{dm}^3$ de plus.\n\nSeau a : $V = 6 \\cdot 5 \\cdot 4 = 120$ $\\mathrm{dm}^3$\n\nSeau b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 2^2 \\cdot 7 = 84$ $\\mathrm{dm}^3$\n\nDifférence : $120 - 84 = 36$ $\\mathrm{dm}^3$."
             }
           ]
         },
@@ -1600,7 +1600,7 @@
           "sousQuestions": [
             {
               "libelle": "a",
-              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______ degrés.",
               "reponse": "$180^\\circ$"
             },
             {
@@ -1688,7 +1688,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "$\\frac{2}{5}$    $40\\%$    $\\sqrt{16}$    $\\frac{8}{20}$    $4\\%$    $6^0$",
+              "enonce": "$\\frac{2}{5} \\qquad 40\\% \\qquad \\sqrt{16}$\n$\\frac{8}{20} \\qquad 4\\% \\qquad 6^0$",
               "reponse": "Égaux à $0{,}4$ : $\\frac{2}{5}$, $40\\%$ et $\\frac{8}{20}$.\n\nIntrus : $\\sqrt{16} = 4$, $4\\% = 0{,}04$ et $6^0 = 1$."
             }
           ]
@@ -1701,7 +1701,7 @@
             {
               "libelle": "a",
               "enonce": "Quel est le plus grand nombre de rayons qu'il peut garnir ?",
-              "reponse": "$9$ rayons\n\nIl faut le plus grand diviseur commun de $63$ et $81$.\n\nDiviseurs de $63$ : $1, 3, 7, 9, 21, 63$\nDiviseurs de $81$ : $1, 3, 9, 27, 81$\n\nLe pgdc est $9$."
+              "reponse": "$9$ rayons\n\nIl faut chercher le plus grand diviseur commun de $63$ et $81$.\n\nDiviseurs de $63$ : $1, 3, 7, 9, 21, 63$\nDiviseurs de $81$ : $1, 3, 9, 27, 81$\n\nLe pgdc est $9$."
             },
             {
               "libelle": "b",
@@ -1734,8 +1734,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Substitue puis calcule le volume pour $B = 27$ cm$^2$ et $h = 8$ cm.",
-              "reponse": "$72$ cm$^3$\n\n$V = \\frac{27 \\cdot 8}{3} = \\frac{216}{3} = 72$ cm$^3$."
+              "enonce": "Substitue puis calcule le volume pour $B = 27$ $\\mathrm{cm}^2$ et $h = 8$ cm.",
+              "reponse": "$72$ $\\mathrm{cm}^3$\n\n$V = \\frac{27 \\cdot 8}{3} = \\frac{216}{3} = 72$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -1758,8 +1758,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en dm$^3$.",
-              "reponse": "Le bidon A, avec $15$ dm$^3$ de plus.\n\nBidon a : $V = 8 \\cdot 6 \\cdot 5 = 240$ dm$^3$\n\nBidon b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 5^2 \\cdot 3 = 225$ dm$^3$\n\nDifférence : $240 - 225 = 15$ dm$^3$."
+              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en $\\mathrm{dm}^3$.",
+              "reponse": "Le bidon A, avec $15$ $\\mathrm{dm}^3$ de plus.\n\nBidon a : $V = 8 \\cdot 6 \\cdot 5 = 240$ $\\mathrm{dm}^3$\n\nBidon b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 5^2 \\cdot 3 = 225$ $\\mathrm{dm}^3$\n\nDifférence : $240 - 225 = 15$ $\\mathrm{dm}^3$."
             }
           ]
         },
@@ -1775,8 +1775,8 @@
             },
             {
               "libelle": "b",
-              "enonce": "$50$ cl $=$ ______ dm$^3$",
-              "reponse": "$0{,}5$ dm$^3$\n\n$50$ cl $= 0{,}5$ L, et $1$ L $= 1$ dm$^3$."
+              "enonce": "$50$ cl $=$ ______ $\\mathrm{dm}^3$",
+              "reponse": "$0{,}5$ $\\mathrm{dm}^3$\n\n$50$ cl $= 0{,}5$ L, et $1$ L $= 1$ $\\mathrm{dm}^3$."
             },
             {
               "libelle": "c",
@@ -1792,7 +1792,7 @@
           "sousQuestions": [
             {
               "libelle": "a",
-              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______ degrés.",
               "reponse": "$180^\\circ$"
             },
             {
@@ -1880,12 +1880,12 @@
           "sousQuestions": [
             {
               "libelle": "a",
-              "enonce": "$8100$ est divisible par $9$ · par $100$ · par $25$ · par $2$",
+              "enonce": "$8100$ est-il divisible par $9$ ? par $100$ ? par $25$ ? par $2$ ?",
               "reponse": "Par $9$ : vrai ($8+1+0+0 = 9$).\nPar $100$ : vrai (il finit par deux zéros).\nPar $25$ : vrai (il finit par $00$).\nPar $2$ : vrai (il finit par $0$)."
             },
             {
               "libelle": "b",
-              "enonce": "$2755$ est divisible par $5$ · par $3$ · par $10$ · par $2$",
+              "enonce": "$2755$ est-il divisible par $5$ ? par $3$ ? par $10$ ? par $2$ ?",
               "reponse": "Par $5$ : vrai (il finit par $5$).\nPar $3$ : faux ($2+7+5+5 = 19$, qui n'est pas divisible par $3$).\nPar $10$ : faux (il ne finit pas par $0$).\nPar $2$ : faux (le nombre est impair)."
             }
           ]
@@ -1898,7 +1898,7 @@
             {
               "libelle": "a",
               "enonce": "Quel est le plus grand nombre de coffrets qu'il peut composer ?",
-              "reponse": "$15$ coffrets\n\nIl faut le plus grand diviseur commun de $45$ et $60$.\n\nDiviseurs de $45$ : $1, 3, 5, 9, 15, 45$\nDiviseurs de $60$ : $1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60$\n\nLe pgdc est $15$."
+              "reponse": "$15$ coffrets\n\nIl faut chercher le plus grand diviseur commun de $45$ et $60$.\n\nDiviseurs de $45$ : $1, 3, 5, 9, 15, 45$\nDiviseurs de $60$ : $1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60$\n\nLe pgdc est $15$."
             },
             {
               "libelle": "b",
@@ -1949,7 +1949,7 @@
             {
               "libelle": "",
               "enonce": "Substitue puis calcule l'aire pour $B = 11$ cm, $b = 5$ cm et $h = 6$ cm.",
-              "reponse": "$48$ cm$^2$\n\n$A = \\frac{11 + 5}{2} \\cdot 6 = \\frac{16}{2} \\cdot 6 = 8 \\cdot 6 = 48$ cm$^2$."
+              "reponse": "$48$ $\\mathrm{cm}^2$\n\n$A = \\frac{11 + 5}{2} \\cdot 6 = \\frac{16}{2} \\cdot 6 = 8 \\cdot 6 = 48$ $\\mathrm{cm}^2$."
             }
           ]
         },
@@ -1972,8 +1972,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en cm$^3$.",
-              "reponse": "Le pot A, avec $27$ cm$^3$ de plus.\n\nPot a : $V = 9 \\cdot 4 \\cdot 3 = 108$ cm$^3$\n\nPot b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 3^2 \\cdot 3 = 81$ cm$^3$\n\nDifférence : $108 - 81 = 27$ cm$^3$."
+              "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en $\\mathrm{cm}^3$.",
+              "reponse": "Le pot A, avec $27$ $\\mathrm{cm}^3$ de plus.\n\nPot a : $V = 9 \\cdot 4 \\cdot 3 = 108$ $\\mathrm{cm}^3$\n\nPot b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 3^2 \\cdot 3 = 81$ $\\mathrm{cm}^3$\n\nDifférence : $108 - 81 = 27$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -1984,7 +1984,7 @@
           "sousQuestions": [
             {
               "libelle": "a",
-              "enonce": "Complète : la somme des angles d'un triangle vaut ______$^\\circ$.",
+              "enonce": "Complète : la somme des angles d'un triangle vaut ______ degrés.",
               "reponse": "$180^\\circ$"
             },
             {

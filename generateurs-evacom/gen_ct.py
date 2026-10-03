@@ -8,8 +8,11 @@ TRIPLETS = [(3,4,5),(6,8,10),(9,12,15),(5,12,13),(8,15,17),(7,24,25),(20,21,29),
 
 def fr(n, d): return rf"\frac{{{n}}}{{{d}}}"
 
+THEMES = {1: 'Nombres relatifs', 2: 'Fractions', 3: 'Fractions', 4: 'Solides', 5: 'Fractions', 6: 'Théorème de Pythagore', 7: 'Unités de mesure', 8: 'Théorème de Pythagore', 9: 'Théorème de Pythagore', 10: 'Proportionnalité', 11: 'Aires et volumes', 12: 'Aires et volumes', 13: 'Unités de mesure'}
+
 def q(numero, points, partie, consigne, sous):
-    return {"numero": numero, "points": points, "partie": partie, "consigne": consigne,
+    return {"numero": numero, "points": points, "partie": partie,
+            "theme": THEMES[numero], "consigne": consigne,
             "sousQuestions": [{"libelle": l, "enonce": e, "reponse": r} for l, e, r in sous]}
 
 def engendrer(variante):

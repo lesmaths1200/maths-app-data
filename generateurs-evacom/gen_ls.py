@@ -12,8 +12,11 @@ def frac(x): return fr(x.numerator, x.denominator) if x.denominator != 1 else st
 def virg(x, n):
     return f"{x:.{n}f}".replace(".", "{,}")
 
+THEMES = {1: 'Racines carrées', 2: 'Racines carrées', 3: 'Racines carrées', 4: 'Calcul littéral', 5: 'Calcul littéral', 6: 'Aires et volumes', 7: 'Calcul littéral', 8: 'Calcul littéral', 9: 'Équations', 10: 'Solides', 11: 'Aires et volumes', 12: 'Aires et volumes', 13: 'Théorème de Pythagore'}
+
 def q(numero, points, partie, consigne, sous):
-    return {"numero": numero, "points": points, "partie": partie, "consigne": consigne,
+    return {"numero": numero, "points": points, "partie": partie,
+            "theme": THEMES[numero], "consigne": consigne,
             "sousQuestions": [{"libelle": l, "enonce": e, "reponse": r} for l, e, r in sous]}
 
 def engendrer(variante):

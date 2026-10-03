@@ -52,7 +52,8 @@
               "enonce": "$18 : 0{,}1 =$",
               "reponse": "$180$"
             }
-          ]
+          ],
+          "theme": "Priorités opératoires"
         },
         {
           "numero": 2,
@@ -79,7 +80,8 @@
               "enonce": "$3{,}5 + \\frac{1}{2} =$",
               "reponse": "$4$\n\n$\\frac{7}{2} + \\frac{1}{2} = \\frac{8}{2} = 4$"
             }
-          ]
+          ],
+          "theme": "Fractions"
         },
         {
           "numero": 3,
@@ -91,7 +93,8 @@
               "enonce": "$\\frac{1}{4} \\qquad 25\\% \\qquad \\sqrt{25}$\n$2{,}5\\% \\qquad \\frac{5}{20} \\qquad 4^0$",
               "reponse": "Égaux à $0{,}25$ : $\\frac{1}{4}$, $25\\%$ et $\\frac{5}{20}$.\n\nIntrus : $\\sqrt{25} = 5$, $2{,}5\\% = 0{,}025$ et $4^0 = 1$."
             }
-          ]
+          ],
+          "theme": "Écritures fractionnaires"
         },
         {
           "numero": 4,
@@ -108,7 +111,8 @@
               "enonce": "$1575$ est-il divisible par $2$ ? par $5$ ? par $9$ ? par $10$ ?",
               "reponse": "Par $2$ : faux (le nombre est impair).\nPar $5$ : vrai (il finit par $5$).\nPar $9$ : vrai ($1+5+7+5 = 18$, divisible par $9$).\nPar $10$ : faux (il ne finit pas par $0$)."
             }
-          ]
+          ],
+          "theme": "Divisibilité"
         },
         {
           "numero": 5,
@@ -125,7 +129,8 @@
               "enonce": "Combien de roses et de tulipes y aura-t-il dans chaque bouquet ?",
               "reponse": "$2$ roses et $5$ tulipes\n\n$30 : 15 = 2$ roses\n$75 : 15 = 5$ tulipes"
             }
-          ]
+          ],
+          "theme": "PGDC et PPMC"
         },
         {
           "numero": 6,
@@ -142,7 +147,8 @@
               "enonce": "Quel est le prix final du pantalon ?",
               "reponse": "CHF $64$\n\n$80 - 16 =$ CHF $64$."
             }
-          ]
+          ],
+          "theme": "Nombres relatifs"
         },
         {
           "numero": 7,
@@ -159,7 +165,8 @@
               "enonce": "Sur la maquette, un mur mesure $12$ cm. Quelle est sa longueur réelle ?",
               "reponse": "$6$ m\n\n$12 \\cdot 50 = 600$ cm $= 6$ m."
             }
-          ]
+          ],
+          "theme": "Proportionnalité"
         },
         {
           "numero": 8,
@@ -171,7 +178,8 @@
               "enonce": "Substitue puis calcule le volume pour $B = 24$ $\\mathrm{cm}^2$ et $h = 5$ cm.",
               "reponse": "$40$ $\\mathrm{cm}^3$\n\n$V = \\frac{24 \\cdot 5}{3} = \\frac{120}{3} = 40$ $\\mathrm{cm}^3$."
             }
-          ]
+          ],
+          "theme": "Calcul littéral"
         },
         {
           "numero": 9,
@@ -183,7 +191,8 @@
               "enonce": "Calcule la longueur de sa diagonale.",
               "reponse": "$26$ m\n\nLa longueur, la largeur et la diagonale forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$d^2 = 24^2 + 10^2 = 576 + 100 = 676$\n\n$d = \\sqrt{676} = 26$ m."
             }
-          ]
+          ],
+          "theme": "Théorème de Pythagore"
         },
         {
           "numero": 10,
@@ -195,7 +204,8 @@
               "enonce": "Quel réservoir contient le plus d'eau ? Calcule cette différence de volume, en $\\mathrm{m}^3$.",
               "reponse": "Le réservoir A, avec $6$ $\\mathrm{m}^3$ de plus.\n\nRéservoir A : $V = 5 \\cdot 3 \\cdot 2 = 30$ $\\mathrm{m}^3$\n\nRéservoir B : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 2^2 \\cdot 2 = 3 \\cdot 4 \\cdot 2 = 24$ $\\mathrm{m}^3$\n\nDifférence : $30 - 24 = 6$ $\\mathrm{m}^3$."
             }
-          ]
+          ],
+          "theme": "Aires et volumes"
         },
         {
           "numero": 11,
@@ -217,7 +227,8 @@
               "enonce": "$0{,}7$ $\\mathrm{m}^2$ $=$ ______ $\\mathrm{dm}^2$",
               "reponse": "$70$ $\\mathrm{dm}^2$\n\n$1$ m$^2 = 100$ $\\mathrm{dm}^2$."
             }
-          ]
+          ],
+          "theme": "Unités de mesure"
         },
         {
           "numero": 12,
@@ -234,7 +245,8 @@
               "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $65^\\circ$ et l'angle $B$ mesure $48^\\circ$. Calcule l'angle $C$.",
               "reponse": "$67^\\circ$\n\n$180^\\circ - 65^\\circ - 48^\\circ = 67^\\circ$."
             }
-          ]
+          ],
+          "theme": "Angles"
         }
       ]
     },
@@ -277,7 +289,8 @@
               "enonce": "$24 : 0{,}01 =$",
               "reponse": "$2400$"
             }
-          ]
+          ],
+          "theme": "Priorités opératoires"
         },
         {
           "numero": 2,
@@ -304,7 +317,8 @@
               "enonce": "$2{,}25 + \\frac{3}{4} =$",
               "reponse": "$3$\n\n$\\frac{9}{4} + \\frac{3}{4} = \\frac{12}{4} = 3$"
             }
-          ]
+          ],
+          "theme": "Fractions"
         },
         {
           "numero": 3,
@@ -316,7 +330,8 @@
               "enonce": "$A = -2{,}5$        $B = \\sqrt{9}$        $C = 150\\%$",
               "reponse": "$A = -2{,}5$ : entre $-3$ et $-2$, au milieu.\n\n$B = \\sqrt{9} = 3$.\n\n$C = 150\\% = 1{,}5$ : entre $1$ et $2$, au milieu."
             }
-          ]
+          ],
+          "theme": "Écritures fractionnaires"
         },
         {
           "numero": 4,
@@ -328,7 +343,8 @@
               "enonce": "À quelle heure repartiront-ils ensemble pour la première fois ?",
               "reponse": "À $6$ h $36$.\n\nIl faut chercher le plus petit multiple commun de $12$ et $18$.\n\nMultiples de $12$ : $12, 24, 36, 48\\ldots$\nMultiples de $18$ : $18, 36, 54\\ldots$\n\nLe ppmc est $36$ minutes."
             }
-          ]
+          ],
+          "theme": "Divisibilité"
         },
         {
           "numero": 5,
@@ -345,7 +361,8 @@
               "enonce": "Quel est le prix final du vélo ?",
               "reponse": "CHF $180$\n\n$240 - 60 =$ CHF $180$."
             }
-          ]
+          ],
+          "theme": "PGDC et PPMC"
         },
         {
           "numero": 6,
@@ -362,7 +379,8 @@
               "enonce": "Sur le plan, un couloir mesure $4{,}5$ cm. Quelle est sa longueur réelle ?",
               "reponse": "$9$ m\n\n$4{,}5 \\cdot 200 = 900$ cm $= 9$ m."
             }
-          ]
+          ],
+          "theme": "Nombres relatifs"
         },
         {
           "numero": 7,
@@ -374,7 +392,8 @@
               "enonce": "Substitue puis calcule l'aire pour $B = 7$ cm, $b = 3$ cm et $h = 4$ cm.",
               "reponse": "$20$ $\\mathrm{cm}^2$\n\n$A = \\frac{7 + 3}{2} \\cdot 4 = \\frac{10}{2} \\cdot 4 = 5 \\cdot 4 = 20$ $\\mathrm{cm}^2$."
             }
-          ]
+          ],
+          "theme": "Proportionnalité"
         },
         {
           "numero": 8,
@@ -386,7 +405,8 @@
               "enonce": "À quelle hauteur l'échelle touche-t-elle le mur ?",
               "reponse": "$12$ m\n\nLe mur, le sol et l'échelle forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$h^2 = 15^2 - 9^2 = 225 - 81 = 144$\n\n$h = \\sqrt{144} = 12$ m."
             }
-          ]
+          ],
+          "theme": "Calcul littéral"
         },
         {
           "numero": 9,
@@ -398,7 +418,8 @@
               "enonce": "Quelle boîte contient le plus de biscuits ? Calcule cette différence de volume, en $\\mathrm{cm}^3$.",
               "reponse": "La boîte A, avec $12$ $\\mathrm{cm}^3$ de plus.\n\nBoîte A : $V = 6 \\cdot 5 \\cdot 4 = 120$ $\\mathrm{cm}^3$\n\nBoîte B : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 3^2 \\cdot 4 = 3 \\cdot 9 \\cdot 4 = 108$ $\\mathrm{cm}^3$\n\nDifférence : $120 - 108 = 12$ $\\mathrm{cm}^3$."
             }
-          ]
+          ],
+          "theme": "Théorème de Pythagore"
         },
         {
           "numero": 10,
@@ -420,7 +441,8 @@
               "enonce": "$450$ $\\mathrm{cm}^2$ $=$ ______ $\\mathrm{dm}^2$",
               "reponse": "$4{,}5$ $\\mathrm{dm}^2$\n\n$1$ dm$^2 = 100$ $\\mathrm{cm}^2$."
             }
-          ]
+          ],
+          "theme": "Aires et volumes"
         },
         {
           "numero": 11,
@@ -437,7 +459,8 @@
               "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $90^\\circ$ et l'angle $B$ mesure $35^\\circ$. Calcule l'angle $C$.",
               "reponse": "$55^\\circ$\n\n$180^\\circ - 90^\\circ - 35^\\circ = 55^\\circ$."
             }
-          ]
+          ],
+          "theme": "Unités de mesure"
         }
       ],
       "totalPoints": 40
@@ -481,7 +504,8 @@
               "enonce": "$42 : 0{,}1 =$",
               "reponse": "$420$"
             }
-          ]
+          ],
+          "theme": "Priorités opératoires"
         },
         {
           "numero": 2,
@@ -508,7 +532,8 @@
               "enonce": "$1{,}75 + \\frac{1}{4} =$",
               "reponse": "$2$\n\n$\\frac{7}{4} + \\frac{1}{4} = \\frac{8}{4} = 2$"
             }
-          ]
+          ],
+          "theme": "Fractions"
         },
         {
           "numero": 3,
@@ -520,7 +545,8 @@
               "enonce": "$\\frac{1}{2} \\qquad 50\\% \\qquad \\sqrt{25}$\n$\\frac{4}{8} \\qquad 5\\% \\qquad 2^0$",
               "reponse": "Égaux à $0{,}5$ : $\\frac{1}{2}$, $50\\%$ et $\\frac{4}{8}$.\n\nIntrus : $\\sqrt{25} = 5$, $5\\% = 0{,}05$ et $2^0 = 1$."
             }
-          ]
+          ],
+          "theme": "Écritures fractionnaires"
         },
         {
           "numero": 4,
@@ -537,7 +563,8 @@
               "enonce": "Combien d'éclairs et de tartelettes y aura-t-il sur chaque plateau ?",
               "reponse": "$2$ éclairs et $3$ tartelettes\n\n$24 : 12 = 2$ et $36 : 12 = 3$."
             }
-          ]
+          ],
+          "theme": "Divisibilité"
         },
         {
           "numero": 5,
@@ -554,7 +581,8 @@
               "enonce": "Un ballon soldé est passé de CHF $40$ à CHF $30$. Quel pourcentage de réduction a été appliqué ?",
               "reponse": "$25\\%$\n\nRéduction : $40 - 30 =$ CHF $10$.\n\n$\\frac{10}{40} = \\frac{1}{4} = 25\\%$."
             }
-          ]
+          ],
+          "theme": "PGDC et PPMC"
         },
         {
           "numero": 6,
@@ -566,7 +594,8 @@
               "enonce": "Substitue puis calcule le volume pour $r = 2$ cm et $h = 5$ cm.",
               "reponse": "$20$ $\\mathrm{cm}^3$\n\n$V = \\frac{3 \\cdot 2^2 \\cdot 5}{3} = \\frac{3 \\cdot 4 \\cdot 5}{3} = \\frac{60}{3} = 20$ $\\mathrm{cm}^3$."
             }
-          ]
+          ],
+          "theme": "Nombres relatifs"
         },
         {
           "numero": 7,
@@ -578,7 +607,8 @@
               "enonce": "Calcule la longueur de sa diagonale.",
               "reponse": "$100$ cm\n\nLa largeur, la hauteur et la diagonale forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$d^2 = 80^2 + 60^2 = 6400 + 3600 = 10\\,000$\n\n$d = \\sqrt{10\\,000} = 100$ cm."
             }
-          ]
+          ],
+          "theme": "Proportionnalité"
         },
         {
           "numero": 8,
@@ -590,7 +620,8 @@
               "enonce": "Quel bac contient le plus de terre ? Calcule cette différence de volume, en $\\mathrm{dm}^3$.",
               "reponse": "Le bac A, avec $24$ $\\mathrm{dm}^3$ de plus.\n\nBac A : $V = 8 \\cdot 5 \\cdot 3 = 120$ $\\mathrm{dm}^3$\n\nBac B : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 4^2 \\cdot 2 = 3 \\cdot 16 \\cdot 2 = 96$ $\\mathrm{dm}^3$\n\nDifférence : $120 - 96 = 24$ $\\mathrm{dm}^3$."
             }
-          ]
+          ],
+          "theme": "Calcul littéral"
         },
         {
           "numero": 9,
@@ -612,7 +643,8 @@
               "enonce": "$3200$ g $= 3{,}2$ ______",
               "reponse": "$3{,}2$ kg"
             }
-          ]
+          ],
+          "theme": "Théorème de Pythagore"
         },
         {
           "numero": 10,
@@ -629,7 +661,8 @@
               "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $72^\\circ$ et l'angle $B$ mesure $58^\\circ$. Calcule l'angle $C$.",
               "reponse": "$50^\\circ$\n\n$180^\\circ - 72^\\circ - 58^\\circ = 50^\\circ$."
             }
-          ]
+          ],
+          "theme": "Aires et volumes"
         }
       ],
       "totalPoints": 38
@@ -673,7 +706,8 @@
               "enonce": "$36 : 0{,}1 =$",
               "reponse": "$360$"
             }
-          ]
+          ],
+          "theme": "Priorités opératoires"
         },
         {
           "numero": 2,
@@ -700,7 +734,8 @@
               "enonce": "$4{,}5 + \\frac{1}{2} =$",
               "reponse": "$5$\n\n$\\frac{9}{2} + \\frac{1}{2} = \\frac{10}{2} = 5$"
             }
-          ]
+          ],
+          "theme": "Fractions"
         },
         {
           "numero": 3,
@@ -717,7 +752,8 @@
               "enonce": "$1125$ est-il divisible par $3$ ? par $5$ ? par $25$ ? par $10$ ?",
               "reponse": "Par $3$ : vrai ($1+1+2+5 = 9$).\nPar $5$ : vrai (il finit par $5$).\nPar $25$ : vrai (il finit par $25$).\nPar $10$ : faux (il ne finit pas par $0$)."
             }
-          ]
+          ],
+          "theme": "Écritures fractionnaires"
         },
         {
           "numero": 4,
@@ -734,7 +770,8 @@
               "enonce": "Combien de crayons et de gommes y aura-t-il dans chaque trousse ?",
               "reponse": "$3$ crayons et $4$ gommes\n\n$42 : 14 = 3$ et $56 : 14 = 4$."
             }
-          ]
+          ],
+          "theme": "Divisibilité"
         },
         {
           "numero": 5,
@@ -751,7 +788,8 @@
               "enonce": "Quel est le prix final ?",
               "reponse": "CHF $105$\n\n$150 - 45 =$ CHF $105$."
             }
-          ]
+          ],
+          "theme": "PGDC et PPMC"
         },
         {
           "numero": 6,
@@ -768,7 +806,8 @@
               "enonce": "Sur le dessin, un autre élément mesure $6$ cm. Quelle est sa longueur réelle ?",
               "reponse": "$1$ m\n\n$6 \\cdot 25 = 150$ cm $= 1$ m."
             }
-          ]
+          ],
+          "theme": "Nombres relatifs"
         },
         {
           "numero": 7,
@@ -780,7 +819,8 @@
               "enonce": "Substitue puis calcule l'aire latérale pour $r = 2$ cm et $h = 5$ cm.",
               "reponse": "$60$ $\\mathrm{cm}^2$\n\n$A = 2 \\cdot 3 \\cdot 2 \\cdot 5 = 60$ $\\mathrm{cm}^2$."
             }
-          ]
+          ],
+          "theme": "Proportionnalité"
         },
         {
           "numero": 8,
@@ -792,7 +832,8 @@
               "enonce": "Quelle est la longueur de la glissière du toboggan ?",
               "reponse": "$15$ m\n\nLe support, le sol et la glissière forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$\\ell^2 = 9^2 + 12^2 = 81 + 144 = 225$\n\n$\\ell = \\sqrt{225} = 15$ m."
             }
-          ]
+          ],
+          "theme": "Calcul littéral"
         },
         {
           "numero": 9,
@@ -804,7 +845,8 @@
               "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en $\\mathrm{cm}^3$.",
               "reponse": "Le carton A, avec $12$ $\\mathrm{cm}^3$ de plus.\n\nCarton a : $V = 10 \\cdot 6 \\cdot 5 = 300$ $\\mathrm{cm}^3$\n\nCarton b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 4^2 \\cdot 6 = 288$ $\\mathrm{cm}^3$\n\nDifférence : $300 - 288 = 12$ $\\mathrm{cm}^3$."
             }
-          ]
+          ],
+          "theme": "Théorème de Pythagore"
         },
         {
           "numero": 10,
@@ -826,7 +868,8 @@
               "enonce": "$5400$ g $= 5{,}4$ ______",
               "reponse": "$5{,}4$ kg"
             }
-          ]
+          ],
+          "theme": "Aires et volumes"
         },
         {
           "numero": 11,
@@ -843,7 +886,8 @@
               "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $105^\\circ$ et l'angle $B$ mesure $42^\\circ$. Calcule l'angle $C$.",
               "reponse": "$33^\\circ$\n\n$180^\\circ - 105^\\circ - 42^\\circ = 33^\\circ$."
             }
-          ]
+          ],
+          "theme": "Unités de mesure"
         }
       ],
       "totalPoints": 41
@@ -887,7 +931,8 @@
               "enonce": "$7 : 0{,}01 =$",
               "reponse": "$700$"
             }
-          ]
+          ],
+          "theme": "Priorités opératoires"
         },
         {
           "numero": 2,
@@ -914,7 +959,8 @@
               "enonce": "$6{,}25 + \\frac{3}{4} =$",
               "reponse": "$7$\n\n$\\frac{25}{4} + \\frac{3}{4} = \\frac{28}{4} = 7$"
             }
-          ]
+          ],
+          "theme": "Fractions"
         },
         {
           "numero": 3,
@@ -926,7 +972,8 @@
               "enonce": "$\\frac{3}{4} \\qquad 75\\% \\qquad \\sqrt{75}$\n$\\frac{6}{8} \\qquad 7{,}5\\% \\qquad 7^0$",
               "reponse": "Égaux à $0{,}75$ : $\\frac{3}{4}$, $75\\%$ et $\\frac{6}{8}$.\n\nIntrus : $\\sqrt{75}$ (environ $8{,}7$), $7{,}5\\% = 0{,}075$ et $7^0 = 1$."
             }
-          ]
+          ],
+          "theme": "Écritures fractionnaires"
         },
         {
           "numero": 4,
@@ -938,7 +985,8 @@
               "enonce": "Au bout de combien de secondes clignoteront-elles de nouveau en même temps ?",
               "reponse": "$40$ secondes\n\nIl faut chercher le plus petit multiple commun de $8$ et $20$.\n\nMultiples de $8$ : $8, 16, 24, 32, 40\\ldots$\nMultiples de $20$ : $20, 40\\ldots$\n\nLe ppmc est $40$."
             }
-          ]
+          ],
+          "theme": "Divisibilité"
         },
         {
           "numero": 5,
@@ -955,7 +1003,8 @@
               "enonce": "Un jeu soldé est passé de CHF $60$ à CHF $45$. Quel pourcentage de réduction a été appliqué ?",
               "reponse": "$25\\%$\n\nRéduction : $60 - 45 =$ CHF $15$.\n\n$\\frac{15}{60} = \\frac{1}{4} = 25\\%$."
             }
-          ]
+          ],
+          "theme": "PGDC et PPMC"
         },
         {
           "numero": 6,
@@ -967,7 +1016,8 @@
               "enonce": "Substitue puis calcule l'aire pour $b = 12$ cm et $h = 7$ cm.",
               "reponse": "$42$ $\\mathrm{cm}^2$\n\n$A = \\frac{12 \\cdot 7}{2} = \\frac{84}{2} = 42$ $\\mathrm{cm}^2$."
             }
-          ]
+          ],
+          "theme": "Nombres relatifs"
         },
         {
           "numero": 7,
@@ -979,7 +1029,8 @@
               "enonce": "Calcule la longueur de sa diagonale.",
               "reponse": "$17$ dm\n\nLa longueur, la largeur et la diagonale forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$d^2 = 15^2 + 8^2 = 225 + 64 = 289$\n\n$d = \\sqrt{289} = 17$ dm."
             }
-          ]
+          ],
+          "theme": "Proportionnalité"
         },
         {
           "numero": 8,
@@ -991,7 +1042,8 @@
               "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en $\\mathrm{cm}^3$.",
               "reponse": "Le récipient A, avec $12$ $\\mathrm{cm}^3$ de plus.\n\nRécipient a : $V = 7 \\cdot 4 \\cdot 3 = 84$ $\\mathrm{cm}^3$\n\nRécipient b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 2^2 \\cdot 6 = 72$ $\\mathrm{cm}^3$\n\nDifférence : $84 - 72 = 12$ $\\mathrm{cm}^3$."
             }
-          ]
+          ],
+          "theme": "Calcul littéral"
         },
         {
           "numero": 9,
@@ -1013,7 +1065,8 @@
               "enonce": "$4{,}8$ $\\mathrm{m}^2$ $=$ ______ $\\mathrm{dm}^2$",
               "reponse": "$480$ $\\mathrm{dm}^2$\n\n$1$ m$^2 = 100$ $\\mathrm{dm}^2$."
             }
-          ]
+          ],
+          "theme": "Théorème de Pythagore"
         },
         {
           "numero": 10,
@@ -1030,7 +1083,8 @@
               "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $38^\\circ$ et l'angle $B$ mesure $97^\\circ$. Calcule l'angle $C$.",
               "reponse": "$45^\\circ$\n\n$180^\\circ - 38^\\circ - 97^\\circ = 45^\\circ$."
             }
-          ]
+          ],
+          "theme": "Aires et volumes"
         }
       ],
       "totalPoints": 38
@@ -1074,7 +1128,8 @@
               "enonce": "$9 : 0{,}1 =$",
               "reponse": "$90$"
             }
-          ]
+          ],
+          "theme": "Priorités opératoires"
         },
         {
           "numero": 2,
@@ -1101,7 +1156,8 @@
               "enonce": "$2{,}5 + \\frac{1}{2} =$",
               "reponse": "$3$\n\n$\\frac{5}{2} + \\frac{1}{2} = \\frac{6}{2} = 3$"
             }
-          ]
+          ],
+          "theme": "Fractions"
         },
         {
           "numero": 3,
@@ -1113,7 +1169,8 @@
               "enonce": "$A = -1{,}5$        $B = \\sqrt{16}$        $C = 250\\%$",
               "reponse": "$A = -1{,}5$ : entre $-2$ et $-1$, au milieu.\n\n$B = \\sqrt{16} = 4$.\n\n$C = 250\\% = 2{,}5$ : entre $2$ et $3$, au milieu."
             }
-          ]
+          ],
+          "theme": "Écritures fractionnaires"
         },
         {
           "numero": 4,
@@ -1130,7 +1187,8 @@
               "enonce": "Combien de perles de chaque couleur y aura-t-il sur chaque collier ?",
               "reponse": "$3$ perles bleues et $4$ perles blanches\n\n$36 : 12 = 3$ et $48 : 12 = 4$."
             }
-          ]
+          ],
+          "theme": "Divisibilité"
         },
         {
           "numero": 5,
@@ -1147,7 +1205,8 @@
               "enonce": "Quel est le prix final ?",
               "reponse": "CHF $48$\n\n$60 - 12 =$ CHF $48$."
             }
-          ]
+          ],
+          "theme": "PGDC et PPMC"
         },
         {
           "numero": 6,
@@ -1164,7 +1223,8 @@
               "enonce": "Sur le dessin, un autre élément mesure $8$ cm. Quelle est sa longueur réelle ?",
               "reponse": "$8$ m\n\n$8 \\cdot 100 = 800$ cm $= 8$ m."
             }
-          ]
+          ],
+          "theme": "Nombres relatifs"
         },
         {
           "numero": 7,
@@ -1176,7 +1236,8 @@
               "enonce": "Substitue puis calcule le volume pour $B = 18$ $\\mathrm{cm}^2$ et $h = 7$ cm.",
               "reponse": "$126$ $\\mathrm{cm}^3$\n\n$V = 18 \\cdot 7 = 126$ $\\mathrm{cm}^3$."
             }
-          ]
+          ],
+          "theme": "Proportionnalité"
         },
         {
           "numero": 8,
@@ -1188,7 +1249,8 @@
               "enonce": "Quelle est la longueur de la rampe ?",
               "reponse": "$25$ m\n\nLe bâtiment, le sol et la rampe forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$\\ell^2 = 7^2 + 24^2 = 49 + 576 = 625$\n\n$\\ell = \\sqrt{625} = 25$ m."
             }
-          ]
+          ],
+          "theme": "Calcul littéral"
         },
         {
           "numero": 9,
@@ -1200,7 +1262,8 @@
               "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en $\\mathrm{dm}^3$.",
               "reponse": "Le aquarium A, avec $45$ $\\mathrm{dm}^3$ de plus.\n\nAquarium a : $V = 9 \\cdot 5 \\cdot 4 = 180$ $\\mathrm{dm}^3$\n\nAquarium b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 3^2 \\cdot 5 = 135$ $\\mathrm{dm}^3$\n\nDifférence : $180 - 135 = 45$ $\\mathrm{dm}^3$."
             }
-          ]
+          ],
+          "theme": "Théorème de Pythagore"
         },
         {
           "numero": 10,
@@ -1217,7 +1280,8 @@
               "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $64^\\circ$ et l'angle $B$ mesure $71^\\circ$. Calcule l'angle $C$.",
               "reponse": "$45^\\circ$\n\n$180^\\circ - 64^\\circ - 71^\\circ = 45^\\circ$."
             }
-          ]
+          ],
+          "theme": "Aires et volumes"
         }
       ],
       "totalPoints": 37
@@ -1261,7 +1325,8 @@
               "enonce": "$15 : 0{,}01 =$",
               "reponse": "$1500$"
             }
-          ]
+          ],
+          "theme": "Priorités opératoires"
         },
         {
           "numero": 2,
@@ -1288,7 +1353,8 @@
               "enonce": "$3{,}25 + \\frac{3}{4} =$",
               "reponse": "$4$\n\n$\\frac{13}{4} + \\frac{3}{4} = \\frac{16}{4} = 4$"
             }
-          ]
+          ],
+          "theme": "Fractions"
         },
         {
           "numero": 3,
@@ -1300,7 +1366,8 @@
               "enonce": "$\\frac{1}{5} \\qquad 20\\% \\qquad \\sqrt{4}$\n$\\frac{4}{20} \\qquad 2\\% \\qquad 9^0$",
               "reponse": "Égaux à $0{,}2$ : $\\frac{1}{5}$, $20\\%$ et $\\frac{4}{20}$.\n\nIntrus : $\\sqrt{4} = 2$, $2\\% = 0{,}02$ et $9^0 = 1$."
             }
-          ]
+          ],
+          "theme": "Écritures fractionnaires"
         },
         {
           "numero": 4,
@@ -1317,7 +1384,8 @@
               "enonce": "$6300$ est-il divisible par $10$ ? par $25$ ? par $100$ ? par $9$ ?",
               "reponse": "Par $10$ : vrai (il finit par $0$).\nPar $25$ : vrai (il finit par $00$).\nPar $100$ : vrai (il finit par deux zéros).\nPar $9$ : vrai ($6+3+0+0 = 9$)."
             }
-          ]
+          ],
+          "theme": "Divisibilité"
         },
         {
           "numero": 5,
@@ -1334,7 +1402,8 @@
               "enonce": "Quel est le prix final ?",
               "reponse": "CHF $72$\n\n$120 - 48 =$ CHF $72$."
             }
-          ]
+          ],
+          "theme": "PGDC et PPMC"
         },
         {
           "numero": 6,
@@ -1351,7 +1420,8 @@
               "enonce": "Sur le dessin, un autre élément mesure $7$ cm. Quelle est sa longueur réelle ?",
               "reponse": "$35$ m\n\n$7 \\cdot 500 = 3500$ cm $= 35$ m."
             }
-          ]
+          ],
+          "theme": "Nombres relatifs"
         },
         {
           "numero": 7,
@@ -1363,7 +1433,8 @@
               "enonce": "Substitue puis calcule le périmètre pour $r = 7$ cm.",
               "reponse": "$42$ cm\n\n$P = 2 \\cdot 3 \\cdot 7 = 42$ cm."
             }
-          ]
+          ],
+          "theme": "Proportionnalité"
         },
         {
           "numero": 8,
@@ -1375,7 +1446,8 @@
               "enonce": "Calcule la longueur de sa diagonale.",
               "reponse": "$41$ m\n\nLa longueur, la largeur et la diagonale forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$d^2 = 40^2 + 9^2 = 1600 + 81 = 1681$\n\n$d = \\sqrt{1681} = 41$ m."
             }
-          ]
+          ],
+          "theme": "Calcul littéral"
         },
         {
           "numero": 9,
@@ -1387,7 +1459,8 @@
               "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en $\\mathrm{cm}^3$.",
               "reponse": "Le coffre A, avec $48$ $\\mathrm{cm}^3$ de plus.\n\nCoffre a : $V = 12 \\cdot 5 \\cdot 4 = 240$ $\\mathrm{cm}^3$\n\nCoffre b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 4^2 \\cdot 4 = 192$ $\\mathrm{cm}^3$\n\nDifférence : $240 - 192 = 48$ $\\mathrm{cm}^3$."
             }
-          ]
+          ],
+          "theme": "Théorème de Pythagore"
         },
         {
           "numero": 10,
@@ -1409,7 +1482,8 @@
               "enonce": "$0{,}9$ $\\mathrm{m}^2$ $=$ ______ $\\mathrm{dm}^2$",
               "reponse": "$90$ $\\mathrm{dm}^2$"
             }
-          ]
+          ],
+          "theme": "Aires et volumes"
         },
         {
           "numero": 11,
@@ -1426,7 +1500,8 @@
               "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $47^\\circ$ et l'angle $B$ mesure $88^\\circ$. Calcule l'angle $C$.",
               "reponse": "$45^\\circ$\n\n$180^\\circ - 47^\\circ - 88^\\circ = 45^\\circ$."
             }
-          ]
+          ],
+          "theme": "Unités de mesure"
         }
       ],
       "totalPoints": 41
@@ -1470,7 +1545,8 @@
               "enonce": "$63 : 0{,}1 =$",
               "reponse": "$630$"
             }
-          ]
+          ],
+          "theme": "Priorités opératoires"
         },
         {
           "numero": 2,
@@ -1497,7 +1573,8 @@
               "enonce": "$1{,}5 + \\frac{1}{2} =$",
               "reponse": "$2$\n\n$\\frac{3}{2} + \\frac{1}{2} = \\frac{4}{2} = 2$"
             }
-          ]
+          ],
+          "theme": "Fractions"
         },
         {
           "numero": 3,
@@ -1509,7 +1586,8 @@
               "enonce": "Au bout de combien de minutes repartiront-ils ensemble ?",
               "reponse": "$75$ minutes\n\nIl faut chercher le plus petit multiple commun de $15$ et $25$.\n\nMultiples de $15$ : $15, 30, 45, 60, 75\\ldots$\nMultiples de $25$ : $25, 50, 75\\ldots$\n\nLe ppmc est $75$."
             }
-          ]
+          ],
+          "theme": "Écritures fractionnaires"
         },
         {
           "numero": 4,
@@ -1521,7 +1599,8 @@
               "enonce": "$A = -0{,}5$        $B = \\sqrt{25}$        $C = 175\\%$",
               "reponse": "$A = -0{,}5$ : entre $-1$ et $0$, au milieu.\n\n$B = \\sqrt{25} = 5$.\n\n$C = 175\\% = 1{,}75$ : entre $1$ et $2$, aux trois quarts."
             }
-          ]
+          ],
+          "theme": "Divisibilité"
         },
         {
           "numero": 5,
@@ -1538,7 +1617,8 @@
               "enonce": "Quel est le prix final ?",
               "reponse": "CHF $68$\n\n$80 - 12 =$ CHF $68$."
             }
-          ]
+          ],
+          "theme": "PGDC et PPMC"
         },
         {
           "numero": 6,
@@ -1555,7 +1635,8 @@
               "enonce": "Sur le dessin, un autre élément mesure $15$ cm. Quelle est sa longueur réelle ?",
               "reponse": "$6$ m\n\n$15 \\cdot 40 = 600$ cm $= 6$ m."
             }
-          ]
+          ],
+          "theme": "Nombres relatifs"
         },
         {
           "numero": 7,
@@ -1567,7 +1648,8 @@
               "enonce": "Substitue puis calcule l'aire pour $D = 14$ cm et $d = 6$ cm.",
               "reponse": "$42$ $\\mathrm{cm}^2$\n\n$A = \\frac{14 \\cdot 6}{2} = \\frac{84}{2} = 42$ $\\mathrm{cm}^2$."
             }
-          ]
+          ],
+          "theme": "Proportionnalité"
         },
         {
           "numero": 8,
@@ -1579,7 +1661,8 @@
               "enonce": "Quelle est la longueur du câble ?",
               "reponse": "$20$ m\n\nLe mât, le sol et le câble forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$\\ell^2 = 16^2 + 12^2 = 256 + 144 = 400$\n\n$\\ell = \\sqrt{400} = 20$ m."
             }
-          ]
+          ],
+          "theme": "Calcul littéral"
         },
         {
           "numero": 9,
@@ -1591,7 +1674,8 @@
               "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en $\\mathrm{dm}^3$.",
               "reponse": "Le seau A, avec $36$ $\\mathrm{dm}^3$ de plus.\n\nSeau a : $V = 6 \\cdot 5 \\cdot 4 = 120$ $\\mathrm{dm}^3$\n\nSeau b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 2^2 \\cdot 7 = 84$ $\\mathrm{dm}^3$\n\nDifférence : $120 - 84 = 36$ $\\mathrm{dm}^3$."
             }
-          ]
+          ],
+          "theme": "Théorème de Pythagore"
         },
         {
           "numero": 10,
@@ -1608,7 +1692,8 @@
               "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $29^\\circ$ et l'angle $B$ mesure $106^\\circ$. Calcule l'angle $C$.",
               "reponse": "$45^\\circ$\n\n$180^\\circ - 29^\\circ - 106^\\circ = 45^\\circ$."
             }
-          ]
+          ],
+          "theme": "Aires et volumes"
         }
       ],
       "totalPoints": 37
@@ -1652,7 +1737,8 @@
               "enonce": "$4 : 0{,}01 =$",
               "reponse": "$400$"
             }
-          ]
+          ],
+          "theme": "Priorités opératoires"
         },
         {
           "numero": 2,
@@ -1679,7 +1765,8 @@
               "enonce": "$5{,}75 + \\frac{1}{4} =$",
               "reponse": "$6$\n\n$\\frac{23}{4} + \\frac{1}{4} = \\frac{24}{4} = 6$"
             }
-          ]
+          ],
+          "theme": "Fractions"
         },
         {
           "numero": 3,
@@ -1691,7 +1778,8 @@
               "enonce": "$\\frac{2}{5} \\qquad 40\\% \\qquad \\sqrt{16}$\n$\\frac{8}{20} \\qquad 4\\% \\qquad 6^0$",
               "reponse": "Égaux à $0{,}4$ : $\\frac{2}{5}$, $40\\%$ et $\\frac{8}{20}$.\n\nIntrus : $\\sqrt{16} = 4$, $4\\% = 0{,}04$ et $6^0 = 1$."
             }
-          ]
+          ],
+          "theme": "Écritures fractionnaires"
         },
         {
           "numero": 4,
@@ -1708,7 +1796,8 @@
               "enonce": "Combien de romans et de bandes dessinées y aura-t-il sur chaque rayon ?",
               "reponse": "$7$ romans et $9$ bandes dessinées\n\n$63 : 9 = 7$ et $81 : 9 = 9$."
             }
-          ]
+          ],
+          "theme": "Divisibilité"
         },
         {
           "numero": 5,
@@ -1725,7 +1814,8 @@
               "enonce": "Une coque soldée est passée de CHF $25$ à CHF $20$. Quel pourcentage de réduction a été appliqué ?",
               "reponse": "$20\\%$\n\nRéduction : $25 - 20 =$ CHF $5$.\n\n$\\frac{5}{25} = \\frac{1}{5} = 20\\%$."
             }
-          ]
+          ],
+          "theme": "PGDC et PPMC"
         },
         {
           "numero": 6,
@@ -1737,7 +1827,8 @@
               "enonce": "Substitue puis calcule le volume pour $B = 27$ $\\mathrm{cm}^2$ et $h = 8$ cm.",
               "reponse": "$72$ $\\mathrm{cm}^3$\n\n$V = \\frac{27 \\cdot 8}{3} = \\frac{216}{3} = 72$ $\\mathrm{cm}^3$."
             }
-          ]
+          ],
+          "theme": "Nombres relatifs"
         },
         {
           "numero": 7,
@@ -1749,7 +1840,8 @@
               "enonce": "Calcule la longueur de sa diagonale.",
               "reponse": "$37$ cm\n\nLa hauteur, la largeur et la diagonale forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$d^2 = 12^2 + 35^2 = 144 + 1225 = 1369$\n\n$d = \\sqrt{1369} = 37$ cm."
             }
-          ]
+          ],
+          "theme": "Proportionnalité"
         },
         {
           "numero": 8,
@@ -1761,7 +1853,8 @@
               "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en $\\mathrm{dm}^3$.",
               "reponse": "Le bidon A, avec $15$ $\\mathrm{dm}^3$ de plus.\n\nBidon a : $V = 8 \\cdot 6 \\cdot 5 = 240$ $\\mathrm{dm}^3$\n\nBidon b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 5^2 \\cdot 3 = 225$ $\\mathrm{dm}^3$\n\nDifférence : $240 - 225 = 15$ $\\mathrm{dm}^3$."
             }
-          ]
+          ],
+          "theme": "Calcul littéral"
         },
         {
           "numero": 9,
@@ -1783,7 +1876,8 @@
               "enonce": "$7800$ g $= 7{,}8$ ______",
               "reponse": "$7{,}8$ kg"
             }
-          ]
+          ],
+          "theme": "Théorème de Pythagore"
         },
         {
           "numero": 10,
@@ -1800,7 +1894,8 @@
               "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $55^\\circ$ et l'angle $B$ mesure $83^\\circ$. Calcule l'angle $C$.",
               "reponse": "$42^\\circ$\n\n$180^\\circ - 55^\\circ - 83^\\circ = 42^\\circ$."
             }
-          ]
+          ],
+          "theme": "Aires et volumes"
         }
       ],
       "totalPoints": 38
@@ -1844,7 +1939,8 @@
               "enonce": "$27 : 0{,}1 =$",
               "reponse": "$270$"
             }
-          ]
+          ],
+          "theme": "Priorités opératoires"
         },
         {
           "numero": 2,
@@ -1871,7 +1967,8 @@
               "enonce": "$7{,}5 + \\frac{1}{2} =$",
               "reponse": "$8$\n\n$\\frac{15}{2} + \\frac{1}{2} = \\frac{16}{2} = 8$"
             }
-          ]
+          ],
+          "theme": "Fractions"
         },
         {
           "numero": 3,
@@ -1888,7 +1985,8 @@
               "enonce": "$2755$ est-il divisible par $5$ ? par $3$ ? par $10$ ? par $2$ ?",
               "reponse": "Par $5$ : vrai (il finit par $5$).\nPar $3$ : faux ($2+7+5+5 = 19$, qui n'est pas divisible par $3$).\nPar $10$ : faux (il ne finit pas par $0$).\nPar $2$ : faux (le nombre est impair)."
             }
-          ]
+          ],
+          "theme": "Écritures fractionnaires"
         },
         {
           "numero": 4,
@@ -1905,7 +2003,8 @@
               "enonce": "Combien de macarons et de sablés y aura-t-il dans chaque coffret ?",
               "reponse": "$3$ macarons et $4$ sablés\n\n$45 : 15 = 3$ et $60 : 15 = 4$."
             }
-          ]
+          ],
+          "theme": "Divisibilité"
         },
         {
           "numero": 5,
@@ -1922,7 +2021,8 @@
               "enonce": "Quel est le prix final ?",
               "reponse": "CHF $130$\n\n$200 - 70 =$ CHF $130$."
             }
-          ]
+          ],
+          "theme": "PGDC et PPMC"
         },
         {
           "numero": 6,
@@ -1939,7 +2039,8 @@
               "enonce": "Sur le dessin, un autre élément mesure $4$ cm. Quelle est sa longueur réelle ?",
               "reponse": "$6$ m\n\n$4 \\cdot 150 = 600$ cm $= 6$ m."
             }
-          ]
+          ],
+          "theme": "Nombres relatifs"
         },
         {
           "numero": 7,
@@ -1951,7 +2052,8 @@
               "enonce": "Substitue puis calcule l'aire pour $B = 11$ cm, $b = 5$ cm et $h = 6$ cm.",
               "reponse": "$48$ $\\mathrm{cm}^2$\n\n$A = \\frac{11 + 5}{2} \\cdot 6 = \\frac{16}{2} \\cdot 6 = 8 \\cdot 6 = 48$ $\\mathrm{cm}^2$."
             }
-          ]
+          ],
+          "theme": "Proportionnalité"
         },
         {
           "numero": 8,
@@ -1963,7 +2065,8 @@
               "enonce": "Quelle est la longueur de la surface inclinée ?",
               "reponse": "$29$ cm\n\nLa hauteur, la base et la surface inclinée forment un triangle rectangle. D'après le théorème de Pythagore :\n\n$\\ell^2 = 20^2 + 21^2 = 400 + 441 = 841$\n\n$\\ell = \\sqrt{841} = 29$ cm."
             }
-          ]
+          ],
+          "theme": "Calcul littéral"
         },
         {
           "numero": 9,
@@ -1975,7 +2078,8 @@
               "enonce": "Lequel a le plus grand volume ? Calcule cette différence, en $\\mathrm{cm}^3$.",
               "reponse": "Le pot A, avec $27$ $\\mathrm{cm}^3$ de plus.\n\nPot a : $V = 9 \\cdot 4 \\cdot 3 = 108$ $\\mathrm{cm}^3$\n\nPot b : $V = \\pi \\cdot r^2 \\cdot h = 3 \\cdot 3^2 \\cdot 3 = 81$ $\\mathrm{cm}^3$\n\nDifférence : $108 - 81 = 27$ $\\mathrm{cm}^3$."
             }
-          ]
+          ],
+          "theme": "Théorème de Pythagore"
         },
         {
           "numero": 10,
@@ -1992,7 +2096,8 @@
               "enonce": "Dans le triangle $ABC$, l'angle $A$ mesure $76^\\circ$ et l'angle $B$ mesure $59^\\circ$. Calcule l'angle $C$.",
               "reponse": "$45^\\circ$\n\n$180^\\circ - 76^\\circ - 59^\\circ = 45^\\circ$."
             }
-          ]
+          ],
+          "theme": "Aires et volumes"
         }
       ],
       "totalPoints": 38

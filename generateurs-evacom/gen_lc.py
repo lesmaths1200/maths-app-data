@@ -10,8 +10,11 @@ CARRES = [4,9,16,25,36,49,64,81,100,121,144]
 def fr(n, d): return rf"\frac{{{n}}}{{{d}}}"
 def frac(x): return fr(x.numerator, x.denominator) if x.denominator != 1 else str(x.numerator)
 
+THEMES = {1: 'Fractions', 2: 'Fractions', 3: 'Problèmes et partages', 4: 'Calcul littéral', 5: 'Calcul littéral', 6: 'Calcul littéral', 7: 'Équations', 8: 'Théorème de Pythagore', 9: 'Calcul littéral', 10: 'Équations', 11: 'Théorème de Pythagore', 12: 'Théorème de Pythagore', 13: 'Aires et volumes', 14: 'Problèmes et partages'}
+
 def q(numero, points, partie, consigne, sous):
-    return {"numero": numero, "points": points, "partie": partie, "consigne": consigne,
+    return {"numero": numero, "points": points, "partie": partie,
+            "theme": THEMES[numero], "consigne": consigne,
             "sousQuestions": [{"libelle": l, "enonce": e, "reponse": r} for l, e, r in sous]}
 
 def engendrer(variante):

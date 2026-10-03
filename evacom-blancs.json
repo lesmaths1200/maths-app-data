@@ -39,6 +39,7 @@
           "numero": 1,
           "points": 5,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Calcule et donne les réponses sous la forme d'une fraction irréductible ou d'un entier.",
           "sousQuestions": [
             {
@@ -67,6 +68,7 @@
           "numero": 2,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Écris sous la forme $a\\sqrt{b}$, où $a$ est un entier et $b$ le plus petit possible.",
           "sousQuestions": [
             {
@@ -90,6 +92,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Pour chaque item, coche la seule bonne réponse.",
           "sousQuestions": [
             {
@@ -113,6 +116,7 @@
           "numero": 4,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe et réduis.",
           "sousQuestions": [
             {
@@ -131,6 +135,7 @@
           "numero": 5,
           "points": 7,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Factorise au maximum.",
           "sousQuestions": [
             {
@@ -159,6 +164,7 @@
           "numero": 6,
           "points": 2,
           "partie": 1,
+          "theme": "Aires et volumes",
           "consigne": "Transforme la formule.",
           "sousQuestions": [
             {
@@ -172,6 +178,7 @@
           "numero": 7,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -185,6 +192,7 @@
           "numero": 8,
           "points": 3,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -198,6 +206,7 @@
           "numero": 9,
           "points": 3,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Résous l'équation.",
           "sousQuestions": [
             {
@@ -211,6 +220,7 @@
           "numero": 10,
           "points": 5,
           "partie": 2,
+          "theme": "Solides",
           "consigne": "Identifie et calcule.",
           "sousQuestions": [
             {
@@ -229,6 +239,7 @@
           "numero": 11,
           "points": 6,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au centième.",
           "sousQuestions": [
             {
@@ -242,6 +253,7 @@
           "numero": 12,
           "points": 4,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -255,6 +267,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -278,6 +291,7 @@
           "numero": 1,
           "points": 5,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Calcule et donne les réponses sous la forme d'une fraction irréductible ou d'un entier.",
           "sousQuestions": [
             {
@@ -306,6 +320,7 @@
           "numero": 2,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Écris sous la forme $a\\sqrt{b}$, où $a$ est un entier et $b$ le plus petit possible.",
           "sousQuestions": [
             {
@@ -329,6 +344,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Pour chaque item, coche la seule bonne réponse.",
           "sousQuestions": [
             {
@@ -352,6 +368,7 @@
           "numero": 4,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe et réduis.",
           "sousQuestions": [
             {
@@ -370,6 +387,7 @@
           "numero": 5,
           "points": 7,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Factorise au maximum.",
           "sousQuestions": [
             {
@@ -398,6 +416,7 @@
           "numero": 6,
           "points": 2,
           "partie": 1,
+          "theme": "Aires et volumes",
           "consigne": "Transforme la formule.",
           "sousQuestions": [
             {
@@ -411,6 +430,7 @@
           "numero": 7,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -424,6 +444,7 @@
           "numero": 8,
           "points": 3,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -437,6 +458,7 @@
           "numero": 9,
           "points": 3,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Résous l'équation.",
           "sousQuestions": [
             {
@@ -450,6 +472,7 @@
           "numero": 10,
           "points": 5,
           "partie": 2,
+          "theme": "Solides",
           "consigne": "Identifie et calcule.",
           "sousQuestions": [
             {
@@ -468,6 +491,7 @@
           "numero": 11,
           "points": 6,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au centième.",
           "sousQuestions": [
             {
@@ -481,6 +505,7 @@
           "numero": 12,
           "points": 4,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -494,6 +519,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -517,6 +543,7 @@
           "numero": 1,
           "points": 5,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Calcule et donne les réponses sous la forme d'une fraction irréductible ou d'un entier.",
           "sousQuestions": [
             {
@@ -545,6 +572,7 @@
           "numero": 2,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Écris sous la forme $a\\sqrt{b}$, où $a$ est un entier et $b$ le plus petit possible.",
           "sousQuestions": [
             {
@@ -568,6 +596,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Pour chaque item, coche la seule bonne réponse.",
           "sousQuestions": [
             {
@@ -591,6 +620,7 @@
           "numero": 4,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe et réduis.",
           "sousQuestions": [
             {
@@ -609,6 +639,7 @@
           "numero": 5,
           "points": 7,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Factorise au maximum.",
           "sousQuestions": [
             {
@@ -637,6 +668,7 @@
           "numero": 6,
           "points": 2,
           "partie": 1,
+          "theme": "Aires et volumes",
           "consigne": "Transforme la formule.",
           "sousQuestions": [
             {
@@ -650,6 +682,7 @@
           "numero": 7,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -663,6 +696,7 @@
           "numero": 8,
           "points": 3,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -676,6 +710,7 @@
           "numero": 9,
           "points": 3,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Résous l'équation.",
           "sousQuestions": [
             {
@@ -689,6 +724,7 @@
           "numero": 10,
           "points": 5,
           "partie": 2,
+          "theme": "Solides",
           "consigne": "Identifie et calcule.",
           "sousQuestions": [
             {
@@ -707,6 +743,7 @@
           "numero": 11,
           "points": 6,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au centième.",
           "sousQuestions": [
             {
@@ -720,6 +757,7 @@
           "numero": 12,
           "points": 4,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -733,6 +771,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -756,6 +795,7 @@
           "numero": 1,
           "points": 5,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Calcule et donne les réponses sous la forme d'une fraction irréductible ou d'un entier.",
           "sousQuestions": [
             {
@@ -784,6 +824,7 @@
           "numero": 2,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Écris sous la forme $a\\sqrt{b}$, où $a$ est un entier et $b$ le plus petit possible.",
           "sousQuestions": [
             {
@@ -807,6 +848,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Pour chaque item, coche la seule bonne réponse.",
           "sousQuestions": [
             {
@@ -830,6 +872,7 @@
           "numero": 4,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe et réduis.",
           "sousQuestions": [
             {
@@ -848,6 +891,7 @@
           "numero": 5,
           "points": 7,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Factorise au maximum.",
           "sousQuestions": [
             {
@@ -876,6 +920,7 @@
           "numero": 6,
           "points": 2,
           "partie": 1,
+          "theme": "Aires et volumes",
           "consigne": "Transforme la formule.",
           "sousQuestions": [
             {
@@ -889,6 +934,7 @@
           "numero": 7,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -902,6 +948,7 @@
           "numero": 8,
           "points": 3,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -915,6 +962,7 @@
           "numero": 9,
           "points": 3,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Résous l'équation.",
           "sousQuestions": [
             {
@@ -928,6 +976,7 @@
           "numero": 10,
           "points": 5,
           "partie": 2,
+          "theme": "Solides",
           "consigne": "Identifie et calcule.",
           "sousQuestions": [
             {
@@ -946,6 +995,7 @@
           "numero": 11,
           "points": 6,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au centième.",
           "sousQuestions": [
             {
@@ -959,6 +1009,7 @@
           "numero": 12,
           "points": 4,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -972,6 +1023,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -995,6 +1047,7 @@
           "numero": 1,
           "points": 5,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Calcule et donne les réponses sous la forme d'une fraction irréductible ou d'un entier.",
           "sousQuestions": [
             {
@@ -1023,6 +1076,7 @@
           "numero": 2,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Écris sous la forme $a\\sqrt{b}$, où $a$ est un entier et $b$ le plus petit possible.",
           "sousQuestions": [
             {
@@ -1046,6 +1100,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Pour chaque item, coche la seule bonne réponse.",
           "sousQuestions": [
             {
@@ -1069,6 +1124,7 @@
           "numero": 4,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe et réduis.",
           "sousQuestions": [
             {
@@ -1087,6 +1143,7 @@
           "numero": 5,
           "points": 7,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Factorise au maximum.",
           "sousQuestions": [
             {
@@ -1115,6 +1172,7 @@
           "numero": 6,
           "points": 2,
           "partie": 1,
+          "theme": "Aires et volumes",
           "consigne": "Transforme la formule.",
           "sousQuestions": [
             {
@@ -1128,6 +1186,7 @@
           "numero": 7,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -1141,6 +1200,7 @@
           "numero": 8,
           "points": 3,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -1154,6 +1214,7 @@
           "numero": 9,
           "points": 3,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Résous l'équation.",
           "sousQuestions": [
             {
@@ -1167,6 +1228,7 @@
           "numero": 10,
           "points": 5,
           "partie": 2,
+          "theme": "Solides",
           "consigne": "Identifie et calcule.",
           "sousQuestions": [
             {
@@ -1185,6 +1247,7 @@
           "numero": 11,
           "points": 6,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au centième.",
           "sousQuestions": [
             {
@@ -1198,6 +1261,7 @@
           "numero": 12,
           "points": 4,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -1211,6 +1275,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -1234,6 +1299,7 @@
           "numero": 1,
           "points": 5,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Calcule et donne les réponses sous la forme d'une fraction irréductible ou d'un entier.",
           "sousQuestions": [
             {
@@ -1262,6 +1328,7 @@
           "numero": 2,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Écris sous la forme $a\\sqrt{b}$, où $a$ est un entier et $b$ le plus petit possible.",
           "sousQuestions": [
             {
@@ -1285,6 +1352,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Pour chaque item, coche la seule bonne réponse.",
           "sousQuestions": [
             {
@@ -1308,6 +1376,7 @@
           "numero": 4,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe et réduis.",
           "sousQuestions": [
             {
@@ -1326,6 +1395,7 @@
           "numero": 5,
           "points": 7,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Factorise au maximum.",
           "sousQuestions": [
             {
@@ -1354,6 +1424,7 @@
           "numero": 6,
           "points": 2,
           "partie": 1,
+          "theme": "Aires et volumes",
           "consigne": "Transforme la formule.",
           "sousQuestions": [
             {
@@ -1367,6 +1438,7 @@
           "numero": 7,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -1380,6 +1452,7 @@
           "numero": 8,
           "points": 3,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -1393,6 +1466,7 @@
           "numero": 9,
           "points": 3,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Résous l'équation.",
           "sousQuestions": [
             {
@@ -1406,6 +1480,7 @@
           "numero": 10,
           "points": 5,
           "partie": 2,
+          "theme": "Solides",
           "consigne": "Identifie et calcule.",
           "sousQuestions": [
             {
@@ -1424,6 +1499,7 @@
           "numero": 11,
           "points": 6,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au centième.",
           "sousQuestions": [
             {
@@ -1437,6 +1513,7 @@
           "numero": 12,
           "points": 4,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -1450,6 +1527,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -1473,6 +1551,7 @@
           "numero": 1,
           "points": 5,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Calcule et donne les réponses sous la forme d'une fraction irréductible ou d'un entier.",
           "sousQuestions": [
             {
@@ -1501,6 +1580,7 @@
           "numero": 2,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Écris sous la forme $a\\sqrt{b}$, où $a$ est un entier et $b$ le plus petit possible.",
           "sousQuestions": [
             {
@@ -1524,6 +1604,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Pour chaque item, coche la seule bonne réponse.",
           "sousQuestions": [
             {
@@ -1547,6 +1628,7 @@
           "numero": 4,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe et réduis.",
           "sousQuestions": [
             {
@@ -1565,6 +1647,7 @@
           "numero": 5,
           "points": 7,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Factorise au maximum.",
           "sousQuestions": [
             {
@@ -1593,6 +1676,7 @@
           "numero": 6,
           "points": 2,
           "partie": 1,
+          "theme": "Aires et volumes",
           "consigne": "Transforme la formule.",
           "sousQuestions": [
             {
@@ -1606,6 +1690,7 @@
           "numero": 7,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -1619,6 +1704,7 @@
           "numero": 8,
           "points": 3,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -1632,6 +1718,7 @@
           "numero": 9,
           "points": 3,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Résous l'équation.",
           "sousQuestions": [
             {
@@ -1645,6 +1732,7 @@
           "numero": 10,
           "points": 5,
           "partie": 2,
+          "theme": "Solides",
           "consigne": "Identifie et calcule.",
           "sousQuestions": [
             {
@@ -1663,6 +1751,7 @@
           "numero": 11,
           "points": 6,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au centième.",
           "sousQuestions": [
             {
@@ -1676,6 +1765,7 @@
           "numero": 12,
           "points": 4,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -1689,6 +1779,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -1712,6 +1803,7 @@
           "numero": 1,
           "points": 5,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Calcule et donne les réponses sous la forme d'une fraction irréductible ou d'un entier.",
           "sousQuestions": [
             {
@@ -1740,6 +1832,7 @@
           "numero": 2,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Écris sous la forme $a\\sqrt{b}$, où $a$ est un entier et $b$ le plus petit possible.",
           "sousQuestions": [
             {
@@ -1763,6 +1856,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Pour chaque item, coche la seule bonne réponse.",
           "sousQuestions": [
             {
@@ -1786,6 +1880,7 @@
           "numero": 4,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe et réduis.",
           "sousQuestions": [
             {
@@ -1804,6 +1899,7 @@
           "numero": 5,
           "points": 7,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Factorise au maximum.",
           "sousQuestions": [
             {
@@ -1832,6 +1928,7 @@
           "numero": 6,
           "points": 2,
           "partie": 1,
+          "theme": "Aires et volumes",
           "consigne": "Transforme la formule.",
           "sousQuestions": [
             {
@@ -1845,6 +1942,7 @@
           "numero": 7,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -1858,6 +1956,7 @@
           "numero": 8,
           "points": 3,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -1871,6 +1970,7 @@
           "numero": 9,
           "points": 3,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Résous l'équation.",
           "sousQuestions": [
             {
@@ -1884,6 +1984,7 @@
           "numero": 10,
           "points": 5,
           "partie": 2,
+          "theme": "Solides",
           "consigne": "Identifie et calcule.",
           "sousQuestions": [
             {
@@ -1902,6 +2003,7 @@
           "numero": 11,
           "points": 6,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au centième.",
           "sousQuestions": [
             {
@@ -1915,6 +2017,7 @@
           "numero": 12,
           "points": 4,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -1928,6 +2031,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -1951,6 +2055,7 @@
           "numero": 1,
           "points": 5,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Calcule et donne les réponses sous la forme d'une fraction irréductible ou d'un entier.",
           "sousQuestions": [
             {
@@ -1979,6 +2084,7 @@
           "numero": 2,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Écris sous la forme $a\\sqrt{b}$, où $a$ est un entier et $b$ le plus petit possible.",
           "sousQuestions": [
             {
@@ -2002,6 +2108,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Pour chaque item, coche la seule bonne réponse.",
           "sousQuestions": [
             {
@@ -2025,6 +2132,7 @@
           "numero": 4,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe et réduis.",
           "sousQuestions": [
             {
@@ -2043,6 +2151,7 @@
           "numero": 5,
           "points": 7,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Factorise au maximum.",
           "sousQuestions": [
             {
@@ -2071,6 +2180,7 @@
           "numero": 6,
           "points": 2,
           "partie": 1,
+          "theme": "Aires et volumes",
           "consigne": "Transforme la formule.",
           "sousQuestions": [
             {
@@ -2084,6 +2194,7 @@
           "numero": 7,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -2097,6 +2208,7 @@
           "numero": 8,
           "points": 3,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -2110,6 +2222,7 @@
           "numero": 9,
           "points": 3,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Résous l'équation.",
           "sousQuestions": [
             {
@@ -2123,6 +2236,7 @@
           "numero": 10,
           "points": 5,
           "partie": 2,
+          "theme": "Solides",
           "consigne": "Identifie et calcule.",
           "sousQuestions": [
             {
@@ -2141,6 +2255,7 @@
           "numero": 11,
           "points": 6,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au centième.",
           "sousQuestions": [
             {
@@ -2154,6 +2269,7 @@
           "numero": 12,
           "points": 4,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -2167,6 +2283,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -2190,6 +2307,7 @@
           "numero": 1,
           "points": 5,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Calcule et donne les réponses sous la forme d'une fraction irréductible ou d'un entier.",
           "sousQuestions": [
             {
@@ -2218,6 +2336,7 @@
           "numero": 2,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Écris sous la forme $a\\sqrt{b}$, où $a$ est un entier et $b$ le plus petit possible.",
           "sousQuestions": [
             {
@@ -2241,6 +2360,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Racines carrées",
           "consigne": "Pour chaque item, coche la seule bonne réponse.",
           "sousQuestions": [
             {
@@ -2264,6 +2384,7 @@
           "numero": 4,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe et réduis.",
           "sousQuestions": [
             {
@@ -2282,6 +2403,7 @@
           "numero": 5,
           "points": 7,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Factorise au maximum.",
           "sousQuestions": [
             {
@@ -2310,6 +2432,7 @@
           "numero": 6,
           "points": 2,
           "partie": 1,
+          "theme": "Aires et volumes",
           "consigne": "Transforme la formule.",
           "sousQuestions": [
             {
@@ -2323,6 +2446,7 @@
           "numero": 7,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -2336,6 +2460,7 @@
           "numero": 8,
           "points": 3,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -2349,6 +2474,7 @@
           "numero": 9,
           "points": 3,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Résous l'équation.",
           "sousQuestions": [
             {
@@ -2362,6 +2488,7 @@
           "numero": 10,
           "points": 5,
           "partie": 2,
+          "theme": "Solides",
           "consigne": "Identifie et calcule.",
           "sousQuestions": [
             {
@@ -2380,6 +2507,7 @@
           "numero": 11,
           "points": 6,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au centième.",
           "sousQuestions": [
             {
@@ -2393,6 +2521,7 @@
           "numero": 12,
           "points": 4,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -2406,6 +2535,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -2429,6 +2559,7 @@
           "numero": 1,
           "points": 6,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'un entier ou d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -2457,6 +2588,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète afin que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -2480,6 +2612,7 @@
           "numero": 3,
           "points": 2,
           "partie": 1,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -2493,6 +2626,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Complète afin que chaque égalité soit toujours vraie.",
           "sousQuestions": [
             {
@@ -2511,6 +2645,7 @@
           "numero": 5,
           "points": 2,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe, puis donne la réponse sous forme réduite.",
           "sousQuestions": [
             {
@@ -2524,6 +2659,7 @@
           "numero": 6,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -2537,6 +2673,7 @@
           "numero": 7,
           "points": 2,
           "partie": 1,
+          "theme": "Équations",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -2550,6 +2687,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Complète avec les mots qui conviennent.",
           "sousQuestions": [
             {
@@ -2563,6 +2701,7 @@
           "numero": 9,
           "points": 2,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Substitue puis calcule.",
           "sousQuestions": [
             {
@@ -2576,6 +2715,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Trouve la valeur de x.",
           "sousQuestions": [
             {
@@ -2589,6 +2729,7 @@
           "numero": 11,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -2602,6 +2743,7 @@
           "numero": 12,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -2615,6 +2757,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -2628,6 +2771,7 @@
           "numero": 14,
           "points": 4,
           "partie": 2,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -2651,6 +2795,7 @@
           "numero": 1,
           "points": 6,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'un entier ou d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -2679,6 +2824,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète afin que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -2702,6 +2848,7 @@
           "numero": 3,
           "points": 2,
           "partie": 1,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -2715,6 +2862,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Complète afin que chaque égalité soit toujours vraie.",
           "sousQuestions": [
             {
@@ -2733,6 +2881,7 @@
           "numero": 5,
           "points": 2,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe, puis donne la réponse sous forme réduite.",
           "sousQuestions": [
             {
@@ -2746,6 +2895,7 @@
           "numero": 6,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -2759,6 +2909,7 @@
           "numero": 7,
           "points": 2,
           "partie": 1,
+          "theme": "Équations",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -2772,6 +2923,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Complète avec les mots qui conviennent.",
           "sousQuestions": [
             {
@@ -2785,6 +2937,7 @@
           "numero": 9,
           "points": 2,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Substitue puis calcule.",
           "sousQuestions": [
             {
@@ -2798,6 +2951,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Trouve la valeur de x.",
           "sousQuestions": [
             {
@@ -2811,6 +2965,7 @@
           "numero": 11,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -2824,6 +2979,7 @@
           "numero": 12,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -2837,6 +2993,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -2850,6 +3007,7 @@
           "numero": 14,
           "points": 4,
           "partie": 2,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -2873,6 +3031,7 @@
           "numero": 1,
           "points": 6,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'un entier ou d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -2901,6 +3060,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète afin que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -2924,6 +3084,7 @@
           "numero": 3,
           "points": 2,
           "partie": 1,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -2937,6 +3098,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Complète afin que chaque égalité soit toujours vraie.",
           "sousQuestions": [
             {
@@ -2955,6 +3117,7 @@
           "numero": 5,
           "points": 2,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe, puis donne la réponse sous forme réduite.",
           "sousQuestions": [
             {
@@ -2968,6 +3131,7 @@
           "numero": 6,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -2981,6 +3145,7 @@
           "numero": 7,
           "points": 2,
           "partie": 1,
+          "theme": "Équations",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -2994,6 +3159,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Complète avec les mots qui conviennent.",
           "sousQuestions": [
             {
@@ -3007,6 +3173,7 @@
           "numero": 9,
           "points": 2,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Substitue puis calcule.",
           "sousQuestions": [
             {
@@ -3020,6 +3187,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Trouve la valeur de x.",
           "sousQuestions": [
             {
@@ -3033,6 +3201,7 @@
           "numero": 11,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -3046,6 +3215,7 @@
           "numero": 12,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -3059,6 +3229,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -3072,6 +3243,7 @@
           "numero": 14,
           "points": 4,
           "partie": 2,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -3095,6 +3267,7 @@
           "numero": 1,
           "points": 6,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'un entier ou d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -3123,6 +3296,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète afin que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -3146,6 +3320,7 @@
           "numero": 3,
           "points": 2,
           "partie": 1,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -3159,6 +3334,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Complète afin que chaque égalité soit toujours vraie.",
           "sousQuestions": [
             {
@@ -3177,6 +3353,7 @@
           "numero": 5,
           "points": 2,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe, puis donne la réponse sous forme réduite.",
           "sousQuestions": [
             {
@@ -3190,6 +3367,7 @@
           "numero": 6,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -3203,6 +3381,7 @@
           "numero": 7,
           "points": 2,
           "partie": 1,
+          "theme": "Équations",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -3216,6 +3395,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Complète avec les mots qui conviennent.",
           "sousQuestions": [
             {
@@ -3229,6 +3409,7 @@
           "numero": 9,
           "points": 2,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Substitue puis calcule.",
           "sousQuestions": [
             {
@@ -3242,6 +3423,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Trouve la valeur de x.",
           "sousQuestions": [
             {
@@ -3255,6 +3437,7 @@
           "numero": 11,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -3268,6 +3451,7 @@
           "numero": 12,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -3281,6 +3465,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -3294,6 +3479,7 @@
           "numero": 14,
           "points": 4,
           "partie": 2,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -3317,6 +3503,7 @@
           "numero": 1,
           "points": 6,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'un entier ou d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -3345,6 +3532,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète afin que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -3368,6 +3556,7 @@
           "numero": 3,
           "points": 2,
           "partie": 1,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -3381,6 +3570,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Complète afin que chaque égalité soit toujours vraie.",
           "sousQuestions": [
             {
@@ -3399,6 +3589,7 @@
           "numero": 5,
           "points": 2,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe, puis donne la réponse sous forme réduite.",
           "sousQuestions": [
             {
@@ -3412,6 +3603,7 @@
           "numero": 6,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -3425,6 +3617,7 @@
           "numero": 7,
           "points": 2,
           "partie": 1,
+          "theme": "Équations",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -3438,6 +3631,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Complète avec les mots qui conviennent.",
           "sousQuestions": [
             {
@@ -3451,6 +3645,7 @@
           "numero": 9,
           "points": 2,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Substitue puis calcule.",
           "sousQuestions": [
             {
@@ -3464,6 +3659,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Trouve la valeur de x.",
           "sousQuestions": [
             {
@@ -3477,6 +3673,7 @@
           "numero": 11,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -3490,6 +3687,7 @@
           "numero": 12,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -3503,6 +3701,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -3516,6 +3715,7 @@
           "numero": 14,
           "points": 4,
           "partie": 2,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -3539,6 +3739,7 @@
           "numero": 1,
           "points": 6,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'un entier ou d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -3567,6 +3768,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète afin que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -3590,6 +3792,7 @@
           "numero": 3,
           "points": 2,
           "partie": 1,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -3603,6 +3806,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Complète afin que chaque égalité soit toujours vraie.",
           "sousQuestions": [
             {
@@ -3621,6 +3825,7 @@
           "numero": 5,
           "points": 2,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe, puis donne la réponse sous forme réduite.",
           "sousQuestions": [
             {
@@ -3634,6 +3839,7 @@
           "numero": 6,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -3647,6 +3853,7 @@
           "numero": 7,
           "points": 2,
           "partie": 1,
+          "theme": "Équations",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -3660,6 +3867,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Complète avec les mots qui conviennent.",
           "sousQuestions": [
             {
@@ -3673,6 +3881,7 @@
           "numero": 9,
           "points": 2,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Substitue puis calcule.",
           "sousQuestions": [
             {
@@ -3686,6 +3895,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Trouve la valeur de x.",
           "sousQuestions": [
             {
@@ -3699,6 +3909,7 @@
           "numero": 11,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -3712,6 +3923,7 @@
           "numero": 12,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -3725,6 +3937,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -3738,6 +3951,7 @@
           "numero": 14,
           "points": 4,
           "partie": 2,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -3761,6 +3975,7 @@
           "numero": 1,
           "points": 6,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'un entier ou d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -3789,6 +4004,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète afin que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -3812,6 +4028,7 @@
           "numero": 3,
           "points": 2,
           "partie": 1,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -3825,6 +4042,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Complète afin que chaque égalité soit toujours vraie.",
           "sousQuestions": [
             {
@@ -3843,6 +4061,7 @@
           "numero": 5,
           "points": 2,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe, puis donne la réponse sous forme réduite.",
           "sousQuestions": [
             {
@@ -3856,6 +4075,7 @@
           "numero": 6,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -3869,6 +4089,7 @@
           "numero": 7,
           "points": 2,
           "partie": 1,
+          "theme": "Équations",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -3882,6 +4103,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Complète avec les mots qui conviennent.",
           "sousQuestions": [
             {
@@ -3895,6 +4117,7 @@
           "numero": 9,
           "points": 2,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Substitue puis calcule.",
           "sousQuestions": [
             {
@@ -3908,6 +4131,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Trouve la valeur de x.",
           "sousQuestions": [
             {
@@ -3921,6 +4145,7 @@
           "numero": 11,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -3934,6 +4159,7 @@
           "numero": 12,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -3947,6 +4173,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -3960,6 +4187,7 @@
           "numero": 14,
           "points": 4,
           "partie": 2,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -3983,6 +4211,7 @@
           "numero": 1,
           "points": 6,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'un entier ou d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -4011,6 +4240,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète afin que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -4034,6 +4264,7 @@
           "numero": 3,
           "points": 2,
           "partie": 1,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -4047,6 +4278,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Complète afin que chaque égalité soit toujours vraie.",
           "sousQuestions": [
             {
@@ -4065,6 +4297,7 @@
           "numero": 5,
           "points": 2,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe, puis donne la réponse sous forme réduite.",
           "sousQuestions": [
             {
@@ -4078,6 +4311,7 @@
           "numero": 6,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -4091,6 +4325,7 @@
           "numero": 7,
           "points": 2,
           "partie": 1,
+          "theme": "Équations",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -4104,6 +4339,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Complète avec les mots qui conviennent.",
           "sousQuestions": [
             {
@@ -4117,6 +4353,7 @@
           "numero": 9,
           "points": 2,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Substitue puis calcule.",
           "sousQuestions": [
             {
@@ -4130,6 +4367,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Trouve la valeur de x.",
           "sousQuestions": [
             {
@@ -4143,6 +4381,7 @@
           "numero": 11,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -4156,6 +4395,7 @@
           "numero": 12,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -4169,6 +4409,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -4182,6 +4423,7 @@
           "numero": 14,
           "points": 4,
           "partie": 2,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -4205,6 +4447,7 @@
           "numero": 1,
           "points": 6,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'un entier ou d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -4233,6 +4476,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète afin que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -4256,6 +4500,7 @@
           "numero": 3,
           "points": 2,
           "partie": 1,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -4269,6 +4514,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Complète afin que chaque égalité soit toujours vraie.",
           "sousQuestions": [
             {
@@ -4287,6 +4533,7 @@
           "numero": 5,
           "points": 2,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe, puis donne la réponse sous forme réduite.",
           "sousQuestions": [
             {
@@ -4300,6 +4547,7 @@
           "numero": 6,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -4313,6 +4561,7 @@
           "numero": 7,
           "points": 2,
           "partie": 1,
+          "theme": "Équations",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -4326,6 +4575,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Complète avec les mots qui conviennent.",
           "sousQuestions": [
             {
@@ -4339,6 +4589,7 @@
           "numero": 9,
           "points": 2,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Substitue puis calcule.",
           "sousQuestions": [
             {
@@ -4352,6 +4603,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Trouve la valeur de x.",
           "sousQuestions": [
             {
@@ -4365,6 +4617,7 @@
           "numero": 11,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -4378,6 +4631,7 @@
           "numero": 12,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -4391,6 +4645,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -4404,6 +4659,7 @@
           "numero": 14,
           "points": 4,
           "partie": 2,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -4427,6 +4683,7 @@
           "numero": 1,
           "points": 6,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'un entier ou d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -4455,6 +4712,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète afin que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -4478,6 +4736,7 @@
           "numero": 3,
           "points": 2,
           "partie": 1,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -4491,6 +4750,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Complète afin que chaque égalité soit toujours vraie.",
           "sousQuestions": [
             {
@@ -4509,6 +4769,7 @@
           "numero": 5,
           "points": 2,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Développe, puis donne la réponse sous forme réduite.",
           "sousQuestions": [
             {
@@ -4522,6 +4783,7 @@
           "numero": 6,
           "points": 3,
           "partie": 1,
+          "theme": "Calcul littéral",
           "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
           "sousQuestions": [
             {
@@ -4535,6 +4797,7 @@
           "numero": 7,
           "points": 2,
           "partie": 1,
+          "theme": "Équations",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -4548,6 +4811,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Complète avec les mots qui conviennent.",
           "sousQuestions": [
             {
@@ -4561,6 +4825,7 @@
           "numero": 9,
           "points": 2,
           "partie": 2,
+          "theme": "Calcul littéral",
           "consigne": "Substitue puis calcule.",
           "sousQuestions": [
             {
@@ -4574,6 +4839,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Équations",
           "consigne": "Trouve la valeur de x.",
           "sousQuestions": [
             {
@@ -4587,6 +4853,7 @@
           "numero": 11,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -4600,6 +4867,7 @@
           "numero": 12,
           "points": 3,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Justifie ta réponse.",
           "sousQuestions": [
             {
@@ -4613,6 +4881,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -4626,6 +4895,7 @@
           "numero": 14,
           "points": 4,
           "partie": 2,
+          "theme": "Problèmes et partages",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -4649,6 +4919,7 @@
           "numero": 1,
           "points": 4,
           "partie": 1,
+          "theme": "Nombres relatifs",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -4677,6 +4948,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -4695,6 +4967,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète pour que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -4718,6 +4991,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Solides",
           "consigne": "Associe chaque solide à sa description. Écris le numéro de la description en face du solide.",
           "sousQuestions": [
             {
@@ -4731,6 +5005,7 @@
           "numero": 5,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -4744,6 +5019,7 @@
           "numero": 6,
           "points": 4,
           "partie": 1,
+          "theme": "Théorème de Pythagore",
           "consigne": "Le théorème de Pythagore.",
           "sousQuestions": [
             {
@@ -4762,6 +5038,7 @@
           "numero": 7,
           "points": 3,
           "partie": 1,
+          "theme": "Unités de mesure",
           "consigne": "Pour chaque grandeur, coche l'estimation la plus réaliste.",
           "sousQuestions": [
             {
@@ -4785,6 +5062,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -4798,6 +5076,7 @@
           "numero": 9,
           "points": 4,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -4811,6 +5090,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Proportionnalité",
           "consigne": "Compare et justifie.",
           "sousQuestions": [
             {
@@ -4824,6 +5104,7 @@
           "numero": 11,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au dixième.",
           "sousQuestions": [
             {
@@ -4837,6 +5118,7 @@
           "numero": 12,
           "points": 5,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Choisis et justifie.",
           "sousQuestions": [
             {
@@ -4850,6 +5132,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Unités de mesure",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -4873,6 +5156,7 @@
           "numero": 1,
           "points": 4,
           "partie": 1,
+          "theme": "Nombres relatifs",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -4901,6 +5185,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -4919,6 +5204,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète pour que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -4942,6 +5228,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Solides",
           "consigne": "Associe chaque solide à sa description. Écris le numéro de la description en face du solide.",
           "sousQuestions": [
             {
@@ -4955,6 +5242,7 @@
           "numero": 5,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -4968,6 +5256,7 @@
           "numero": 6,
           "points": 4,
           "partie": 1,
+          "theme": "Théorème de Pythagore",
           "consigne": "Le théorème de Pythagore.",
           "sousQuestions": [
             {
@@ -4986,6 +5275,7 @@
           "numero": 7,
           "points": 3,
           "partie": 1,
+          "theme": "Unités de mesure",
           "consigne": "Pour chaque grandeur, coche l'estimation la plus réaliste.",
           "sousQuestions": [
             {
@@ -5009,6 +5299,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -5022,6 +5313,7 @@
           "numero": 9,
           "points": 4,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -5035,6 +5327,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Proportionnalité",
           "consigne": "Compare et justifie.",
           "sousQuestions": [
             {
@@ -5048,6 +5341,7 @@
           "numero": 11,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au dixième.",
           "sousQuestions": [
             {
@@ -5061,6 +5355,7 @@
           "numero": 12,
           "points": 5,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Choisis et justifie.",
           "sousQuestions": [
             {
@@ -5074,6 +5369,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Unités de mesure",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -5097,6 +5393,7 @@
           "numero": 1,
           "points": 4,
           "partie": 1,
+          "theme": "Nombres relatifs",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -5125,6 +5422,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -5143,6 +5441,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète pour que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -5166,6 +5465,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Solides",
           "consigne": "Associe chaque solide à sa description. Écris le numéro de la description en face du solide.",
           "sousQuestions": [
             {
@@ -5179,6 +5479,7 @@
           "numero": 5,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -5192,6 +5493,7 @@
           "numero": 6,
           "points": 4,
           "partie": 1,
+          "theme": "Théorème de Pythagore",
           "consigne": "Le théorème de Pythagore.",
           "sousQuestions": [
             {
@@ -5210,6 +5512,7 @@
           "numero": 7,
           "points": 3,
           "partie": 1,
+          "theme": "Unités de mesure",
           "consigne": "Pour chaque grandeur, coche l'estimation la plus réaliste.",
           "sousQuestions": [
             {
@@ -5233,6 +5536,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -5246,6 +5550,7 @@
           "numero": 9,
           "points": 4,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -5259,6 +5564,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Proportionnalité",
           "consigne": "Compare et justifie.",
           "sousQuestions": [
             {
@@ -5272,6 +5578,7 @@
           "numero": 11,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au dixième.",
           "sousQuestions": [
             {
@@ -5285,6 +5592,7 @@
           "numero": 12,
           "points": 5,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Choisis et justifie.",
           "sousQuestions": [
             {
@@ -5298,6 +5606,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Unités de mesure",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -5321,6 +5630,7 @@
           "numero": 1,
           "points": 4,
           "partie": 1,
+          "theme": "Nombres relatifs",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -5349,6 +5659,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -5367,6 +5678,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète pour que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -5390,6 +5702,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Solides",
           "consigne": "Associe chaque solide à sa description. Écris le numéro de la description en face du solide.",
           "sousQuestions": [
             {
@@ -5403,6 +5716,7 @@
           "numero": 5,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -5416,6 +5730,7 @@
           "numero": 6,
           "points": 4,
           "partie": 1,
+          "theme": "Théorème de Pythagore",
           "consigne": "Le théorème de Pythagore.",
           "sousQuestions": [
             {
@@ -5434,6 +5749,7 @@
           "numero": 7,
           "points": 3,
           "partie": 1,
+          "theme": "Unités de mesure",
           "consigne": "Pour chaque grandeur, coche l'estimation la plus réaliste.",
           "sousQuestions": [
             {
@@ -5457,6 +5773,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -5470,6 +5787,7 @@
           "numero": 9,
           "points": 4,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -5483,6 +5801,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Proportionnalité",
           "consigne": "Compare et justifie.",
           "sousQuestions": [
             {
@@ -5496,6 +5815,7 @@
           "numero": 11,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au dixième.",
           "sousQuestions": [
             {
@@ -5509,6 +5829,7 @@
           "numero": 12,
           "points": 5,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Choisis et justifie.",
           "sousQuestions": [
             {
@@ -5522,6 +5843,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Unités de mesure",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -5545,6 +5867,7 @@
           "numero": 1,
           "points": 4,
           "partie": 1,
+          "theme": "Nombres relatifs",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -5573,6 +5896,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -5591,6 +5915,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète pour que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -5614,6 +5939,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Solides",
           "consigne": "Associe chaque solide à sa description. Écris le numéro de la description en face du solide.",
           "sousQuestions": [
             {
@@ -5627,6 +5953,7 @@
           "numero": 5,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -5640,6 +5967,7 @@
           "numero": 6,
           "points": 4,
           "partie": 1,
+          "theme": "Théorème de Pythagore",
           "consigne": "Le théorème de Pythagore.",
           "sousQuestions": [
             {
@@ -5658,6 +5986,7 @@
           "numero": 7,
           "points": 3,
           "partie": 1,
+          "theme": "Unités de mesure",
           "consigne": "Pour chaque grandeur, coche l'estimation la plus réaliste.",
           "sousQuestions": [
             {
@@ -5681,6 +6010,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -5694,6 +6024,7 @@
           "numero": 9,
           "points": 4,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -5707,6 +6038,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Proportionnalité",
           "consigne": "Compare et justifie.",
           "sousQuestions": [
             {
@@ -5720,6 +6052,7 @@
           "numero": 11,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au dixième.",
           "sousQuestions": [
             {
@@ -5733,6 +6066,7 @@
           "numero": 12,
           "points": 5,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Choisis et justifie.",
           "sousQuestions": [
             {
@@ -5746,6 +6080,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Unités de mesure",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -5769,6 +6104,7 @@
           "numero": 1,
           "points": 4,
           "partie": 1,
+          "theme": "Nombres relatifs",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -5797,6 +6133,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -5815,6 +6152,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète pour que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -5838,6 +6176,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Solides",
           "consigne": "Associe chaque solide à sa description. Écris le numéro de la description en face du solide.",
           "sousQuestions": [
             {
@@ -5851,6 +6190,7 @@
           "numero": 5,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -5864,6 +6204,7 @@
           "numero": 6,
           "points": 4,
           "partie": 1,
+          "theme": "Théorème de Pythagore",
           "consigne": "Le théorème de Pythagore.",
           "sousQuestions": [
             {
@@ -5882,6 +6223,7 @@
           "numero": 7,
           "points": 3,
           "partie": 1,
+          "theme": "Unités de mesure",
           "consigne": "Pour chaque grandeur, coche l'estimation la plus réaliste.",
           "sousQuestions": [
             {
@@ -5905,6 +6247,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -5918,6 +6261,7 @@
           "numero": 9,
           "points": 4,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -5931,6 +6275,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Proportionnalité",
           "consigne": "Compare et justifie.",
           "sousQuestions": [
             {
@@ -5944,6 +6289,7 @@
           "numero": 11,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au dixième.",
           "sousQuestions": [
             {
@@ -5957,6 +6303,7 @@
           "numero": 12,
           "points": 5,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Choisis et justifie.",
           "sousQuestions": [
             {
@@ -5970,6 +6317,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Unités de mesure",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -5993,6 +6341,7 @@
           "numero": 1,
           "points": 4,
           "partie": 1,
+          "theme": "Nombres relatifs",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -6021,6 +6370,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -6039,6 +6389,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète pour que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -6062,6 +6413,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Solides",
           "consigne": "Associe chaque solide à sa description. Écris le numéro de la description en face du solide.",
           "sousQuestions": [
             {
@@ -6075,6 +6427,7 @@
           "numero": 5,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -6088,6 +6441,7 @@
           "numero": 6,
           "points": 4,
           "partie": 1,
+          "theme": "Théorème de Pythagore",
           "consigne": "Le théorème de Pythagore.",
           "sousQuestions": [
             {
@@ -6106,6 +6460,7 @@
           "numero": 7,
           "points": 3,
           "partie": 1,
+          "theme": "Unités de mesure",
           "consigne": "Pour chaque grandeur, coche l'estimation la plus réaliste.",
           "sousQuestions": [
             {
@@ -6129,6 +6484,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -6142,6 +6498,7 @@
           "numero": 9,
           "points": 4,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -6155,6 +6512,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Proportionnalité",
           "consigne": "Compare et justifie.",
           "sousQuestions": [
             {
@@ -6168,6 +6526,7 @@
           "numero": 11,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au dixième.",
           "sousQuestions": [
             {
@@ -6181,6 +6540,7 @@
           "numero": 12,
           "points": 5,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Choisis et justifie.",
           "sousQuestions": [
             {
@@ -6194,6 +6554,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Unités de mesure",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -6217,6 +6578,7 @@
           "numero": 1,
           "points": 4,
           "partie": 1,
+          "theme": "Nombres relatifs",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -6245,6 +6607,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -6263,6 +6626,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète pour que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -6286,6 +6650,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Solides",
           "consigne": "Associe chaque solide à sa description. Écris le numéro de la description en face du solide.",
           "sousQuestions": [
             {
@@ -6299,6 +6664,7 @@
           "numero": 5,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -6312,6 +6678,7 @@
           "numero": 6,
           "points": 4,
           "partie": 1,
+          "theme": "Théorème de Pythagore",
           "consigne": "Le théorème de Pythagore.",
           "sousQuestions": [
             {
@@ -6330,6 +6697,7 @@
           "numero": 7,
           "points": 3,
           "partie": 1,
+          "theme": "Unités de mesure",
           "consigne": "Pour chaque grandeur, coche l'estimation la plus réaliste.",
           "sousQuestions": [
             {
@@ -6353,6 +6721,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -6366,6 +6735,7 @@
           "numero": 9,
           "points": 4,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -6379,6 +6749,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Proportionnalité",
           "consigne": "Compare et justifie.",
           "sousQuestions": [
             {
@@ -6392,6 +6763,7 @@
           "numero": 11,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au dixième.",
           "sousQuestions": [
             {
@@ -6405,6 +6777,7 @@
           "numero": 12,
           "points": 5,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Choisis et justifie.",
           "sousQuestions": [
             {
@@ -6418,6 +6791,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Unités de mesure",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -6441,6 +6815,7 @@
           "numero": 1,
           "points": 4,
           "partie": 1,
+          "theme": "Nombres relatifs",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -6469,6 +6844,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -6487,6 +6863,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète pour que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -6510,6 +6887,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Solides",
           "consigne": "Associe chaque solide à sa description. Écris le numéro de la description en face du solide.",
           "sousQuestions": [
             {
@@ -6523,6 +6901,7 @@
           "numero": 5,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -6536,6 +6915,7 @@
           "numero": 6,
           "points": 4,
           "partie": 1,
+          "theme": "Théorème de Pythagore",
           "consigne": "Le théorème de Pythagore.",
           "sousQuestions": [
             {
@@ -6554,6 +6934,7 @@
           "numero": 7,
           "points": 3,
           "partie": 1,
+          "theme": "Unités de mesure",
           "consigne": "Pour chaque grandeur, coche l'estimation la plus réaliste.",
           "sousQuestions": [
             {
@@ -6577,6 +6958,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -6590,6 +6972,7 @@
           "numero": 9,
           "points": 4,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -6603,6 +6986,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Proportionnalité",
           "consigne": "Compare et justifie.",
           "sousQuestions": [
             {
@@ -6616,6 +7000,7 @@
           "numero": 11,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au dixième.",
           "sousQuestions": [
             {
@@ -6629,6 +7014,7 @@
           "numero": 12,
           "points": 5,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Choisis et justifie.",
           "sousQuestions": [
             {
@@ -6642,6 +7028,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Unités de mesure",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -6665,6 +7052,7 @@
           "numero": 1,
           "points": 4,
           "partie": 1,
+          "theme": "Nombres relatifs",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -6693,6 +7081,7 @@
           "numero": 2,
           "points": 4,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Calcule et donne la réponse sous forme d'une fraction irréductible.",
           "sousQuestions": [
             {
@@ -6711,6 +7100,7 @@
           "numero": 3,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Complète pour que chaque égalité soit vérifiée.",
           "sousQuestions": [
             {
@@ -6734,6 +7124,7 @@
           "numero": 4,
           "points": 4,
           "partie": 1,
+          "theme": "Solides",
           "consigne": "Associe chaque solide à sa description. Écris le numéro de la description en face du solide.",
           "sousQuestions": [
             {
@@ -6747,6 +7138,7 @@
           "numero": 5,
           "points": 3,
           "partie": 1,
+          "theme": "Fractions",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {
@@ -6760,6 +7152,7 @@
           "numero": 6,
           "points": 4,
           "partie": 1,
+          "theme": "Théorème de Pythagore",
           "consigne": "Le théorème de Pythagore.",
           "sousQuestions": [
             {
@@ -6778,6 +7171,7 @@
           "numero": 7,
           "points": 3,
           "partie": 1,
+          "theme": "Unités de mesure",
           "consigne": "Pour chaque grandeur, coche l'estimation la plus réaliste.",
           "sousQuestions": [
             {
@@ -6801,6 +7195,7 @@
           "numero": 8,
           "points": 2,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -6814,6 +7209,7 @@
           "numero": 9,
           "points": 4,
           "partie": 2,
+          "theme": "Théorème de Pythagore",
           "consigne": "Calcule.",
           "sousQuestions": [
             {
@@ -6827,6 +7223,7 @@
           "numero": 10,
           "points": 4,
           "partie": 2,
+          "theme": "Proportionnalité",
           "consigne": "Compare et justifie.",
           "sousQuestions": [
             {
@@ -6840,6 +7237,7 @@
           "numero": 11,
           "points": 3,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Calcule et arrondis au dixième.",
           "sousQuestions": [
             {
@@ -6853,6 +7251,7 @@
           "numero": 12,
           "points": 5,
           "partie": 2,
+          "theme": "Aires et volumes",
           "consigne": "Choisis et justifie.",
           "sousQuestions": [
             {
@@ -6866,6 +7265,7 @@
           "numero": 13,
           "points": 3,
           "partie": 2,
+          "theme": "Unités de mesure",
           "consigne": "Résous le problème.",
           "sousQuestions": [
             {

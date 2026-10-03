@@ -1,0 +1,719 @@
+{
+  "_metadata": {
+    "dureeTotaleMinutes": 95,
+    "dureePartie1Minutes": 50,
+    "dureeAmenageeMinutes": 120,
+    "consignes": [
+      "L'épreuve dure 95 minutes et se déroule en deux parties.",
+      "La partie 1 se fait sans calculatrice et doit être rendue après 50 minutes.",
+      "La calculatrice n'est autorisée que pour la partie 2.",
+      "Les raisonnements et les calculs doivent figurer sur ta feuille.",
+      "Dans la partie 2, les réponses fondées sur des arrondis intermédiaires sont sanctionnées.",
+      "Matériel autorisé : règle graduée. L'aide-mémoire n'est pas autorisé."
+    ],
+    "niveaux": [
+      {
+        "code": "LS",
+        "nom": "Section LS",
+        "description": "Le niveau d'exigence le plus élevé."
+      },
+      {
+        "code": "LC",
+        "nom": "Section LC",
+        "description": "Niveau intermédiaire."
+      },
+      {
+        "code": "CT",
+        "nom": "Section CT",
+        "description": "Niveau de base."
+      }
+    ]
+  },
+  "epreuves": [
+    {
+      "id": "evacom-ls-1",
+      "niveau": "LS",
+      "titre": "EVACOM blanc n° 1 — section LS",
+      "questions": [
+        {
+          "numero": 1,
+          "points": 5,
+          "partie": 1,
+          "consigne": "Calcule et donne les réponses sous la forme d'une fraction irréductible ou d'un entier.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\sqrt{8} \\cdot \\sqrt{2} =$",
+              "reponse": "$4$\n\n$\\sqrt{8} \\cdot \\sqrt{2} = \\sqrt{16} = 4$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\frac{\\sqrt{48}}{\\sqrt{3}} =$",
+              "reponse": "$4$\n\n$\\sqrt{\\frac{48}{3}} = \\sqrt{16} = 4$."
+            },
+            {
+              "libelle": "c",
+              "enonce": "$(\\sqrt{5} + 2)(\\sqrt{5} - 2) =$",
+              "reponse": "$1$\n\nIdentité remarquable : $(\\sqrt{5})^2 - 2^2 = 5 - 4 = 1$."
+            },
+            {
+              "libelle": "d",
+              "enonce": "$\\frac{7}{12} + \\frac{5}{18} =$",
+              "reponse": "$\\frac{31}{36}$\n\n$\\frac{21}{36} + \\frac{10}{36} = \\frac{31}{36}$."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "points": 3,
+          "partie": 1,
+          "consigne": "Écris sous la forme $a\\sqrt{b}$, où $a$ est un entier et $b$ le plus petit possible.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\sqrt{50} =$",
+              "reponse": "$5\\sqrt{2}$\n\n$50 = 25 \\cdot 2$, donc $\\sqrt{50} = \\sqrt{25}\\sqrt{2} = 5\\sqrt{2}$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\sqrt{98} =$",
+              "reponse": "$7\\sqrt{2}$\n\n$98 = 49 \\cdot 2$, donc $\\sqrt{98} = 7\\sqrt{2}$."
+            },
+            {
+              "libelle": "c",
+              "enonce": "$\\sqrt{9 \\cdot 12} =$",
+              "reponse": "$6\\sqrt{3}$\n\n$9 \\cdot 12 = 108 = 36 \\cdot 3$, donc $\\sqrt{108} = 6\\sqrt{3}$."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "points": 3,
+          "partie": 1,
+          "consigne": "Pour chaque item, coche la seule bonne réponse.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\sqrt{40}$ est compris entre :\n$5$ et $6$  ·  $6$ et $7$  ·  $7$ et $8$",
+              "reponse": "Entre $6$ et $7$\n\n$6^2 = 36$ et $7^2 = 49$, or $36 < 40 < 49$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$(-3)^4$ vaut :\n$-81$  ·  $81$  ·  $-12$",
+              "reponse": "$81$\n\nL'exposant est pair, donc le résultat est positif."
+            },
+            {
+              "libelle": "c",
+              "enonce": "$x^2 - 25$ se factorise en :\n$(x-5)^2$  ·  $(x+5)(x-5)$  ·  $(x+25)(x-1)$",
+              "reponse": "$(x+5)(x-5)$\n\nC'est la différence de deux carrés."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "points": 3,
+          "partie": 1,
+          "consigne": "Développe et réduis.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$(2x - 3)^2 =$",
+              "reponse": "$4x^2 - 12x + 9$\n\n$(2x)^2 - 2 \\cdot 2x \\cdot 3 + 3^2$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$(x + 4)(2x - 1) - 2x^2 =$",
+              "reponse": "$7x - 4$\n\n$(x+4)(2x-1) = 2x^2 - x + 8x - 4 = 2x^2 + 7x - 4$, puis on retranche $2x^2$."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "points": 7,
+          "partie": 1,
+          "consigne": "Factorise au maximum.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$9x^2 - 49 =$",
+              "reponse": "$(3x+7)(3x-7)$\n\nDifférence de deux carrés : $(3x)^2 - 7^2$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$5x^2 + 20x =$",
+              "reponse": "$5x(x + 4)$\n\nOn met $5x$ en évidence."
+            },
+            {
+              "libelle": "c",
+              "enonce": "$x^2 + 10x + 25 =$",
+              "reponse": "$(x + 5)^2$\n\nCarré parfait : $x^2 + 2 \\cdot 5x + 5^2$."
+            },
+            {
+              "libelle": "d",
+              "enonce": "$3x^2 - 27 =$",
+              "reponse": "$3(x+3)(x-3)$\n\nOn met d'abord $3$ en évidence : $3(x^2 - 9)$, puis on factorise la différence de carrés."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "points": 2,
+          "partie": 1,
+          "consigne": "Transforme la formule.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Le volume d'un cône est donné par $V = \\frac{\\pi r^2 h}{3}$.\nExprime la hauteur $h$ en fonction de $V$ et de $r$.",
+              "reponse": "$h = \\frac{3V}{\\pi r^2}$\n\nOn multiplie les deux membres par $3$ : $3V = \\pi r^2 h$, puis on divise par $\\pi r^2$."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "points": 4,
+          "partie": 1,
+          "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un carré a pour côté $(x + 6)$. On y découpe, dans un coin, un carré de côté $x$ que l'on retire.\nExprime l'aire $A$ de la surface restante à l'aide d'un polynôme réduit.",
+              "reponse": "$A = 12x + 36$\n\nGrand carré : $(x+6)^2 = x^2 + 12x + 36$.\nCarré retiré : $x^2$.\nDifférence : $x^2 + 12x + 36 - x^2 = 12x + 36$."
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "points": 3,
+          "partie": 2,
+          "consigne": "Résous le problème.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un magicien demande à une spectatrice de penser à un nombre, d'y ajouter $7$, de multiplier le résultat par $3$, puis de retrancher le triple du nombre de départ.\nLe magicien annonce le résultat sans rien demander. Quel est-il ? Justifie.",
+              "reponse": "$21$, quel que soit le nombre choisi.\n\nSoit $n$ le nombre pensé.\n$3(n + 7) - 3n = 3n + 21 - 3n = 21$.\nLe nombre de départ disparaît : le résultat vaut toujours $21$."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 3,
+          "partie": 2,
+          "consigne": "Résous l'équation.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "$\\frac{2x - 1}{3} + 2 = \\frac{x + 7}{2}$",
+              "reponse": "$x = 11$\n\nOn multiplie tout par $6$ : $2(2x - 1) + 12 = 3(x + 7)$.\n$4x - 2 + 12 = 3x + 21$, donc $4x + 10 = 3x + 21$ et $x = 11$.\nVérification : $\\frac{21}{3} + 2 = 9$ et $\\frac{18}{2} = 9$ ✓."
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "points": 5,
+          "partie": 2,
+          "consigne": "Identifie et calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Un solide a deux bases hexagonales identiques et parallèles, reliées par six faces rectangulaires. Quel est son nom ?",
+              "reponse": "Un prisme droit à base hexagonale.\n\nDeux bases identiques et parallèles reliées par des rectangles caractérisent un prisme droit."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Son aire de base vaut $24$ cm$^2$ et sa hauteur $7$ cm. Calcule son volume.",
+              "reponse": "$168$ cm$^3$\n\n$V = \\mathcal{B} \\cdot h = 24 \\cdot 7 = 168$."
+            }
+          ]
+        },
+        {
+          "numero": 11,
+          "points": 6,
+          "partie": 2,
+          "consigne": "Calcule et arrondis au centième.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un solide est composé d'un cylindre de rayon $3$ cm et de hauteur $10$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en cm$^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
+              "reponse": "$339{,}29$ cm$^3$\n\nCylindre : $\\pi \\cdot 3^2 \\cdot 10 = 90\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 27}{3} = 18\\pi$.\nTotal : $108\\pi \\approx 339{,}292$, soit $339{,}29$ cm$^3$."
+            }
+          ]
+        },
+        {
+          "numero": 12,
+          "points": 4,
+          "partie": 2,
+          "consigne": "Calcule et arrondis au dixième.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un verre a la forme d'une pyramide à base carrée posée sur sa pointe. Le côté de sa base carrée mesure $6$ cm et sa hauteur $9$ cm.\na) Calcule le volume total du verre.\nb) On le remplit de jus aux deux tiers de son volume. Quel volume de jus contient-il ?",
+              "reponse": "a) $108$ cm$^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{36 \\cdot 9}{3} = 108$.\n\nb) $72$ cm$^3$\n\n$\\frac{2}{3} \\cdot 108 = 72$."
+            }
+          ]
+        },
+        {
+          "numero": 13,
+          "points": 3,
+          "partie": 2,
+          "consigne": "Justifie ta réponse.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "$ABCD$ est un quadrilatère tel que $AB = 9$ cm, $BC = 40$ cm et la diagonale $AC = 41$ cm.\nLe triangle $ABC$ est-il rectangle ? Si oui, en quel sommet ? Justifie.",
+              "reponse": "Oui, rectangle en $B$.\n\nLe plus grand côté est $AC = 41$.\n$9^2 + 40^2 = 81 + 1600 = 1681$ et $41^2 = 1681$.\nPar la réciproque du théorème de Pythagore, le triangle est rectangle, et l'angle droit est opposé à $[AC]$, donc en $B$."
+            }
+          ]
+        }
+      ],
+      "totalPoints": 51,
+      "pointsPartie1": 27,
+      "pointsPartie2": 24
+    },
+    {
+      "id": "evacom-lc-1",
+      "niveau": "LC",
+      "titre": "EVACOM blanc n° 1 — section LC",
+      "questions": [
+        {
+          "numero": 1,
+          "points": 6,
+          "partie": 1,
+          "consigne": "Calcule et donne la réponse sous forme d'un entier ou d'une fraction irréductible.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\frac{5}{6} - \\frac{3}{8} =$",
+              "reponse": "$\\frac{11}{24}$\n\n$\\frac{20}{24} - \\frac{9}{24} = \\frac{11}{24}$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\frac{14}{9} : \\frac{7}{6} =$",
+              "reponse": "$\\frac{4}{3}$\n\n$\\frac{14}{9} \\cdot \\frac{6}{7} = \\frac{84}{63} = \\frac{4}{3}$."
+            },
+            {
+              "libelle": "c",
+              "enonce": "$\\frac{15}{8} \\cdot \\frac{12}{25} =$",
+              "reponse": "$\\frac{9}{10}$\n\n$\\frac{15 \\cdot 12}{8 \\cdot 25} = \\frac{180}{200} = \\frac{9}{10}$."
+            },
+            {
+              "libelle": "d",
+              "enonce": "$49 : \\sqrt{49} =$",
+              "reponse": "$7$\n\n$\\sqrt{49} = 7$, et $49 : 7 = 7$."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "points": 4,
+          "partie": 1,
+          "consigne": "Complète afin que chaque égalité soit vérifiée.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\frac{3}{4} + \\frac{5}{8} + \\frac{\\square}{8} = 2$",
+              "reponse": "$5$\n\n$\\frac{3}{4} = \\frac{6}{8}$ et $2 = \\frac{16}{8}$.\nIl manque donc $\\frac{16}{8} - \\frac{6}{8} - \\frac{5}{8} = \\frac{5}{8}$, soit $\\square = 5$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\sqrt{\\square} + 3 = 10$",
+              "reponse": "$49$\n\n$\\sqrt{\\square} = 7$, donc $\\square = 49$."
+            },
+            {
+              "libelle": "c",
+              "enonce": "$\\frac{\\square}{6} = \\frac{10}{15}$",
+              "reponse": "$4$\n\n$\\frac{10}{15} = \\frac{2}{3} = \\frac{4}{6}$."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "points": 2,
+          "partie": 1,
+          "consigne": "Résous le problème.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Trois frères se partagent un héritage. L'État prélève d'abord le quart du total. Les trois frères se partagent équitablement ce qui reste et reçoivent CHF $12\\,000$ chacun.\nÀ combien s'élevait l'héritage au départ ?",
+              "reponse": "CHF $48\\,000$\n\nLes trois frères reçoivent ensemble $3 \\cdot 12\\,000 = 36\\,000$ CHF, ce qui représente les $\\frac{3}{4}$ de l'héritage.\nLe quart vaut donc $36\\,000 : 3 = 12\\,000$, et le total $12\\,000 \\cdot 4 = 48\\,000$."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "points": 4,
+          "partie": 1,
+          "consigne": "Complète afin que chaque égalité soit toujours vraie.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$5x + 12 - (\\underline{\\hspace{2cm}}) = 2x$",
+              "reponse": "$3x + 12$\n\n$5x + 12 - (3x + 12) = 2x$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$(x + 3)(x + \\underline{\\hspace{1cm}}) = x^2 + \\underline{\\hspace{1cm}}\\,x + 12$",
+              "reponse": "$4$ puis $7$\n\n$(x+3)(x+4) = x^2 + 4x + 3x + 12 = x^2 + 7x + 12$."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "points": 2,
+          "partie": 1,
+          "consigne": "Développe, puis donne la réponse sous forme réduite.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "$(x - 5) + (3x + 2)(3x - 2) =$",
+              "reponse": "$9x^2 + x - 9$\n\n$(3x+2)(3x-2) = 9x^2 - 4$ (identité remarquable).\nDonc $x - 5 + 9x^2 - 4 = 9x^2 + x - 9$."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "points": 3,
+          "partie": 1,
+          "consigne": "Exprime l'aire à l'aide d'un polynôme réduit.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un grand rectangle mesure $(2x + 5)$ de long et $x$ de large. On y découpe un carré de côté $x$, qu'on retire.\nExprime l'aire de la surface restante à l'aide d'un polynôme réduit.",
+              "reponse": "$x^2 + 5x$\n\nAire du rectangle : $x(2x + 5) = 2x^2 + 5x$.\nAire du carré : $x^2$.\nDifférence : $2x^2 + 5x - x^2 = x^2 + 5x$."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "points": 2,
+          "partie": 1,
+          "consigne": "Résous le problème.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Léa et Tom possèdent des billes. Léa dit à Tom : « Si tu me donnais $3$ billes, nous en aurions autant l'un que l'autre. »\nTom répond : « Et si tu m'en donnais $3$, j'en aurais le double de toi. »\nCombien de billes chacun possède-t-il ?",
+              "reponse": "Léa en a $15$, Tom en a $21$.\n\nSoit $\\ell$ les billes de Léa et $t$ celles de Tom.\nPremière phrase : $\\ell + 3 = t - 3$, donc $t = \\ell + 6$.\nSeconde phrase : $t + 3 = 2(\\ell - 3)$.\nEn substituant : $\\ell + 9 = 2\\ell - 6$, donc $\\ell = 15$ et $t = 21$.\nVérification : $15 + 3 = 18$ et $21 - 3 = 18$ ✓ ; $21 + 3 = 24 = 2 \\cdot 12$ ✓."
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "points": 2,
+          "partie": 2,
+          "consigne": "Complète avec les mots qui conviennent.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Mots proposés : hypoténuse  ·  cathètes  ·  rectangle  ·  isocèle  ·  réciproque\n\nSi le carré du plus grand côté d'un triangle est égal à la somme des carrés des deux autres, alors ce triangle est ______ . C'est la ______ du théorème de Pythagore.",
+              "reponse": "rectangle, puis réciproque\n\nLa réciproque permet de démontrer qu'un triangle est rectangle à partir de ses seules longueurs."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 2,
+          "partie": 2,
+          "consigne": "Substitue puis calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Substitue $a = 4$, $b = 2{,}5$ et $c = -3$ dans l'expression $2a + 4b - c$, puis calcule sa valeur.",
+              "reponse": "$21$\n\n$2 \\cdot 4 + 4 \\cdot 2{,}5 - (-3) = 8 + 10 + 3 = 21$."
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "points": 4,
+          "partie": 2,
+          "consigne": "Trouve la valeur de x.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un rectangle a pour dimensions $(x + 2)$ et $6$. Un triangle équilatéral a un côté de $(2x)$.\nQuelle doit être la valeur de $x$ pour que les deux figures aient le même périmètre ?",
+              "reponse": "$x = 4$\n\nPérimètre du rectangle : $2(x + 2) + 2 \\cdot 6 = 2x + 16$.\nPérimètre du triangle : $3 \\cdot 2x = 6x$.\n$2x + 16 = 6x$, donc $16 = 4x$ et $x = 4$.\nVérification : rectangle $2 \\cdot 6 + 12 = 24$ ; triangle $3 \\cdot 8 = 24$ ✓."
+            }
+          ]
+        },
+        {
+          "numero": 11,
+          "points": 2,
+          "partie": 2,
+          "consigne": "Justifie ta réponse.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Une étagère est fixée contre un mur vertical. Elle avance de $24$ cm, son support descend de $32$ cm le long du mur, et la barre oblique qui relie les deux extrémités mesure $40$ cm.\nL'étagère est-elle bien perpendiculaire au mur ? Justifie.",
+              "reponse": "Oui.\n\n$24^2 + 32^2 = 576 + 1024 = 1600$ et $40^2 = 1600$.\nL'égalité de Pythagore est vérifiée : par la réciproque, le triangle est rectangle, donc l'étagère est perpendiculaire au mur."
+            }
+          ]
+        },
+        {
+          "numero": 12,
+          "points": 3,
+          "partie": 2,
+          "consigne": "Justifie ta réponse.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un triangle $ABC$ a pour côtés $AB = 20$ cm, $BC = 21$ cm et $AC = 29$ cm.\nCe triangle est-il rectangle ? Si oui, en quel sommet ?",
+              "reponse": "Oui, rectangle en $B$.\n\nLe plus grand côté est $AC = 29$.\n$20^2 + 21^2 = 400 + 441 = 841$ et $29^2 = 841$.\nL'égalité est vérifiée, donc l'angle droit est opposé à $[AC]$, c'est-à-dire en $B$."
+            }
+          ]
+        },
+        {
+          "numero": 13,
+          "points": 3,
+          "partie": 2,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un losange a une aire de $84$ cm$^2$ et sa grande diagonale mesure $14$ cm.\nCalcule la longueur de sa petite diagonale.",
+              "reponse": "$12$ cm\n\nL'aire d'un losange vaut $\\frac{D \\cdot d}{2}$.\n$\\frac{14 \\cdot d}{2} = 84$, donc $7d = 84$ et $d = 12$."
+            }
+          ]
+        },
+        {
+          "numero": 14,
+          "points": 4,
+          "partie": 2,
+          "consigne": "Résous le problème.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Sarah investit une somme dans un projet. Le premier mois, elle perd le tiers de son investissement. Le deuxième mois, elle quadruple ce qui lui reste. Elle constate alors qu'elle possède CHF $1600$.\nCombien avait-elle investi au départ ?",
+              "reponse": "CHF $600$\n\nSoit $x$ l'investissement de départ.\nAprès le premier mois, il lui reste $\\frac{2}{3}x$.\nAprès le deuxième : $4 \\cdot \\frac{2}{3}x = \\frac{8}{3}x = 1600$.\nDonc $x = 1600 \\cdot \\frac{3}{8} = 600$."
+            }
+          ]
+        }
+      ],
+      "totalPoints": 43,
+      "pointsPartie1": 23,
+      "pointsPartie2": 20
+    },
+    {
+      "id": "evacom-ct-1",
+      "niveau": "CT",
+      "titre": "EVACOM blanc n° 1 — section CT",
+      "questions": [
+        {
+          "numero": 1,
+          "points": 4,
+          "partie": 1,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$(+42) + (-57) =$",
+              "reponse": "$-15$\n\nOn retranche : $57 - 42 = 15$, et le plus grand nombre, $57$, est négatif."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$(+36) - (-14) =$",
+              "reponse": "$50$\n\nSoustraire un négatif revient à ajouter : $36 + 14 = 50$."
+            },
+            {
+              "libelle": "c",
+              "enonce": "$(-6) \\cdot (-9) =$",
+              "reponse": "$54$\n\nDeux facteurs négatifs donnent un produit positif."
+            },
+            {
+              "libelle": "d",
+              "enonce": "$(-48) : (+6) =$",
+              "reponse": "$-8$\n\nLes signes sont différents, le quotient est négatif."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "points": 4,
+          "partie": 1,
+          "consigne": "Calcule et donne la réponse sous forme d'une fraction irréductible.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\frac{8}{15} \\cdot \\frac{5}{12} =$",
+              "reponse": "$\\frac{2}{9}$\n\n$\\frac{8 \\cdot 5}{15 \\cdot 12} = \\frac{40}{180} = \\frac{2}{9}$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\frac{9}{14} : \\frac{3}{7} =$",
+              "reponse": "$\\frac{3}{2}$\n\nDiviser, c'est multiplier par l'inverse : $\\frac{9}{14} \\cdot \\frac{7}{3} = \\frac{63}{42} = \\frac{3}{2}$."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "points": 3,
+          "partie": 1,
+          "consigne": "Complète pour que chaque égalité soit vérifiée.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\frac{5}{12} + \\frac{\\square}{12} = \\frac{11}{12}$",
+              "reponse": "$6$\n\nLes dénominateurs sont égaux : $11 - 5 = 6$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\frac{3}{4} \\cdot \\frac{\\square}{5} = \\frac{9}{20}$",
+              "reponse": "$3$\n\n$\\frac{3 \\cdot 3}{4 \\cdot 5} = \\frac{9}{20}$."
+            },
+            {
+              "libelle": "c",
+              "enonce": "$\\frac{7}{10} - \\frac{\\square}{5} = \\frac{1}{10}$",
+              "reponse": "$3$\n\n$\\frac{3}{5} = \\frac{6}{10}$, et $\\frac{7}{10} - \\frac{6}{10} = \\frac{1}{10}$."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "points": 4,
+          "partie": 1,
+          "consigne": "Associe chaque solide à sa description. Écris le numéro de la description en face du solide.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Solides : a) le cube  ·  b) le pavé droit  ·  c) le cylindre  ·  d) la pyramide à base carrée\n\nDescriptions :\n1. Deux bases circulaires identiques et parallèles, reliées par une surface courbe.\n2. Six faces carrées.\n3. Une base carrée et quatre faces triangulaires qui se rejoignent en un sommet.\n4. Six faces rectangulaires, huit sommets et douze arêtes.",
+              "reponse": "a) 2  ·  b) 4  ·  c) 1  ·  d) 3\n\nLe cube est un pavé droit particulier : ses six faces sont des carrés."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "points": 3,
+          "partie": 1,
+          "consigne": "Résous le problème.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Une bibliothèque compte $600$ livres. Les $\\frac{3}{5}$ sont des romans. Parmi ces romans, $\\frac{1}{4}$ sont des romans policiers.\na) Quelle fraction de tous les livres de la bibliothèque les romans policiers représentent-ils ?\nb) Combien y a-t-il de romans policiers ?",
+              "reponse": "a) $\\frac{3}{20}$\n\n$\\frac{3}{5} \\cdot \\frac{1}{4} = \\frac{3}{20}$.\n\nb) $90$ romans policiers\n\n$\\frac{3}{20}$ de $600 = \\frac{600}{20} \\cdot 3 = 30 \\cdot 3 = 90$."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "points": 4,
+          "partie": 1,
+          "consigne": "Le théorème de Pythagore.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "Complète : le théorème de Pythagore s'applique uniquement dans un triangle ______.",
+              "reponse": "rectangle\n\nIl relie les deux cathètes à l'hypoténuse d'un triangle rectangle."
+            },
+            {
+              "libelle": "b",
+              "enonce": "Dans un triangle $ABC$ rectangle en $B$, coche la seule égalité correcte.\n1. $AB^2 + BC^2 = AC^2$\n2. $AB^2 + AC^2 = BC^2$\n3. $AC^2 - BC^2 = AB^2 + BC^2$",
+              "reponse": "La n° 1.\n\nL'angle droit est en $B$, donc l'hypoténuse est $[AC]$, le côté opposé : la somme des carrés des cathètes $AB$ et $BC$ vaut $AC^2$."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "points": 3,
+          "partie": 1,
+          "consigne": "Pour chaque grandeur, coche l'estimation la plus réaliste.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "La hauteur d'une porte d'appartement : 0,2 m  ·  2 m  ·  20 m",
+              "reponse": "$2$ m\n\n$0{,}2$ m serait $20$ cm, et $20$ m la hauteur d'un immeuble."
+            },
+            {
+              "libelle": "b",
+              "enonce": "La contenance d'une canette de boisson : 3 dl  ·  3 l  ·  3 hl",
+              "reponse": "$3$ dl\n\n$3$ dl $= 0{,}3$ litre, soit $300$ ml."
+            },
+            {
+              "libelle": "c",
+              "enonce": "La masse d'une pomme : 15 g  ·  150 g  ·  1500 g",
+              "reponse": "$150$ g\n\n$1500$ g feraient $1{,}5$ kg, bien trop lourd pour une pomme."
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "points": 2,
+          "partie": 2,
+          "consigne": "Calcule et arrondis au dixième.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un triangle rectangle a des cathètes de $9$ cm et $12$ cm. Calcule la longueur de son hypoténuse.",
+              "reponse": "$15$ cm\n\n$9^2 + 12^2 = 81 + 144 = 225$, et $\\sqrt{225} = 15$."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 4,
+          "partie": 2,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un rectangle a une diagonale de $13$ cm et une largeur de $5$ cm.\na) Calcule sa longueur.\nb) Calcule son aire.",
+              "reponse": "a) $12$ cm\n\n$13^2 - 5^2 = 169 - 25 = 144$, et $\\sqrt{144} = 12$.\n\nb) $60$ cm$^2$\n\n$12 \\cdot 5 = 60$."
+            }
+          ]
+        },
+        {
+          "numero": 10,
+          "points": 4,
+          "partie": 2,
+          "consigne": "Compare et justifie.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Une voiture rouge parcourt $144$ km en $1$ h $30$. Une voiture verte parcourt $100$ km en $1$ h.\nQuelle voiture roule le plus vite ? Justifie.",
+              "reponse": "La voiture verte.\n\nRouge : $144 : 1{,}5 = 96$ km/h. Verte : $100$ km/h.\nLa verte roule donc plus vite, à $100$ km/h contre $96$ km/h."
+            }
+          ]
+        },
+        {
+          "numero": 11,
+          "points": 3,
+          "partie": 2,
+          "consigne": "Calcule et arrondis au dixième.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Calcule le volume d'un cylindre de rayon $5$ cm et de hauteur $12$ cm. Donne la réponse avec son unité.",
+              "reponse": "$942{,}5$ cm$^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 25 \\cdot 12 = 300\\pi \\approx 942{,}48$, soit $942{,}5$ cm$^3$ au dixième."
+            }
+          ]
+        },
+        {
+          "numero": 12,
+          "points": 5,
+          "partie": 2,
+          "consigne": "Choisis et justifie.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un pâtissier dispose de deux moules.\nMoule A : un cube d'arête $4$ cm.\nMoule B : un pavé droit de $5$ cm, $4$ cm et $3$ cm.\nIl veut fabriquer le plus grand nombre de gâteaux avec $3$ litres de pâte.\nQuel moule doit-il choisir ? Justifie.",
+              "reponse": "Le moule B.\n\nMoule A : $4^3 = 64$ cm$^3$. Moule B : $5 \\cdot 4 \\cdot 3 = 60$ cm$^3$.\n$3$ litres $= 3000$ cm$^3$.\nAvec A : $3000 : 64 = 46{,}875$, soit $46$ gâteaux.\nAvec B : $3000 : 60 = 50$ gâteaux.\nLe moule B, plus petit, permet donc d'en faire davantage."
+            }
+          ]
+        },
+        {
+          "numero": 13,
+          "points": 3,
+          "partie": 2,
+          "consigne": "Résous le problème.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un bijoutier enfile $25$ perles cubiques de $8$ mm d'arête sur un fil. Il laisse $15$ mm de fil libre à chaque extrémité.\nQuelle longueur de fil lui faut-il, en cm ?",
+              "reponse": "$23$ cm\n\nPerles : $25 \\cdot 8 = 200$ mm. Fil libre : $2 \\cdot 15 = 30$ mm.\nTotal : $200 + 30 = 230$ mm $= 23$ cm."
+            }
+          ]
+        }
+      ],
+      "totalPoints": 46,
+      "pointsPartie1": 25,
+      "pointsPartie2": 21
+    }
+  ]
+}

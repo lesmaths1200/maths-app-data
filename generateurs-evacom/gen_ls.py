@@ -144,10 +144,12 @@ def engendrer(variante):
     if b9 > c9 // 2: b9 -= c9      # garde un coefficient de taille raisonnable
     gauche = F(a9 * sol + b9, c9) + d9
     e9 = int(gauche * f9 - sol)
-    signe_b = f"+ {b9}" if b9 >= 0 else f"- {-b9}"
+    # b nul donnerait « 3x + 0 » : on omet simplement le terme.
+    # b nul donnerait « 3x + 0 » : on omet simplement le terme.
+    terme_b = "" if b9 == 0 else (f" + {b9}" if b9 > 0 else f" - {-b9}")
     signe_e = f"+ {e9}" if e9 >= 0 else f"- {-e9}"
     q9 = q(9, 3, 2, "Résous l'équation.", [
-        ("", rf"$\frac{{{a9}x {signe_b}}}{{{c9}}} + {d9} = \frac{{x {signe_e}}}{{{f9}}}$",
+        ("", rf"$\frac{{{a9}x{terme_b}}}{{{c9}}} + {d9} = \frac{{x {signe_e}}}{{{f9}}}$",
          rf"$x = {sol}$" "\n\n"
          rf"On multiplie tout par ${c9*f9}$, puis on regroupe." "\n"
          rf"Vérification : à gauche $\frac{{{a9*sol+b9}}}{{{c9}}} + {d9} = {frac(gauche)}$, "
@@ -163,8 +165,8 @@ def engendrer(variante):
               rf"reliées par {base10[1]} faces rectangulaires. Quel est son nom ?",
          rf"Un prisme droit à base {base10[2]}." "\n\n"
          r"Deux bases identiques et parallèles reliées par des rectangles caractérisent un prisme droit."),
-        ("b", rf"Son aire de base vaut ${aire10}$ cm$^2$ et sa hauteur ${h10}$ cm. Calcule son volume.",
-         rf"${aire10*h10}$ cm$^3$" "\n\n" rf"$V = \mathcal{{B}} \cdot h = {aire10} \cdot {h10} = {aire10*h10}$."),
+        ("b", rf"Son aire de base vaut ${aire10}$ $\mathrm{{cm}}^2$ et sa hauteur ${h10}$ cm. Calcule son volume.",
+         rf"${aire10*h10}$ $\mathrm{{cm}}^3$" "\n\n" rf"$V = \mathcal{{B}} \cdot h = {aire10} \cdot {h10} = {aire10*h10}$."),
     ])
 
     # Q11 — volume composé cylindre + demi-boule
@@ -174,12 +176,12 @@ def engendrer(variante):
     q11 = q(11, 6, 2, "Calcule et arrondis au centième.", [
         ("", rf"Un solide est composé d'un cylindre de rayon ${r11}$ cm et de hauteur ${h11}$ cm, "
              rf"surmonté d'une demi-boule de même rayon." "\n"
-             rf"Calcule son volume total en cm$^3$, arrondi au centième." "\n"
+             rf"Calcule son volume total en $\mathrm{{cm}}^3$, arrondi au centième." "\n"
              rf"On rappelle que le volume d'une boule vaut $\frac{{4\pi r^3}}{{3}}$.",
-         rf"${virg(round(vol11,2),2)}$ cm$^3$" "\n\n"
+         rf"${virg(round(vol11,2),2)}$ $\mathrm{{cm}}^3$" "\n\n"
          rf"Cylindre : $\pi \cdot {r11}^2 \cdot {h11} = {coef_cyl}\pi$." "\n"
          rf"Demi-boule : $\frac{{1}}{{2}} \cdot \frac{{4\pi \cdot {r11**3}}}{{3}} = {frac(coef_demi)}\pi$." "\n"
-         rf"Total : ${frac(coef_cyl + coef_demi)}\pi \approx {virg(round(vol11,2),2)}$ cm$^3$."),
+         rf"Total : ${frac(coef_cyl + coef_demi)}\pi \approx {virg(round(vol11,2),2)}$ $\mathrm{{cm}}^3$."),
     ])
 
     # Q12 — pyramide et fraction de remplissage
@@ -197,8 +199,8 @@ def engendrer(variante):
              rf"Le côté de sa base carrée mesure ${cote12}$ cm et sa hauteur ${h12}$ cm." "\n"
              rf"a) Calcule le volume total du verre." "\n"
              rf"b) On le remplit de jus aux ${fr(num12,den12)}$ de son volume. Quel volume de jus contient-il ?",
-         rf"a) ${int(v12)}$ cm$^3$" "\n\n" rf"$V = \frac{{\mathcal{{B}} \cdot h}}{{3}} = \frac{{{cote12*cote12} \cdot {h12}}}{{3}} = {int(v12)}$." "\n\n"
-         rf"b) ${int(jus)}$ cm$^3$" "\n\n" rf"${fr(num12,den12)} \cdot {int(v12)} = {int(jus)}$."),
+         rf"a) ${int(v12)}$ $\mathrm{{cm}}^3$" "\n\n" rf"$V = \frac{{\mathcal{{B}} \cdot h}}{{3}} = \frac{{{cote12*cote12} \cdot {h12}}}{{3}} = {int(v12)}$." "\n\n"
+         rf"b) ${int(jus)}$ $\mathrm{{cm}}^3$" "\n\n" rf"${fr(num12,den12)} \cdot {int(v12)} = {int(jus)}$."),
     ])
 
     # Q13 — réciproque dans un quadrilatère

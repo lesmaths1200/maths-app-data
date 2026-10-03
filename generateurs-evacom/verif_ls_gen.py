@@ -69,10 +69,12 @@ def verifier(e):
 
     # Q9 équation : on substitue la solution annoncée
     sq = Q[9]["sousQuestions"][0]
-    m = re.match(r"\$\\frac\{(\d+)x ([+-]) (\d+)\}\{(\d+)\} \+ (\d+) = \\frac\{x ([+-]) (\d+)\}\{(\d+)\}\$", sq["enonce"])
+    # le terme constant peut être absent quand il vaut zéro
+    m = re.match(r"\$\\frac\{(\d+)x(?: ([+-]) (\d+))?\}\{(\d+)\} \+ (\d+) = \\frac\{x ([+-]) (\d+)\}\{(\d+)\}\$", sq["enonce"])
     if m:
         a9, sb, b9, c9, d9, se, e9, f9 = m.groups()
-        a9, b9, c9, d9, e9, f9 = int(a9), int(b9)*(1 if sb=="+" else -1), int(c9), int(d9), int(e9)*(1 if se=="+" else -1), int(f9)
+        b9 = 0 if b9 is None else int(b9)*(1 if sb=="+" else -1)
+        a9, c9, d9, e9, f9 = int(a9), int(c9), int(d9), int(e9)*(1 if se=="+" else -1), int(f9)
         x9 = ints(tete(sq))[0]
         if F(a9*x9 + b9, c9) + d9 != F(x9 + e9, f9): p.append(f"Q9 : x={x9} ne vérifie pas l'équation")
     else:

@@ -202,7 +202,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "$\\frac{3x + 0}{2} + 1 = \\frac{x + 31}{5}$",
+              "enonce": "$\\frac{3x}{2} + 1 = \\frac{x + 31}{5}$",
               "reponse": "$x = 4$\n\nOn multiplie tout par $10$, puis on regroupe.\nVérification : à gauche $\\frac{12}{2} + 1 = 7$, à droite $\\frac{35}{5} = 7$ ✓."
             }
           ]
@@ -220,8 +220,8 @@
             },
             {
               "libelle": "b",
-              "enonce": "Son aire de base vaut $32$ cm$^2$ et sa hauteur $13$ cm. Calcule son volume.",
-              "reponse": "$416$ cm$^3$\n\n$V = \\mathcal{B} \\cdot h = 32 \\cdot 13 = 416$."
+              "enonce": "Son aire de base vaut $32$ $\\mathrm{cm}^2$ et sa hauteur $13$ cm. Calcule son volume.",
+              "reponse": "$416$ $\\mathrm{cm}^3$\n\n$V = \\mathcal{B} \\cdot h = 32 \\cdot 13 = 416$."
             }
           ]
         },
@@ -233,8 +233,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un solide est composé d'un cylindre de rayon $2$ cm et de hauteur $9$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en cm$^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
-              "reponse": "$129{,}85$ cm$^3$\n\nCylindre : $\\pi \\cdot 2^2 \\cdot 9 = 36\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 8}{3} = \\frac{16}{3}\\pi$.\nTotal : $\\frac{124}{3}\\pi \\approx 129{,}85$ cm$^3$."
+              "enonce": "Un solide est composé d'un cylindre de rayon $2$ cm et de hauteur $9$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en $\\mathrm{cm}^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
+              "reponse": "$129{,}85$ $\\mathrm{cm}^3$\n\nCylindre : $\\pi \\cdot 2^2 \\cdot 9 = 36\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 8}{3} = \\frac{16}{3}\\pi$.\nTotal : $\\frac{124}{3}\\pi \\approx 129{,}85$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -247,7 +247,7 @@
             {
               "libelle": "",
               "enonce": "Un verre a la forme d'une pyramide à base carrée posée sur sa pointe. Le côté de sa base carrée mesure $4$ cm et sa hauteur $15$ cm.\na) Calcule le volume total du verre.\nb) On le remplit de jus aux $\\frac{2}{5}$ de son volume. Quel volume de jus contient-il ?",
-              "reponse": "a) $80$ cm$^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{16 \\cdot 15}{3} = 80$.\n\nb) $32$ cm$^3$\n\n$\\frac{2}{5} \\cdot 80 = 32$."
+              "reponse": "a) $80$ $\\mathrm{cm}^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{16 \\cdot 15}{3} = 80$.\n\nb) $32$ $\\mathrm{cm}^3$\n\n$\\frac{2}{5} \\cdot 80 = 32$."
             }
           ]
         },
@@ -459,8 +459,8 @@
             },
             {
               "libelle": "b",
-              "enonce": "Son aire de base vaut $29$ cm$^2$ et sa hauteur $12$ cm. Calcule son volume.",
-              "reponse": "$348$ cm$^3$\n\n$V = \\mathcal{B} \\cdot h = 29 \\cdot 12 = 348$."
+              "enonce": "Son aire de base vaut $29$ $\\mathrm{cm}^2$ et sa hauteur $12$ cm. Calcule son volume.",
+              "reponse": "$348$ $\\mathrm{cm}^3$\n\n$V = \\mathcal{B} \\cdot h = 29 \\cdot 12 = 348$."
             }
           ]
         },
@@ -472,8 +472,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un solide est composé d'un cylindre de rayon $6$ cm et de hauteur $14$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en cm$^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
-              "reponse": "$2035{,}75$ cm$^3$\n\nCylindre : $\\pi \\cdot 6^2 \\cdot 14 = 504\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 216}{3} = 144\\pi$.\nTotal : $648\\pi \\approx 2035{,}75$ cm$^3$."
+              "enonce": "Un solide est composé d'un cylindre de rayon $6$ cm et de hauteur $14$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en $\\mathrm{cm}^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
+              "reponse": "$2035{,}75$ $\\mathrm{cm}^3$\n\nCylindre : $\\pi \\cdot 6^2 \\cdot 14 = 504\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 216}{3} = 144\\pi$.\nTotal : $648\\pi \\approx 2035{,}75$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -486,7 +486,7 @@
             {
               "libelle": "",
               "enonce": "Un verre a la forme d'une pyramide à base carrée posée sur sa pointe. Le côté de sa base carrée mesure $6$ cm et sa hauteur $6$ cm.\na) Calcule le volume total du verre.\nb) On le remplit de jus aux $\\frac{3}{4}$ de son volume. Quel volume de jus contient-il ?",
-              "reponse": "a) $72$ cm$^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{36 \\cdot 6}{3} = 72$.\n\nb) $54$ cm$^3$\n\n$\\frac{3}{4} \\cdot 72 = 54$."
+              "reponse": "a) $72$ $\\mathrm{cm}^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{36 \\cdot 6}{3} = 72$.\n\nb) $54$ $\\mathrm{cm}^3$\n\n$\\frac{3}{4} \\cdot 72 = 54$."
             }
           ]
         },
@@ -698,8 +698,8 @@
             },
             {
               "libelle": "b",
-              "enonce": "Son aire de base vaut $21$ cm$^2$ et sa hauteur $14$ cm. Calcule son volume.",
-              "reponse": "$294$ cm$^3$\n\n$V = \\mathcal{B} \\cdot h = 21 \\cdot 14 = 294$."
+              "enonce": "Son aire de base vaut $21$ $\\mathrm{cm}^2$ et sa hauteur $14$ cm. Calcule son volume.",
+              "reponse": "$294$ $\\mathrm{cm}^3$\n\n$V = \\mathcal{B} \\cdot h = 21 \\cdot 14 = 294$."
             }
           ]
         },
@@ -711,8 +711,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un solide est composé d'un cylindre de rayon $5$ cm et de hauteur $9$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en cm$^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
-              "reponse": "$968{,}66$ cm$^3$\n\nCylindre : $\\pi \\cdot 5^2 \\cdot 9 = 225\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 125}{3} = \\frac{250}{3}\\pi$.\nTotal : $\\frac{925}{3}\\pi \\approx 968{,}66$ cm$^3$."
+              "enonce": "Un solide est composé d'un cylindre de rayon $5$ cm et de hauteur $9$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en $\\mathrm{cm}^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
+              "reponse": "$968{,}66$ $\\mathrm{cm}^3$\n\nCylindre : $\\pi \\cdot 5^2 \\cdot 9 = 225\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 125}{3} = \\frac{250}{3}\\pi$.\nTotal : $\\frac{925}{3}\\pi \\approx 968{,}66$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -725,7 +725,7 @@
             {
               "libelle": "",
               "enonce": "Un verre a la forme d'une pyramide à base carrée posée sur sa pointe. Le côté de sa base carrée mesure $8$ cm et sa hauteur $9$ cm.\na) Calcule le volume total du verre.\nb) On le remplit de jus aux $\\frac{2}{3}$ de son volume. Quel volume de jus contient-il ?",
-              "reponse": "a) $192$ cm$^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{64 \\cdot 9}{3} = 192$.\n\nb) $128$ cm$^3$\n\n$\\frac{2}{3} \\cdot 192 = 128$."
+              "reponse": "a) $192$ $\\mathrm{cm}^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{64 \\cdot 9}{3} = 192$.\n\nb) $128$ $\\mathrm{cm}^3$\n\n$\\frac{2}{3} \\cdot 192 = 128$."
             }
           ]
         },
@@ -937,8 +937,8 @@
             },
             {
               "libelle": "b",
-              "enonce": "Son aire de base vaut $30$ cm$^2$ et sa hauteur $11$ cm. Calcule son volume.",
-              "reponse": "$330$ cm$^3$\n\n$V = \\mathcal{B} \\cdot h = 30 \\cdot 11 = 330$."
+              "enonce": "Son aire de base vaut $30$ $\\mathrm{cm}^2$ et sa hauteur $11$ cm. Calcule son volume.",
+              "reponse": "$330$ $\\mathrm{cm}^3$\n\n$V = \\mathcal{B} \\cdot h = 30 \\cdot 11 = 330$."
             }
           ]
         },
@@ -950,8 +950,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un solide est composé d'un cylindre de rayon $5$ cm et de hauteur $14$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en cm$^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
-              "reponse": "$1361{,}36$ cm$^3$\n\nCylindre : $\\pi \\cdot 5^2 \\cdot 14 = 350\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 125}{3} = \\frac{250}{3}\\pi$.\nTotal : $\\frac{1300}{3}\\pi \\approx 1361{,}36$ cm$^3$."
+              "enonce": "Un solide est composé d'un cylindre de rayon $5$ cm et de hauteur $14$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en $\\mathrm{cm}^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
+              "reponse": "$1361{,}36$ $\\mathrm{cm}^3$\n\nCylindre : $\\pi \\cdot 5^2 \\cdot 14 = 350\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 125}{3} = \\frac{250}{3}\\pi$.\nTotal : $\\frac{1300}{3}\\pi \\approx 1361{,}36$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -964,7 +964,7 @@
             {
               "libelle": "",
               "enonce": "Un verre a la forme d'une pyramide à base carrée posée sur sa pointe. Le côté de sa base carrée mesure $8$ cm et sa hauteur $12$ cm.\na) Calcule le volume total du verre.\nb) On le remplit de jus aux $\\frac{1}{2}$ de son volume. Quel volume de jus contient-il ?",
-              "reponse": "a) $256$ cm$^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{64 \\cdot 12}{3} = 256$.\n\nb) $128$ cm$^3$\n\n$\\frac{1}{2} \\cdot 256 = 128$."
+              "reponse": "a) $256$ $\\mathrm{cm}^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{64 \\cdot 12}{3} = 256$.\n\nb) $128$ $\\mathrm{cm}^3$\n\n$\\frac{1}{2} \\cdot 256 = 128$."
             }
           ]
         },
@@ -1158,7 +1158,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "$\\frac{3x + 0}{3} + 3 = \\frac{x + 42}{4}$",
+              "enonce": "$\\frac{3x}{3} + 3 = \\frac{x + 42}{4}$",
               "reponse": "$x = 10$\n\nOn multiplie tout par $12$, puis on regroupe.\nVérification : à gauche $\\frac{30}{3} + 3 = 13$, à droite $\\frac{52}{4} = 13$ ✓."
             }
           ]
@@ -1176,8 +1176,8 @@
             },
             {
               "libelle": "b",
-              "enonce": "Son aire de base vaut $40$ cm$^2$ et sa hauteur $8$ cm. Calcule son volume.",
-              "reponse": "$320$ cm$^3$\n\n$V = \\mathcal{B} \\cdot h = 40 \\cdot 8 = 320$."
+              "enonce": "Son aire de base vaut $40$ $\\mathrm{cm}^2$ et sa hauteur $8$ cm. Calcule son volume.",
+              "reponse": "$320$ $\\mathrm{cm}^3$\n\n$V = \\mathcal{B} \\cdot h = 40 \\cdot 8 = 320$."
             }
           ]
         },
@@ -1189,8 +1189,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un solide est composé d'un cylindre de rayon $4$ cm et de hauteur $8$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en cm$^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
-              "reponse": "$536{,}17$ cm$^3$\n\nCylindre : $\\pi \\cdot 4^2 \\cdot 8 = 128\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 64}{3} = \\frac{128}{3}\\pi$.\nTotal : $\\frac{512}{3}\\pi \\approx 536{,}17$ cm$^3$."
+              "enonce": "Un solide est composé d'un cylindre de rayon $4$ cm et de hauteur $8$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en $\\mathrm{cm}^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
+              "reponse": "$536{,}17$ $\\mathrm{cm}^3$\n\nCylindre : $\\pi \\cdot 4^2 \\cdot 8 = 128\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 64}{3} = \\frac{128}{3}\\pi$.\nTotal : $\\frac{512}{3}\\pi \\approx 536{,}17$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -1203,7 +1203,7 @@
             {
               "libelle": "",
               "enonce": "Un verre a la forme d'une pyramide à base carrée posée sur sa pointe. Le côté de sa base carrée mesure $6$ cm et sa hauteur $15$ cm.\na) Calcule le volume total du verre.\nb) On le remplit de jus aux $\\frac{3}{5}$ de son volume. Quel volume de jus contient-il ?",
-              "reponse": "a) $180$ cm$^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{36 \\cdot 15}{3} = 180$.\n\nb) $108$ cm$^3$\n\n$\\frac{3}{5} \\cdot 180 = 108$."
+              "reponse": "a) $180$ $\\mathrm{cm}^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{36 \\cdot 15}{3} = 180$.\n\nb) $108$ $\\mathrm{cm}^3$\n\n$\\frac{3}{5} \\cdot 180 = 108$."
             }
           ]
         },
@@ -1397,7 +1397,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "$\\frac{4x + 0}{2} + 2 = \\frac{x + 82}{5}$",
+              "enonce": "$\\frac{4x}{2} + 2 = \\frac{x + 82}{5}$",
               "reponse": "$x = 8$\n\nOn multiplie tout par $10$, puis on regroupe.\nVérification : à gauche $\\frac{32}{2} + 2 = 18$, à droite $\\frac{90}{5} = 18$ ✓."
             }
           ]
@@ -1415,8 +1415,8 @@
             },
             {
               "libelle": "b",
-              "enonce": "Son aire de base vaut $40$ cm$^2$ et sa hauteur $13$ cm. Calcule son volume.",
-              "reponse": "$520$ cm$^3$\n\n$V = \\mathcal{B} \\cdot h = 40 \\cdot 13 = 520$."
+              "enonce": "Son aire de base vaut $40$ $\\mathrm{cm}^2$ et sa hauteur $13$ cm. Calcule son volume.",
+              "reponse": "$520$ $\\mathrm{cm}^3$\n\n$V = \\mathcal{B} \\cdot h = 40 \\cdot 13 = 520$."
             }
           ]
         },
@@ -1428,8 +1428,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un solide est composé d'un cylindre de rayon $4$ cm et de hauteur $15$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en cm$^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
-              "reponse": "$888{,}02$ cm$^3$\n\nCylindre : $\\pi \\cdot 4^2 \\cdot 15 = 240\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 64}{3} = \\frac{128}{3}\\pi$.\nTotal : $\\frac{848}{3}\\pi \\approx 888{,}02$ cm$^3$."
+              "enonce": "Un solide est composé d'un cylindre de rayon $4$ cm et de hauteur $15$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en $\\mathrm{cm}^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
+              "reponse": "$888{,}02$ $\\mathrm{cm}^3$\n\nCylindre : $\\pi \\cdot 4^2 \\cdot 15 = 240\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 64}{3} = \\frac{128}{3}\\pi$.\nTotal : $\\frac{848}{3}\\pi \\approx 888{,}02$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -1442,7 +1442,7 @@
             {
               "libelle": "",
               "enonce": "Un verre a la forme d'une pyramide à base carrée posée sur sa pointe. Le côté de sa base carrée mesure $4$ cm et sa hauteur $15$ cm.\na) Calcule le volume total du verre.\nb) On le remplit de jus aux $\\frac{3}{4}$ de son volume. Quel volume de jus contient-il ?",
-              "reponse": "a) $80$ cm$^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{16 \\cdot 15}{3} = 80$.\n\nb) $60$ cm$^3$\n\n$\\frac{3}{4} \\cdot 80 = 60$."
+              "reponse": "a) $80$ $\\mathrm{cm}^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{16 \\cdot 15}{3} = 80$.\n\nb) $60$ $\\mathrm{cm}^3$\n\n$\\frac{3}{4} \\cdot 80 = 60$."
             }
           ]
         },
@@ -1636,7 +1636,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "$\\frac{4x + 0}{3} + 3 = \\frac{x + 26}{2}$",
+              "enonce": "$\\frac{4x}{3} + 3 = \\frac{x + 26}{2}$",
               "reponse": "$x = 12$\n\nOn multiplie tout par $6$, puis on regroupe.\nVérification : à gauche $\\frac{48}{3} + 3 = 19$, à droite $\\frac{38}{2} = 19$ ✓."
             }
           ]
@@ -1654,8 +1654,8 @@
             },
             {
               "libelle": "b",
-              "enonce": "Son aire de base vaut $19$ cm$^2$ et sa hauteur $14$ cm. Calcule son volume.",
-              "reponse": "$266$ cm$^3$\n\n$V = \\mathcal{B} \\cdot h = 19 \\cdot 14 = 266$."
+              "enonce": "Son aire de base vaut $19$ $\\mathrm{cm}^2$ et sa hauteur $14$ cm. Calcule son volume.",
+              "reponse": "$266$ $\\mathrm{cm}^3$\n\n$V = \\mathcal{B} \\cdot h = 19 \\cdot 14 = 266$."
             }
           ]
         },
@@ -1667,8 +1667,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un solide est composé d'un cylindre de rayon $6$ cm et de hauteur $14$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en cm$^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
-              "reponse": "$2035{,}75$ cm$^3$\n\nCylindre : $\\pi \\cdot 6^2 \\cdot 14 = 504\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 216}{3} = 144\\pi$.\nTotal : $648\\pi \\approx 2035{,}75$ cm$^3$."
+              "enonce": "Un solide est composé d'un cylindre de rayon $6$ cm et de hauteur $14$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en $\\mathrm{cm}^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
+              "reponse": "$2035{,}75$ $\\mathrm{cm}^3$\n\nCylindre : $\\pi \\cdot 6^2 \\cdot 14 = 504\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 216}{3} = 144\\pi$.\nTotal : $648\\pi \\approx 2035{,}75$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -1681,7 +1681,7 @@
             {
               "libelle": "",
               "enonce": "Un verre a la forme d'une pyramide à base carrée posée sur sa pointe. Le côté de sa base carrée mesure $8$ cm et sa hauteur $6$ cm.\na) Calcule le volume total du verre.\nb) On le remplit de jus aux $\\frac{1}{2}$ de son volume. Quel volume de jus contient-il ?",
-              "reponse": "a) $128$ cm$^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{64 \\cdot 6}{3} = 128$.\n\nb) $64$ cm$^3$\n\n$\\frac{1}{2} \\cdot 128 = 64$."
+              "reponse": "a) $128$ $\\mathrm{cm}^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{64 \\cdot 6}{3} = 128$.\n\nb) $64$ $\\mathrm{cm}^3$\n\n$\\frac{1}{2} \\cdot 128 = 64$."
             }
           ]
         },
@@ -1893,8 +1893,8 @@
             },
             {
               "libelle": "b",
-              "enonce": "Son aire de base vaut $27$ cm$^2$ et sa hauteur $14$ cm. Calcule son volume.",
-              "reponse": "$378$ cm$^3$\n\n$V = \\mathcal{B} \\cdot h = 27 \\cdot 14 = 378$."
+              "enonce": "Son aire de base vaut $27$ $\\mathrm{cm}^2$ et sa hauteur $14$ cm. Calcule son volume.",
+              "reponse": "$378$ $\\mathrm{cm}^3$\n\n$V = \\mathcal{B} \\cdot h = 27 \\cdot 14 = 378$."
             }
           ]
         },
@@ -1906,8 +1906,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un solide est composé d'un cylindre de rayon $2$ cm et de hauteur $8$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en cm$^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
-              "reponse": "$117{,}29$ cm$^3$\n\nCylindre : $\\pi \\cdot 2^2 \\cdot 8 = 32\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 8}{3} = \\frac{16}{3}\\pi$.\nTotal : $\\frac{112}{3}\\pi \\approx 117{,}29$ cm$^3$."
+              "enonce": "Un solide est composé d'un cylindre de rayon $2$ cm et de hauteur $8$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en $\\mathrm{cm}^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
+              "reponse": "$117{,}29$ $\\mathrm{cm}^3$\n\nCylindre : $\\pi \\cdot 2^2 \\cdot 8 = 32\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 8}{3} = \\frac{16}{3}\\pi$.\nTotal : $\\frac{112}{3}\\pi \\approx 117{,}29$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -1920,7 +1920,7 @@
             {
               "libelle": "",
               "enonce": "Un verre a la forme d'une pyramide à base carrée posée sur sa pointe. Le côté de sa base carrée mesure $4$ cm et sa hauteur $6$ cm.\na) Calcule le volume total du verre.\nb) On le remplit de jus aux $\\frac{1}{2}$ de son volume. Quel volume de jus contient-il ?",
-              "reponse": "a) $32$ cm$^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{16 \\cdot 6}{3} = 32$.\n\nb) $16$ cm$^3$\n\n$\\frac{1}{2} \\cdot 32 = 16$."
+              "reponse": "a) $32$ $\\mathrm{cm}^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{16 \\cdot 6}{3} = 32$.\n\nb) $16$ $\\mathrm{cm}^3$\n\n$\\frac{1}{2} \\cdot 32 = 16$."
             }
           ]
         },
@@ -2132,8 +2132,8 @@
             },
             {
               "libelle": "b",
-              "enonce": "Son aire de base vaut $29$ cm$^2$ et sa hauteur $12$ cm. Calcule son volume.",
-              "reponse": "$348$ cm$^3$\n\n$V = \\mathcal{B} \\cdot h = 29 \\cdot 12 = 348$."
+              "enonce": "Son aire de base vaut $29$ $\\mathrm{cm}^2$ et sa hauteur $12$ cm. Calcule son volume.",
+              "reponse": "$348$ $\\mathrm{cm}^3$\n\n$V = \\mathcal{B} \\cdot h = 29 \\cdot 12 = 348$."
             }
           ]
         },
@@ -2145,8 +2145,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un solide est composé d'un cylindre de rayon $4$ cm et de hauteur $13$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en cm$^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
-              "reponse": "$787{,}49$ cm$^3$\n\nCylindre : $\\pi \\cdot 4^2 \\cdot 13 = 208\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 64}{3} = \\frac{128}{3}\\pi$.\nTotal : $\\frac{752}{3}\\pi \\approx 787{,}49$ cm$^3$."
+              "enonce": "Un solide est composé d'un cylindre de rayon $4$ cm et de hauteur $13$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en $\\mathrm{cm}^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
+              "reponse": "$787{,}49$ $\\mathrm{cm}^3$\n\nCylindre : $\\pi \\cdot 4^2 \\cdot 13 = 208\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 64}{3} = \\frac{128}{3}\\pi$.\nTotal : $\\frac{752}{3}\\pi \\approx 787{,}49$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -2159,7 +2159,7 @@
             {
               "libelle": "",
               "enonce": "Un verre a la forme d'une pyramide à base carrée posée sur sa pointe. Le côté de sa base carrée mesure $10$ cm et sa hauteur $15$ cm.\na) Calcule le volume total du verre.\nb) On le remplit de jus aux $\\frac{3}{5}$ de son volume. Quel volume de jus contient-il ?",
-              "reponse": "a) $500$ cm$^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{100 \\cdot 15}{3} = 500$.\n\nb) $300$ cm$^3$\n\n$\\frac{3}{5} \\cdot 500 = 300$."
+              "reponse": "a) $500$ $\\mathrm{cm}^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{100 \\cdot 15}{3} = 500$.\n\nb) $300$ $\\mathrm{cm}^3$\n\n$\\frac{3}{5} \\cdot 500 = 300$."
             }
           ]
         },
@@ -2371,8 +2371,8 @@
             },
             {
               "libelle": "b",
-              "enonce": "Son aire de base vaut $28$ cm$^2$ et sa hauteur $12$ cm. Calcule son volume.",
-              "reponse": "$336$ cm$^3$\n\n$V = \\mathcal{B} \\cdot h = 28 \\cdot 12 = 336$."
+              "enonce": "Son aire de base vaut $28$ $\\mathrm{cm}^2$ et sa hauteur $12$ cm. Calcule son volume.",
+              "reponse": "$336$ $\\mathrm{cm}^3$\n\n$V = \\mathcal{B} \\cdot h = 28 \\cdot 12 = 336$."
             }
           ]
         },
@@ -2384,8 +2384,8 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un solide est composé d'un cylindre de rayon $7$ cm et de hauteur $15$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en cm$^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
-              "reponse": "$3027{,}45$ cm$^3$\n\nCylindre : $\\pi \\cdot 7^2 \\cdot 15 = 735\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 343}{3} = \\frac{686}{3}\\pi$.\nTotal : $\\frac{2891}{3}\\pi \\approx 3027{,}45$ cm$^3$."
+              "enonce": "Un solide est composé d'un cylindre de rayon $7$ cm et de hauteur $15$ cm, surmonté d'une demi-boule de même rayon.\nCalcule son volume total en $\\mathrm{cm}^3$, arrondi au centième.\nOn rappelle que le volume d'une boule vaut $\\frac{4\\pi r^3}{3}$.",
+              "reponse": "$3027{,}45$ $\\mathrm{cm}^3$\n\nCylindre : $\\pi \\cdot 7^2 \\cdot 15 = 735\\pi$.\nDemi-boule : $\\frac{1}{2} \\cdot \\frac{4\\pi \\cdot 343}{3} = \\frac{686}{3}\\pi$.\nTotal : $\\frac{2891}{3}\\pi \\approx 3027{,}45$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -2398,7 +2398,7 @@
             {
               "libelle": "",
               "enonce": "Un verre a la forme d'une pyramide à base carrée posée sur sa pointe. Le côté de sa base carrée mesure $10$ cm et sa hauteur $12$ cm.\na) Calcule le volume total du verre.\nb) On le remplit de jus aux $\\frac{3}{4}$ de son volume. Quel volume de jus contient-il ?",
-              "reponse": "a) $400$ cm$^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{100 \\cdot 12}{3} = 400$.\n\nb) $300$ cm$^3$\n\n$\\frac{3}{4} \\cdot 400 = 300$."
+              "reponse": "a) $400$ $\\mathrm{cm}^3$\n\n$V = \\frac{\\mathcal{B} \\cdot h}{3} = \\frac{100 \\cdot 12}{3} = 400$.\n\nb) $300$ $\\mathrm{cm}^3$\n\n$\\frac{3}{4} \\cdot 400 = 300$."
             }
           ]
         },
@@ -2619,7 +2619,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un losange a une aire de $56$ cm$^2$ et sa grande diagonale mesure $14$ cm.\nCalcule la longueur de sa petite diagonale.",
+              "enonce": "Un losange a une aire de $56$ $\\mathrm{cm}^2$ et sa grande diagonale mesure $14$ cm.\nCalcule la longueur de sa petite diagonale.",
               "reponse": "$8$ cm\n\nL'aire d'un losange vaut $\\frac{D \\cdot d}{2}$.\n$\\frac{14 \\cdot d}{2} = 56$, donc $7d = 56$ et $d = 8$."
             }
           ]
@@ -2841,7 +2841,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un losange a une aire de $45$ cm$^2$ et sa grande diagonale mesure $10$ cm.\nCalcule la longueur de sa petite diagonale.",
+              "enonce": "Un losange a une aire de $45$ $\\mathrm{cm}^2$ et sa grande diagonale mesure $10$ cm.\nCalcule la longueur de sa petite diagonale.",
               "reponse": "$9$ cm\n\nL'aire d'un losange vaut $\\frac{D \\cdot d}{2}$.\n$\\frac{10 \\cdot d}{2} = 45$, donc $5d = 45$ et $d = 9$."
             }
           ]
@@ -3063,7 +3063,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un losange a une aire de $105$ cm$^2$ et sa grande diagonale mesure $14$ cm.\nCalcule la longueur de sa petite diagonale.",
+              "enonce": "Un losange a une aire de $105$ $\\mathrm{cm}^2$ et sa grande diagonale mesure $14$ cm.\nCalcule la longueur de sa petite diagonale.",
               "reponse": "$15$ cm\n\nL'aire d'un losange vaut $\\frac{D \\cdot d}{2}$.\n$\\frac{14 \\cdot d}{2} = 105$, donc $7d = 105$ et $d = 15$."
             }
           ]
@@ -3285,7 +3285,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un losange a une aire de $72$ cm$^2$ et sa grande diagonale mesure $16$ cm.\nCalcule la longueur de sa petite diagonale.",
+              "enonce": "Un losange a une aire de $72$ $\\mathrm{cm}^2$ et sa grande diagonale mesure $16$ cm.\nCalcule la longueur de sa petite diagonale.",
               "reponse": "$9$ cm\n\nL'aire d'un losange vaut $\\frac{D \\cdot d}{2}$.\n$\\frac{16 \\cdot d}{2} = 72$, donc $8d = 72$ et $d = 9$."
             }
           ]
@@ -3507,7 +3507,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un losange a une aire de $45$ cm$^2$ et sa grande diagonale mesure $10$ cm.\nCalcule la longueur de sa petite diagonale.",
+              "enonce": "Un losange a une aire de $45$ $\\mathrm{cm}^2$ et sa grande diagonale mesure $10$ cm.\nCalcule la longueur de sa petite diagonale.",
               "reponse": "$9$ cm\n\nL'aire d'un losange vaut $\\frac{D \\cdot d}{2}$.\n$\\frac{10 \\cdot d}{2} = 45$, donc $5d = 45$ et $d = 9$."
             }
           ]
@@ -3729,7 +3729,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un losange a une aire de $96$ cm$^2$ et sa grande diagonale mesure $16$ cm.\nCalcule la longueur de sa petite diagonale.",
+              "enonce": "Un losange a une aire de $96$ $\\mathrm{cm}^2$ et sa grande diagonale mesure $16$ cm.\nCalcule la longueur de sa petite diagonale.",
               "reponse": "$12$ cm\n\nL'aire d'un losange vaut $\\frac{D \\cdot d}{2}$.\n$\\frac{16 \\cdot d}{2} = 96$, donc $8d = 96$ et $d = 12$."
             }
           ]
@@ -3951,7 +3951,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un losange a une aire de $135$ cm$^2$ et sa grande diagonale mesure $18$ cm.\nCalcule la longueur de sa petite diagonale.",
+              "enonce": "Un losange a une aire de $135$ $\\mathrm{cm}^2$ et sa grande diagonale mesure $18$ cm.\nCalcule la longueur de sa petite diagonale.",
               "reponse": "$15$ cm\n\nL'aire d'un losange vaut $\\frac{D \\cdot d}{2}$.\n$\\frac{18 \\cdot d}{2} = 135$, donc $9d = 135$ et $d = 15$."
             }
           ]
@@ -4173,7 +4173,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un losange a une aire de $120$ cm$^2$ et sa grande diagonale mesure $20$ cm.\nCalcule la longueur de sa petite diagonale.",
+              "enonce": "Un losange a une aire de $120$ $\\mathrm{cm}^2$ et sa grande diagonale mesure $20$ cm.\nCalcule la longueur de sa petite diagonale.",
               "reponse": "$12$ cm\n\nL'aire d'un losange vaut $\\frac{D \\cdot d}{2}$.\n$\\frac{20 \\cdot d}{2} = 120$, donc $10d = 120$ et $d = 12$."
             }
           ]
@@ -4395,7 +4395,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un losange a une aire de $40$ cm$^2$ et sa grande diagonale mesure $10$ cm.\nCalcule la longueur de sa petite diagonale.",
+              "enonce": "Un losange a une aire de $40$ $\\mathrm{cm}^2$ et sa grande diagonale mesure $10$ cm.\nCalcule la longueur de sa petite diagonale.",
               "reponse": "$8$ cm\n\nL'aire d'un losange vaut $\\frac{D \\cdot d}{2}$.\n$\\frac{10 \\cdot d}{2} = 40$, donc $5d = 40$ et $d = 8$."
             }
           ]
@@ -4617,7 +4617,7 @@
           "sousQuestions": [
             {
               "libelle": "",
-              "enonce": "Un losange a une aire de $84$ cm$^2$ et sa grande diagonale mesure $14$ cm.\nCalcule la longueur de sa petite diagonale.",
+              "enonce": "Un losange a une aire de $84$ $\\mathrm{cm}^2$ et sa grande diagonale mesure $14$ cm.\nCalcule la longueur de sa petite diagonale.",
               "reponse": "$12$ cm\n\nL'aire d'un losange vaut $\\frac{D \\cdot d}{2}$.\n$\\frac{14 \\cdot d}{2} = 84$, donc $7d = 84$ et $d = 12$."
             }
           ]
@@ -4803,7 +4803,7 @@
             {
               "libelle": "",
               "enonce": "Un rectangle a une diagonale de $41$ cm et une largeur de $9$ cm.\na) Calcule sa longueur.\nb) Calcule son aire.",
-              "reponse": "a) $40$ cm\n\n$41^2 - 9^2 = 1681 - 81 = 1600$, et $\\sqrt{1600} = 40$.\n\nb) $360$ cm$^2$\n\n$40 \\cdot 9 = 360$."
+              "reponse": "a) $40$ cm\n\n$41^2 - 9^2 = 1681 - 81 = 1600$, et $\\sqrt{1600} = 40$.\n\nb) $360$ $\\mathrm{cm}^2$\n\n$40 \\cdot 9 = 360$."
             }
           ]
         },
@@ -4829,7 +4829,7 @@
             {
               "libelle": "",
               "enonce": "Calcule le volume d'un cylindre de rayon $3$ cm et de hauteur $20$ cm. Donne la réponse avec son unité.",
-              "reponse": "$565{,}5$ cm$^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 9 \\cdot 20 = 180\\pi \\approx 565{,}5$ cm$^3$."
+              "reponse": "$565{,}5$ $\\mathrm{cm}^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 9 \\cdot 20 = 180\\pi \\approx 565{,}5$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -4842,7 +4842,7 @@
             {
               "libelle": "",
               "enonce": "Un pâtissier dispose de deux moules.\nMoule A : un cube d'arête $6$ cm.\nMoule B : un pavé droit de $5$ cm, $4$ cm et $3$ cm.\nIl veut fabriquer le plus grand nombre de gâteaux avec $3$ litres de pâte.\nQuel moule doit-il choisir ? Justifie.",
-              "reponse": "Le moule B.\n\nMoule A : $6^3 = 216$ cm$^3$. Moule B : $5 \\cdot 4 \\cdot 3 = 60$ cm$^3$.\n$3$ litres $= 3000$ cm$^3$.\nAvec A : $3000 : 216$ donne $13$ gâteaux. Avec B : $3000 : 60$ donne $50$ gâteaux.\nLe moule B en permet donc davantage."
+              "reponse": "Le moule B.\n\nMoule A : $6^3 = 216$ $\\mathrm{cm}^3$. Moule B : $5 \\cdot 4 \\cdot 3 = 60$ $\\mathrm{cm}^3$.\n$3$ litres $= 3000$ $\\mathrm{cm}^3$.\nAvec A : $3000 : 216$ donne $13$ gâteaux. Avec B : $3000 : 60$ donne $50$ gâteaux.\nLe moule B en permet donc davantage."
             }
           ]
         },
@@ -5027,7 +5027,7 @@
             {
               "libelle": "",
               "enonce": "Un rectangle a une diagonale de $30$ cm et une largeur de $18$ cm.\na) Calcule sa longueur.\nb) Calcule son aire.",
-              "reponse": "a) $24$ cm\n\n$30^2 - 18^2 = 900 - 324 = 576$, et $\\sqrt{576} = 24$.\n\nb) $432$ cm$^2$\n\n$24 \\cdot 18 = 432$."
+              "reponse": "a) $24$ cm\n\n$30^2 - 18^2 = 900 - 324 = 576$, et $\\sqrt{576} = 24$.\n\nb) $432$ $\\mathrm{cm}^2$\n\n$24 \\cdot 18 = 432$."
             }
           ]
         },
@@ -5053,7 +5053,7 @@
             {
               "libelle": "",
               "enonce": "Calcule le volume d'un cylindre de rayon $7$ cm et de hauteur $12$ cm. Donne la réponse avec son unité.",
-              "reponse": "$1847{,}3$ cm$^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 49 \\cdot 12 = 588\\pi \\approx 1847{,}3$ cm$^3$."
+              "reponse": "$1847{,}3$ $\\mathrm{cm}^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 49 \\cdot 12 = 588\\pi \\approx 1847{,}3$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -5066,7 +5066,7 @@
             {
               "libelle": "",
               "enonce": "Un pâtissier dispose de deux moules.\nMoule A : un cube d'arête $5$ cm.\nMoule B : un pavé droit de $7$ cm, $2$ cm et $3$ cm.\nIl veut fabriquer le plus grand nombre de gâteaux avec $4$ litres de pâte.\nQuel moule doit-il choisir ? Justifie.",
-              "reponse": "Le moule B.\n\nMoule A : $5^3 = 125$ cm$^3$. Moule B : $7 \\cdot 2 \\cdot 3 = 42$ cm$^3$.\n$4$ litres $= 4000$ cm$^3$.\nAvec A : $4000 : 125$ donne $32$ gâteaux. Avec B : $4000 : 42$ donne $95$ gâteaux.\nLe moule B en permet donc davantage."
+              "reponse": "Le moule B.\n\nMoule A : $5^3 = 125$ $\\mathrm{cm}^3$. Moule B : $7 \\cdot 2 \\cdot 3 = 42$ $\\mathrm{cm}^3$.\n$4$ litres $= 4000$ $\\mathrm{cm}^3$.\nAvec A : $4000 : 125$ donne $32$ gâteaux. Avec B : $4000 : 42$ donne $95$ gâteaux.\nLe moule B en permet donc davantage."
             }
           ]
         },
@@ -5251,7 +5251,7 @@
             {
               "libelle": "",
               "enonce": "Un rectangle a une diagonale de $10$ cm et une largeur de $6$ cm.\na) Calcule sa longueur.\nb) Calcule son aire.",
-              "reponse": "a) $8$ cm\n\n$10^2 - 6^2 = 100 - 36 = 64$, et $\\sqrt{64} = 8$.\n\nb) $48$ cm$^2$\n\n$8 \\cdot 6 = 48$."
+              "reponse": "a) $8$ cm\n\n$10^2 - 6^2 = 100 - 36 = 64$, et $\\sqrt{64} = 8$.\n\nb) $48$ $\\mathrm{cm}^2$\n\n$8 \\cdot 6 = 48$."
             }
           ]
         },
@@ -5277,7 +5277,7 @@
             {
               "libelle": "",
               "enonce": "Calcule le volume d'un cylindre de rayon $3$ cm et de hauteur $14$ cm. Donne la réponse avec son unité.",
-              "reponse": "$395{,}8$ cm$^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 9 \\cdot 14 = 126\\pi \\approx 395{,}8$ cm$^3$."
+              "reponse": "$395{,}8$ $\\mathrm{cm}^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 9 \\cdot 14 = 126\\pi \\approx 395{,}8$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -5290,7 +5290,7 @@
             {
               "libelle": "",
               "enonce": "Un pâtissier dispose de deux moules.\nMoule A : un cube d'arête $5$ cm.\nMoule B : un pavé droit de $5$ cm, $4$ cm et $3$ cm.\nIl veut fabriquer le plus grand nombre de gâteaux avec $2$ litres de pâte.\nQuel moule doit-il choisir ? Justifie.",
-              "reponse": "Le moule B.\n\nMoule A : $5^3 = 125$ cm$^3$. Moule B : $5 \\cdot 4 \\cdot 3 = 60$ cm$^3$.\n$2$ litres $= 2000$ cm$^3$.\nAvec A : $2000 : 125$ donne $16$ gâteaux. Avec B : $2000 : 60$ donne $33$ gâteaux.\nLe moule B en permet donc davantage."
+              "reponse": "Le moule B.\n\nMoule A : $5^3 = 125$ $\\mathrm{cm}^3$. Moule B : $5 \\cdot 4 \\cdot 3 = 60$ $\\mathrm{cm}^3$.\n$2$ litres $= 2000$ $\\mathrm{cm}^3$.\nAvec A : $2000 : 125$ donne $16$ gâteaux. Avec B : $2000 : 60$ donne $33$ gâteaux.\nLe moule B en permet donc davantage."
             }
           ]
         },
@@ -5475,7 +5475,7 @@
             {
               "libelle": "",
               "enonce": "Un rectangle a une diagonale de $30$ cm et une largeur de $18$ cm.\na) Calcule sa longueur.\nb) Calcule son aire.",
-              "reponse": "a) $24$ cm\n\n$30^2 - 18^2 = 900 - 324 = 576$, et $\\sqrt{576} = 24$.\n\nb) $432$ cm$^2$\n\n$24 \\cdot 18 = 432$."
+              "reponse": "a) $24$ cm\n\n$30^2 - 18^2 = 900 - 324 = 576$, et $\\sqrt{576} = 24$.\n\nb) $432$ $\\mathrm{cm}^2$\n\n$24 \\cdot 18 = 432$."
             }
           ]
         },
@@ -5501,7 +5501,7 @@
             {
               "libelle": "",
               "enonce": "Calcule le volume d'un cylindre de rayon $5$ cm et de hauteur $14$ cm. Donne la réponse avec son unité.",
-              "reponse": "$1099{,}6$ cm$^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 25 \\cdot 14 = 350\\pi \\approx 1099{,}6$ cm$^3$."
+              "reponse": "$1099{,}6$ $\\mathrm{cm}^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 25 \\cdot 14 = 350\\pi \\approx 1099{,}6$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -5514,7 +5514,7 @@
             {
               "libelle": "",
               "enonce": "Un pâtissier dispose de deux moules.\nMoule A : un cube d'arête $3$ cm.\nMoule B : un pavé droit de $6$ cm, $4$ cm et $2$ cm.\nIl veut fabriquer le plus grand nombre de gâteaux avec $2$ litres de pâte.\nQuel moule doit-il choisir ? Justifie.",
-              "reponse": "Le moule A.\n\nMoule A : $3^3 = 27$ cm$^3$. Moule B : $6 \\cdot 4 \\cdot 2 = 48$ cm$^3$.\n$2$ litres $= 2000$ cm$^3$.\nAvec A : $2000 : 27$ donne $74$ gâteaux. Avec B : $2000 : 48$ donne $41$ gâteaux.\nLe moule A en permet donc davantage."
+              "reponse": "Le moule A.\n\nMoule A : $3^3 = 27$ $\\mathrm{cm}^3$. Moule B : $6 \\cdot 4 \\cdot 2 = 48$ $\\mathrm{cm}^3$.\n$2$ litres $= 2000$ $\\mathrm{cm}^3$.\nAvec A : $2000 : 27$ donne $74$ gâteaux. Avec B : $2000 : 48$ donne $41$ gâteaux.\nLe moule A en permet donc davantage."
             }
           ]
         },
@@ -5699,7 +5699,7 @@
             {
               "libelle": "",
               "enonce": "Un rectangle a une diagonale de $13$ cm et une largeur de $5$ cm.\na) Calcule sa longueur.\nb) Calcule son aire.",
-              "reponse": "a) $12$ cm\n\n$13^2 - 5^2 = 169 - 25 = 144$, et $\\sqrt{144} = 12$.\n\nb) $60$ cm$^2$\n\n$12 \\cdot 5 = 60$."
+              "reponse": "a) $12$ cm\n\n$13^2 - 5^2 = 169 - 25 = 144$, et $\\sqrt{144} = 12$.\n\nb) $60$ $\\mathrm{cm}^2$\n\n$12 \\cdot 5 = 60$."
             }
           ]
         },
@@ -5725,7 +5725,7 @@
             {
               "libelle": "",
               "enonce": "Calcule le volume d'un cylindre de rayon $3$ cm et de hauteur $8$ cm. Donne la réponse avec son unité.",
-              "reponse": "$226{,}2$ cm$^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 9 \\cdot 8 = 72\\pi \\approx 226{,}2$ cm$^3$."
+              "reponse": "$226{,}2$ $\\mathrm{cm}^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 9 \\cdot 8 = 72\\pi \\approx 226{,}2$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -5738,7 +5738,7 @@
             {
               "libelle": "",
               "enonce": "Un pâtissier dispose de deux moules.\nMoule A : un cube d'arête $4$ cm.\nMoule B : un pavé droit de $7$ cm, $2$ cm et $3$ cm.\nIl veut fabriquer le plus grand nombre de gâteaux avec $5$ litres de pâte.\nQuel moule doit-il choisir ? Justifie.",
-              "reponse": "Le moule B.\n\nMoule A : $4^3 = 64$ cm$^3$. Moule B : $7 \\cdot 2 \\cdot 3 = 42$ cm$^3$.\n$5$ litres $= 5000$ cm$^3$.\nAvec A : $5000 : 64$ donne $78$ gâteaux. Avec B : $5000 : 42$ donne $119$ gâteaux.\nLe moule B en permet donc davantage."
+              "reponse": "Le moule B.\n\nMoule A : $4^3 = 64$ $\\mathrm{cm}^3$. Moule B : $7 \\cdot 2 \\cdot 3 = 42$ $\\mathrm{cm}^3$.\n$5$ litres $= 5000$ $\\mathrm{cm}^3$.\nAvec A : $5000 : 64$ donne $78$ gâteaux. Avec B : $5000 : 42$ donne $119$ gâteaux.\nLe moule B en permet donc davantage."
             }
           ]
         },
@@ -5923,7 +5923,7 @@
             {
               "libelle": "",
               "enonce": "Un rectangle a une diagonale de $5$ cm et une largeur de $3$ cm.\na) Calcule sa longueur.\nb) Calcule son aire.",
-              "reponse": "a) $4$ cm\n\n$5^2 - 3^2 = 25 - 9 = 16$, et $\\sqrt{16} = 4$.\n\nb) $12$ cm$^2$\n\n$4 \\cdot 3 = 12$."
+              "reponse": "a) $4$ cm\n\n$5^2 - 3^2 = 25 - 9 = 16$, et $\\sqrt{16} = 4$.\n\nb) $12$ $\\mathrm{cm}^2$\n\n$4 \\cdot 3 = 12$."
             }
           ]
         },
@@ -5949,7 +5949,7 @@
             {
               "libelle": "",
               "enonce": "Calcule le volume d'un cylindre de rayon $9$ cm et de hauteur $19$ cm. Donne la réponse avec son unité.",
-              "reponse": "$4834{,}9$ cm$^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 81 \\cdot 19 = 1539\\pi \\approx 4834{,}9$ cm$^3$."
+              "reponse": "$4834{,}9$ $\\mathrm{cm}^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 81 \\cdot 19 = 1539\\pi \\approx 4834{,}9$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -5962,7 +5962,7 @@
             {
               "libelle": "",
               "enonce": "Un pâtissier dispose de deux moules.\nMoule A : un cube d'arête $4$ cm.\nMoule B : un pavé droit de $6$ cm, $4$ cm et $2$ cm.\nIl veut fabriquer le plus grand nombre de gâteaux avec $5$ litres de pâte.\nQuel moule doit-il choisir ? Justifie.",
-              "reponse": "Le moule B.\n\nMoule A : $4^3 = 64$ cm$^3$. Moule B : $6 \\cdot 4 \\cdot 2 = 48$ cm$^3$.\n$5$ litres $= 5000$ cm$^3$.\nAvec A : $5000 : 64$ donne $78$ gâteaux. Avec B : $5000 : 48$ donne $104$ gâteaux.\nLe moule B en permet donc davantage."
+              "reponse": "Le moule B.\n\nMoule A : $4^3 = 64$ $\\mathrm{cm}^3$. Moule B : $6 \\cdot 4 \\cdot 2 = 48$ $\\mathrm{cm}^3$.\n$5$ litres $= 5000$ $\\mathrm{cm}^3$.\nAvec A : $5000 : 64$ donne $78$ gâteaux. Avec B : $5000 : 48$ donne $104$ gâteaux.\nLe moule B en permet donc davantage."
             }
           ]
         },
@@ -6147,7 +6147,7 @@
             {
               "libelle": "",
               "enonce": "Un rectangle a une diagonale de $13$ cm et une largeur de $5$ cm.\na) Calcule sa longueur.\nb) Calcule son aire.",
-              "reponse": "a) $12$ cm\n\n$13^2 - 5^2 = 169 - 25 = 144$, et $\\sqrt{144} = 12$.\n\nb) $60$ cm$^2$\n\n$12 \\cdot 5 = 60$."
+              "reponse": "a) $12$ cm\n\n$13^2 - 5^2 = 169 - 25 = 144$, et $\\sqrt{144} = 12$.\n\nb) $60$ $\\mathrm{cm}^2$\n\n$12 \\cdot 5 = 60$."
             }
           ]
         },
@@ -6173,7 +6173,7 @@
             {
               "libelle": "",
               "enonce": "Calcule le volume d'un cylindre de rayon $5$ cm et de hauteur $17$ cm. Donne la réponse avec son unité.",
-              "reponse": "$1335{,}2$ cm$^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 25 \\cdot 17 = 425\\pi \\approx 1335{,}2$ cm$^3$."
+              "reponse": "$1335{,}2$ $\\mathrm{cm}^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 25 \\cdot 17 = 425\\pi \\approx 1335{,}2$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -6186,7 +6186,7 @@
             {
               "libelle": "",
               "enonce": "Un pâtissier dispose de deux moules.\nMoule A : un cube d'arête $4$ cm.\nMoule B : un pavé droit de $6$ cm, $4$ cm et $2$ cm.\nIl veut fabriquer le plus grand nombre de gâteaux avec $5$ litres de pâte.\nQuel moule doit-il choisir ? Justifie.",
-              "reponse": "Le moule B.\n\nMoule A : $4^3 = 64$ cm$^3$. Moule B : $6 \\cdot 4 \\cdot 2 = 48$ cm$^3$.\n$5$ litres $= 5000$ cm$^3$.\nAvec A : $5000 : 64$ donne $78$ gâteaux. Avec B : $5000 : 48$ donne $104$ gâteaux.\nLe moule B en permet donc davantage."
+              "reponse": "Le moule B.\n\nMoule A : $4^3 = 64$ $\\mathrm{cm}^3$. Moule B : $6 \\cdot 4 \\cdot 2 = 48$ $\\mathrm{cm}^3$.\n$5$ litres $= 5000$ $\\mathrm{cm}^3$.\nAvec A : $5000 : 64$ donne $78$ gâteaux. Avec B : $5000 : 48$ donne $104$ gâteaux.\nLe moule B en permet donc davantage."
             }
           ]
         },
@@ -6371,7 +6371,7 @@
             {
               "libelle": "",
               "enonce": "Un rectangle a une diagonale de $34$ cm et une largeur de $16$ cm.\na) Calcule sa longueur.\nb) Calcule son aire.",
-              "reponse": "a) $30$ cm\n\n$34^2 - 16^2 = 1156 - 256 = 900$, et $\\sqrt{900} = 30$.\n\nb) $480$ cm$^2$\n\n$30 \\cdot 16 = 480$."
+              "reponse": "a) $30$ cm\n\n$34^2 - 16^2 = 1156 - 256 = 900$, et $\\sqrt{900} = 30$.\n\nb) $480$ $\\mathrm{cm}^2$\n\n$30 \\cdot 16 = 480$."
             }
           ]
         },
@@ -6397,7 +6397,7 @@
             {
               "libelle": "",
               "enonce": "Calcule le volume d'un cylindre de rayon $6$ cm et de hauteur $7$ cm. Donne la réponse avec son unité.",
-              "reponse": "$791{,}7$ cm$^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 36 \\cdot 7 = 252\\pi \\approx 791{,}7$ cm$^3$."
+              "reponse": "$791{,}7$ $\\mathrm{cm}^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 36 \\cdot 7 = 252\\pi \\approx 791{,}7$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -6410,7 +6410,7 @@
             {
               "libelle": "",
               "enonce": "Un pâtissier dispose de deux moules.\nMoule A : un cube d'arête $5$ cm.\nMoule B : un pavé droit de $6$ cm, $3$ cm et $2$ cm.\nIl veut fabriquer le plus grand nombre de gâteaux avec $3$ litres de pâte.\nQuel moule doit-il choisir ? Justifie.",
-              "reponse": "Le moule B.\n\nMoule A : $5^3 = 125$ cm$^3$. Moule B : $6 \\cdot 3 \\cdot 2 = 36$ cm$^3$.\n$3$ litres $= 3000$ cm$^3$.\nAvec A : $3000 : 125$ donne $24$ gâteaux. Avec B : $3000 : 36$ donne $83$ gâteaux.\nLe moule B en permet donc davantage."
+              "reponse": "Le moule B.\n\nMoule A : $5^3 = 125$ $\\mathrm{cm}^3$. Moule B : $6 \\cdot 3 \\cdot 2 = 36$ $\\mathrm{cm}^3$.\n$3$ litres $= 3000$ $\\mathrm{cm}^3$.\nAvec A : $3000 : 125$ donne $24$ gâteaux. Avec B : $3000 : 36$ donne $83$ gâteaux.\nLe moule B en permet donc davantage."
             }
           ]
         },
@@ -6595,7 +6595,7 @@
             {
               "libelle": "",
               "enonce": "Un rectangle a une diagonale de $5$ cm et une largeur de $3$ cm.\na) Calcule sa longueur.\nb) Calcule son aire.",
-              "reponse": "a) $4$ cm\n\n$5^2 - 3^2 = 25 - 9 = 16$, et $\\sqrt{16} = 4$.\n\nb) $12$ cm$^2$\n\n$4 \\cdot 3 = 12$."
+              "reponse": "a) $4$ cm\n\n$5^2 - 3^2 = 25 - 9 = 16$, et $\\sqrt{16} = 4$.\n\nb) $12$ $\\mathrm{cm}^2$\n\n$4 \\cdot 3 = 12$."
             }
           ]
         },
@@ -6621,7 +6621,7 @@
             {
               "libelle": "",
               "enonce": "Calcule le volume d'un cylindre de rayon $7$ cm et de hauteur $14$ cm. Donne la réponse avec son unité.",
-              "reponse": "$2155{,}1$ cm$^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 49 \\cdot 14 = 686\\pi \\approx 2155{,}1$ cm$^3$."
+              "reponse": "$2155{,}1$ $\\mathrm{cm}^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 49 \\cdot 14 = 686\\pi \\approx 2155{,}1$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -6634,7 +6634,7 @@
             {
               "libelle": "",
               "enonce": "Un pâtissier dispose de deux moules.\nMoule A : un cube d'arête $3$ cm.\nMoule B : un pavé droit de $4$ cm, $4$ cm et $2$ cm.\nIl veut fabriquer le plus grand nombre de gâteaux avec $3$ litres de pâte.\nQuel moule doit-il choisir ? Justifie.",
-              "reponse": "Le moule A.\n\nMoule A : $3^3 = 27$ cm$^3$. Moule B : $4 \\cdot 4 \\cdot 2 = 32$ cm$^3$.\n$3$ litres $= 3000$ cm$^3$.\nAvec A : $3000 : 27$ donne $111$ gâteaux. Avec B : $3000 : 32$ donne $93$ gâteaux.\nLe moule A en permet donc davantage."
+              "reponse": "Le moule A.\n\nMoule A : $3^3 = 27$ $\\mathrm{cm}^3$. Moule B : $4 \\cdot 4 \\cdot 2 = 32$ $\\mathrm{cm}^3$.\n$3$ litres $= 3000$ $\\mathrm{cm}^3$.\nAvec A : $3000 : 27$ donne $111$ gâteaux. Avec B : $3000 : 32$ donne $93$ gâteaux.\nLe moule A en permet donc davantage."
             }
           ]
         },
@@ -6819,7 +6819,7 @@
             {
               "libelle": "",
               "enonce": "Un rectangle a une diagonale de $25$ cm et une largeur de $15$ cm.\na) Calcule sa longueur.\nb) Calcule son aire.",
-              "reponse": "a) $20$ cm\n\n$25^2 - 15^2 = 625 - 225 = 400$, et $\\sqrt{400} = 20$.\n\nb) $300$ cm$^2$\n\n$20 \\cdot 15 = 300$."
+              "reponse": "a) $20$ cm\n\n$25^2 - 15^2 = 625 - 225 = 400$, et $\\sqrt{400} = 20$.\n\nb) $300$ $\\mathrm{cm}^2$\n\n$20 \\cdot 15 = 300$."
             }
           ]
         },
@@ -6845,7 +6845,7 @@
             {
               "libelle": "",
               "enonce": "Calcule le volume d'un cylindre de rayon $8$ cm et de hauteur $13$ cm. Donne la réponse avec son unité.",
-              "reponse": "$2613{,}8$ cm$^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 64 \\cdot 13 = 832\\pi \\approx 2613{,}8$ cm$^3$."
+              "reponse": "$2613{,}8$ $\\mathrm{cm}^3$\n\n$V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 64 \\cdot 13 = 832\\pi \\approx 2613{,}8$ $\\mathrm{cm}^3$."
             }
           ]
         },
@@ -6858,7 +6858,7 @@
             {
               "libelle": "",
               "enonce": "Un pâtissier dispose de deux moules.\nMoule A : un cube d'arête $4$ cm.\nMoule B : un pavé droit de $4$ cm, $4$ cm et $2$ cm.\nIl veut fabriquer le plus grand nombre de gâteaux avec $2$ litres de pâte.\nQuel moule doit-il choisir ? Justifie.",
-              "reponse": "Le moule B.\n\nMoule A : $4^3 = 64$ cm$^3$. Moule B : $4 \\cdot 4 \\cdot 2 = 32$ cm$^3$.\n$2$ litres $= 2000$ cm$^3$.\nAvec A : $2000 : 64$ donne $31$ gâteaux. Avec B : $2000 : 32$ donne $62$ gâteaux.\nLe moule B en permet donc davantage."
+              "reponse": "Le moule B.\n\nMoule A : $4^3 = 64$ $\\mathrm{cm}^3$. Moule B : $4 \\cdot 4 \\cdot 2 = 32$ $\\mathrm{cm}^3$.\n$2$ litres $= 2000$ $\\mathrm{cm}^3$.\nAvec A : $2000 : 64$ donne $31$ gâteaux. Avec B : $2000 : 32$ donne $62$ gâteaux.\nLe moule B en permet donc davantage."
             }
           ]
         },

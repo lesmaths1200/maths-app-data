@@ -126,7 +126,7 @@ def engendrer(variante):
         ("", rf"Un rectangle a une diagonale de ${hyp2}$ cm et une largeur de ${ca2}$ cm." "\n"
              rf"a) Calcule sa longueur." "\n" rf"b) Calcule son aire.",
          rf"a) ${cb2}$ cm" "\n\n" rf"${hyp2}^2 - {ca2}^2 = {hyp2*hyp2} - {ca2*ca2} = {cb2*cb2}$, et $\sqrt{{{cb2*cb2}}} = {cb2}$." "\n\n"
-         rf"b) ${ca2*cb2}$ cm$^2$" "\n\n" rf"${cb2} \cdot {ca2} = {ca2*cb2}$."),
+         rf"b) ${ca2*cb2}$ $\mathrm{{cm}}^2$" "\n\n" rf"${cb2} \cdot {ca2} = {ca2*cb2}$."),
     ])
 
     # Q10 — comparaison de vitesses
@@ -151,8 +151,8 @@ def engendrer(variante):
     vol = round(math.pi * rc * rc * hc, 1)
     q11 = q(11, 3, 2, "Calcule et arrondis au dixième.", [
         ("", rf"Calcule le volume d'un cylindre de rayon ${rc}$ cm et de hauteur ${hc}$ cm. Donne la réponse avec son unité.",
-         rf"${str(vol).replace('.', '{,}')}$ cm$^3$" "\n\n"
-         rf"$V = \pi \cdot r^2 \cdot h = \pi \cdot {rc*rc} \cdot {hc} = {rc*rc*hc}\pi \approx {str(vol).replace('.', '{,}')}$ cm$^3$."),
+         rf"${str(vol).replace('.', '{,}')}$ $\mathrm{{cm}}^3$" "\n\n"
+         rf"$V = \pi \cdot r^2 \cdot h = \pi \cdot {rc*rc} \cdot {hc} = {rc*rc*hc}\pi \approx {str(vol).replace('.', '{,}')}$ $\mathrm{{cm}}^3$."),
     ])
 
     # Q12 — choix du moule
@@ -170,8 +170,8 @@ def engendrer(variante):
              rf"Il veut fabriquer le plus grand nombre de gâteaux avec ${litres}$ litres de pâte." "\n"
              rf"Quel moule doit-il choisir ? Justifie.",
          rf"Le moule {meilleur}." "\n\n"
-         rf"Moule A : ${arete}^3 = {va}$ cm$^3$. Moule B : ${dims[0]} \cdot {dims[1]} \cdot {dims[2]} = {vb}$ cm$^3$." "\n"
-         rf"${litres}$ litres $= {cm3}$ cm$^3$." "\n"
+         rf"Moule A : ${arete}^3 = {va}$ $\mathrm{{cm}}^3$. Moule B : ${dims[0]} \cdot {dims[1]} \cdot {dims[2]} = {vb}$ $\mathrm{{cm}}^3$." "\n"
+         rf"${litres}$ litres $= {cm3}$ $\mathrm{{cm}}^3$." "\n"
          rf"Avec A : ${cm3} : {va}$ donne ${na}$ gâteaux. Avec B : ${cm3} : {vb}$ donne ${nb}$ gâteaux." "\n"
          rf"Le moule {meilleur} en permet donc davantage."),
     ])

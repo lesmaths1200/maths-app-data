@@ -187,7 +187,7 @@ def engendrer(variante):
     aire13 = F(D13 * d13, 2)
     aff_aire = str(aire13) if aire13.denominator == 1 else str(float(aire13)).replace(".", "{,}")
     q13 = q(13, 3, 2, "Calcule.", [
-        ("", rf"Un losange a une aire de ${aff_aire}$ cm$^2$ et sa grande diagonale mesure ${D13}$ cm." "\n"
+        ("", rf"Un losange a une aire de ${aff_aire}$ $\mathrm{{cm}}^2$ et sa grande diagonale mesure ${D13}$ cm." "\n"
              rf"Calcule la longueur de sa petite diagonale.",
          rf"${d13}$ cm" "\n\n"
          rf"L'aire d'un losange vaut $\frac{{D \cdot d}}{{2}}$." "\n"

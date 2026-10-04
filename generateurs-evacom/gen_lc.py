@@ -3,8 +3,14 @@
 import random
 from fractions import Fraction as F
 
-TRIPLETS = [(3,4,5),(6,8,10),(9,12,15),(5,12,13),(8,15,17),(7,24,25),(20,21,29),
-            (9,40,41),(12,35,37),(10,24,26),(15,20,25),(24,32,40),(16,30,34),(14,48,50)]
+TRIPLETS = [
+    (3, 4, 5), (5, 12, 13), (6, 8, 10), (7, 24, 25), (8, 15, 17), (9, 12, 15),
+    (9, 40, 41), (10, 24, 26), (11, 60, 61), (12, 16, 20), (12, 35, 37), (14, 48, 50),
+    (15, 20, 25), (15, 36, 39), (16, 30, 34), (18, 24, 30), (20, 21, 29), (20, 48, 52),
+    (21, 28, 35), (24, 32, 40), (24, 45, 51), (25, 60, 65), (27, 36, 45), (28, 45, 53),
+    (30, 40, 50), (32, 60, 68), (33, 44, 55), (33, 56, 65), (36, 48, 60), (39, 52, 65),
+    (40, 42, 58), (42, 56, 70), (45, 60, 75), (48, 55, 73),
+]
 CARRES = [4,9,16,25,36,49,64,81,100,121,144]
 
 def fr(n, d): return rf"\frac{{{n}}}{{{d}}}"
@@ -85,8 +91,8 @@ def engendrer(variante):
     ])
 
     # Q5 — développer avec identité remarquable
-    m, n = r.randint(2, 6), r.randint(2, 9)
-    dec2 = r.randint(2, 9)
+    m, n = r.randint(2, 9), r.randint(2, 12)
+    dec2 = r.randint(2, 15)
     q5 = q(5, 2, 1, "Développe, puis donne la réponse sous forme réduite.", [
         ("", rf"$(x - {dec2}) + ({m}x + {n})({m}x - {n}) =$",
          rf"${m*m}x^2 + x - {dec2 + n*n}$" "\n\n"
@@ -95,7 +101,7 @@ def engendrer(variante):
     ])
 
     # Q6 — aire par polynôme
-    coef, cst6 = r.randint(2, 4), r.randint(3, 9)
+    coef, cst6 = r.randint(2, 7), r.randint(3, 15)
     q6 = q(6, 3, 1, "Exprime l'aire à l'aide d'un polynôme réduit.", [
         ("", rf"Un grand rectangle mesure $({coef}x + {cst6})$ de long et $x$ de large. "
              rf"On y découpe un carré de côté $x$, que l'on retire." "\n"
@@ -107,7 +113,7 @@ def engendrer(variante):
     ])
 
     # Q7 — problème des billes
-    don = r.randint(2, 6)
+    don = 2 + (variante - 1) % 10
     # l + don = t - don  →  t = l + 2*don ;  t + don = 2(l - don)  →  l = 4*don + ... 
     # l + 2don + don = 2l - 2don  →  l = 5*don
     l_, t_ = 5*don, 7*don
@@ -126,12 +132,54 @@ def engendrer(variante):
          rf"Vérification : ${l_} + {don} = {l_+don}$ et ${t_} - {don} = {t_-don}$ ✓."),
     ])
 
+    enonces8 = [
+        ("Si le carré du plus grand côté d'un triangle est égal à la somme des carrés "
+         "des deux autres, alors ce triangle est ______ . C'est la ______ du théorème "
+         "de Pythagore.",
+         "rectangle, puis réciproque",
+         "La réciproque permet de démontrer qu'un triangle est rectangle à partir de "
+         "ses seules longueurs."),
+        ("Dans un triangle rectangle, le côté opposé à l'angle droit s'appelle "
+         "l'______ . Les deux autres sont les ______ .",
+         "hypoténuse, puis cathètes",
+         "L'hypoténuse est toujours le plus long des trois côtés."),
+        ("Un triangle dont deux côtés ont la même longueur est dit ______ . "
+         "S'il a un angle droit, il est aussi ______ .",
+         "isocèle, puis rectangle",
+         "Un triangle peut être à la fois isocèle et rectangle : ses deux cathètes "
+         "sont alors égales."),
+        ("Le théorème de Pythagore permet de calculer une longueur manquante dans un "
+         "triangle ______ . Sa ______ permet, elle, de prouver qu'un triangle l'est.",
+         "rectangle, puis réciproque",
+         "Le théorème calcule ; la réciproque démontre."),
+        ("Dans un triangle rectangle, la somme des carrés des ______ est égale au "
+         "carré de l'______ .",
+         "cathètes, puis hypoténuse",
+         "C'est l'énoncé même du théorème de Pythagore."),
+        ("Un triangle qui a deux côtés égaux est ______ . Si ces deux côtés sont les "
+         "cathètes, il est de plus ______ .",
+         "isocèle, puis rectangle",
+         "Ses deux angles aigus valent alors chacun 45 degrés."),
+        ("Pour vérifier qu'un mur est bien d'équerre, on utilise la ______ du théorème "
+         "de Pythagore : si l'égalité est vérifiée, l'angle est droit et le triangle "
+         "est ______ .",
+         "réciproque, puis rectangle",
+         "C'est le principe de la règle 3-4-5 employée sur les chantiers."),
+        ("L'______ est le plus long côté d'un triangle ______ : elle est opposée à "
+         "l'angle droit.",
+         "hypoténuse, puis rectangle",
+         "Les deux autres côtés, plus courts, sont les cathètes."),
+        ("Si le carré du plus grand côté est différent de la somme des carrés des deux "
+         "autres, alors le triangle n'est pas ______ . C'est encore la ______ de "
+         "Pythagore qui le dit.",
+         "rectangle, puis réciproque",
+         "La réciproque sert autant à démontrer qu'à réfuter."),
+    ]
+    enonce8, rep8, just8 = enonces8[(variante - 1) % len(enonces8)]
     q8 = q(8, 2, 2, "Complète avec les mots qui conviennent.", [
         ("", "Mots proposés : hypoténuse  ·  cathètes  ·  rectangle  ·  isocèle  ·  réciproque\n\n"
-             "Si le carré du plus grand côté d'un triangle est égal à la somme des carrés des deux autres, "
-             "alors ce triangle est ______ . C'est la ______ du théorème de Pythagore.",
-         "rectangle, puis réciproque\n\n"
-         "La réciproque permet de démontrer qu'un triangle est rectangle à partir de ses seules longueurs."),
+             + enonce8,
+         f"{rep8}\n\n{just8}"),
     ])
 
     # Q9 — substitution
@@ -146,7 +194,7 @@ def engendrer(variante):
     ])
 
     # Q10 — périmètres égaux
-    dec10, cote = r.randint(1, 5), r.randint(4, 9)
+    dec10, cote = 1 + (variante - 1) % 5, 4 + (variante * 3) % 9
     # 2(x+dec) + 2*cote = 6x  →  2x + 2dec + 2cote = 6x  →  x = (2dec+2cote)/4
     x10 = F(2*dec10 + 2*cote, 4)
     while x10.denominator != 1:
@@ -186,7 +234,7 @@ def engendrer(variante):
     ])
 
     # Q13 — losange
-    D13 = r.choice([10, 12, 14, 16, 18, 20]); d13 = r.choice([6, 8, 9, 12, 15])
+    D13 = r.choice([10, 12, 14, 16, 18, 20, 22, 24, 26, 28]); d13 = r.choice([6, 7, 8, 9, 11, 12, 13, 15, 16, 18])
     aire13 = F(D13 * d13, 2)
     aff_aire = str(aire13) if aire13.denominator == 1 else str(float(aire13)).replace(".", "{,}")
     q13 = q(13, 3, 2, "Calcule.", [

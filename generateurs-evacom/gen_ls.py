@@ -3,11 +3,20 @@
 import random, math
 from fractions import Fraction as F
 
-TRIPLETS = [(3,4,5),(6,8,10),(9,12,15),(5,12,13),(8,15,17),(7,24,25),(20,21,29),
-            (9,40,41),(12,35,37),(10,24,26),(15,20,25),(24,32,40),(16,30,34)]
+TRIPLETS = [
+    (3, 4, 5), (5, 12, 13), (6, 8, 10), (7, 24, 25), (8, 15, 17), (9, 12, 15),
+    (9, 40, 41), (10, 24, 26), (11, 60, 61), (12, 16, 20), (12, 35, 37), (14, 48, 50),
+    (15, 20, 25), (15, 36, 39), (16, 30, 34), (18, 24, 30), (20, 21, 29), (20, 48, 52),
+    (21, 28, 35), (24, 32, 40), (24, 45, 51), (25, 60, 65), (27, 36, 45), (28, 45, 53),
+    (30, 40, 50), (32, 60, 68), (33, 44, 55), (33, 56, 65), (36, 48, 60), (39, 52, 65),
+    (40, 42, 58), (42, 56, 70), (45, 60, 75), (48, 55, 73),
+]
 CARRES = [4,9,16,25,36,49,64,81,100,121,144]
 
 def fr(n, d): return rf"\frac{{{n}}}{{{d}}}"
+def coef(k):
+    """« 1x » s'écrit « x », « -1x » s'écrit « -x »."""
+    return "" if k == 1 else ("-" if k == -1 else str(k))
 def frac(x): return fr(x.numerator, x.denominator) if x.denominator != 1 else str(x.numerator)
 def virg(x, n):
     return f"{x:.{n}f}".replace(".", "{,}")
@@ -99,33 +108,70 @@ def engendrer(variante):
     ])
 
     # Q6 — transformer une formule
-    choix = r.choice([
+    formules6 = [
         (r"V = \frac{\pi r^2 h}{3}", "le volume d'un cône", "h", r"h = \frac{3V}{\pi r^2}",
          r"On multiplie les deux membres par $3$ : $3V = \pi r^2 h$, puis on divise par $\pi r^2$."),
         (r"A = \frac{(B + b) \cdot h}{2}", "l'aire d'un trapèze", "h", r"h = \frac{2A}{B + b}",
          r"On multiplie par $2$ : $2A = (B+b) \cdot h$, puis on divise par $B+b$."),
         (r"V = \frac{\mathcal{B} \cdot h}{3}", "le volume d'une pyramide", r"\mathcal{B}", r"\mathcal{B} = \frac{3V}{h}",
          r"On multiplie par $3$ : $3V = \mathcal{B} \cdot h$, puis on divise par $h$."),
-    ])
+        (r"V = \frac{4\pi r^3}{3}", "le volume d'une boule", "r^3", r"r^3 = \frac{3V}{4\pi}",
+         r"On multiplie par $3$ : $3V = 4\pi r^3$, puis on divise par $4\pi$."),
+        (r"A = \pi r^2", "l'aire d'un disque", "r^2", r"r^2 = \frac{A}{\pi}",
+         r"On divise les deux membres par $\pi$."),
+        (r"P = 2\pi r", "le périmètre d'un cercle", "r", r"r = \frac{P}{2\pi}",
+         r"On divise les deux membres par $2\pi$."),
+        (r"V = \mathcal{B} \cdot h", "le volume d'un prisme droit", r"\mathcal{B}", r"\mathcal{B} = \frac{V}{h}",
+         r"On divise les deux membres par $h$."),
+        (r"A = \frac{D \cdot d}{2}", "l'aire d'un losange", "d", r"d = \frac{2A}{D}",
+         r"On multiplie par $2$ : $2A = D \cdot d$, puis on divise par $D$."),
+        (r"A = c^2", "l'aire d'un carré", "c", r"c = \sqrt{A}",
+         r"On prend la racine carrée des deux membres, le côté étant positif."),
+        (r"V = \frac{\pi d^2 h}{4}", "le volume d'un cylindre à partir de son diamètre",
+         "h", r"h = \frac{4V}{\pi d^2}",
+         r"On multiplie par $4$ : $4V = \pi d^2 h$, puis on divise par $\pi d^2$."),
+    ]
+    choix = formules6[(variante - 1) % len(formules6)]
     q6 = q(6, 2, 1, "Transforme la formule.", [
         ("", rf"${choix[0]}$ donne {choix[1]}." "\n" rf"Exprime ${choix[2]}$ en fonction des autres grandeurs.",
          rf"${choix[3]}$" "\n\n" + choix[4]),
     ])
 
     # Q7 — aire par polynôme
-    c7 = r.randint(3, 9)
-    q7 = q(7, 4, 1, "Exprime l'aire à l'aide d'un polynôme réduit.", [
-        ("", rf"Un carré a pour côté $(x + {c7})$. On y découpe, dans un coin, un carré de côté $x$ "
-             rf"que l'on retire." "\n"
-             rf"Exprime l'aire $A$ de la surface restante à l'aide d'un polynôme réduit.",
-         rf"$A = {2*c7}x + {c7*c7}$" "\n\n"
+    c7 = r.randint(3, 12)
+    k7 = r.randint(2, 5)
+    figures7 = [
+        (rf"Un carré a pour côté $(x + {c7})$. On y découpe, dans un coin, un carré de "
+         rf"côté $x$ que l'on retire.",
+         rf"$A = {2*c7}x + {c7*c7}$",
          rf"Grand carré : $(x+{c7})^2 = x^2 + {2*c7}x + {c7*c7}$." "\n"
          rf"Carré retiré : $x^2$." "\n"
-         rf"Différence : $x^2 + {2*c7}x + {c7*c7} - x^2 = {2*c7}x + {c7*c7}$."),
+         rf"Différence : ${2*c7}x + {c7*c7}$."),
+        (rf"Un rectangle mesure $({k7}x + {c7})$ de long et $x$ de large. On y découpe un "
+         rf"carré de côté $x$ que l'on retire.",
+         rf"$A = {coef(k7-1)}x^2 + {c7}x$",
+         rf"Rectangle : $x({k7}x + {c7}) = {k7}x^2 + {c7}x$." "\n"
+         rf"Carré retiré : $x^2$." "\n"
+         rf"Différence : ${coef(k7-1)}x^2 + {c7}x$."),
+        (rf"Un carré de côté $(x + {c7})$ est accolé à un rectangle de $x$ sur ${k7}$.",
+         rf"$A = x^2 + {2*c7+k7}x + {c7*c7}$",
+         rf"Carré : $(x+{c7})^2 = x^2 + {2*c7}x + {c7*c7}$." "\n"
+         rf"Rectangle : ${k7}x$." "\n"
+         rf"Somme : $x^2 + {2*c7+k7}x + {c7*c7}$."),
+        (rf"D'un rectangle de $({k7}x + {c7})$ sur ${k7}$, on retire un carré de côté ${k7}$.",
+         rf"$A = {k7*k7}x + {k7*c7 - k7*k7}$",
+         rf"Rectangle : ${k7}({k7}x + {c7}) = {k7*k7}x + {k7*c7}$." "\n"
+         rf"Carré retiré : ${k7*k7}$." "\n"
+         rf"Différence : ${k7*k7}x + {k7*c7 - k7*k7}$."),
+    ]
+    enonce7, rep7, just7 = figures7[(variante - 1) % len(figures7)]
+    q7 = q(7, 4, 1, "Exprime l'aire à l'aide d'un polynôme réduit.", [
+        ("", enonce7 + "\n" + "Exprime l'aire $A$ de la surface obtenue à l'aide d'un polynôme réduit.",
+         rep7 + "\n\n" + just7),
     ])
 
     # Q8 — tour de magie
-    ajout = r.randint(3, 12); mult8 = r.randint(2, 5)
+    ajout = r.randint(3, 19); mult8 = r.randint(2, 7)
     q8 = q(8, 3, 2, "Résous le problème.", [
         ("", rf"Un magicien demande à une spectatrice de penser à un nombre, d'y ajouter ${ajout}$, "
              rf"de multiplier le résultat par ${mult8}$, puis de retrancher ${mult8}$ fois le nombre de départ." "\n"
@@ -173,7 +219,7 @@ def engendrer(variante):
     ])
 
     # Q11 — volume composé cylindre + demi-boule
-    r11, h11 = r.randint(2, 7), r.randint(6, 15)
+    r11, h11 = r.randint(2, 9), r.randint(6, 20)
     vol11 = math.pi*r11*r11*h11 + 0.5*(4*math.pi*r11**3/3)
     coef_cyl, coef_demi = r11*r11*h11, F(2*r11**3, 3)
     q11 = q(11, 6, 2, "Calcule et arrondis au centième.", [

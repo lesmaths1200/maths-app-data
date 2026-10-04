@@ -60,8 +60,33 @@ def verifier(e):
     k5, ks = ints(s5[3]["enonce"])[:2]; m5, s5v = ints(tete(s5[3]))[:2]
     if not all((k5*x*x - ks == m5*(x+s5v)*(x-s5v) for x in xs)): p.append("Q5d")
 
-    sq = Q[7]["sousQuestions"][0]; c7 = ints(sq["enonce"])[0]; d7, e7 = ints(tete(sq))[:2]
-    if not all(((x+c7)**2 - x*x == d7*x + e7 for x in xs)): p.append("Q7")
+    # Quatre figures possibles : on reconnaît laquelle, on recompose son aire,
+    # puis on la compare au polynôme annoncé, évalué sur plusieurs x.
+    sq = Q[7]["sousQuestions"][0]; t = sq["enonce"]; n = ints(t)
+    tete7 = tete(sq).replace("$A = ", "").replace("$", "")
+    def polynome(txt):
+        """Coefficients (a, b, c) de a·x² + b·x + c, lus sur le texte."""
+        a = b = c = 0
+        for m in re.finditer(r"([+-]?)\s*(\d*)(x\^2|x|)\b", txt.replace(" ", "")):
+            signe, nombre, partie = m.groups()
+            if not nombre and not partie: continue
+            k = int(nombre or 1) * (-1 if signe == "-" else 1)
+            if partie == "x^2": a += k
+            elif partie == "x": b += k
+            else: c += k
+        return a, b, c
+    annonce = polynome(tete7)
+    if "dans un coin" in t and "carré a pour côté" in t:
+        attendu = (0, 2*n[0], n[0]**2)
+    elif "rectangle mesure" in t:
+        attendu = (n[0]-1, n[1], 0)
+    elif "accolé" in t:
+        attendu = (1, 2*n[0]+n[1], n[0]**2)
+    else:
+        k, c0 = n[0], n[1]
+        attendu = (0, k*k, k*c0 - k*k)
+    if annonce != attendu:
+        p.append(f"Q7 : annoncé {annonce}, calculé {attendu} sur « {t[:46]}… »")
 
     # Q8 tour de magie
     sq = Q[8]["sousQuestions"][0]; aj, mu = ints(sq["enonce"])[:2]

@@ -3,8 +3,14 @@
 import random
 from fractions import Fraction as F
 
-TRIPLETS = [(3,4,5),(6,8,10),(9,12,15),(5,12,13),(8,15,17),(7,24,25),(20,21,29),
-            (9,40,41),(12,35,37),(10,24,26),(15,20,25),(18,24,30),(16,30,34),(14,48,50)]
+TRIPLETS = [
+    (3, 4, 5), (5, 12, 13), (6, 8, 10), (7, 24, 25), (8, 15, 17), (9, 12, 15),
+    (9, 40, 41), (10, 24, 26), (11, 60, 61), (12, 16, 20), (12, 35, 37), (14, 48, 50),
+    (15, 20, 25), (15, 36, 39), (16, 30, 34), (18, 24, 30), (20, 21, 29), (20, 48, 52),
+    (21, 28, 35), (24, 32, 40), (24, 45, 51), (25, 60, 65), (27, 36, 45), (28, 45, 53),
+    (30, 40, 50), (32, 60, 68), (33, 44, 55), (33, 56, 65), (36, 48, 60), (39, 52, 65),
+    (40, 42, 58), (42, 56, 70), (45, 60, 75), (48, 55, 73),
+]
 
 def fr(n, d): return rf"\frac{{{n}}}{{{d}}}"
 
@@ -33,7 +39,7 @@ def engendrer(variante):
     ])
 
     # Q2 — fractions, produit et quotient
-    n1, d1 = r.choice([(8,15),(9,14),(10,21),(12,25),(14,15),(6,35)])
+    n1, d1 = [(8,15),(9,14),(10,21),(12,25),(14,15),(6,35),(15,22),(21,20),(16,27),(25,14)][(variante - 1) % 10]
     n2, d2 = r.choice([(5,12),(3,7),(7,8),(5,9),(9,10),(7,12)])
     p, qt = F(n1,d1)*F(n2,d2), F(n1,d1)/F(n2,d2)
     q2 = q(2, 4, 1, "Calcule et donne la réponse sous forme d'une fraction irréductible.", [
@@ -58,10 +64,17 @@ def engendrer(variante):
     ])
 
     # Q4 — solides (l'ordre des descriptions change d'une épreuve à l'autre)
-    solides = [("le cube", "Six faces carrées."),
-               ("le pavé droit", "Six faces rectangulaires, huit sommets et douze arêtes."),
-               ("le cylindre", "Deux bases circulaires identiques et parallèles, reliées par une surface courbe."),
-               ("la pyramide à base carrée", "Une base carrée et quatre faces triangulaires qui se rejoignent en un sommet.")]
+    catalogue = [
+        ("le cube", "Six faces carrées."),
+        ("le pavé droit", "Six faces rectangulaires, huit sommets et douze arêtes."),
+        ("le cylindre", "Deux bases circulaires identiques et parallèles, reliées par une surface courbe."),
+        ("la pyramide à base carrée", "Une base carrée et quatre faces triangulaires qui se rejoignent en un sommet."),
+        ("le cône", "Une base circulaire et une pointe, reliées par une surface courbe."),
+        ("la boule", "Aucune face plane, aucun sommet, aucune arête."),
+        ("le prisme à base triangulaire", "Deux bases triangulaires identiques et trois faces rectangulaires."),
+        ("la pyramide à base triangulaire", "Quatre faces triangulaires, quatre sommets et six arêtes."),
+    ]
+    solides = r.sample(catalogue, 4)
     ordre = list(range(4)); r.shuffle(ordre)
     lettres = "abcd"
     liste = "  ·  ".join(f"{lettres[i]}) {solides[i][0]}" for i in range(4))
@@ -90,10 +103,18 @@ def engendrer(variante):
     ])
 
     # Q6 — Pythagore, vocabulaire et égalité
-    sommets = r.choice([("A","B","C"), ("K","L","M"), ("P","Q","R"), ("D","E","F")])
+    listeSommets = [("A","B","C"), ("K","L","M"), ("P","Q","R"), ("D","E","F"),
+                        ("E","F","G"), ("M","N","P"), ("R","S","T"), ("U","V","W"),
+                        ("A","C","E"), ("B","D","F"), ("H","I","J"), ("L","M","N")]
+    sommets = listeSommets[(variante - 1) % len(listeSommets)]
     X, Y, Z = sommets  # angle droit en Y, hypoténuse XZ
     q6 = q(6, 4, 1, "Le théorème de Pythagore.", [
-        ("a", "Complète : le théorème de Pythagore s'applique uniquement dans un triangle ______.",
+        ("a", r.choice([
+            "Complète : le théorème de Pythagore s'applique uniquement dans un triangle ______.",
+            "Complète : dans un triangle rectangle, le côté opposé à l'angle droit s'appelle l'______.",
+            "Complète : dans un triangle rectangle, les deux côtés de l'angle droit s'appellent les ______.",
+            "Complète : l'hypoténuse est toujours le côté le plus ______ d'un triangle rectangle.",
+         ]) if False else "Complète : le théorème de Pythagore s'applique uniquement dans un triangle ______.",
          "rectangle\n\nIl relie les deux cathètes à l'hypoténuse d'un triangle rectangle."),
         ("b", rf"Dans un triangle ${X}{Y}{Z}$ rectangle en ${Y}$, coche la seule égalité correcte." "\n"
               rf"1. ${X}{Y}^2 + {Y}{Z}^2 = {X}{Z}^2$" "\n"

@@ -1,0 +1,10 @@
+{
+  "_commentaire": "Dates des épreuves officielles. Modifiables sans nouvelle version de l'app : elle relit ce fichier à chaque ouverture. Retirer une entrée fait disparaître son compte à rebours.",
+  "examens": [
+    {
+      "code": "TAF",
+      "nom": "TAF de mathématiques",
+      "date": "2027-03-11"
+    }
+  ]
+}

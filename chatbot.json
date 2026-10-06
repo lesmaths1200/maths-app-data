@@ -40,7 +40,7 @@
         },
         {
           "cle": "simplification",
-          "texte": "Pour simplifier une fraction :\n\n1️⃣ Trouve le PGCD du numérateur et dénominateur\n2️⃣ Divise les deux par le PGCD\n\n📌 Exemple : $\\frac{12}{18}$\n\n• PGCD(12, 18) = 6\n• $\\frac{12 \\div 6}{18 \\div 6} = \\frac{2}{3}$"
+          "texte": "Pour simplifier une fraction :\n\n1️⃣ Trouve le PGDC du numérateur et dénominateur\n2️⃣ Divise les deux par le PGDC\n\n📌 Exemple : $\\frac{12}{18}$\n\n• PGDC(12, 18) = 6\n• $\\frac{12 \\div 6}{18 \\div 6} = \\frac{2}{3}$"
         }
       ],
       "exercices": [
@@ -56,7 +56,7 @@
         },
         {
           "question": "Simplifie : $\\frac{12}{18}$",
-          "reponse": "Solution :\nPGCD(12, 18) = 6\n$\\frac{12}{18} = \\frac{2}{3}$",
+          "reponse": "Solution :\nPGDC(12, 18) = 6\n$\\frac{12}{18} = \\frac{2}{3}$",
           "reponseCourte": "$\\frac{2}{3}$",
           "distracteurs": [
             "$\\frac{3}{2}$",
@@ -126,7 +126,7 @@
         },
         {
           "question": "Simplifie : $\\frac{18}{24}$",
-          "reponse": "Solution :\nPGCD(18,24)=6\n$\\frac{18}{24} = \\frac{3}{4}$",
+          "reponse": "Solution :\nPGDC(18,24)=6\n$\\frac{18}{24} = \\frac{3}{4}$",
           "reponseCourte": "$\\frac{3}{4}$",
           "distracteurs": [
             "$\\frac{4}{3}$",
@@ -326,7 +326,7 @@
         },
         {
           "question": "Simplifie : $\\frac{42}{56}$",
-          "reponse": "Solution :\nPGCD$(42{,}56) = 14$\n$\\frac{42 \\div 14}{56 \\div 14} = \\frac{3}{4}$",
+          "reponse": "Solution :\nPGDC$(42{,}56) = 14$\n$\\frac{42 \\div 14}{56 \\div 14} = \\frac{3}{4}$",
           "reponseCourte": "$\\frac{3}{4}$",
           "distracteurs": [
             "$\\frac{4}{3}$",
@@ -2157,12 +2157,12 @@
           "reponse": "Solution :\nSomme des chiffres : $5 + 8 + 5 = 18$\n18 est divisible par 9\nDonc 585 est divisible par 9"
         },
         {
-          "question": "Détermine le PGCD de 24 et 36.",
-          "reponse": "Solution :\nDiviseurs de 24 : 1, 2, 3, 4, 6, 8, 12, 24\nDiviseurs de 36 : 1, 2, 3, 4, 6, 9, 12, 18, 36\nPGCD(24, 36) = 12"
+          "question": "Détermine le PGDC de 24 et 36.",
+          "reponse": "Solution :\nDiviseurs de 24 : 1, 2, 3, 4, 6, 8, 12, 24\nDiviseurs de 36 : 1, 2, 3, 4, 6, 9, 12, 18, 36\nPGDC(24, 36) = 12"
         },
         {
-          "question": "Détermine le PPCM de 6 et 8.",
-          "reponse": "Solution :\nMultiples de 6 : 6, 12, 18, 24, 30...\nMultiples de 8 : 8, 16, 24, 32...\nPPCM(6, 8) = 24"
+          "question": "Détermine le PPMC de 6 et 8.",
+          "reponse": "Solution :\nMultiples de 6 : 6, 12, 18, 24, 30...\nMultiples de 8 : 8, 16, 24, 32...\nPPMC(6, 8) = 24"
         },
         {
           "question": "Décompose 72 en produit de facteurs premiers.",
@@ -2185,16 +2185,16 @@
           "reponse": "Solution :\n$60 = 2 \\times 30 = 2 \\times 2 \\times 15 = 2 \\times 2 \\times 3 \\times 5$\n$60 = 2^2 \\times 3 \\times 5$"
         },
         {
-          "question": "Quel est le PGCD de $18$ et $24$ ?",
-          "reponse": "Solution :\nDiviseurs de $18$ : $1, 2, 3, 6, 9, 18$\nDiviseurs de $24$ : $1, 2, 3, 4, 6, 8, 12, 24$\nPGCD $= 6$"
+          "question": "Quel est le PGDC de $18$ et $24$ ?",
+          "reponse": "Solution :\nDiviseurs de $18$ : $1, 2, 3, 6, 9, 18$\nDiviseurs de $24$ : $1, 2, 3, 4, 6, 8, 12, 24$\nPGDC $= 6$"
         },
         {
           "question": "$91$ est-il un nombre premier ?",
           "reponse": "Solution :\n$91 = 7 \\times 13$\nNon, $91$ n'est pas premier."
         },
         {
-          "question": "Quel est le PPCM de $4$ et $6$ ?",
-          "reponse": "Solution :\nMultiples de $4$ : $4, 8, 12, ...$\nMultiples de $6$ : $6, 12, ...$\nPPCM $= 12$"
+          "question": "Quel est le PPMC de $4$ et $6$ ?",
+          "reponse": "Solution :\nMultiples de $4$ : $4, 8, 12, ...$\nMultiples de $6$ : $6, 12, ...$\nPPMC $= 12$"
         }
       ]
     },

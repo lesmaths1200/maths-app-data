@@ -11,7 +11,7 @@ id;titre;type;theme;dossier;fichier
 8;Géométrie 1 — vocabulaire;Cours;Géométrie;cours;geom1.pdf
 9;Géométrie 2 — les angles;Cours;Géométrie;cours;geom2.pdf
 10;Géométrie 3 — aires et volumes;Cours;Géométrie;cours;geom3.pdf
-11;Pourcentages et échelles;Cours;Proportionnalité;cours;ppe.pdf
+11;Proportionnalité et pourcentages;Cours;Proportionnalité;cours;ppe.pdf
 12;Calcul littéral;Cours;Algèbre;cours;calclitt.pdf
 13;Théorème de Pythagore;Cours;Géométrie;cours;Pythagore.pdf
 14;Nombres premiers;Cours;Nombres;cours;nbprem.pdf
@@ -29,7 +29,7 @@ id;titre;type;theme;dossier;fichier
 24;Géométrie 1 — vocabulaire;Exercice;Géométrie;exercices;geom1.pdf
 25;Géométrie 2 — les angles;Exercice;Géométrie;exercices;geom2.pdf
 26;Géométrie 3 — aires et volumes;Exercice;Géométrie;exercices;geom3.pdf
-27;Pourcentages et échelles;Exercice;Proportionnalité;exercices;ppe.pdf
+27;Proportionnalité et pourcentages;Exercice;Proportionnalité;exercices;ppe.pdf
 28;Calcul littéral;Exercice;Algèbre;exercices;calclitt.pdf
 29;Théorème de Pythagore;Exercice;Géométrie;exercices;Pythagore.pdf
 30;Nombres premiers;Exercice;Nombres;exercices;nbprem.pdf

@@ -14,7 +14,10 @@ def ints(t):
 
 def verifier(e):
     p = []
-    Q = {q["numero"]: q for q in e["questions"]}
+    # La question de complément décale les numéros : on réindexe sur les
+    # seules questions du squelette d'origine.
+    originales = [q for q in e["questions"] if not q.get("complement")]
+    Q = {i + 1: q for i, q in enumerate(originales)}
     xs = [F(-5), F(-1,2), F(0), F(2,3), F(4), F(9)]
 
     # Q1 racines et somme de fractions

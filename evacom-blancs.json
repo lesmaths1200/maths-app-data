@@ -191,6 +191,26 @@
         {
           "numero": 8,
           "points": 3,
+          "partie": 1,
+          "theme": "Fractions",
+          "complement": true,
+          "consigne": "Calcule et donne la réponse sous forme d'une fraction irréductible.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\frac{5}{6} + \\frac{3}{10} =$",
+              "reponse": "$\\frac{17}{15}$\n\nAu dénominateur commun, la somme vaut $\\frac{17}{15}$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\frac{5}{6} - \\frac{3}{10} =$",
+              "reponse": "$\\frac{8}{15}$\n\nMême dénominateur commun, puis on soustrait les numérateurs."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 3,
           "partie": 2,
           "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
@@ -203,7 +223,7 @@
           ]
         },
         {
-          "numero": 9,
+          "numero": 10,
           "points": 3,
           "partie": 2,
           "theme": "Équations",
@@ -217,7 +237,7 @@
           ]
         },
         {
-          "numero": 10,
+          "numero": 11,
           "points": 5,
           "partie": 2,
           "theme": "Solides",
@@ -236,7 +256,7 @@
           ]
         },
         {
-          "numero": 11,
+          "numero": 12,
           "points": 6,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -250,7 +270,7 @@
           ]
         },
         {
-          "numero": 12,
+          "numero": 13,
           "points": 4,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -264,7 +284,7 @@
           ]
         },
         {
-          "numero": 13,
+          "numero": 14,
           "points": 3,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -278,8 +298,8 @@
           ]
         }
       ],
-      "totalPoints": 51,
-      "pointsPartie1": 27,
+      "totalPoints": 54,
+      "pointsPartie1": 30,
       "pointsPartie2": 24
     },
     {
@@ -443,6 +463,21 @@
         {
           "numero": 8,
           "points": 3,
+          "partie": 1,
+          "theme": "Angles",
+          "complement": true,
+          "consigne": "Résous le problème.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un triangle $ABC$ est isocèle en $A$. Ses angles à la base mesurent $48^\\circ$.\na) Calcule l'angle au sommet $\\widehat{A}$.\nb) Ce triangle peut-il être rectangle ? Justifie.",
+              "reponse": "a) $84^\\circ$\n\nLa somme des angles vaut $180^\\circ$ : $\\widehat{A} = 180^\\circ - 48^\\circ - 48^\\circ = 84^\\circ$.\n\nb) Non : aucun de ses angles ne mesure $90^\\circ$. Il le serait si les angles à la base valaient $45^\\circ$."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 3,
           "partie": 2,
           "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
@@ -455,7 +490,7 @@
           ]
         },
         {
-          "numero": 9,
+          "numero": 10,
           "points": 3,
           "partie": 2,
           "theme": "Équations",
@@ -469,7 +504,7 @@
           ]
         },
         {
-          "numero": 10,
+          "numero": 11,
           "points": 5,
           "partie": 2,
           "theme": "Solides",
@@ -488,7 +523,7 @@
           ]
         },
         {
-          "numero": 11,
+          "numero": 12,
           "points": 6,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -502,7 +537,7 @@
           ]
         },
         {
-          "numero": 12,
+          "numero": 13,
           "points": 4,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -516,7 +551,7 @@
           ]
         },
         {
-          "numero": 13,
+          "numero": 14,
           "points": 3,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -530,8 +565,8 @@
           ]
         }
       ],
-      "totalPoints": 51,
-      "pointsPartie1": 27,
+      "totalPoints": 54,
+      "pointsPartie1": 30,
       "pointsPartie2": 24
     },
     {
@@ -780,11 +815,26 @@
               "reponse": "Oui, rectangle en $F$.\n\nLe plus grand côté est $EG = 73$.\n$48^2 + 55^2 = 2304 + 3025 = 5329$ et $73^2 = 5329$.\nPar la réciproque du théorème de Pythagore, le triangle est rectangle, et l'angle droit est opposé à $[EG]$, donc en $F$."
             }
           ]
+        },
+        {
+          "numero": 14,
+          "points": 3,
+          "partie": 2,
+          "theme": "Pourcentages",
+          "complement": true,
+          "consigne": "Résous le problème.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un article coûte CHF $120$. Le magasin applique une réduction de $10\\%$.\na) Quel est le montant de la réduction ?\nb) Quel est le prix à payer ?",
+              "reponse": "a) CHF $12$\n\n$\\frac{10}{100} \\cdot 120 = 12${,}\n\nb) CHF $108$\n\n$120 - 12 = 108$, ou directement $120 \\cdot 0{,}90 = 108$."
+            }
+          ]
         }
       ],
-      "totalPoints": 51,
+      "totalPoints": 54,
       "pointsPartie1": 27,
-      "pointsPartie2": 24
+      "pointsPartie2": 27
     },
     {
       "id": "evacom-ls-4",
@@ -947,6 +997,26 @@
         {
           "numero": 8,
           "points": 3,
+          "partie": 1,
+          "theme": "Nombres relatifs",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$(-22) + (+23) - (-9) =$",
+              "reponse": "$10$\n\n$-22 + 23 + 9 = 10$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$(-9) \\cdot (+9) : (-9) =$",
+              "reponse": "$9$\n\n$(-9) \\cdot (+9) = -81$, puis $-81 : (-9) = 9$."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 3,
           "partie": 2,
           "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
@@ -959,7 +1029,7 @@
           ]
         },
         {
-          "numero": 9,
+          "numero": 10,
           "points": 3,
           "partie": 2,
           "theme": "Équations",
@@ -973,7 +1043,7 @@
           ]
         },
         {
-          "numero": 10,
+          "numero": 11,
           "points": 5,
           "partie": 2,
           "theme": "Solides",
@@ -992,7 +1062,7 @@
           ]
         },
         {
-          "numero": 11,
+          "numero": 12,
           "points": 6,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -1006,7 +1076,7 @@
           ]
         },
         {
-          "numero": 12,
+          "numero": 13,
           "points": 4,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -1020,7 +1090,7 @@
           ]
         },
         {
-          "numero": 13,
+          "numero": 14,
           "points": 3,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -1034,8 +1104,8 @@
           ]
         }
       ],
-      "totalPoints": 51,
-      "pointsPartie1": 27,
+      "totalPoints": 54,
+      "pointsPartie1": 30,
       "pointsPartie2": 24
     },
     {
@@ -1199,6 +1269,26 @@
         {
           "numero": 8,
           "points": 3,
+          "partie": 1,
+          "theme": "Fractions",
+          "complement": true,
+          "consigne": "Calcule et donne la réponse sous forme d'une fraction irréductible.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\frac{5}{6} + \\frac{3}{10} =$",
+              "reponse": "$\\frac{17}{15}$\n\nAu dénominateur commun, la somme vaut $\\frac{17}{15}$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\frac{5}{6} - \\frac{3}{10} =$",
+              "reponse": "$\\frac{8}{15}$\n\nMême dénominateur commun, puis on soustrait les numérateurs."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 3,
           "partie": 2,
           "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
@@ -1211,7 +1301,7 @@
           ]
         },
         {
-          "numero": 9,
+          "numero": 10,
           "points": 3,
           "partie": 2,
           "theme": "Équations",
@@ -1225,7 +1315,7 @@
           ]
         },
         {
-          "numero": 10,
+          "numero": 11,
           "points": 5,
           "partie": 2,
           "theme": "Solides",
@@ -1244,7 +1334,7 @@
           ]
         },
         {
-          "numero": 11,
+          "numero": 12,
           "points": 6,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -1258,7 +1348,7 @@
           ]
         },
         {
-          "numero": 12,
+          "numero": 13,
           "points": 4,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -1272,7 +1362,7 @@
           ]
         },
         {
-          "numero": 13,
+          "numero": 14,
           "points": 3,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -1286,8 +1376,8 @@
           ]
         }
       ],
-      "totalPoints": 51,
-      "pointsPartie1": 27,
+      "totalPoints": 54,
+      "pointsPartie1": 30,
       "pointsPartie2": 24
     },
     {
@@ -1451,6 +1541,21 @@
         {
           "numero": 8,
           "points": 3,
+          "partie": 1,
+          "theme": "Angles",
+          "complement": true,
+          "consigne": "Résous le problème.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un triangle $ABC$ est isocèle en $A$. Ses angles à la base mesurent $35^\\circ$.\na) Calcule l'angle au sommet $\\widehat{A}$.\nb) Ce triangle peut-il être rectangle ? Justifie.",
+              "reponse": "a) $110^\\circ$\n\nLa somme des angles vaut $180^\\circ$ : $\\widehat{A} = 180^\\circ - 35^\\circ - 35^\\circ = 110^\\circ$.\n\nb) Non : aucun de ses angles ne mesure $90^\\circ$. Il le serait si les angles à la base valaient $45^\\circ$."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 3,
           "partie": 2,
           "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
@@ -1463,7 +1568,7 @@
           ]
         },
         {
-          "numero": 9,
+          "numero": 10,
           "points": 3,
           "partie": 2,
           "theme": "Équations",
@@ -1477,7 +1582,7 @@
           ]
         },
         {
-          "numero": 10,
+          "numero": 11,
           "points": 5,
           "partie": 2,
           "theme": "Solides",
@@ -1496,7 +1601,7 @@
           ]
         },
         {
-          "numero": 11,
+          "numero": 12,
           "points": 6,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -1510,7 +1615,7 @@
           ]
         },
         {
-          "numero": 12,
+          "numero": 13,
           "points": 4,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -1524,7 +1629,7 @@
           ]
         },
         {
-          "numero": 13,
+          "numero": 14,
           "points": 3,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -1538,8 +1643,8 @@
           ]
         }
       ],
-      "totalPoints": 51,
-      "pointsPartie1": 27,
+      "totalPoints": 54,
+      "pointsPartie1": 30,
       "pointsPartie2": 24
     },
     {
@@ -1788,11 +1893,26 @@
               "reponse": "Oui, rectangle en $Q$.\n\nLe plus grand côté est $PR = 13$.\n$5^2 + 12^2 = 25 + 144 = 169$ et $13^2 = 169$.\nPar la réciproque du théorème de Pythagore, le triangle est rectangle, et l'angle droit est opposé à $[PR]$, donc en $Q$."
             }
           ]
+        },
+        {
+          "numero": 14,
+          "points": 3,
+          "partie": 2,
+          "theme": "Pourcentages",
+          "complement": true,
+          "consigne": "Résous le problème.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un article coûte CHF $80$. Le magasin applique une réduction de $10\\%$.\na) Quel est le montant de la réduction ?\nb) Quel est le prix à payer ?",
+              "reponse": "a) CHF $8$\n\n$\\frac{10}{100} \\cdot 80 = 8${,}\n\nb) CHF $72$\n\n$80 - 8 = 72$, ou directement $80 \\cdot 0{,}90 = 72$."
+            }
+          ]
         }
       ],
-      "totalPoints": 51,
+      "totalPoints": 54,
       "pointsPartie1": 27,
-      "pointsPartie2": 24
+      "pointsPartie2": 27
     },
     {
       "id": "evacom-ls-8",
@@ -1955,6 +2075,26 @@
         {
           "numero": 8,
           "points": 3,
+          "partie": 1,
+          "theme": "Nombres relatifs",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$(-37) + (+48) - (-6) =$",
+              "reponse": "$17$\n\n$-37 + 48 + 6 = 17$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$(-6) \\cdot (+5) : (-6) =$",
+              "reponse": "$5$\n\n$(-6) \\cdot (+5) = -30$, puis $-30 : (-6) = 5$."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 3,
           "partie": 2,
           "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
@@ -1967,7 +2107,7 @@
           ]
         },
         {
-          "numero": 9,
+          "numero": 10,
           "points": 3,
           "partie": 2,
           "theme": "Équations",
@@ -1981,7 +2121,7 @@
           ]
         },
         {
-          "numero": 10,
+          "numero": 11,
           "points": 5,
           "partie": 2,
           "theme": "Solides",
@@ -2000,7 +2140,7 @@
           ]
         },
         {
-          "numero": 11,
+          "numero": 12,
           "points": 6,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -2014,7 +2154,7 @@
           ]
         },
         {
-          "numero": 12,
+          "numero": 13,
           "points": 4,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -2028,7 +2168,7 @@
           ]
         },
         {
-          "numero": 13,
+          "numero": 14,
           "points": 3,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -2042,8 +2182,8 @@
           ]
         }
       ],
-      "totalPoints": 51,
-      "pointsPartie1": 27,
+      "totalPoints": 54,
+      "pointsPartie1": 30,
       "pointsPartie2": 24
     },
     {
@@ -2207,6 +2347,26 @@
         {
           "numero": 8,
           "points": 3,
+          "partie": 1,
+          "theme": "Fractions",
+          "complement": true,
+          "consigne": "Calcule et donne la réponse sous forme d'une fraction irréductible.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\frac{7}{10} + \\frac{3}{10} =$",
+              "reponse": "$\\frac{1}{1}$\n\nAu dénominateur commun, la somme vaut $\\frac{1}{1}$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\frac{7}{10} - \\frac{3}{10} =$",
+              "reponse": "$\\frac{2}{5}$\n\nMême dénominateur commun, puis on soustrait les numérateurs."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 3,
           "partie": 2,
           "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
@@ -2219,7 +2379,7 @@
           ]
         },
         {
-          "numero": 9,
+          "numero": 10,
           "points": 3,
           "partie": 2,
           "theme": "Équations",
@@ -2233,7 +2393,7 @@
           ]
         },
         {
-          "numero": 10,
+          "numero": 11,
           "points": 5,
           "partie": 2,
           "theme": "Solides",
@@ -2252,7 +2412,7 @@
           ]
         },
         {
-          "numero": 11,
+          "numero": 12,
           "points": 6,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -2266,7 +2426,7 @@
           ]
         },
         {
-          "numero": 12,
+          "numero": 13,
           "points": 4,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -2280,7 +2440,7 @@
           ]
         },
         {
-          "numero": 13,
+          "numero": 14,
           "points": 3,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -2294,8 +2454,8 @@
           ]
         }
       ],
-      "totalPoints": 51,
-      "pointsPartie1": 27,
+      "totalPoints": 54,
+      "pointsPartie1": 30,
       "pointsPartie2": 24
     },
     {
@@ -2459,6 +2619,21 @@
         {
           "numero": 8,
           "points": 3,
+          "partie": 1,
+          "theme": "Angles",
+          "complement": true,
+          "consigne": "Résous le problème.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un triangle $ABC$ est isocèle en $A$. Ses angles à la base mesurent $27^\\circ$.\na) Calcule l'angle au sommet $\\widehat{A}$.\nb) Ce triangle peut-il être rectangle ? Justifie.",
+              "reponse": "a) $126^\\circ$\n\nLa somme des angles vaut $180^\\circ$ : $\\widehat{A} = 180^\\circ - 27^\\circ - 27^\\circ = 126^\\circ$.\n\nb) Non : aucun de ses angles ne mesure $90^\\circ$. Il le serait si les angles à la base valaient $45^\\circ$."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "points": 3,
           "partie": 2,
           "theme": "Calcul littéral",
           "consigne": "Résous le problème.",
@@ -2471,7 +2646,7 @@
           ]
         },
         {
-          "numero": 9,
+          "numero": 10,
           "points": 3,
           "partie": 2,
           "theme": "Équations",
@@ -2485,7 +2660,7 @@
           ]
         },
         {
-          "numero": 10,
+          "numero": 11,
           "points": 5,
           "partie": 2,
           "theme": "Solides",
@@ -2504,7 +2679,7 @@
           ]
         },
         {
-          "numero": 11,
+          "numero": 12,
           "points": 6,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -2518,7 +2693,7 @@
           ]
         },
         {
-          "numero": 12,
+          "numero": 13,
           "points": 4,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -2532,7 +2707,7 @@
           ]
         },
         {
-          "numero": 13,
+          "numero": 14,
           "points": 3,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -2546,8 +2721,8 @@
           ]
         }
       ],
-      "totalPoints": 51,
-      "pointsPartie1": 27,
+      "totalPoints": 54,
+      "pointsPartie1": 30,
       "pointsPartie2": 24
     },
     {
@@ -2780,11 +2955,26 @@
               "reponse": "CHF $\\,1200$\n\nSoit $x$ l'investissement de départ.\nAprès le premier mois, il reste $\\frac{4}{5}x$.\nAprès le deuxième : $5 \\cdot \\frac{4}{5}x = \\frac{20}{5}x = 4800$.\nDonc $x = 4800 \\cdot \\frac{5}{20} = 1200$."
             }
           ]
+        },
+        {
+          "numero": 15,
+          "points": 3,
+          "partie": 2,
+          "theme": "Vitesse",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un train parcourt $100$ km en 1 h 15.\na) Quelle est sa vitesse moyenne, en km/h ?\nb) Quelle distance parcourrait-il en $3$ heures à cette vitesse ?",
+              "reponse": "a) $80$ km/h\n\nLa vitesse est le quotient de la distance par la durée, exprimée en heures : $100 : 5/4 = 80$.\n\nb) $240$ km\n\n$80 \\cdot 3 = 240$."
+            }
+          ]
         }
       ],
-      "totalPoints": 43,
+      "totalPoints": 46,
       "pointsPartie1": 23,
-      "pointsPartie2": 20
+      "pointsPartie2": 23
     },
     {
       "id": "evacom-lc-2",
@@ -2921,6 +3111,26 @@
         },
         {
           "numero": 8,
+          "points": 3,
+          "partie": 1,
+          "theme": "Racines carrées",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\sqrt{81} + \\sqrt{25} =$",
+              "reponse": "$14$\n\n$\\sqrt{81} = 9$ et $\\sqrt{25} = 5$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\sqrt{225} =$",
+              "reponse": "$15$\n\n$225 = 15^2$, donc sa racine vaut $15$."
+            }
+          ]
+        },
+        {
+          "numero": 9,
           "points": 2,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -2934,7 +3144,7 @@
           ]
         },
         {
-          "numero": 9,
+          "numero": 10,
           "points": 2,
           "partie": 2,
           "theme": "Calcul littéral",
@@ -2948,7 +3158,7 @@
           ]
         },
         {
-          "numero": 10,
+          "numero": 11,
           "points": 4,
           "partie": 2,
           "theme": "Équations",
@@ -2962,7 +3172,7 @@
           ]
         },
         {
-          "numero": 11,
+          "numero": 12,
           "points": 2,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -2976,7 +3186,7 @@
           ]
         },
         {
-          "numero": 12,
+          "numero": 13,
           "points": 3,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -2990,7 +3200,7 @@
           ]
         },
         {
-          "numero": 13,
+          "numero": 14,
           "points": 3,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -3004,7 +3214,7 @@
           ]
         },
         {
-          "numero": 14,
+          "numero": 15,
           "points": 4,
           "partie": 2,
           "theme": "Problèmes et partages",
@@ -3018,8 +3228,8 @@
           ]
         }
       ],
-      "totalPoints": 43,
-      "pointsPartie1": 23,
+      "totalPoints": 46,
+      "pointsPartie1": 26,
       "pointsPartie2": 20
     },
     {
@@ -3252,11 +3462,26 @@
               "reponse": "CHF $\\,1200$\n\nSoit $x$ l'investissement de départ.\nAprès le premier mois, il reste $\\frac{2}{3}x$.\nAprès le deuxième : $5 \\cdot \\frac{2}{3}x = \\frac{10}{3}x = 4000$.\nDonc $x = 4000 \\cdot \\frac{3}{10} = 1200$."
             }
           ]
+        },
+        {
+          "numero": 15,
+          "points": 3,
+          "partie": 2,
+          "theme": "Solides",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un prisme droit a une aire de base de $34$ $\\mathrm{cm}^2$ et une hauteur de $10$ cm.\na) Calcule son volume.\nb) Combien de litres cela représente-t-il ?",
+              "reponse": "a) $340$ $\\mathrm{cm}^3$\n\n$V = \\mathcal{B} \\cdot h = 34 \\cdot 10 = 340$.\n\nb) $0{,}34$ litre\n\n$1$ litre vaut $1000$ $\\mathrm{cm}^3$."
+            }
+          ]
         }
       ],
-      "totalPoints": 43,
+      "totalPoints": 46,
       "pointsPartie1": 23,
-      "pointsPartie2": 20
+      "pointsPartie2": 23
     },
     {
       "id": "evacom-lc-4",
@@ -3488,11 +3713,26 @@
               "reponse": "CHF $\\,1200$\n\nSoit $x$ l'investissement de départ.\nAprès le premier mois, il reste $\\frac{3}{4}x$.\nAprès le deuxième : $6 \\cdot \\frac{3}{4}x = \\frac{18}{4}x = 5400$.\nDonc $x = 5400 \\cdot \\frac{4}{18} = 1200$."
             }
           ]
+        },
+        {
+          "numero": 15,
+          "points": 3,
+          "partie": 2,
+          "theme": "Vitesse",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un train parcourt $180$ km en 2 h.\na) Quelle est sa vitesse moyenne, en km/h ?\nb) Quelle distance parcourrait-il en $3$ heures à cette vitesse ?",
+              "reponse": "a) $90$ km/h\n\nLa vitesse est le quotient de la distance par la durée, exprimée en heures : $180 : 2 = 90$.\n\nb) $270$ km\n\n$90 \\cdot 3 = 270$."
+            }
+          ]
         }
       ],
-      "totalPoints": 43,
+      "totalPoints": 46,
       "pointsPartie1": 23,
-      "pointsPartie2": 20
+      "pointsPartie2": 23
     },
     {
       "id": "evacom-lc-5",
@@ -3629,6 +3869,26 @@
         },
         {
           "numero": 8,
+          "points": 3,
+          "partie": 1,
+          "theme": "Racines carrées",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\sqrt{100} + \\sqrt{4} =$",
+              "reponse": "$12$\n\n$\\sqrt{100} = 10$ et $\\sqrt{4} = 2$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\sqrt{144} =$",
+              "reponse": "$12$\n\n$144 = 12^2$, donc sa racine vaut $12$."
+            }
+          ]
+        },
+        {
+          "numero": 9,
           "points": 2,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -3642,7 +3902,7 @@
           ]
         },
         {
-          "numero": 9,
+          "numero": 10,
           "points": 2,
           "partie": 2,
           "theme": "Calcul littéral",
@@ -3656,7 +3916,7 @@
           ]
         },
         {
-          "numero": 10,
+          "numero": 11,
           "points": 4,
           "partie": 2,
           "theme": "Équations",
@@ -3670,7 +3930,7 @@
           ]
         },
         {
-          "numero": 11,
+          "numero": 12,
           "points": 2,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -3684,7 +3944,7 @@
           ]
         },
         {
-          "numero": 12,
+          "numero": 13,
           "points": 3,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -3698,7 +3958,7 @@
           ]
         },
         {
-          "numero": 13,
+          "numero": 14,
           "points": 3,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -3712,7 +3972,7 @@
           ]
         },
         {
-          "numero": 14,
+          "numero": 15,
           "points": 4,
           "partie": 2,
           "theme": "Problèmes et partages",
@@ -3726,8 +3986,8 @@
           ]
         }
       ],
-      "totalPoints": 43,
-      "pointsPartie1": 23,
+      "totalPoints": 46,
+      "pointsPartie1": 26,
       "pointsPartie2": 20
     },
     {
@@ -3960,11 +4220,26 @@
               "reponse": "CHF $\\,1500$\n\nSoit $x$ l'investissement de départ.\nAprès le premier mois, il reste $\\frac{4}{5}x$.\nAprès le deuxième : $3 \\cdot \\frac{4}{5}x = \\frac{12}{5}x = 3600$.\nDonc $x = 3600 \\cdot \\frac{5}{12} = 1500$."
             }
           ]
+        },
+        {
+          "numero": 15,
+          "points": 3,
+          "partie": 2,
+          "theme": "Solides",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un prisme droit a une aire de base de $39$ $\\mathrm{cm}^2$ et une hauteur de $9$ cm.\na) Calcule son volume.\nb) Combien de litres cela représente-t-il ?",
+              "reponse": "a) $351$ $\\mathrm{cm}^3$\n\n$V = \\mathcal{B} \\cdot h = 39 \\cdot 9 = 351$.\n\nb) $0{,}351$ litre\n\n$1$ litre vaut $1000$ $\\mathrm{cm}^3$."
+            }
+          ]
         }
       ],
-      "totalPoints": 43,
+      "totalPoints": 46,
       "pointsPartie1": 23,
-      "pointsPartie2": 20
+      "pointsPartie2": 23
     },
     {
       "id": "evacom-lc-7",
@@ -4196,11 +4471,26 @@
               "reponse": "CHF $\\,600$\n\nSoit $x$ l'investissement de départ.\nAprès le premier mois, il reste $\\frac{4}{5}x$.\nAprès le deuxième : $6 \\cdot \\frac{4}{5}x = \\frac{24}{5}x = 2880$.\nDonc $x = 2880 \\cdot \\frac{5}{24} = 600$."
             }
           ]
+        },
+        {
+          "numero": 15,
+          "points": 3,
+          "partie": 2,
+          "theme": "Vitesse",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un train parcourt $54$ km en 45 minutes.\na) Quelle est sa vitesse moyenne, en km/h ?\nb) Quelle distance parcourrait-il en $3$ heures à cette vitesse ?",
+              "reponse": "a) $72$ km/h\n\nLa vitesse est le quotient de la distance par la durée, exprimée en heures : $54 : 3/4 = 72$.\n\nb) $216$ km\n\n$72 \\cdot 3 = 216$."
+            }
+          ]
         }
       ],
-      "totalPoints": 43,
+      "totalPoints": 46,
       "pointsPartie1": 23,
-      "pointsPartie2": 20
+      "pointsPartie2": 23
     },
     {
       "id": "evacom-lc-8",
@@ -4337,6 +4627,26 @@
         },
         {
           "numero": 8,
+          "points": 3,
+          "partie": 1,
+          "theme": "Racines carrées",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\sqrt{144} + \\sqrt{36} =$",
+              "reponse": "$18$\n\n$\\sqrt{144} = 12$ et $\\sqrt{36} = 6$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\sqrt{900} =$",
+              "reponse": "$30$\n\n$900 = 30^2$, donc sa racine vaut $30$."
+            }
+          ]
+        },
+        {
+          "numero": 9,
           "points": 2,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -4350,7 +4660,7 @@
           ]
         },
         {
-          "numero": 9,
+          "numero": 10,
           "points": 2,
           "partie": 2,
           "theme": "Calcul littéral",
@@ -4364,7 +4674,7 @@
           ]
         },
         {
-          "numero": 10,
+          "numero": 11,
           "points": 4,
           "partie": 2,
           "theme": "Équations",
@@ -4378,7 +4688,7 @@
           ]
         },
         {
-          "numero": 11,
+          "numero": 12,
           "points": 2,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -4392,7 +4702,7 @@
           ]
         },
         {
-          "numero": 12,
+          "numero": 13,
           "points": 3,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -4406,7 +4716,7 @@
           ]
         },
         {
-          "numero": 13,
+          "numero": 14,
           "points": 3,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -4420,7 +4730,7 @@
           ]
         },
         {
-          "numero": 14,
+          "numero": 15,
           "points": 4,
           "partie": 2,
           "theme": "Problèmes et partages",
@@ -4434,8 +4744,8 @@
           ]
         }
       ],
-      "totalPoints": 43,
-      "pointsPartie1": 23,
+      "totalPoints": 46,
+      "pointsPartie1": 26,
       "pointsPartie2": 20
     },
     {
@@ -4668,11 +4978,26 @@
               "reponse": "CHF $\\,600$\n\nSoit $x$ l'investissement de départ.\nAprès le premier mois, il reste $\\frac{4}{5}x$.\nAprès le deuxième : $4 \\cdot \\frac{4}{5}x = \\frac{16}{5}x = 1920$.\nDonc $x = 1920 \\cdot \\frac{5}{16} = 600$."
             }
           ]
+        },
+        {
+          "numero": 15,
+          "points": 3,
+          "partie": 2,
+          "theme": "Solides",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un prisme droit a une aire de base de $22$ $\\mathrm{cm}^2$ et une hauteur de $16$ cm.\na) Calcule son volume.\nb) Combien de litres cela représente-t-il ?",
+              "reponse": "a) $352$ $\\mathrm{cm}^3$\n\n$V = \\mathcal{B} \\cdot h = 22 \\cdot 16 = 352$.\n\nb) $0{,}352$ litre\n\n$1$ litre vaut $1000$ $\\mathrm{cm}^3$."
+            }
+          ]
         }
       ],
-      "totalPoints": 43,
+      "totalPoints": 46,
       "pointsPartie1": 23,
-      "pointsPartie2": 20
+      "pointsPartie2": 23
     },
     {
       "id": "evacom-lc-10",
@@ -4904,11 +5229,26 @@
               "reponse": "CHF $\\,900$\n\nSoit $x$ l'investissement de départ.\nAprès le premier mois, il reste $\\frac{2}{3}x$.\nAprès le deuxième : $4 \\cdot \\frac{2}{3}x = \\frac{8}{3}x = 2400$.\nDonc $x = 2400 \\cdot \\frac{3}{8} = 900$."
             }
           ]
+        },
+        {
+          "numero": 15,
+          "points": 3,
+          "partie": 2,
+          "theme": "Vitesse",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un train parcourt $262$ km en 2 h 30.\na) Quelle est sa vitesse moyenne, en km/h ?\nb) Quelle distance parcourrait-il en $3$ heures à cette vitesse ?",
+              "reponse": "a) $105$ km/h\n\nLa vitesse est le quotient de la distance par la durée, exprimée en heures : $262 : 5/2 = 105$.\n\nb) $315$ km\n\n$105 \\cdot 3 = 315$."
+            }
+          ]
         }
       ],
-      "totalPoints": 43,
+      "totalPoints": 46,
       "pointsPartie1": 23,
-      "pointsPartie2": 20
+      "pointsPartie2": 23
     },
     {
       "id": "evacom-ct-1",
@@ -5141,11 +5481,26 @@
               "reponse": "$32$ cm\n\nPerles : $30 \\cdot 10 = 300$ mm. Fil libre : $2 \\cdot 10 = 20$ mm.\nTotal : $300 + 20 = 320$ mm $= 32$ cm."
             }
           ]
+        },
+        {
+          "numero": 14,
+          "points": 3,
+          "partie": 2,
+          "theme": "Pourcentages",
+          "complement": true,
+          "consigne": "Résous le problème.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un article coûte CHF $300$. Le magasin applique une réduction de $30\\%$.\na) Quel est le montant de la réduction ?\nb) Quel est le prix à payer ?",
+              "reponse": "a) CHF $90$\n\n$\\frac{30}{100} \\cdot 300 = 90${,}\n\nb) CHF $210$\n\n$300 - 90 = 210$, ou directement $300 \\cdot 0{,}70 = 210$."
+            }
+          ]
         }
       ],
-      "totalPoints": 46,
+      "totalPoints": 49,
       "pointsPartie1": 25,
-      "pointsPartie2": 21
+      "pointsPartie2": 24
     },
     {
       "id": "evacom-ct-2",
@@ -5378,11 +5733,26 @@
               "reponse": "$26$ cm\n\nPerles : $21 \\cdot 10 = 210$ mm. Fil libre : $2 \\cdot 25 = 50$ mm.\nTotal : $210 + 50 = 260$ mm $= 26$ cm."
             }
           ]
+        },
+        {
+          "numero": 14,
+          "points": 3,
+          "partie": 2,
+          "theme": "Vitesse",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un train parcourt $150$ km en 2 h 30.\na) Quelle est sa vitesse moyenne, en km/h ?\nb) Quelle distance parcourrait-il en $3$ heures à cette vitesse ?",
+              "reponse": "a) $60$ km/h\n\nLa vitesse est le quotient de la distance par la durée, exprimée en heures : $150 : 5/2 = 60$.\n\nb) $180$ km\n\n$60 \\cdot 3 = 180$."
+            }
+          ]
         }
       ],
-      "totalPoints": 46,
+      "totalPoints": 49,
       "pointsPartie1": 25,
-      "pointsPartie2": 21
+      "pointsPartie2": 24
     },
     {
       "id": "evacom-ct-3",
@@ -5534,6 +5904,26 @@
         },
         {
           "numero": 8,
+          "points": 3,
+          "partie": 1,
+          "theme": "Racines carrées",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\sqrt{25} + \\sqrt{4} =$",
+              "reponse": "$7$\n\n$\\sqrt{25} = 5$ et $\\sqrt{4} = 2$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\sqrt{144} =$",
+              "reponse": "$12$\n\n$144 = 12^2$, donc sa racine vaut $12$."
+            }
+          ]
+        },
+        {
+          "numero": 9,
           "points": 2,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -5547,7 +5937,7 @@
           ]
         },
         {
-          "numero": 9,
+          "numero": 10,
           "points": 4,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -5561,7 +5951,7 @@
           ]
         },
         {
-          "numero": 10,
+          "numero": 11,
           "points": 4,
           "partie": 2,
           "theme": "Proportionnalité",
@@ -5575,7 +5965,7 @@
           ]
         },
         {
-          "numero": 11,
+          "numero": 12,
           "points": 3,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -5589,7 +5979,7 @@
           ]
         },
         {
-          "numero": 12,
+          "numero": 13,
           "points": 5,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -5603,7 +5993,7 @@
           ]
         },
         {
-          "numero": 13,
+          "numero": 14,
           "points": 3,
           "partie": 2,
           "theme": "Unités de mesure",
@@ -5617,8 +6007,8 @@
           ]
         }
       ],
-      "totalPoints": 46,
-      "pointsPartie1": 25,
+      "totalPoints": 49,
+      "pointsPartie1": 28,
       "pointsPartie2": 21
     },
     {
@@ -5852,11 +6242,26 @@
               "reponse": "$28$ cm\n\nPerles : $25 \\cdot 10 = 250$ mm. Fil libre : $2 \\cdot 15 = 30$ mm.\nTotal : $250 + 30 = 280$ mm $= 28$ cm."
             }
           ]
+        },
+        {
+          "numero": 14,
+          "points": 3,
+          "partie": 2,
+          "theme": "Pourcentages",
+          "complement": true,
+          "consigne": "Résous le problème.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un article coûte CHF $280$. Le magasin applique une réduction de $25\\%$.\na) Quel est le montant de la réduction ?\nb) Quel est le prix à payer ?",
+              "reponse": "a) CHF $70$\n\n$\\frac{25}{100} \\cdot 280 = 70${,}\n\nb) CHF $210$\n\n$280 - 70 = 210$, ou directement $280 \\cdot 0{,}75 = 210$."
+            }
+          ]
         }
       ],
-      "totalPoints": 46,
+      "totalPoints": 49,
       "pointsPartie1": 25,
-      "pointsPartie2": 21
+      "pointsPartie2": 24
     },
     {
       "id": "evacom-ct-5",
@@ -6089,11 +6494,26 @@
               "reponse": "$37{,}4$ cm\n\nPerles : $27 \\cdot 12 = 324$ mm. Fil libre : $2 \\cdot 25 = 50$ mm.\nTotal : $324 + 50 = 374$ mm $= 37{,}4$ cm."
             }
           ]
+        },
+        {
+          "numero": 14,
+          "points": 3,
+          "partie": 2,
+          "theme": "Vitesse",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un train parcourt $60$ km en 45 minutes.\na) Quelle est sa vitesse moyenne, en km/h ?\nb) Quelle distance parcourrait-il en $3$ heures à cette vitesse ?",
+              "reponse": "a) $80$ km/h\n\nLa vitesse est le quotient de la distance par la durée, exprimée en heures : $60 : 3/4 = 80$.\n\nb) $240$ km\n\n$80 \\cdot 3 = 240$."
+            }
+          ]
         }
       ],
-      "totalPoints": 46,
+      "totalPoints": 49,
       "pointsPartie1": 25,
-      "pointsPartie2": 21
+      "pointsPartie2": 24
     },
     {
       "id": "evacom-ct-6",
@@ -6245,6 +6665,26 @@
         },
         {
           "numero": 8,
+          "points": 3,
+          "partie": 1,
+          "theme": "Racines carrées",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\sqrt{144} + \\sqrt{36} =$",
+              "reponse": "$18$\n\n$\\sqrt{144} = 12$ et $\\sqrt{36} = 6$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\sqrt{900} =$",
+              "reponse": "$30$\n\n$900 = 30^2$, donc sa racine vaut $30$."
+            }
+          ]
+        },
+        {
+          "numero": 9,
           "points": 2,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -6258,7 +6698,7 @@
           ]
         },
         {
-          "numero": 9,
+          "numero": 10,
           "points": 4,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -6272,7 +6712,7 @@
           ]
         },
         {
-          "numero": 10,
+          "numero": 11,
           "points": 4,
           "partie": 2,
           "theme": "Proportionnalité",
@@ -6286,7 +6726,7 @@
           ]
         },
         {
-          "numero": 11,
+          "numero": 12,
           "points": 3,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -6300,7 +6740,7 @@
           ]
         },
         {
-          "numero": 12,
+          "numero": 13,
           "points": 5,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -6314,7 +6754,7 @@
           ]
         },
         {
-          "numero": 13,
+          "numero": 14,
           "points": 3,
           "partie": 2,
           "theme": "Unités de mesure",
@@ -6328,8 +6768,8 @@
           ]
         }
       ],
-      "totalPoints": 46,
-      "pointsPartie1": 25,
+      "totalPoints": 49,
+      "pointsPartie1": 28,
       "pointsPartie2": 21
     },
     {
@@ -6563,11 +7003,26 @@
               "reponse": "$28$ cm\n\nPerles : $23 \\cdot 10 = 230$ mm. Fil libre : $2 \\cdot 25 = 50$ mm.\nTotal : $230 + 50 = 280$ mm $= 28$ cm."
             }
           ]
+        },
+        {
+          "numero": 14,
+          "points": 3,
+          "partie": 2,
+          "theme": "Pourcentages",
+          "complement": true,
+          "consigne": "Résous le problème.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un article coûte CHF $260$. Le magasin applique une réduction de $15\\%$.\na) Quel est le montant de la réduction ?\nb) Quel est le prix à payer ?",
+              "reponse": "a) CHF $39$\n\n$\\frac{15}{100} \\cdot 260 = 39${,}\n\nb) CHF $221$\n\n$260 - 39 = 221$, ou directement $260 \\cdot 0{,}85 = 221$."
+            }
+          ]
         }
       ],
-      "totalPoints": 46,
+      "totalPoints": 49,
       "pointsPartie1": 25,
-      "pointsPartie2": 21
+      "pointsPartie2": 24
     },
     {
       "id": "evacom-ct-8",
@@ -6800,11 +7255,26 @@
               "reponse": "$32{,}6$ cm\n\nPerles : $23 \\cdot 12 = 276$ mm. Fil libre : $2 \\cdot 25 = 50$ mm.\nTotal : $276 + 50 = 326$ mm $= 32{,}6$ cm."
             }
           ]
+        },
+        {
+          "numero": 14,
+          "points": 3,
+          "partie": 2,
+          "theme": "Vitesse",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un train parcourt $54$ km en 45 minutes.\na) Quelle est sa vitesse moyenne, en km/h ?\nb) Quelle distance parcourrait-il en $3$ heures à cette vitesse ?",
+              "reponse": "a) $72$ km/h\n\nLa vitesse est le quotient de la distance par la durée, exprimée en heures : $54 : 3/4 = 72$.\n\nb) $216$ km\n\n$72 \\cdot 3 = 216$."
+            }
+          ]
         }
       ],
-      "totalPoints": 46,
+      "totalPoints": 49,
       "pointsPartie1": 25,
-      "pointsPartie2": 21
+      "pointsPartie2": 24
     },
     {
       "id": "evacom-ct-9",
@@ -6956,6 +7426,26 @@
         },
         {
           "numero": 8,
+          "points": 3,
+          "partie": 1,
+          "theme": "Racines carrées",
+          "complement": true,
+          "consigne": "Calcule.",
+          "sousQuestions": [
+            {
+              "libelle": "a",
+              "enonce": "$\\sqrt{81} + \\sqrt{16} =$",
+              "reponse": "$13$\n\n$\\sqrt{81} = 9$ et $\\sqrt{16} = 4$."
+            },
+            {
+              "libelle": "b",
+              "enonce": "$\\sqrt{64} =$",
+              "reponse": "$8$\n\n$64 = 8^2$, donc sa racine vaut $8$."
+            }
+          ]
+        },
+        {
+          "numero": 9,
           "points": 2,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -6969,7 +7459,7 @@
           ]
         },
         {
-          "numero": 9,
+          "numero": 10,
           "points": 4,
           "partie": 2,
           "theme": "Théorème de Pythagore",
@@ -6983,7 +7473,7 @@
           ]
         },
         {
-          "numero": 10,
+          "numero": 11,
           "points": 4,
           "partie": 2,
           "theme": "Proportionnalité",
@@ -6997,7 +7487,7 @@
           ]
         },
         {
-          "numero": 11,
+          "numero": 12,
           "points": 3,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -7011,7 +7501,7 @@
           ]
         },
         {
-          "numero": 12,
+          "numero": 13,
           "points": 5,
           "partie": 2,
           "theme": "Aires et volumes",
@@ -7025,7 +7515,7 @@
           ]
         },
         {
-          "numero": 13,
+          "numero": 14,
           "points": 3,
           "partie": 2,
           "theme": "Unités de mesure",
@@ -7039,8 +7529,8 @@
           ]
         }
       ],
-      "totalPoints": 46,
-      "pointsPartie1": 25,
+      "totalPoints": 49,
+      "pointsPartie1": 28,
       "pointsPartie2": 21
     },
     {
@@ -7274,11 +7764,26 @@
               "reponse": "$26$ cm\n\nPerles : $30 \\cdot 8 = 240$ mm. Fil libre : $2 \\cdot 10 = 20$ mm.\nTotal : $240 + 20 = 260$ mm $= 26$ cm."
             }
           ]
+        },
+        {
+          "numero": 14,
+          "points": 3,
+          "partie": 2,
+          "theme": "Pourcentages",
+          "complement": true,
+          "consigne": "Résous le problème.",
+          "sousQuestions": [
+            {
+              "libelle": "",
+              "enonce": "Un article coûte CHF $150$. Le magasin applique une réduction de $10\\%$.\na) Quel est le montant de la réduction ?\nb) Quel est le prix à payer ?",
+              "reponse": "a) CHF $15$\n\n$\\frac{10}{100} \\cdot 150 = 15${,}\n\nb) CHF $135$\n\n$150 - 15 = 135$, ou directement $150 \\cdot 0{,}90 = 135$."
+            }
+          ]
         }
       ],
-      "totalPoints": 46,
+      "totalPoints": 49,
       "pointsPartie1": 25,
-      "pointsPartie2": 21
+      "pointsPartie2": 24
     }
   ]
 }

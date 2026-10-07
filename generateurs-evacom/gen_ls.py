@@ -2,6 +2,7 @@
 """Génère les dix EVACOM blancs de la section LS."""
 import random, math
 from fractions import Fraction as F
+import complements
 
 TRIPLETS = [
     (3, 4, 5), (5, 12, 13), (6, 8, 10), (7, 24, 25), (8, 15, 17), (9, 12, 15),
@@ -267,5 +268,9 @@ def engendrer(variante):
     ])
 
     questions = [q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13]
-    return {"id": f"evacom-ls-{variante}", "niveau": "LS",
-            "titre": f"EVACOM blanc n° {variante} — section LS", "questions": questions}
+    epreuve = {"id": f"evacom-ls-{variante}", "niveau": "LS",
+               "titre": f"EVACOM blanc n° {variante} — section LS",
+               "questions": questions}
+    # Une question de plus, dont le thème tourne, pour couvrir les
+    # absences relevées dans les sept dernières années d'épreuves.
+    return complements.ajouter(epreuve, "LS", variante, r)

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """Génère les dix EVACOM blancs de la section CT sur le squelette validé."""
 import random
+import complements
 from fractions import Fraction as F
 
 TRIPLETS = [
@@ -216,5 +217,9 @@ def engendrer(variante):
     ])
 
     questions = [q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13]
-    return {"id": f"evacom-ct-{variante}", "niveau": "CT",
-            "titre": f"EVACOM blanc n° {variante} — section CT", "questions": questions}
+    epreuve = {"id": f"evacom-ct-{variante}", "niveau": "CT",
+               "titre": f"EVACOM blanc n° {variante} — section CT",
+               "questions": questions}
+    # Une question de plus, dont le thème tourne, pour couvrir les
+    # absences relevées dans les sept dernières années d'épreuves.
+    return complements.ajouter(epreuve, "CT", variante, r)

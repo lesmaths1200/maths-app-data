@@ -9,7 +9,10 @@ def nombres(t): return [int(x) for x in re.findall(r"-?\d+", t)]
 
 def verifier(e):
     pbs = []
-    Q = {q["numero"]: q for q in e["questions"]}
+    # La question de complément décale les numéros : on réindexe sur les
+    # seules questions du squelette d'origine.
+    originales = [q for q in e["questions"] if not q.get("complement")]
+    Q = {i + 1: q for i, q in enumerate(originales)}
 
     # Q1 relatifs : on rejoue chaque calcul depuis l'énoncé
     for sq in Q[1]["sousQuestions"]:

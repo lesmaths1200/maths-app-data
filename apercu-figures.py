@@ -68,18 +68,33 @@ for cle in cles:
     for e in fiche["exercices"]:
         enonce, numero = e["enonce"], e["numero"]
         nom = f"fiche{cle}-ex{numero}.jpg"
-        m = re.search(r"^\[\[image:([^|\]]+)\|?(.*?)\]\]$", enonce, re.M | re.S)
-        attend = "[Figure" in enonce
+        # « [Figure : description | fichier.jpg] », crochets internes compris
+        m = None
+        i = enonce.find("[Figure")
+        if i >= 0:
+            n = 0
+            for j in range(i, len(enonce)):
+                if enonce[j] == "[": n += 1
+                elif enonce[j] == "]":
+                    n -= 1
+                    if n == 0:
+                        marqueur = enonce[i:j+1]
+                        f2 = re.search(r"\|\s*([^\s|\]]+\.jpg)\s*\]$", marqueur)
+                        if f2:
+                            desc = marqueur[len("[Figure"):f2.start()].lstrip(" :").strip()
+                            m = (marqueur, f2.group(1), desc)
+                        break
+        attend = i >= 0 and m is None
         if not m and not attend: continue
         corps = [f"<span class='num'>Exercice {numero}</span>"]
         if m:
             n_ok += 1
-            texte = re.sub(r"^\[\[image:.*?\]\]$", "", enonce, flags=re.M | re.S).strip()
-            corps.append(f"<span class='nom'>{m.group(1)}</span>")
+            texte = enonce.replace(m[0], "").strip()
+            corps.append(f"<span class='nom'>{m[1]}</span>")
             corps.append(f"<div class='enonce'>{texte}</div>")
-            corps.append(f"<img src='file://{figure_locale(m.group(1))}'>")
-            if m.group(2):
-                corps.append(f"<div class='desc'><b>VoiceOver :</b> {html.escape(m.group(2))}</div>")
+            corps.append(f"<img src='file://{figure_locale(m[1])}'>")
+            if m[2]:
+                corps.append(f"<div class='desc'><b>VoiceOver :</b> {html.escape(m[2])}</div>")
             lignes.append("<div class='ex'>" + "".join(corps) + "</div>")
         else:
             n_ko += 1

@@ -30,20 +30,45 @@ def bloc(x, depart):
     return None
 
 
+def tous_les_blocs(x):
+    """Tous les marqueurs « [Tableau … ] » et « [Figure … ] » de l'énoncé."""
+    blocs, i = [], 0
+    while True:
+        deb = min((p for p in (x.find("[Tableau", i), x.find("[Figure", i)) if p >= 0), default=-1)
+        if deb < 0: return blocs
+        n = 0
+        for j in range(deb, len(x)):
+            if x[j] == "[": n += 1
+            elif x[j] == "]":
+                n -= 1
+                if n == 0:
+                    blocs.append(x[deb:j+1]); i = j + 1; break
+        else:
+            return blocs
+
+
 MISE_EN_PAGE = re.compile(r"tableau|grille|colonnes? \d|a relier|à relier|relier", re.I)
 attente, douteux = [], []
 for cle, f in d.items():
     if not isinstance(f, dict) or "exercices" not in f: continue
     for e in f["exercices"]:
         x, nom = e["enonce"], f"fiche{cle}-ex{e['numero']}.jpg"
-        m = bloc(x, "[Tableau") or bloc(x, "[Figure")
-        if m and ".jpg]" not in m.replace(" ", ""):
+        # chaque marqueur de l'énoncé, et non le premier seulement : un
+        # exercice peut attendre une figure tout en en ayant déjà une.
+        for m in tous_les_blocs(x):
+            if re.search(r"\|\s*[^\s|\]]+\.jpg\s*\]$", m): continue   # déjà reliée
             desc = re.sub(r"\s+", " ", m.lstrip("[").split(":", 1)[-1].rstrip("]")).strip()
-            genre = "tableau" if m.startswith("[Tableau") or MISE_EN_PAGE.search(desc) else "figure"
-            if genre == "tableau":
-                attente.append((t.get(cle, cle), e["numero"], nom, x.replace(m, "").strip(), desc))
-        elif m and MISE_EN_PAGE.search(x) and "Complète le tableau" in x:
-            douteux.append((t.get(cle, cle), e["numero"], nom, x.replace(m, "").strip()))
+            if not (m.startswith("[Tableau") or MISE_EN_PAGE.search(desc)): continue
+            # le nom voulu peut être indiqué dans la description
+            attendu = re.search(r"\(a fournir : ([^)]+)\)", desc)
+            # deux marqueurs dans le même exercice ne peuvent pas porter le
+            # même nom de fichier : on les suffixe a, b, c…
+            rang = sum(1 for a in attente if a[1] == e["numero"] and a[0] == t.get(cle, cle))
+            defaut = nom if rang == 0 else nom.replace(".jpg", f"{chr(97+rang)}.jpg")
+            fichier = attendu.group(1) if attendu else defaut
+            propre = desc.replace(attendu.group(0), "").strip() if attendu else desc
+            attente.append((t.get(cle, cle), e["numero"], fichier,
+                            x.replace(m, "").strip(), propre))
 
 s = ["""<!doctype html><meta charset="utf-8"><title>Tableaux à fournir</title>
 <script>window.MathJax={tex:{inlineMath:[['$','$']]}};</script>

@@ -19,7 +19,13 @@
         "frac",
         "numérateur",
         "dénominateur",
-        "simplifier"
+        "simplifier",
+        "représenter",
+        "representer",
+        "parts égales",
+        "colorié",
+        "colorie",
+        "schéma"
       ],
       "explanations": [
         {
@@ -41,6 +47,10 @@
         {
           "cle": "simplification",
           "texte": "Pour simplifier une fraction :\n\n1️⃣ Trouve le PGDC du numérateur et dénominateur\n2️⃣ Divise les deux par le PGDC\n\n📌 Exemple : $\\frac{12}{18}$\n\n• PGDC(12, 18) = 6\n• $\\frac{12 \\div 6}{18 \\div 6} = \\frac{2}{3}$"
+        },
+        {
+          "cle": "representation",
+          "texte": "**Représenter une fraction :**\n\nLe **dénominateur** dit en combien de parts **égales** on partage le tout. Le **numérateur** dit combien de ces parts on prend.\n\n📌 Exemple : $\\frac{3}{8}$\n\nOn partage en $8$ parts égales et on en colorie $3$ :\n■ ■ ■ □ □ □ □ □\n\n⚠️ Les parts doivent être **égales**, sinon la fraction ne veut rien dire.\n\nUne fraction plus grande que $1$ demande plus d'un tout : $\\frac{5}{4}$, c'est un tout entier et encore $\\frac{1}{4}$."
         }
       ],
       "exercices": [
@@ -332,6 +342,46 @@
             "$\\frac{4}{3}$",
             "$\\frac{7}{4}$",
             "$-\\frac{1}{4}$"
+          ]
+        },
+        {
+          "question": "Un rectangle est partagé en $8$ parts égales et $3$ sont coloriées. Quelle fraction du rectangle est coloriée ?",
+          "reponse": "Solution :\nLe dénominateur compte les parts du partage, le numérateur celles qui sont coloriées.\n$\\frac{3}{8}$",
+          "reponseCourte": "$\\frac{3}{8}$",
+          "distracteurs": [
+            "$\\frac{8}{3}$",
+            "$\\frac{3}{5}$",
+            "$\\frac{5}{8}$"
+          ]
+        },
+        {
+          "question": "Un disque est partagé en $6$ parts égales et $2$ sont coloriées. Donne la fraction coloriée, irréductible.",
+          "reponse": "Solution :\n$\\frac{2}{6}$, puis on simplifie par $2$ :\n$\\frac{2}{6} = \\frac{1}{3}$",
+          "reponseCourte": "$\\frac{1}{3}$",
+          "distracteurs": [
+            "$\\frac{1}{6}$",
+            "$\\frac{3}{6}$",
+            "$\\frac{1}{2}$"
+          ]
+        },
+        {
+          "question": "Un rectangle est partagé en $12$ parts égales. Combien faut-il en colorier pour représenter $\\frac{3}{4}$ ?",
+          "reponse": "Solution :\nOn amplifie la fraction pour la mettre sur $12$ :\n$\\frac{3}{4} = \\frac{3 \\cdot 3}{4 \\cdot 3} = \\frac{9}{12}$\n\nIl faut colorier $9$ parts.",
+          "reponseCourte": "$9$",
+          "distracteurs": [
+            "$3$",
+            "$4$",
+            "$6$"
+          ]
+        },
+        {
+          "question": "Sur une bande partagée en $5$ parts égales, $5$ parts sont coloriées. Quelle fraction cela représente-t-il ?",
+          "reponse": "Solution :\n$\\frac{5}{5} = 1$ : la bande entière est coloriée.",
+          "reponseCourte": "$1$",
+          "distracteurs": [
+            "$\\frac{1}{5}$",
+            "$5$",
+            "$0$"
           ]
         }
       ]
@@ -1203,9 +1253,18 @@
         "réduire",
         "expression",
         "distributivité",
-        "identités remarquables"
+        "identités remarquables",
+        "substituer",
+        "substitution",
+        "remplacer",
+        "valeur de x",
+        "pour x ="
       ],
       "explanations": [
+        {
+          "cle": "definition",
+          "texte": "**Calcul littéral :**\n\nUtiliser des lettres pour représenter des nombres.\n\n📌 Exemple :\n$2x + 5$ signifie « deux fois un nombre $x$, plus $5$ »."
+        },
         {
           "cle": "developper",
           "texte": "Pour développer une expression :\n\nUtilise la distributivité : $a(b + c) = ab + ac$\n\n📌 Exemple simple : $3(x + 5)$\n$3(x + 5) = 3x + 15$\n\n📌 Double distributivité : $(x + 2)(x + 3)$\n$(x + 2)(x + 3) = x^2 + 3x + 2x + 6 = x^2 + 5x + 6$"
@@ -1221,6 +1280,10 @@
         {
           "cle": "identitesRemarquables",
           "texte": "Identités remarquables :\n\n1️⃣ $(a + b)^2 = a^2 + 2ab + b^2$\n\n2️⃣ $(a - b)^2 = a^2 - 2ab + b^2$\n\n3️⃣ $(a + b)(a - b) = a^2 - b^2$\n\n📌 Exemple :\n$(x + 3)^2 = x^2 + 2(x)(3) + 3^2 = x^2 + 6x + 9$\n\n$(x - 2)^2 = x^2 - 2(x)(2) + 2^2 = x^2 - 4x + 4$\n\n$(x + 5)(x - 5) = x^2 - 5^2 = x^2 - 25$"
+        },
+        {
+          "cle": "substitution",
+          "texte": "**Substitution :**\n\nRemplacer les lettres par des valeurs numériques.\n\n📌 Exemple : si $x = 3$\n$2x + 5 = 2 \\cdot (3) + 5 = 6 + 5 = 11$\n\n⚠️ On met la valeur **entre parenthèses** quand elle est négative : si $x = -3$, alors $2x + 5 = 2 \\cdot (-3) + 5 = -6 + 5 = -1$."
         }
       ],
       "exercices": [
@@ -1432,6 +1495,56 @@
             "$5x - 1$",
             "$5x + 1$",
             "$x - 7$"
+          ]
+        },
+        {
+          "question": "Calcule $3x + 4$ pour $x = 5$",
+          "reponse": "Solution :\n$3x + 4 = 3 \\cdot 5 + 4 = 15 + 4 = 19$",
+          "reponseCourte": "$19$",
+          "distracteurs": [
+            "$27$",
+            "$15$",
+            "$35$"
+          ]
+        },
+        {
+          "question": "Calcule $2a - 7$ pour $a = -3$",
+          "reponse": "Solution :\n$2a - 7 = 2 \\cdot (-3) - 7 = -6 - 7 = -13$",
+          "reponseCourte": "$-13$",
+          "distracteurs": [
+            "$-1$",
+            "$13$",
+            "$-10$"
+          ]
+        },
+        {
+          "question": "Calcule $x^2 + 1$ pour $x = -4$",
+          "reponse": "Solution :\n$x^2 + 1 = (-4)^2 + 1 = 16 + 1 = 17$\n\nAttention : $(-4)^2 = 16$, et non $-16$.",
+          "reponseCourte": "$17$",
+          "distracteurs": [
+            "$-15$",
+            "$9$",
+            "$-7$"
+          ]
+        },
+        {
+          "question": "Calcule $\\frac{a + b}{2}$ pour $a = 7$ et $b = 3$",
+          "reponse": "Solution :\n$\\frac{a + b}{2} = \\frac{7 + 3}{2} = \\frac{10}{2} = 5$",
+          "reponseCourte": "$5$",
+          "distracteurs": [
+            "$10$",
+            "$3,5$",
+            "$2$"
+          ]
+        },
+        {
+          "question": "Calcule $5 - 2y$ pour $y = -1$",
+          "reponse": "Solution :\n$5 - 2y = 5 - 2 \\cdot (-1) = 5 + 2 = 7$\n\nDeux signes moins qui se suivent donnent un plus.",
+          "reponseCourte": "$7$",
+          "distracteurs": [
+            "$3$",
+            "$-7$",
+            "$8$"
           ]
         }
       ]

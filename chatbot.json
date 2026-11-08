@@ -38,11 +38,11 @@
         },
         {
           "cle": "multiplication",
-          "texte": "Pour multiplier des fractions :\n\n1️⃣ Multiplie les numérateurs entre eux\n2️⃣ Multiplie les dénominateurs entre eux\n3️⃣ Simplifie le résultat\n\n📌 Exemple : $\\frac{2}{3} \\times \\frac{3}{4}$\n\n$\\frac{2 \\times 3}{3 \\times 4} = \\frac{6}{12} = \\frac{1}{2}$"
+          "texte": "Pour multiplier des fractions :\n\n1️⃣ Multiplie les numérateurs entre eux\n2️⃣ Multiplie les dénominateurs entre eux\n3️⃣ Simplifie le résultat\n\n📌 Exemple : $\\frac{2}{3} \\cdot \\frac{3}{4}$\n\n$\\frac{2 \\cdot 3}{3 \\cdot 4} = \\frac{6}{12} = \\frac{1}{2}$"
         },
         {
           "cle": "division",
-          "texte": "Pour diviser des fractions :\n\n1️⃣ Garde la première fraction\n2️⃣ Inverse la deuxième fraction\n3️⃣ Multiplie les deux fractions\n4️⃣ Simplifie le résultat\n\n📌 Exemple : $\\frac{2}{3} \\div \\frac{3}{4}$\n\n• On inverse la deuxième fraction : $\\frac{3}{4} \\rightarrow \\frac{4}{3}$\n• $\\frac{2}{3} \\times \\frac{4}{3} = \\frac{8}{9}$"
+          "texte": "Pour diviser des fractions :\n\n1️⃣ Garde la première fraction\n2️⃣ Inverse la deuxième fraction\n3️⃣ Multiplie les deux fractions\n4️⃣ Simplifie le résultat\n\n📌 Exemple : $\\frac{2}{3} \\div \\frac{3}{4}$\n\n• On inverse la deuxième fraction : $\\frac{3}{4} \\rightarrow \\frac{4}{3}$\n• $\\frac{2}{3} \\cdot \\frac{4}{3} = \\frac{8}{9}$"
         },
         {
           "cle": "simplification",
@@ -75,8 +75,8 @@
           ]
         },
         {
-          "question": "Calcule : $\\frac{2}{3} \\times \\frac{3}{4}$",
-          "reponse": "Solution :\n$\\frac{2}{3} \\times \\frac{3}{4} = \\frac{6}{12} = \\frac{1}{2}$",
+          "question": "Calcule : $\\frac{2}{3} \\cdot \\frac{3}{4}$",
+          "reponse": "Solution :\n$\\frac{2}{3} \\cdot \\frac{3}{4} = \\frac{6}{12} = \\frac{1}{2}$",
           "reponseCourte": "$\\frac{1}{2}$",
           "distracteurs": [
             "$\\frac{17}{12}$",
@@ -96,7 +96,7 @@
         },
         {
           "question": "Calcule : $\\frac{5}{6} \\div \\frac{2}{3}$",
-          "reponse": "Solution :\nOn inverse la deuxième fraction : $\\frac{2}{3} \\rightarrow \\frac{3}{2}$\n$\\frac{5}{6} \\times \\frac{3}{2} = \\frac{15}{12} = \\frac{5}{4}$",
+          "reponse": "Solution :\nOn inverse la deuxième fraction : $\\frac{2}{3} \\rightarrow \\frac{3}{2}$\n$\\frac{5}{6} \\cdot \\frac{3}{2} = \\frac{15}{12} = \\frac{5}{4}$",
           "reponseCourte": "$\\frac{5}{4}$",
           "distracteurs": [
             "$\\frac{5}{9}$",
@@ -106,7 +106,7 @@
         },
         {
           "question": "Calcule : $\\frac{7}{8} \\div \\frac{1}{4}$",
-          "reponse": "Solution :\n$\\frac{7}{8} \\times \\frac{4}{1} = \\frac{28}{8} = \\frac{7}{2}$",
+          "reponse": "Solution :\n$\\frac{7}{8} \\cdot \\frac{4}{1} = \\frac{28}{8} = \\frac{7}{2}$",
           "reponseCourte": "$\\frac{7}{2}$",
           "distracteurs": [
             "$\\frac{7}{32}$",
@@ -115,8 +115,8 @@
           ]
         },
         {
-          "question": "Calcule : $\\frac{3}{5} + \\frac{2}{3} \\times \\frac{9}{4}$",
-          "reponse": "Solution :\nPriorité à la multiplication :\n$\\frac{2}{3} \\times \\frac{9}{4} = \\frac{18}{12} = \\frac{3}{2}$\n$\\frac{3}{5} + \\frac{3}{2} = \\frac{6}{10} + \\frac{15}{10} = \\frac{21}{10}$",
+          "question": "Calcule : $\\frac{3}{5} + \\frac{2}{3} \\cdot \\frac{9}{4}$",
+          "reponse": "Solution :\nPriorité à la multiplication :\n$\\frac{2}{3} \\cdot \\frac{9}{4} = \\frac{18}{12} = \\frac{3}{2}$\n$\\frac{3}{5} + \\frac{3}{2} = \\frac{6}{10} + \\frac{15}{10} = \\frac{21}{10}$",
           "reponseCourte": "$\\frac{21}{10}$",
           "distracteurs": [
             "$\\frac{57}{20}$",
@@ -126,7 +126,7 @@
         },
         {
           "question": "Calcule : $\\left(\\frac{4}{5} - \\frac{1}{10}\\right) \\div \\frac{3}{5}$",
-          "reponse": "Solution :\n$\\frac{4}{5} = \\frac{8}{10}$\n$\\frac{8}{10} - \\frac{1}{10} = \\frac{7}{10}$\n$\\frac{7}{10} \\div \\frac{3}{5} = \\frac{7}{10} \\times \\frac{5}{3} = \\frac{35}{30} = \\frac{7}{6}$",
+          "reponse": "Solution :\n$\\frac{4}{5} = \\frac{8}{10}$\n$\\frac{8}{10} - \\frac{1}{10} = \\frac{7}{10}$\n$\\frac{7}{10} \\div \\frac{3}{5} = \\frac{7}{10} \\cdot \\frac{5}{3} = \\frac{35}{30} = \\frac{7}{6}$",
           "reponseCourte": "$\\frac{7}{6}$",
           "distracteurs": [
             "$\\frac{21}{50}$",
@@ -155,8 +155,8 @@
           ]
         },
         {
-          "question": "Calcule : $\\frac{6}{7} \\times \\frac{14}{3}$",
-          "reponse": "Solution :\nSimplification croisée :\n$\\frac{6}{7} \\times \\frac{14}{3} = \\frac{2}{1} \\times 2 = 4$",
+          "question": "Calcule : $\\frac{6}{7} \\cdot \\frac{14}{3}$",
+          "reponse": "Solution :\nSimplification croisée :\n$\\frac{6}{7} \\cdot \\frac{14}{3} = \\frac{2}{1} \\cdot 2 = 4$",
           "reponseCourte": "$4$",
           "distracteurs": [
             "$\\frac{9}{49}$",
@@ -166,7 +166,7 @@
         },
         {
           "question": "Calcule : $\\frac{1}{2} + \\frac{3}{4} \\div \\frac{3}{2}$",
-          "reponse": "Solution :\n$\\frac{3}{4} \\div \\frac{3}{2} = \\frac{3}{4} \\times \\frac{2}{3} = \\frac{1}{2}$\n$\\frac{1}{2} + \\frac{1}{2} = 1$",
+          "reponse": "Solution :\n$\\frac{3}{4} \\div \\frac{3}{2} = \\frac{3}{4} \\cdot \\frac{2}{3} = \\frac{1}{2}$\n$\\frac{1}{2} + \\frac{1}{2} = 1$",
           "reponseCourte": "$1$",
           "distracteurs": [
             "$\\frac{5}{6}$",
@@ -175,8 +175,8 @@
           ]
         },
         {
-          "question": "Calcule : $\\left(\\frac{2}{3} + \\frac{5}{6}\\right) \\times \\frac{3}{7}$",
-          "reponse": "Solution :\n$\\frac{2}{3} = \\frac{4}{6}$\n$\\frac{4}{6} + \\frac{5}{6} = \\frac{9}{6} = \\frac{3}{2}$\n$\\frac{3}{2} \\times \\frac{3}{7} = \\frac{9}{14}$",
+          "question": "Calcule : $\\left(\\frac{2}{3} + \\frac{5}{6}\\right) \\cdot \\frac{3}{7}$",
+          "reponse": "Solution :\n$\\frac{2}{3} = \\frac{4}{6}$\n$\\frac{4}{6} + \\frac{5}{6} = \\frac{9}{6} = \\frac{3}{2}$\n$\\frac{3}{2} \\cdot \\frac{3}{7} = \\frac{9}{14}$",
           "reponseCourte": "$\\frac{9}{14}$",
           "distracteurs": [
             "$\\frac{7}{2}$",
@@ -186,7 +186,7 @@
         },
         {
           "question": "Calcule : $\\frac{10}{3} \\div \\frac{5}{6}$",
-          "reponse": "Solution :\n$\\frac{10}{3} \\times \\frac{6}{5} = \\frac{60}{15} = 4$",
+          "reponse": "Solution :\n$\\frac{10}{3} \\cdot \\frac{6}{5} = \\frac{60}{15} = 4$",
           "reponseCourte": "$4$",
           "distracteurs": [
             "$\\frac{25}{9}$",
@@ -215,7 +215,7 @@
           ]
         },
         {
-          "question": "Calculer :  $\\frac{3}{5}\\times\\frac{2}{3}$.",
+          "question": "Calculer :  $\\frac{3}{5}\\cdot\\frac{2}{3}$.",
           "reponse": "Solution :  $\\frac{6}{15}=\\frac{2}{5}$.",
           "reponseCourte": "$\\frac{2}{5}$",
           "distracteurs": [
@@ -236,7 +236,7 @@
         },
         {
           "question": "Calculer :  $\\frac{9}{10}\\div\\frac{3}{5}$.",
-          "reponse": "Solution :  $\\frac{9}{10}\\times\\frac{5}{3}=\\frac{3}{2}$.",
+          "reponse": "Solution :  $\\frac{9}{10}\\cdot\\frac{5}{3}=\\frac{3}{2}$.",
           "reponseCourte": "$\\frac{3}{2}$",
           "distracteurs": [
             "$\\frac{27}{50}$",
@@ -315,8 +315,8 @@
           ]
         },
         {
-          "question": "Calcule : $\\frac{3}{4} \\times \\frac{2}{9}$",
-          "reponse": "Solution :\n$\\frac{3 \\times 2}{4 \\times 9} = \\frac{6}{36} = \\frac{1}{6}$",
+          "question": "Calcule : $\\frac{3}{4} \\cdot \\frac{2}{9}$",
+          "reponse": "Solution :\n$\\frac{3 \\cdot 2}{4 \\cdot 9} = \\frac{6}{36} = \\frac{1}{6}$",
           "reponseCourte": "$\\frac{1}{6}$",
           "distracteurs": [
             "$\\frac{27}{8}$",
@@ -326,7 +326,7 @@
         },
         {
           "question": "Calcule : $\\frac{5}{6} \\div \\frac{5}{12}$",
-          "reponse": "Solution :\n$\\frac{5}{6} \\times \\frac{12}{5} = \\frac{60}{30} = 2$",
+          "reponse": "Solution :\n$\\frac{5}{6} \\cdot \\frac{12}{5} = \\frac{60}{30} = 2$",
           "reponseCourte": "$2$",
           "distracteurs": [
             "$\\frac{25}{72}$",
@@ -682,17 +682,17 @@
         },
         {
           "cle": "produitCroix",
-          "texte": "Produit en croix (règle de trois) :\n\nSi $\\frac{a}{b} = \\frac{c}{x}$ alors $x = \\frac{b \\times c}{a}$\n\n📌 Exemple : 3 kg → CHF 12, combien pour 5 kg ?\n\n$\\frac{3}{12} = \\frac{5}{x}$\n\n$x = \\frac{12 \\times 5}{3} = \\frac{60}{3} = \\text{CHF }20$"
+          "texte": "Produit en croix (règle de trois) :\n\nSi $\\frac{a}{b} = \\frac{c}{x}$ alors $x = \\frac{b \\cdot c}{a}$\n\n📌 Exemple : 3 kg → CHF 12, combien pour 5 kg ?\n\n$\\frac{3}{12} = \\frac{5}{x}$\n\n$x = \\frac{12 \\cdot 5}{3} = \\frac{60}{3} = \\text{CHF }20$"
         },
         {
           "cle": "vitesse",
-          "texte": "Formules vitesse-distance-temps :\n\n$v = \\frac{d}{t}$ (vitesse = distance ÷ temps)\n\n$d = v \\times t$ (distance = vitesse × temps)\n\n$t = \\frac{d}{v}$ (temps = distance ÷ vitesse)\n\n📌 Exemple : 150 km en 2 heures\n$v = \\frac{150}{2} = 75\\text{ km/h}$"
+          "texte": "Formules vitesse-distance-temps :\n\n$v = \\frac{d}{t}$ (vitesse = distance ÷ temps)\n\n$d = v \\cdot t$ (distance = vitesse · temps)\n\n$t = \\frac{d}{v}$ (temps = distance ÷ vitesse)\n\n📌 Exemple : 150 km en 2 heures\n$v = \\frac{150}{2} = 75\\text{ km/h}$"
         }
       ],
       "exercices": [
         {
           "question": "Si 3 kg coûtent CHF 12, combien coûtent 5 kg ?",
-          "reponse": "Solution :\n$\\frac{3}{12} = \\frac{5}{x}$\n\n$x = \\frac{5 \\times 12}{3} = \\frac{60}{3} = \\text{CHF }20$",
+          "reponse": "Solution :\n$\\frac{3}{12} = \\frac{5}{x}$\n\n$x = \\frac{5 \\cdot 12}{3} = \\frac{60}{3} = \\text{CHF }20$",
           "reponseCourte": "CHF $20$",
           "distracteurs": [
             "CHF $14$",
@@ -702,7 +702,7 @@
         },
         {
           "question": "Une voiture roule à 90 km/h. Quelle distance en 3 heures ?",
-          "reponse": "Solution :\n$d = v \\times t$\n$d = 90 \\times 3 = 270\\text{ km}$",
+          "reponse": "Solution :\n$d = v \\cdot t$\n$d = 90 \\cdot 3 = 270\\text{ km}$",
           "reponseCourte": "$270$ km",
           "distracteurs": [
             "$93$ km",
@@ -732,7 +732,7 @@
         },
         {
           "question": "Une voiture parcourt 180 km en 3 heures. Quelle distance parcourra-t-elle en 5 heures à la même vitesse ?",
-          "reponse": "Solution :\nVitesse = 180 ÷ 3 = 60 km/h\nDistance en 5 h = 60 × 5 = 300 km",
+          "reponse": "Solution :\nVitesse = 180 ÷ 3 = 60 km/h\nDistance en 5 h = 60 · 5 = 300 km",
           "reponseCourte": "$300$ km",
           "distracteurs": [
             "$185$ km",
@@ -742,7 +742,7 @@
         },
         {
           "question": "Si 4 kg de pommes coûtent CHF 12, combien coûtent 7 kg de pommes ?",
-          "reponse": "Solution :\nPrix par kg = 12 ÷ 4 = CHF 3/kg\nPrix pour 7 kg = 7 × 3 = CHF 21",
+          "reponse": "Solution :\nPrix par kg = 12 ÷ 4 = CHF 3/kg\nPrix pour 7 kg = 7 · 3 = CHF 21",
           "reponseCourte": "CHF $21$",
           "distracteurs": [
             "CHF $15$",
@@ -752,7 +752,7 @@
         },
         {
           "question": "Une recette pour 6 personnes utilise 300 g de farine. Combien de farine pour 10 personnes ?",
-          "reponse": "Solution :\nFarine par personne = 300 ÷ 6 = 50 g\nPour 10 personnes = 10 × 50 = 500 g",
+          "reponse": "Solution :\nFarine par personne = 300 ÷ 6 = 50 g\nPour 10 personnes = 10 · 50 = 500 g",
           "reponseCourte": "$500$ g",
           "distracteurs": [
             "$304$ g",
@@ -762,7 +762,7 @@
         },
         {
           "question": "Un train parcourt 240 km en 4 heures. Quelle distance parcourra-t-il en 7 heures à la même vitesse ?",
-          "reponse": "Solution :\nVitesse = 240 ÷ 4 = 60 km/h\nDistance en 7 h = 60 × 7 = 420 km",
+          "reponse": "Solution :\nVitesse = 240 ÷ 4 = 60 km/h\nDistance en 7 h = 60 · 7 = 420 km",
           "reponseCourte": "$420$ km",
           "distracteurs": [
             "$243$ km",
@@ -782,7 +782,7 @@
         },
         {
           "question": "Une imprimante imprime 180 pages en 15 minutes. Combien de pages en 1 heure ?",
-          "reponse": "Solution :\nPages par minute = 180 ÷ 15 = 12 pages/min\nEn 60 min = 12 × 60 = 720 pages",
+          "reponse": "Solution :\nPages par minute = 180 ÷ 15 = 12 pages/min\nEn 60 min = 12 · 60 = 720 pages",
           "reponseCourte": "$720$ pages",
           "distracteurs": [
             "$195$ pages",
@@ -792,7 +792,7 @@
         },
         {
           "question": "Si 3 stylos coûtent CHF 9, combien coûtent 8 stylos ?",
-          "reponse": "Solution :\nPrix par stylo = 9 ÷ 3 = CHF 3\nPrix pour 8 stylos = 8 × 3 = CHF 24",
+          "reponse": "Solution :\nPrix par stylo = 9 ÷ 3 = CHF 3\nPrix pour 8 stylos = 8 · 3 = CHF 24",
           "reponseCourte": "CHF $24$",
           "distracteurs": [
             "CHF $14$",
@@ -802,7 +802,7 @@
         },
         {
           "question": "Une bicyclette parcourt 18 km en 45 minutes. Quelle distance en 1h30 à la même vitesse ?",
-          "reponse": "Solution :\nVitesse = 18 ÷ 0,75 h = 24 km/h\nDistance en 1,5 h = 24 × 1,5 = 36 km",
+          "reponse": "Solution :\nVitesse = 18 ÷ 0,75 h = 24 km/h\nDistance en 1,5 h = 24 · 1,5 = 36 km",
           "reponseCourte": "$36$ km",
           "distracteurs": [
             "$19{,}5$ km",
@@ -812,7 +812,7 @@
         },
         {
           "question": "Si 7 kg de sucre coûtent CHF 21, combien coûtent 10 kg ?",
-          "reponse": "Solution :\nPrix par kg = 21 ÷ 7 = CHF 3\nPrix pour 10 kg = 10 × 3 = CHF 30",
+          "reponse": "Solution :\nPrix par kg = 21 ÷ 7 = CHF 3\nPrix pour 10 kg = 10 · 3 = CHF 30",
           "reponseCourte": "CHF $30$",
           "distracteurs": [
             "CHF $24$",
@@ -822,7 +822,7 @@
         },
         {
           "question": "Une machine fabrique 120 objets en 8 heures. Combien d’objets en 5 heures ?",
-          "reponse": "Solution :\nProduction par heure = 120 ÷ 8 = 15 objets/h\nEn 5 h = 15 × 5 = 75 objets",
+          "reponse": "Solution :\nProduction par heure = 120 ÷ 8 = 15 objets/h\nEn 5 h = 15 · 5 = 75 objets",
           "reponseCourte": "$75$ objets",
           "distracteurs": [
             "$117$ objets",
@@ -832,7 +832,7 @@
         },
         {
           "question": "$4$ stylos coûtent CHF $6$. Combien coûtent $10$ stylos ?",
-          "reponse": "Solution :\nPrix d'un stylo : $6 \\div 4 =$ CHF $1{,}50$\n$1{,}50 \\times 10 =$ CHF $15$",
+          "reponse": "Solution :\nPrix d'un stylo : $6 \\div 4 =$ CHF $1{,}50$\n$1{,}50 \\cdot 10 =$ CHF $15$",
           "reponseCourte": "CHF $15$",
           "distracteurs": [
             "CHF $12$",
@@ -842,7 +842,7 @@
         },
         {
           "question": "Une recette pour $4$ personnes utilise $200$ g de farine. Quelle quantité pour $6$ personnes ?",
-          "reponse": "Solution :\nPour $1$ personne : $200 \\div 4 = 50$ g\nPour $6$ personnes : $50 \\times 6 = 300$ g",
+          "reponse": "Solution :\nPour $1$ personne : $200 \\div 4 = 50$ g\nPour $6$ personnes : $50 \\cdot 6 = 300$ g",
           "reponseCourte": "$300$ g",
           "distracteurs": [
             "$202$ g",
@@ -862,7 +862,7 @@
         },
         {
           "question": "$8$ ouvriers construisent un mur en $12$ jours. Combien de jours faudrait-il à $6$ ouvriers (même rythme) ?",
-          "reponse": "Solution :\n$8 \\times 12 = 96$ (ouvrier-jours)\n$96 \\div 6 = 16$ jours",
+          "reponse": "Solution :\n$8 \\cdot 12 = 96$ (ouvrier-jours)\n$96 \\div 6 = 16$ jours",
           "reponseCourte": "$16$ jours",
           "distracteurs": [
             "$9$ jours",
@@ -872,7 +872,7 @@
         },
         {
           "question": "Une carte a une échelle de $1:50\\,000$. Une distance de $3$ cm sur la carte correspond à quelle distance réelle (en km) ?",
-          "reponse": "Solution :\n$3 \\times 50\\,000 = 150\\,000$ cm $= 1\\,500$ m $= 1{,}5$ km",
+          "reponse": "Solution :\n$3 \\cdot 50\\,000 = 150\\,000$ cm $= 1\\,500$ m $= 1{,}5$ km",
           "reponseCourte": "$1{,}5$ km",
           "distracteurs": [
             "$150$ m",
@@ -896,11 +896,11 @@
       "explanations": [
         {
           "cle": "definition",
-          "texte": "Une puissance est une multiplication répétée :\n\n$a^n = a \\times a \\times a \\times ... \\times a$ ($n$ fois)\n\n📌 Exemples :\n• $2^3 = 2 \\times 2 \\times 2 = 8$\n• $5^2 = 5 \\times 5 = 25$\n• $10^4 = 10 \\times 10 \\times 10 \\times 10 = 10000$"
+          "texte": "Une puissance est une multiplication répétée :\n\n$a^n = a \\cdot a \\cdot a \\cdot ... \\cdot a$ ($n$ fois)\n\n📌 Exemples :\n• $2^3 = 2 \\cdot 2 \\cdot 2 = 8$\n• $5^2 = 5 \\cdot 5 = 25$\n• $10^4 = 10 \\cdot 10 \\cdot 10 \\cdot 10 = 10000$"
         },
         {
           "cle": "regles",
-          "texte": "Règles de calcul :\n\n1️⃣ Multiplication : $a^m \\times a^n = a^{m+n}$\n\n2️⃣ Division : $\\frac{a^m}{a^n} = a^{m-n}$\n\n3️⃣ Puissance de puissance : $(a^m)^n = a^{m \\times n}$\n\n📌 Exemples :\n• $2^3 \\times 2^2 = 2^{3+2} = 2^5 = 32$\n• $\\frac{5^7}{5^4} = 5^{7-4} = 5^3 = 125$\n• $(3^2)^3 = 3^{2 \\times 3} = 3^6 = 729$"
+          "texte": "Règles de calcul :\n\n1️⃣ Multiplication : $a^m \\cdot a^n = a^{m+n}$\n\n2️⃣ Division : $\\frac{a^m}{a^n} = a^{m-n}$\n\n3️⃣ Puissance de puissance : $(a^m)^n = a^{m \\cdot n}$\n\n📌 Exemples :\n• $2^3 \\cdot 2^2 = 2^{3+2} = 2^5 = 32$\n• $\\frac{5^7}{5^4} = 5^{7-4} = 5^3 = 125$\n• $(3^2)^3 = 3^{2 \\cdot 3} = 3^6 = 729$"
         },
         {
           "cle": "casParticuliers",
@@ -910,7 +910,7 @@
       "exercices": [
         {
           "question": "Calcule : $3^4$",
-          "reponse": "Solution :\n$3^4 = 3 \\times 3 \\times 3 \\times 3 = 81$",
+          "reponse": "Solution :\n$3^4 = 3 \\cdot 3 \\cdot 3 \\cdot 3 = 81$",
           "reponseCourte": "$81$",
           "distracteurs": [
             "$12$",
@@ -919,8 +919,8 @@
           ]
         },
         {
-          "question": "Simplifie : $2^5 \\times 2^3$",
-          "reponse": "Solution :\n$2^5 \\times 2^3 = 2^{5+3} = 2^8 = 256$",
+          "question": "Simplifie : $2^5 \\cdot 2^3$",
+          "reponse": "Solution :\n$2^5 \\cdot 2^3 = 2^{5+3} = 2^8 = 256$",
           "reponseCourte": "$256$",
           "distracteurs": [
             "$65\\,536$",
@@ -940,7 +940,7 @@
         },
         {
           "question": "Calcule : $(5^2)^3$",
-          "reponse": "Solution :\n$(5^2)^3 = 5^{2 \\times 3} = 5^6 = 15625$",
+          "reponse": "Solution :\n$(5^2)^3 = 5^{2 \\cdot 3} = 5^6 = 15625$",
           "reponseCourte": "$15\\,625$",
           "distracteurs": [
             "$3\\,125$",
@@ -989,7 +989,7 @@
           ]
         },
         {
-          "question": "Simplifie : $3^4 \\times 3^2$",
+          "question": "Simplifie : $3^4 \\cdot 3^2$",
           "reponse": "Solution :\n$3^{4+2} = 3^6 = 729$",
           "reponseCourte": "$729$",
           "distracteurs": [
@@ -1023,11 +1023,11 @@
       "explanations": [
         {
           "cle": "definition",
-          "texte": "La racine carrée d'un nombre positif $a$ est le nombre positif dont le carré vaut $a$ :\n\n$\\sqrt{a} \\times \\sqrt{a} = a$\n\n📌 Exemples :\n• $\\sqrt{25} = 5$ car $5^2 = 25$\n• $\\sqrt{9} = 3$ car $3^2 = 9$\n• $\\sqrt{100} = 10$ car $10^2 = 100$"
+          "texte": "La racine carrée d'un nombre positif $a$ est le nombre positif dont le carré vaut $a$ :\n\n$\\sqrt{a} \\cdot \\sqrt{a} = a$\n\n📌 Exemples :\n• $\\sqrt{25} = 5$ car $5^2 = 25$\n• $\\sqrt{9} = 3$ car $3^2 = 9$\n• $\\sqrt{100} = 10$ car $10^2 = 100$"
         },
         {
           "cle": "regles",
-          "texte": "Règles de calcul :\n\n1️⃣ Produit : $\\sqrt{a} \\times \\sqrt{b} = \\sqrt{a \\times b}$\n\n2️⃣ Quotient : $\\frac{\\sqrt{a}}{\\sqrt{b}} = \\sqrt{\\frac{a}{b}}$\n\n3️⃣ Carré : $(\\sqrt{a})^2 = a$ et $\\sqrt{a^2} = a$\n\n📌 Exemples :\n• $\\sqrt{4} \\times \\sqrt{9} = \\sqrt{36} = 6$\n• $\\frac{\\sqrt{50}}{\\sqrt{2}} = \\sqrt{\\frac{50}{2}} = \\sqrt{25} = 5$"
+          "texte": "Règles de calcul :\n\n1️⃣ Produit : $\\sqrt{a} \\cdot \\sqrt{b} = \\sqrt{a \\cdot b}$\n\n2️⃣ Quotient : $\\frac{\\sqrt{a}}{\\sqrt{b}} = \\sqrt{\\frac{a}{b}}$\n\n3️⃣ Carré : $(\\sqrt{a})^2 = a$ et $\\sqrt{a^2} = a$\n\n📌 Exemples :\n• $\\sqrt{4} \\cdot \\sqrt{9} = \\sqrt{36} = 6$\n• $\\frac{\\sqrt{50}}{\\sqrt{2}} = \\sqrt{\\frac{50}{2}} = \\sqrt{25} = 5$"
         },
         {
           "cle": "sracines",
@@ -1035,7 +1035,7 @@
         },
         {
           "cle": "simplification",
-          "texte": "Simplifier une racine carrée :\n\n1️⃣ Cherche un carré parfait dans le nombre\n2️⃣ Factorise\n3️⃣ Simplifie\n\n📌 Exemple : $\\sqrt{18}$\n• $18 = 9 \\times 2 = 3^2 \\times 2$\n• $\\sqrt{18} = \\sqrt{3^2 \\times 2} = 3\\sqrt{2}$\n\n📌 Exemple : $\\sqrt{75}$\n• $75 = 25 \\times 3 = 5^2 \\times 3$\n• $\\sqrt{75} = 5\\sqrt{3}$"
+          "texte": "Simplifier une racine carrée :\n\n1️⃣ Cherche un carré parfait dans le nombre\n2️⃣ Factorise\n3️⃣ Simplifie\n\n📌 Exemple : $\\sqrt{18}$\n• $18 = 9 \\cdot 2 = 3^2 \\cdot 2$\n• $\\sqrt{18} = \\sqrt{3^2 \\cdot 2} = 3\\sqrt{2}$\n\n📌 Exemple : $\\sqrt{75}$\n• $75 = 25 \\cdot 3 = 5^2 \\cdot 3$\n• $\\sqrt{75} = 5\\sqrt{3}$"
         }
       ],
       "exercices": [
@@ -1050,8 +1050,8 @@
           ]
         },
         {
-          "question": "Calcule : $\\sqrt{16} \\times \\sqrt{4}$",
-          "reponse": "Solution :\n$\\sqrt{16} \\times \\sqrt{4} = 4 \\times 2 = 8$\n\nOu : $\\sqrt{16 \\times 4} = \\sqrt{64} = 8$",
+          "question": "Calcule : $\\sqrt{16} \\cdot \\sqrt{4}$",
+          "reponse": "Solution :\n$\\sqrt{16} \\cdot \\sqrt{4} = 4 \\cdot 2 = 8$\n\nOu : $\\sqrt{16 \\cdot 4} = \\sqrt{64} = 8$",
           "reponseCourte": "$8$",
           "distracteurs": [
             "$20$",
@@ -1061,7 +1061,7 @@
         },
         {
           "question": "Simplifie : $\\sqrt{50}$",
-          "reponse": "Solution :\n$50 = 25 \\times 2 = 5^2 \\times 2$\n$\\sqrt{50} = \\sqrt{5^2 \\times 2} = 5\\sqrt{2}$",
+          "reponse": "Solution :\n$50 = 25 \\cdot 2 = 5^2 \\cdot 2$\n$\\sqrt{50} = \\sqrt{5^2 \\cdot 2} = 5\\sqrt{2}$",
           "reponseCourte": "$5\\sqrt{2}$",
           "distracteurs": [
             "$25\\sqrt{2}$",
@@ -1081,7 +1081,7 @@
         },
         {
           "question": "Simplifie : $\\sqrt{72}$",
-          "reponse": "Solution :\n$72 = 36 \\times 2 = 6^2 \\times 2$\n$\\sqrt{72} = 6\\sqrt{2}$",
+          "reponse": "Solution :\n$72 = 36 \\cdot 2 = 6^2 \\cdot 2$\n$\\sqrt{72} = 6\\sqrt{2}$",
           "reponseCourte": "$6\\sqrt{2}$",
           "distracteurs": [
             "$36\\sqrt{2}$",
@@ -1101,7 +1101,7 @@
         },
         {
           "question": "Simplifier : $\\sqrt{45}$",
-          "reponse": "Solution : $\\sqrt{45}=\\sqrt{9\\times5}=3\\sqrt{5}$.",
+          "reponse": "Solution : $\\sqrt{45}=\\sqrt{9\\cdot5}=3\\sqrt{5}$.",
           "reponseCourte": "$3\\sqrt{5}$",
           "distracteurs": [
             "$9\\sqrt{5}$",
@@ -1110,8 +1110,8 @@
           ]
         },
         {
-          "question": "Calculer : $ \\sqrt{9}\\times\\sqrt{16} $",
-          "reponse": "Solution : $ 3\\times4=12 .$",
+          "question": "Calculer : $ \\sqrt{9}\\cdot\\sqrt{16} $",
+          "reponse": "Solution : $ 3\\cdot4=12 .$",
           "reponseCourte": "$12$",
           "distracteurs": [
             "$25$",
@@ -1121,7 +1121,7 @@
         },
         {
           "question": "Simplifier : $\\sqrt{98}$",
-          "reponse": "Solution : $\\sqrt{98}=\\sqrt{49\\times2}=7\\sqrt{2}$.",
+          "reponse": "Solution : $\\sqrt{98}=\\sqrt{49\\cdot2}=7\\sqrt{2}$.",
           "reponseCourte": "$7\\sqrt{2}$",
           "distracteurs": [
             "$49\\sqrt{2}$",
@@ -1150,7 +1150,7 @@
           ]
         },
         {
-          "question": "Calculer : $ \\sqrt{8}\\times\\sqrt{2} $",
+          "question": "Calculer : $ \\sqrt{8}\\cdot\\sqrt{2} $",
           "reponse": "Solution : $ \\sqrt{16}=4 .$",
           "reponseCourte": "$4$",
           "distracteurs": [
@@ -1200,8 +1200,8 @@
           ]
         },
         {
-          "question": "Calcule : $\\sqrt{2} \\times \\sqrt{8}$",
-          "reponse": "Solution :\n$\\sqrt{2 \\times 8} = \\sqrt{16} = 4$",
+          "question": "Calcule : $\\sqrt{2} \\cdot \\sqrt{8}$",
+          "reponse": "Solution :\n$\\sqrt{2 \\cdot 8} = \\sqrt{16} = 4$",
           "reponseCourte": "$4$",
           "distracteurs": [
             "$16$",
@@ -1211,7 +1211,7 @@
         },
         {
           "question": "Simplifie : $\\sqrt{75}$",
-          "reponse": "Solution :\n$\\sqrt{75} = \\sqrt{25 \\times 3} = 5\\sqrt{3}$",
+          "reponse": "Solution :\n$\\sqrt{75} = \\sqrt{25 \\cdot 3} = 5\\sqrt{3}$",
           "reponseCourte": "$5\\sqrt{3}$",
           "distracteurs": [
             "$25\\sqrt{3}$",
@@ -1479,7 +1479,7 @@
         },
         {
           "question": "Calcule pour $x = 3$ : $2x^2 - 5x + 1$",
-          "reponse": "Solution :\n$2(3)^2 - 5(3) + 1$\n$= 2 \\times 9 - 15 + 1$\n$= 18 - 15 + 1 = 4$",
+          "reponse": "Solution :\n$2(3)^2 - 5(3) + 1$\n$= 2 \\cdot 9 - 15 + 1$\n$= 18 - 15 + 1 = 4$",
           "reponseCourte": "$4$",
           "distracteurs": [
             "$-8$",
@@ -1561,65 +1561,65 @@
       "explanations": [
         {
           "cle": "definition",
-          "texte": "La notation scientifique s'écrit :\n\n$a \\times 10^n$\n\noù :\n• $1 \\leq a < 10$ (un seul chiffre avant la virgule)\n• $n$ est un entier relatif\n\n📌 Exemples :\n• $3500 = 3.5 \\times 10^3$\n• $0.00042 = 4.2 \\times 10^{-4}$\n• $789000000 = 7.89 \\times 10^8$"
+          "texte": "La notation scientifique s'écrit :\n\n$a \\cdot 10^n$\n\noù :\n• $1 \\leq a < 10$ (un seul chiffre avant la virgule)\n• $n$ est un entier relatif\n\n📌 Exemples :\n• $3500 = 3.5 \\cdot 10^3$\n• $0.00042 = 4.2 \\cdot 10^{-4}$\n• $789000000 = 7.89 \\cdot 10^8$"
         },
         {
           "cle": "grandsNombres",
-          "texte": "Pour les grands nombres ($n > 0$) :\n\n1️⃣ Déplace la virgule vers la gauche\n2️⃣ Compte le nombre de déplacements = exposant positif\n\n📌 Exemple : $456000$\n• Déplace 5 fois vers la gauche : $4.56$\n• $456000 = 4.56 \\times 10^5$"
+          "texte": "Pour les grands nombres ($n > 0$) :\n\n1️⃣ Déplace la virgule vers la gauche\n2️⃣ Compte le nombre de déplacements = exposant positif\n\n📌 Exemple : $456000$\n• Déplace 5 fois vers la gauche : $4.56$\n• $456000 = 4.56 \\cdot 10^5$"
         },
         {
           "cle": "petitsNombres",
-          "texte": "Pour les petits nombres ($n < 0$) :\n\n1️⃣ Déplace la virgule vers la droite\n2️⃣ Compte le nombre de déplacements = exposant négatif\n\n📌 Exemple : $0.00035$\n• Déplace 4 fois vers la droite : $3.5$\n• $0.00035 = 3.5 \\times 10^{-4}$"
+          "texte": "Pour les petits nombres ($n < 0$) :\n\n1️⃣ Déplace la virgule vers la droite\n2️⃣ Compte le nombre de déplacements = exposant négatif\n\n📌 Exemple : $0.00035$\n• Déplace 4 fois vers la droite : $3.5$\n• $0.00035 = 3.5 \\cdot 10^{-4}$"
         },
         {
           "cle": "operations",
-          "texte": "Opérations en notation scientifique :\n\n**Multiplication :**\n$(a \\times 10^m) \\times (b \\times 10^n) = (a \\times b) \\times 10^{m+n}$\n\n📌 Exemple :\n$(2 \\times 10^3) \\times (3 \\times 10^5) = 6 \\times 10^8$\n\n**Division :**\n$\\frac{a \\times 10^m}{b \\times 10^n} = \\frac{a}{b} \\times 10^{m-n}$\n\n📌 Exemple :\n$\\frac{8 \\times 10^7}{2 \\times 10^3} = 4 \\times 10^4$"
+          "texte": "Opérations en notation scientifique :\n\n**Multiplication :**\n$(a \\cdot 10^m) \\cdot (b \\cdot 10^n) = (a \\cdot b) \\cdot 10^{m+n}$\n\n📌 Exemple :\n$(2 \\cdot 10^3) \\cdot (3 \\cdot 10^5) = 6 \\cdot 10^8$\n\n**Division :**\n$\\frac{a \\cdot 10^m}{b \\cdot 10^n} = \\frac{a}{b} \\cdot 10^{m-n}$\n\n📌 Exemple :\n$\\frac{8 \\cdot 10^7}{2 \\cdot 10^3} = 4 \\cdot 10^4$"
         }
       ],
       "exercices": [
         {
           "question": "Écris en notation scientifique : $45000$",
-          "reponse": "Solution :\n$45000 = 4{,}5 \\times 10^4$",
-          "reponseCourte": "$4{,}5 \\times 10^4$",
+          "reponse": "Solution :\n$45000 = 4{,}5 \\cdot 10^4$",
+          "reponseCourte": "$4{,}5 \\cdot 10^4$",
           "distracteurs": [
-            "$45 \\times 10^3$",
-            "$4{,}5 \\times 10^3$",
-            "$4{,}5 \\times 10^5$"
+            "$45 \\cdot 10^3$",
+            "$4{,}5 \\cdot 10^3$",
+            "$4{,}5 \\cdot 10^5$"
           ]
         },
         {
           "question": "Écris en notation scientifique : $0{,}00072$",
-          "reponse": "Solution :\n$0{,}00072 = 7{,}2 \\times 10^{-4}$",
-          "reponseCourte": "$7{,}2 \\times 10^{-4}$",
+          "reponse": "Solution :\n$0{,}00072 = 7{,}2 \\cdot 10^{-4}$",
+          "reponseCourte": "$7{,}2 \\cdot 10^{-4}$",
           "distracteurs": [
-            "$7{,}2 \\times 10^{4}$",
-            "$72 \\times 10^{-5}$",
-            "$7{,}2 \\times 10^{-3}$"
+            "$7{,}2 \\cdot 10^{4}$",
+            "$72 \\cdot 10^{-5}$",
+            "$7{,}2 \\cdot 10^{-3}$"
           ]
         },
         {
-          "question": "Calcule : $(3 \\times 10^4) \\times (2 \\times 10^5)$",
-          "reponse": "Solution :\n$(3 \\times 10^4) \\times (2 \\times 10^5) = (3 \\times 2) \\times 10^{4+5}$\n$= 6 \\times 10^9$",
-          "reponseCourte": "$6 \\times 10^9$",
+          "question": "Calcule : $(3 \\cdot 10^4) \\cdot (2 \\cdot 10^5)$",
+          "reponse": "Solution :\n$(3 \\cdot 10^4) \\cdot (2 \\cdot 10^5) = (3 \\cdot 2) \\cdot 10^{4+5}$\n$= 6 \\cdot 10^9$",
+          "reponseCourte": "$6 \\cdot 10^9$",
           "distracteurs": [
-            "$6 \\times 10^{20}$",
-            "$5 \\times 10^9$",
-            "$6 \\times 10^{-1}$"
+            "$6 \\cdot 10^{20}$",
+            "$5 \\cdot 10^9$",
+            "$6 \\cdot 10^{-1}$"
           ]
         },
         {
-          "question": "Calcule : $\\frac{9 \\times 10^8}{3 \\times 10^5}$",
-          "reponse": "Solution :\n$\\frac{9 \\times 10^8}{3 \\times 10^5} = \\frac{9}{3} \\times 10^{8-5}$\n$= 3 \\times 10^3$",
-          "reponseCourte": "$3 \\times 10^3$",
+          "question": "Calcule : $\\frac{9 \\cdot 10^8}{3 \\cdot 10^5}$",
+          "reponse": "Solution :\n$\\frac{9 \\cdot 10^8}{3 \\cdot 10^5} = \\frac{9}{3} \\cdot 10^{8-5}$\n$= 3 \\cdot 10^3$",
+          "reponseCourte": "$3 \\cdot 10^3$",
           "distracteurs": [
-            "$3 \\times 10^{13}$",
-            "$3 \\times 10^{40}$",
-            "$27 \\times 10^3$"
+            "$3 \\cdot 10^{13}$",
+            "$3 \\cdot 10^{40}$",
+            "$27 \\cdot 10^3$"
           ]
         },
         {
-          "question": "Écris en écriture décimale : $5{,}6 \\times 10^{-3}$",
-          "reponse": "Solution :\n$5{,}6 \\times 10^{-3} = 0{,}0056$",
+          "question": "Écris en écriture décimale : $5{,}6 \\cdot 10^{-3}$",
+          "reponse": "Solution :\n$5{,}6 \\cdot 10^{-3} = 0{,}0056$",
           "reponseCourte": "$0{,}0056$",
           "distracteurs": [
             "$5600$",
@@ -1629,27 +1629,27 @@
         },
         {
           "question": "Écris en notation scientifique : $45\\,000$",
-          "reponse": "Solution :\n$45\\,000 = 4{,}5 \\times 10^4$",
-          "reponseCourte": "$4{,}5 \\times 10^4$",
+          "reponse": "Solution :\n$45\\,000 = 4{,}5 \\cdot 10^4$",
+          "reponseCourte": "$4{,}5 \\cdot 10^4$",
           "distracteurs": [
-            "$45 \\times 10^3$",
-            "$4{,}5 \\times 10^3$",
-            "$4{,}5 \\times 10^5$"
+            "$45 \\cdot 10^3$",
+            "$4{,}5 \\cdot 10^3$",
+            "$4{,}5 \\cdot 10^5$"
           ]
         },
         {
           "question": "Écris en notation scientifique : $0{,}0032$",
-          "reponse": "Solution :\n$0{,}0032 = 3{,}2 \\times 10^{-3}$",
-          "reponseCourte": "$3{,}2 \\times 10^{-3}$",
+          "reponse": "Solution :\n$0{,}0032 = 3{,}2 \\cdot 10^{-3}$",
+          "reponseCourte": "$3{,}2 \\cdot 10^{-3}$",
           "distracteurs": [
-            "$3{,}2 \\times 10^{3}$",
-            "$32 \\times 10^{-4}$",
-            "$3{,}2 \\times 10^{-2}$"
+            "$3{,}2 \\cdot 10^{3}$",
+            "$32 \\cdot 10^{-4}$",
+            "$3{,}2 \\cdot 10^{-2}$"
           ]
         },
         {
-          "question": "Écris sous forme décimale : $6{,}02 \\times 10^3$",
-          "reponse": "Solution :\n$6{,}02 \\times 10^3 = 6\\,020$",
+          "question": "Écris sous forme décimale : $6{,}02 \\cdot 10^3$",
+          "reponse": "Solution :\n$6{,}02 \\cdot 10^3 = 6\\,020$",
           "reponseCourte": "$6\\,020$",
           "distracteurs": [
             "$602$",
@@ -1658,8 +1658,8 @@
           ]
         },
         {
-          "question": "Écris sous forme décimale : $7 \\times 10^{-2}$",
-          "reponse": "Solution :\n$7 \\times 10^{-2} = 0{,}07$",
+          "question": "Écris sous forme décimale : $7 \\cdot 10^{-2}$",
+          "reponse": "Solution :\n$7 \\cdot 10^{-2} = 0{,}07$",
           "reponseCourte": "$0{,}07$",
           "distracteurs": [
             "$7$",
@@ -1668,13 +1668,13 @@
           ]
         },
         {
-          "question": "Calcule et écris en notation scientifique : $(2 \\times 10^3) \\times (3 \\times 10^2)$",
-          "reponse": "Solution :\n$2 \\times 3 = 6$ et $10^3 \\times 10^2 = 10^5$\n$= 6 \\times 10^5$",
-          "reponseCourte": "$6 \\times 10^5$",
+          "question": "Calcule et écris en notation scientifique : $(2 \\cdot 10^3) \\cdot (3 \\cdot 10^2)$",
+          "reponse": "Solution :\n$2 \\cdot 3 = 6$ et $10^3 \\cdot 10^2 = 10^5$\n$= 6 \\cdot 10^5$",
+          "reponseCourte": "$6 \\cdot 10^5$",
           "distracteurs": [
-            "$6 \\times 10^{6}$",
-            "$5 \\times 10^5$",
-            "$6 \\times 10^{-1}$"
+            "$6 \\cdot 10^{6}$",
+            "$5 \\cdot 10^5$",
+            "$6 \\cdot 10^{-1}$"
           ]
         }
       ]
@@ -1696,7 +1696,7 @@
       "explanations": [
         {
           "cle": "longueur",
-          "texte": "Unités de longueur :\n\n$\\text{km} \\rightarrow \\text{hm} \\rightarrow \\text{dam} \\rightarrow \\text{m} \\rightarrow \\text{dm} \\rightarrow \\text{cm} \\rightarrow \\text{mm}$\n\nChaque flèche = × 10 ou ÷ 10\n\n📌 Exemples :\n• $1 \\text{ km} = 1000 \\text{ m}$\n• $5.2 \\text{ m} = 520 \\text{ cm}$\n• $3500 \\text{ mm} = 3.5 \\text{ m}$\n• $0.045 \\text{ km} = 45 \\text{ m}$"
+          "texte": "Unités de longueur :\n\n$\\text{km} \\rightarrow \\text{hm} \\rightarrow \\text{dam} \\rightarrow \\text{m} \\rightarrow \\text{dm} \\rightarrow \\text{cm} \\rightarrow \\text{mm}$\n\nChaque flèche = · 10 ou ÷ 10\n\n📌 Exemples :\n• $1 \\text{ km} = 1000 \\text{ m}$\n• $5.2 \\text{ m} = 520 \\text{ cm}$\n• $3500 \\text{ mm} = 3.5 \\text{ m}$\n• $0.045 \\text{ km} = 45 \\text{ m}$"
         },
         {
           "cle": "masse",
@@ -1708,11 +1708,11 @@
         },
         {
           "cle": "aire",
-          "texte": "Unités d'aire :\n\n$\\text{km}^2 \\rightarrow \\text{hm}^2 \\rightarrow \\text{dam}^2 \\rightarrow \\text{m}^2 \\rightarrow \\text{dm}^2 \\rightarrow \\text{cm}^2 \\rightarrow \\text{mm}^2$\n\n⚠️ Chaque flèche = × 100 ou ÷ 100\n\n📌 Exemples :\n• $1 \\text{ m}^2 = 10000 \\text{ cm}^2$\n• $1 \\text{ km}^2 = 1000000 \\text{ m}^2$\n• $500 \\text{ cm}^2 = 0.05 \\text{ m}^2$"
+          "texte": "Unités d'aire :\n\n$\\text{km}^2 \\rightarrow \\text{hm}^2 \\rightarrow \\text{dam}^2 \\rightarrow \\text{m}^2 \\rightarrow \\text{dm}^2 \\rightarrow \\text{cm}^2 \\rightarrow \\text{mm}^2$\n\n⚠️ Chaque flèche = · 100 ou ÷ 100\n\n📌 Exemples :\n• $1 \\text{ m}^2 = 10000 \\text{ cm}^2$\n• $1 \\text{ km}^2 = 1000000 \\text{ m}^2$\n• $500 \\text{ cm}^2 = 0.05 \\text{ m}^2$"
         },
         {
           "cle": "volume",
-          "texte": "Unités de volume :\n\n$\\text{km}^3 \\rightarrow \\text{hm}^3 \\rightarrow \\text{dam}^3 \\rightarrow \\text{m}^3 \\rightarrow \\text{dm}^3 \\rightarrow \\text{cm}^3 \\rightarrow \\text{mm}^3$\n\n⚠️ Chaque flèche = × 1000 ou ÷ 1000\n\n📌 Exemples :\n• $1 \\text{ m}^3 = 1000 \\text{ dm}^3 = 1000 \\text{ L}$\n• $1 \\text{ dm}^3 = 1 \\text{ L}$\n• $5000 \\text{ cm}^3 = 5 \\text{ dm}^3 = 5 \\text{ L}$"
+          "texte": "Unités de volume :\n\n$\\text{km}^3 \\rightarrow \\text{hm}^3 \\rightarrow \\text{dam}^3 \\rightarrow \\text{m}^3 \\rightarrow \\text{dm}^3 \\rightarrow \\text{cm}^3 \\rightarrow \\text{mm}^3$\n\n⚠️ Chaque flèche = · 1000 ou ÷ 1000\n\n📌 Exemples :\n• $1 \\text{ m}^3 = 1000 \\text{ dm}^3 = 1000 \\text{ L}$\n• $1 \\text{ dm}^3 = 1 \\text{ L}$\n• $5000 \\text{ cm}^3 = 5 \\text{ dm}^3 = 5 \\text{ L}$"
         },
         {
           "cle": "duree",
@@ -1722,7 +1722,7 @@
       "exercices": [
         {
           "question": "Convertis : $3{,}5 \\text{ km}$ en mètres",
-          "reponse": "Solution :\n$3{,}5 \\text{ km} = 3{,}5 \\times 1000 = 3500 \\text{ m}$",
+          "reponse": "Solution :\n$3{,}5 \\text{ km} = 3{,}5 \\cdot 1000 = 3500 \\text{ m}$",
           "reponseCourte": "$3\\,500$ m",
           "distracteurs": [
             "$0{,}0035$ m",
@@ -1752,7 +1752,7 @@
         },
         {
           "question": "Convertis : $5 \\text{ m}^2$ en $\\text{cm}^2$",
-          "reponse": "Solution :\n$5 \\text{ m}^2 = 5 \\times 10000 = 50000 \\text{ cm}^2$",
+          "reponse": "Solution :\n$5 \\text{ m}^2 = 5 \\cdot 10000 = 50000 \\text{ cm}^2$",
           "reponseCourte": "$50\\,000$ $\\text{cm}^2$",
           "distracteurs": [
             "$500$ $\\text{cm}^2$",
@@ -1772,7 +1772,7 @@
         },
         {
           "question": "Convertis : $2 \\text{ h } 30 \\text{ min}$ en minutes",
-          "reponse": "Solution :\n$2 \\text{ h} = 2 \\times 60 = 120 \\text{ min}$\n$120 + 30 = 150 \\text{ min}$",
+          "reponse": "Solution :\n$2 \\text{ h} = 2 \\cdot 60 = 120 \\text{ min}$\n$120 + 30 = 150 \\text{ min}$",
           "reponseCourte": "$150$ min",
           "distracteurs": [
             "$132$ min",
@@ -1792,7 +1792,7 @@
         },
         {
           "question": "Convertis : $2$ h $15$ min en minutes",
-          "reponse": "Solution :\n$2 \\times 60 = 120$ min\n$120 + 15 = 135$ min",
+          "reponse": "Solution :\n$2 \\cdot 60 = 120$ min\n$120 + 15 = 135$ min",
           "reponseCourte": "$135$ min",
           "distracteurs": [
             "$117$ min",
@@ -1812,7 +1812,7 @@
         },
         {
           "question": "Convertis : $0{,}75$ L en mL",
-          "reponse": "Solution :\n$0{,}75 \\times 1\\,000 = 750$ mL",
+          "reponse": "Solution :\n$0{,}75 \\cdot 1\\,000 = 750$ mL",
           "reponseCourte": "$750$ mL",
           "distracteurs": [
             "$0{,}75$ mL",
@@ -1822,7 +1822,7 @@
         },
         {
           "question": "Convertis 4,2 kg en g.",
-          "reponse": "Solution :\n$4,2$ kg $= 4,2 \\times 1000 = 4200$ g"
+          "reponse": "Solution :\n$4,2$ kg $= 4,2 \\cdot 1000 = 4200$ g"
         },
         {
           "question": "Convertis 5600 mL en L.",
@@ -1830,7 +1830,7 @@
         },
         {
           "question": "Convertis 2,5 m² en cm².",
-          "reponse": "Solution :\n$2,5$ m² $= 2,5 \\times 10000 = 25000$ cm²"
+          "reponse": "Solution :\n$2,5$ m² $= 2,5 \\cdot 10000 = 25000$ cm²"
         }
       ]
     },
@@ -1870,27 +1870,27 @@
       "explanations": [
         {
           "cle": "figuresPlanes2D",
-          "texte": "📐 FIGURES PLANES (2D) :\n\n**Carré** (côté $c$) :\n• Périmètre : $P = 4c$\n• Aire : $A = c^2$\n\n**Rectangle** (longueur $L$, largeur $l$) :\n• Périmètre : $P = 2(L + l)$\n• Aire : $A = L \\times l$\n\n**Triangle** (côtés $a, b, c$, base $b$, hauteur $h$) :\n• Périmètre : $P = a + b + c$\n• Aire : $A = \\frac{b \\times h}{2}$"
+          "texte": "📐 FIGURES PLANES (2D) :\n\n**Carré** (côté $c$) :\n• Périmètre : $P = 4c$\n• Aire : $A = c^2$\n\n**Rectangle** (longueur $L$, largeur $l$) :\n• Périmètre : $P = 2(L + l)$\n• Aire : $A = L \\cdot l$\n\n**Triangle** (côtés $a, b, c$, base $b$, hauteur $h$) :\n• Périmètre : $P = a + b + c$\n• Aire : $A = \\frac{b \\cdot h}{2}$"
         },
         {
           "cle": "cercleDisque",
-          "texte": "⭕ CERCLE ET DISQUE :\n\n**Cercle** (rayon $r$, diamètre $d$) :\n• Périmètre (circonférence) : $P = 2\\pi r = \\pi d$\n\n**Disque** (rayon $r$) :\n• Aire : $A = \\pi r^2$\n\n📌 Exemples (avec $\\pi = 3$, sans calculatrice) :\n• Rayon = 5 cm\n• Périmètre $= 2 \\times 3 \\times 5 = 30 \\text{ cm}$\n• Aire $= 3 \\times 5^2 = 75 \\text{ cm}^2$"
+          "texte": "⭕ CERCLE ET DISQUE :\n\n**Cercle** (rayon $r$, diamètre $d$) :\n• Périmètre (circonférence) : $P = 2\\pi r = \\pi d$\n\n**Disque** (rayon $r$) :\n• Aire : $A = \\pi r^2$\n\n📌 Exemples (avec $\\pi = 3$, sans calculatrice) :\n• Rayon = 5 cm\n• Périmètre $= 2 \\cdot 3 \\cdot 5 = 30 \\text{ cm}$\n• Aire $= 3 \\cdot 5^2 = 75 \\text{ cm}^2$"
         },
         {
           "cle": "autresFigures",
-          "texte": "📐 AUTRES FIGURES PLANES :\n\n**Parallélogramme** (base $b$, hauteur $h$) :\n• Aire : $A = b \\times h$\n\n**Trapèze** (petite base $b$, grande base $B$, hauteur $h$) :\n• Aire : $A = \\frac{(b + B) \\times h}{2}$\n\n**Triangle rectangle** (côtés $a$ et $b$ de l'angle droit) :\n• Aire : $A = \\frac{a \\times b}{2}$"
+          "texte": "📐 AUTRES FIGURES PLANES :\n\n**Parallélogramme** (base $b$, hauteur $h$) :\n• Aire : $A = b \\cdot h$\n\n**Trapèze** (petite base $b$, grande base $B$, hauteur $h$) :\n• Aire : $A = \\frac{(b + B) \\cdot h}{2}$\n\n**Triangle rectangle** (côtés $a$ et $b$ de l'angle droit) :\n• Aire : $A = \\frac{a \\cdot b}{2}$"
         },
         {
           "cle": "solides3D",
-          "texte": "📦 SOLIDES (3D) :\n\n**Cube** (arête $a$) :\n• Volume : $V = a^3$\n• Aire totale : $A = 6a^2$\n\n**Pavé droit** (longueur $L$, largeur $l$, hauteur $h$) :\n• Volume : $V = L \\times l \\times h$\n\n**Cylindre** (rayon $r$, hauteur $h$) :\n• Volume : $V = \\pi r^2 h$\n• Aire totale : $A_L = 2\\pi r h + 2\\pi r^2$"
+          "texte": "📦 SOLIDES (3D) :\n\n**Cube** (arête $a$) :\n• Volume : $V = a^3$\n• Aire totale : $A = 6a^2$\n\n**Pavé droit** (longueur $L$, largeur $l$, hauteur $h$) :\n• Volume : $V = L \\cdot l \\cdot h$\n\n**Cylindre** (rayon $r$, hauteur $h$) :\n• Volume : $V = \\pi r^2 h$\n• Aire totale : $A_L = 2\\pi r h + 2\\pi r^2$"
         },
         {
           "cle": "pyramidesCones",
-          "texte": "🔺 PYRAMIDES ET CÔNES :\n\n**Pyramide** (aire de base $A_b$, hauteur $h$) :\n• Volume : $V = \\frac{A_b \\times h}{3}$\n\n**Cône** (rayon $r$, hauteur $h$) :\n• Volume : $V = \\frac{\\pi r^2 h}{3}$\n\n**Boule/Sphère** (rayon $r$) :\n• Volume : $V = \\frac{4\\pi r^3}{3}$\n• Aire : $A = 4\\pi r^2$"
+          "texte": "🔺 PYRAMIDES ET CÔNES :\n\n**Pyramide** (aire de base $A_b$, hauteur $h$) :\n• Volume : $V = \\frac{A_b \\cdot h}{3}$\n\n**Cône** (rayon $r$, hauteur $h$) :\n• Volume : $V = \\frac{\\pi r^2 h}{3}$\n\n**Boule/Sphère** (rayon $r$) :\n• Volume : $V = \\frac{4\\pi r^3}{3}$\n• Aire : $A = 4\\pi r^2$"
         },
         {
           "cle": "figuresComposees",
-          "texte": "**Figures composées :**\n\nOn **découpe** la figure en figures simples — rectangles, triangles, demi-disques — puis on **additionne** leurs aires. Si la figure a un trou, on **soustrait** l'aire du trou.\n\n📌 Un rectangle de $8 \\times 5$ surmonté d'un demi-disque de rayon $2{,}5$ :\n$A = 8 \\cdot 5 + \\frac{\\pi \\cdot 2{,}5^2}{2} \\approx 40 + 9{,}8 = 49{,}8$\n\n⚠️ Pour le **périmètre**, on ne fait pas la somme des périmètres : on suit le **contour** de la figure, et les côtés intérieurs ne comptent pas."
+          "texte": "**Figures composées :**\n\nOn **découpe** la figure en figures simples — rectangles, triangles, demi-disques — puis on **additionne** leurs aires. Si la figure a un trou, on **soustrait** l'aire du trou.\n\n📌 Un rectangle de $8 \\cdot 5$ surmonté d'un demi-disque de rayon $2{,}5$ :\n$A = 8 \\cdot 5 + \\frac{\\pi \\cdot 2{,}5^2}{2} \\approx 40 + 9{,}8 = 49{,}8$\n\n⚠️ Pour le **périmètre**, on ne fait pas la somme des périmètres : on suit le **contour** de la figure, et les côtés intérieurs ne comptent pas."
         },
         {
           "cle": "airePave",
@@ -1900,7 +1900,7 @@
       "exercices": [
         {
           "question": "Carré de côté 6 cm. Calcule périmètre et aire.",
-          "reponse": "Solution :\n• Périmètre : $P = 4 \\times 6 = 24 \\text{ cm}$\n• Aire : $A = 6^2 = 36 \\text{ cm}^2$",
+          "reponse": "Solution :\n• Périmètre : $P = 4 \\cdot 6 = 24 \\text{ cm}$\n• Aire : $A = 6^2 = 36 \\text{ cm}^2$",
           "reponseCourte": "$P = 24$ cm, $A = 36$ $\\text{cm}^2$",
           "distracteurs": [
             "$P = 36$ cm, $A = 24$ $\\text{cm}^2$",
@@ -1910,7 +1910,7 @@
         },
         {
           "question": "Rectangle : longueur 8 cm, largeur 5 cm. Calcule l'aire.",
-          "reponse": "Solution :\n$A = 8 \\times 5 = 40 \\text{ cm}^2$",
+          "reponse": "Solution :\n$A = 8 \\cdot 5 = 40 \\text{ cm}^2$",
           "reponseCourte": "$40$ $\\text{cm}^2$",
           "distracteurs": [
             "$26$ $\\text{cm}^2$",
@@ -1920,7 +1920,7 @@
         },
         {
           "question": "Triangle : base 10 cm, hauteur 6 cm. Calcule l'aire.",
-          "reponse": "Solution :\n$A = \\frac{10 \\times 6}{2} = \\frac{60}{2} = 30 \\text{ cm}^2$",
+          "reponse": "Solution :\n$A = \\frac{10 \\cdot 6}{2} = \\frac{60}{2} = 30 \\text{ cm}^2$",
           "reponseCourte": "$30$ $\\text{cm}^2$",
           "distracteurs": [
             "$60$ $\\text{cm}^2$",
@@ -1930,7 +1930,7 @@
         },
         {
           "question": "Cercle de rayon 4 cm. Calcule le périmètre. (π = 3)",
-          "reponse": "Solution :\n$P = 2\\pi r = 2 \\times 3 \\times 4 = 24 \\text{ cm}$",
+          "reponse": "Solution :\n$P = 2\\pi r = 2 \\cdot 3 \\cdot 4 = 24 \\text{ cm}$",
           "reponseCourte": "$24$ cm",
           "distracteurs": [
             "$12$ cm",
@@ -1940,7 +1940,7 @@
         },
         {
           "question": "Disque de rayon 5 cm. Calcule l'aire. (π = 3)",
-          "reponse": "Solution :\n$A = \\pi r^2 = 3 \\times 5^2 = 3 \\times 25 = 75 \\text{ cm}^2$",
+          "reponse": "Solution :\n$A = \\pi r^2 = 3 \\cdot 5^2 = 3 \\cdot 25 = 75 \\text{ cm}^2$",
           "reponseCourte": "$75$ $\\text{cm}^2$",
           "distracteurs": [
             "$15$ $\\text{cm}^2$",
@@ -1960,7 +1960,7 @@
         },
         {
           "question": "Cylindre : rayon 3 cm, hauteur 10 cm. Calcule le volume. (π = 3)",
-          "reponse": "Solution :\n$V = \\pi r^2 h = 3 \\times 3^2 \\times 10$\n$= 3 \\times 9 \\times 10 = 270 \\text{ cm}^3$",
+          "reponse": "Solution :\n$V = \\pi r^2 h = 3 \\cdot 3^2 \\cdot 10$\n$= 3 \\cdot 9 \\cdot 10 = 270 \\text{ cm}^3$",
           "reponseCourte": "$270$ $\\text{cm}^3$",
           "distracteurs": [
             "$90$ $\\text{cm}^3$",
@@ -1970,7 +1970,7 @@
         },
         {
           "question": "Cône : rayon 4 cm, hauteur 9 cm. Calcule le volume. (π = 3)",
-          "reponse": "Solution :\n$V = \\frac{\\pi r^2 h}{3} = \\frac{3 \\times 4^2 \\times 9}{3}$\n$= \\frac{3 \\times 16 \\times 9}{3} = 144 \\text{ cm}^3$",
+          "reponse": "Solution :\n$V = \\frac{\\pi r^2 h}{3} = \\frac{3 \\cdot 4^2 \\cdot 9}{3}$\n$= \\frac{3 \\cdot 16 \\cdot 9}{3} = 144 \\text{ cm}^3$",
           "reponseCourte": "$144$ $\\text{cm}^3$",
           "distracteurs": [
             "$432$ $\\text{cm}^3$",
@@ -1980,7 +1980,7 @@
         },
         {
           "question": "Sphère de rayon 3 cm. Calcule le volume. (π = 3)",
-          "reponse": "Solution :\n$V = \\frac{4\\pi r^3}{3} = \\frac{4 \\times 3 \\times 3^3}{3}$\n$= \\frac{4 \\times 3 \\times 27}{3} = 108 \\text{ cm}^3$",
+          "reponse": "Solution :\n$V = \\frac{4\\pi r^3}{3} = \\frac{4 \\cdot 3 \\cdot 3^3}{3}$\n$= \\frac{4 \\cdot 3 \\cdot 27}{3} = 108 \\text{ cm}^3$",
           "reponseCourte": "$108$ $\\text{cm}^3$",
           "distracteurs": [
             "$324$ $\\text{cm}^3$",
@@ -1990,7 +1990,7 @@
         },
         {
           "question": "Trapèze : petite base 5 cm, grande base 9 cm, hauteur 4 cm. Calcule l'aire.",
-          "reponse": "Solution :\n$A = \\frac{(b + B) \\times h}{2} = \\frac{(5 + 9) \\times 4}{2}$\n$= \\frac{14 \\times 4}{2} = \\frac{56}{2} = 28 \\text{ cm}^2$",
+          "reponse": "Solution :\n$A = \\frac{(b + B) \\cdot h}{2} = \\frac{(5 + 9) \\cdot 4}{2}$\n$= \\frac{14 \\cdot 4}{2} = \\frac{56}{2} = 28 \\text{ cm}^2$",
           "reponseCourte": "$28$ $\\text{cm}^2$",
           "distracteurs": [
             "$56$ $\\text{cm}^2$",
@@ -2010,7 +2010,7 @@
         },
         {
           "question": "Calcule l'aire d'un disque de rayon $5$ cm (valeur exacte)",
-          "reponse": "Solution :\n$A = \\pi \\times 5^2 = 25\\pi$ cm²",
+          "reponse": "Solution :\n$A = \\pi \\cdot 5^2 = 25\\pi$ cm²",
           "reponseCourte": "$25\\pi$ cm²",
           "distracteurs": [
             "$10\\pi$ cm²",
@@ -2020,7 +2020,7 @@
         },
         {
           "question": "Calcule le périmètre d'un cercle de rayon $3$ cm (valeur exacte)",
-          "reponse": "Solution :\n$P = 2\\pi \\times 3 = 6\\pi$ cm",
+          "reponse": "Solution :\n$P = 2\\pi \\cdot 3 = 6\\pi$ cm",
           "reponseCourte": "$6\\pi$ cm",
           "distracteurs": [
             "$3\\pi$ cm",
@@ -2029,8 +2029,8 @@
           ]
         },
         {
-          "question": "Calcule le volume d'un parallélépipède rectangle de dimensions $5$ cm $\\times$ $4$ cm $\\times$ $3$ cm",
-          "reponse": "Solution :\n$V = 5 \\times 4 \\times 3 = 60$ cm³",
+          "question": "Calcule le volume d'un parallélépipède rectangle de dimensions $5$ cm $\\cdot$ $4$ cm $\\cdot$ $3$ cm",
+          "reponse": "Solution :\n$V = 5 \\cdot 4 \\cdot 3 = 60$ cm³",
           "reponseCourte": "$60$ cm³",
           "distracteurs": [
             "$12$ cm³",
@@ -2040,7 +2040,7 @@
         },
         {
           "question": "Calcule l'aire d'un trapèze de bases $6$ cm et $10$ cm et de hauteur $4$ cm",
-          "reponse": "Solution :\n$A = \\frac{(6+10) \\times 4}{2} = \\frac{64}{2} = 32$ cm²",
+          "reponse": "Solution :\n$A = \\frac{(6+10) \\cdot 4}{2} = \\frac{64}{2} = 32$ cm²",
           "reponseCourte": "$32$ cm²",
           "distracteurs": [
             "$64$ cm²",
@@ -2090,7 +2090,7 @@
         },
         {
           "question": "Un rectangle a pour dimensions 8 m et 5 m. Calcule son aire.",
-          "reponse": "Solution :\n$A = L \\times l = 8 \\times 5 = 40$ m²"
+          "reponse": "Solution :\n$A = L \\cdot l = 8 \\cdot 5 = 40$ m²"
         },
         {
           "question": "Un cube a un côté de 3 dm. Calcule son volume.",
@@ -2098,23 +2098,23 @@
         },
         {
           "question": "Un carré a un côté de 12 cm. Calcule son périmètre.",
-          "reponse": "Solution :\n$P = 4 \\times c = 4 \\times 12 = 48$ cm"
+          "reponse": "Solution :\n$P = 4 \\cdot c = 4 \\cdot 12 = 48$ cm"
         },
         {
           "question": "Un rectangle a une longueur de 15 cm et une largeur de 8 cm. Calcule son périmètre.",
-          "reponse": "Solution :\n$P = 2(L + l) = 2(15 + 8) = 2 \\times 23 = 46$ cm"
+          "reponse": "Solution :\n$P = 2(L + l) = 2(15 + 8) = 2 \\cdot 23 = 46$ cm"
         },
         {
           "question": "Un disque a un rayon de 5 cm. Calcule son aire. (Utilise $\\pi = 3$)",
-          "reponse": "Solution :\n$A = \\pi r^2 = 3 \\times 5^2 = 3 \\times 25 = 75$ cm²"
+          "reponse": "Solution :\n$A = \\pi r^2 = 3 \\cdot 5^2 = 3 \\cdot 25 = 75$ cm²"
         },
         {
           "question": "Un cylindre a un rayon de 4 cm et une hauteur de 10 cm. Calcule son volume. (Utilise $\\pi = 3$)",
-          "reponse": "Solution :\n$V = \\pi r^2 h = 3 \\times 4^2 \\times 10 = 3 \\times 16 \\times 10 = 480$ cm³"
+          "reponse": "Solution :\n$V = \\pi r^2 h = 3 \\cdot 4^2 \\cdot 10 = 3 \\cdot 16 \\cdot 10 = 480$ cm³"
         },
         {
-          "question": "Un parallélépipède rectangle a pour dimensions : L = 8 cm, l = 5 cm, h = 3 cm. Calcule l'aire d'une face de 8 cm × 5 cm.",
-          "reponse": "Solution :\n$A = L \\times l = 8 \\times 5 = 40$ cm²"
+          "question": "Un parallélépipède rectangle a pour dimensions : L = 8 cm, l = 5 cm, h = 3 cm. Calcule l'aire d'une face de 8 cm · 5 cm.",
+          "reponse": "Solution :\n$A = L \\cdot l = 8 \\cdot 5 = 40$ cm²"
         }
       ]
     },
@@ -2133,29 +2133,29 @@
       "explanations": [
         {
           "cle": "calcul",
-          "texte": "Calculer un pourcentage :\n\n$\\text{Pourcentage} = \\frac{\\text{partie}}{\\text{total}} \\times 100$\n\n📌 Exemple : 15 élèves sur 60\n\n$\\frac{15}{60} \\times 100 = 0.25 \\times 100 = 25\\%$"
+          "texte": "Calculer un pourcentage :\n\n$\\text{Pourcentage} = \\frac{\\text{partie}}{\\text{total}} \\cdot 100$\n\n📌 Exemple : 15 élèves sur 60\n\n$\\frac{15}{60} \\cdot 100 = 0.25 \\cdot 100 = 25\\%$"
         },
         {
           "cle": "application",
-          "texte": "Appliquer un pourcentage :\n\n$\\text{Résultat} = \\text{valeur} \\times \\frac{\\text{pourcentage}}{100}$\n\n📌 Exemple : 20% de CHF 150\n\n$150 \\times \\frac{20}{100} = 150 \\times 0.20 = \\text{CHF }30$"
+          "texte": "Appliquer un pourcentage :\n\n$\\text{Résultat} = \\text{valeur} \\cdot \\frac{\\text{pourcentage}}{100}$\n\n📌 Exemple : 20% de CHF 150\n\n$150 \\cdot \\frac{20}{100} = 150 \\cdot 0.20 = \\text{CHF }30$"
         },
         {
           "cle": "augmentation",
-          "texte": "Augmentation de $x$% :\n\n$\\text{Nouvelle valeur} = \\text{valeur} \\times \\left(1 + \\frac{x}{100}\\right)$\n\n📌 Prix CHF 50, augmentation +20% :\n\n$50 \\times (1 + \\frac{20}{100}) = 50 \\times 1.20 = \\text{CHF }60$"
+          "texte": "Augmentation de $x$% :\n\n$\\text{Nouvelle valeur} = \\text{valeur} \\cdot \\left(1 + \\frac{x}{100}\\right)$\n\n📌 Prix CHF 50, augmentation +20% :\n\n$50 \\cdot (1 + \\frac{20}{100}) = 50 \\cdot 1.20 = \\text{CHF }60$"
         },
         {
           "cle": "reduction",
-          "texte": "Réduction de $x$% :\n\n$\\text{Nouvelle valeur} = \\text{valeur} \\times \\left(1 - \\frac{x}{100}\\right)$\n\n📌 Prix CHF 80, réduction -25% :\n\n$80 \\times (1 - \\frac{25}{100}) = 80 \\times 0.75 = \\text{CHF }60$"
+          "texte": "Réduction de $x$% :\n\n$\\text{Nouvelle valeur} = \\text{valeur} \\cdot \\left(1 - \\frac{x}{100}\\right)$\n\n📌 Prix CHF 80, réduction -25% :\n\n$80 \\cdot (1 - \\frac{25}{100}) = 80 \\cdot 0.75 = \\text{CHF }60$"
         },
         {
           "cle": "evolution",
-          "texte": "Calculer un taux d'évolution :\n\n$\\text{Taux} = \\frac{\\text{nouvelle valeur} - \\text{ancienne valeur}}{\\text{ancienne valeur}} \\times 100$\n\n📌 Exemple : Prix passe de CHF 50 à CHF 65\n\n$\\text{Taux} = \\frac{65 - 50}{50} \\times 100 = \\frac{15}{50} \\times 100 = 30\\%$\n\nLe prix a augmenté de 30%"
+          "texte": "Calculer un taux d'évolution :\n\n$\\text{Taux} = \\frac{\\text{nouvelle valeur} - \\text{ancienne valeur}}{\\text{ancienne valeur}} \\cdot 100$\n\n📌 Exemple : Prix passe de CHF 50 à CHF 65\n\n$\\text{Taux} = \\frac{65 - 50}{50} \\cdot 100 = \\frac{15}{50} \\cdot 100 = 30\\%$\n\nLe prix a augmenté de 30%"
         }
       ],
       "exercices": [
         {
           "question": "Calcule 25% de CHF 80",
-          "reponse": "Solution :\n$80 \\times 0{,}25 = \\text{CHF }20$",
+          "reponse": "Solution :\n$80 \\cdot 0{,}25 = \\text{CHF }20$",
           "reponseCourte": "CHF $20$",
           "distracteurs": [
             "CHF $25$",
@@ -2165,7 +2165,7 @@
         },
         {
           "question": "Un prix de CHF 50 augmente de 20%. Nouveau prix ?",
-          "reponse": "Solution :\n$50 \\times 1{,}20 = \\text{CHF }60$\n\nOu : $50 + (50 \\times 0{,}20) = 50 + 10 = \\text{CHF }60$",
+          "reponse": "Solution :\n$50 \\cdot 1{,}20 = \\text{CHF }60$\n\nOu : $50 + (50 \\cdot 0{,}20) = 50 + 10 = \\text{CHF }60$",
           "reponseCourte": "CHF $60$",
           "distracteurs": [
             "CHF $70$",
@@ -2175,7 +2175,7 @@
         },
         {
           "question": "15 est quel % de 60 ?",
-          "reponse": "Solution :\n$\\frac{15}{60} \\times 100 = 25\\%$",
+          "reponse": "Solution :\n$\\frac{15}{60} \\cdot 100 = 25\\%$",
           "reponseCourte": "$25\\%$",
           "distracteurs": [
             "$4\\%$",
@@ -2185,7 +2185,7 @@
         },
         {
           "question": "Réduction de 30% sur un article à CHF 120. Prix final ?",
-          "reponse": "Solution :\n$120 \\times 0{,}70 = \\text{CHF }84$\n\nOu : $120 - (120 \\times 0{,}30) = 120 - 36 = \\text{CHF }84$",
+          "reponse": "Solution :\n$120 \\cdot 0{,}70 = \\text{CHF }84$\n\nOu : $120 - (120 \\cdot 0{,}30) = 120 - 36 = \\text{CHF }84$",
           "reponseCourte": "CHF $84$",
           "distracteurs": [
             "CHF $36$",
@@ -2195,7 +2195,7 @@
         },
         {
           "question": "Prix passe de CHF 40 à CHF 50. Quel taux d'augmentation ?",
-          "reponse": "Solution :\n$\\frac{50 - 40}{40} \\times 100 = \\frac{10}{40} \\times 100 = 25\\%$\n\nAugmentation de 25%",
+          "reponse": "Solution :\n$\\frac{50 - 40}{40} \\cdot 100 = \\frac{10}{40} \\cdot 100 = 25\\%$\n\nAugmentation de 25%",
           "reponseCourte": "$25\\%$",
           "distracteurs": [
             "$10\\%$",
@@ -2205,7 +2205,7 @@
         },
         {
           "question": "Calcule $15\\%$ de $80$",
-          "reponse": "Solution :\n$\\frac{15}{100} \\times 80 = 12$",
+          "reponse": "Solution :\n$\\frac{15}{100} \\cdot 80 = 12$",
           "reponseCourte": "$12$",
           "distracteurs": [
             "$1{,}2$",
@@ -2215,7 +2215,7 @@
         },
         {
           "question": "Un article coûte CHF $60$ et baisse de $20\\%$. Quel est le nouveau prix ?",
-          "reponse": "Solution :\nBaisse : $\\frac{20}{100} \\times 60 = 12$\nNouveau prix : $60 - 12 =$ CHF $48$",
+          "reponse": "Solution :\nBaisse : $\\frac{20}{100} \\cdot 60 = 12$\nNouveau prix : $60 - 12 =$ CHF $48$",
           "reponseCourte": "CHF $48$",
           "distracteurs": [
             "CHF $12$",
@@ -2225,7 +2225,7 @@
         },
         {
           "question": "Un prix passe de CHF $50$ à CHF $65$. Quel est le pourcentage d'augmentation ?",
-          "reponse": "Solution :\nAugmentation : $65 - 50 = 15$\n$\\frac{15}{50} \\times 100 = 30\\%$",
+          "reponse": "Solution :\nAugmentation : $65 - 50 = 15$\n$\\frac{15}{50} \\cdot 100 = 30\\%$",
           "reponseCourte": "$30\\%$",
           "distracteurs": [
             "$23\\%$",
@@ -2235,7 +2235,7 @@
         },
         {
           "question": "Sur $25$ élèves, $20$ ont réussi. Quel est le pourcentage de réussite ?",
-          "reponse": "Solution :\n$\\frac{20}{25} \\times 100 = 80\\%$",
+          "reponse": "Solution :\n$\\frac{20}{25} \\cdot 100 = 80\\%$",
           "reponseCourte": "$80\\%$",
           "distracteurs": [
             "$25\\%$",
@@ -2245,7 +2245,7 @@
         },
         {
           "question": "Un article à CHF $45$ augmente de $10\\%$. Quel est le nouveau prix ?",
-          "reponse": "Solution :\nAugmentation : $\\frac{10}{100} \\times 45 = 4{,}50$\nNouveau prix : $45 + 4{,}50 =$ CHF $49{,}50$",
+          "reponse": "Solution :\nAugmentation : $\\frac{10}{100} \\cdot 45 = 4{,}50$\nNouveau prix : $45 + 4{,}50 =$ CHF $49{,}50$",
           "reponseCourte": "CHF $49{,}50$",
           "distracteurs": [
             "CHF $4{,}50$",
@@ -2273,52 +2273,52 @@
       ],
       "exercices": [
         {
-          "question": "Calcule : $7 + 3 \\times 4$",
-          "reponse": "Solution :\nMultiplication d'abord :\n$3 \\times 4 = 12$\n$7 + 12 = 19$"
+          "question": "Calcule : $7 + 3 \\cdot 4$",
+          "reponse": "Solution :\nMultiplication d'abord :\n$3 \\cdot 4 = 12$\n$7 + 12 = 19$"
         },
         {
-          "question": "Calcule : $(7 + 3) \\times 4$",
-          "reponse": "Solution :\nParenthèses d'abord :\n$7 + 3 = 10$\n$10 \\times 4 = 40$"
+          "question": "Calcule : $(7 + 3) \\cdot 4$",
+          "reponse": "Solution :\nParenthèses d'abord :\n$7 + 3 = 10$\n$10 \\cdot 4 = 40$"
         },
         {
           "question": "Calcule : $20 - 8 \\div 2$",
           "reponse": "Solution :\nDivision d'abord :\n$8 \\div 2 = 4$\n$20 - 4 = 16$"
         },
         {
-          "question": "Calcule : $15 + 6 \\times 2 - 3$",
-          "reponse": "Solution :\nMultiplication d'abord : $6 \\times 2 = 12$\n$15 + 12 - 3 = 24$"
+          "question": "Calcule : $15 + 6 \\cdot 2 - 3$",
+          "reponse": "Solution :\nMultiplication d'abord : $6 \\cdot 2 = 12$\n$15 + 12 - 3 = 24$"
         },
         {
-          "question": "Calcule : $3 \\times (5 + 2)$",
-          "reponse": "Solution :\nParenthèses d'abord : $5 + 2 = 7$\n$3 \\times 7 = 21$"
+          "question": "Calcule : $3 \\cdot (5 + 2)$",
+          "reponse": "Solution :\nParenthèses d'abord : $5 + 2 = 7$\n$3 \\cdot 7 = 21$"
         },
         {
-          "question": "Calcule : $18 \\div 3 + 2 \\times 4$",
-          "reponse": "Solution :\nDivision et multiplication d'abord :\n$18 \\div 3 = 6$ et $2 \\times 4 = 8$\n$6 + 8 = 14$"
+          "question": "Calcule : $18 \\div 3 + 2 \\cdot 4$",
+          "reponse": "Solution :\nDivision et multiplication d'abord :\n$18 \\div 3 = 6$ et $2 \\cdot 4 = 8$\n$6 + 8 = 14$"
         },
         {
-          "question": "Calcule : $2^3 + 5 \\times 3$",
-          "reponse": "Solution :\nPuissance d'abord : $2^3 = 8$\nMultiplication : $5 \\times 3 = 15$\n$8 + 15 = 23$"
+          "question": "Calcule : $2^3 + 5 \\cdot 3$",
+          "reponse": "Solution :\nPuissance d'abord : $2^3 = 8$\nMultiplication : $5 \\cdot 3 = 15$\n$8 + 15 = 23$"
         },
         {
-          "question": "Calcule : $3 + 4 \\times 5$",
+          "question": "Calcule : $3 + 4 \\cdot 5$",
           "reponse": "Solution :\n$3 + 20 = 23$"
         },
         {
-          "question": "Calcule : $(3+4) \\times 5$",
-          "reponse": "Solution :\n$7 \\times 5 = 35$"
+          "question": "Calcule : $(3+4) \\cdot 5$",
+          "reponse": "Solution :\n$7 \\cdot 5 = 35$"
         },
         {
           "question": "Calcule : $20 - 6 \\div 2$",
           "reponse": "Solution :\n$20 - 3 = 17$"
         },
         {
-          "question": "Calcule : $2 \\times 3^2 + 4$",
-          "reponse": "Solution :\n$2 \\times 9 + 4$\n$= 18 + 4 = 22$"
+          "question": "Calcule : $2 \\cdot 3^2 + 4$",
+          "reponse": "Solution :\n$2 \\cdot 9 + 4$\n$= 18 + 4 = 22$"
         },
         {
-          "question": "Calcule : $(8-2) \\times (3+1)$",
-          "reponse": "Solution :\n$6 \\times 4 = 24$"
+          "question": "Calcule : $(8-2) \\cdot (3+1)$",
+          "reponse": "Solution :\n$6 \\cdot 4 = 24$"
         }
       ]
     },
@@ -2362,15 +2362,15 @@
         },
         {
           "question": "Décompose 72 en produit de facteurs premiers.",
-          "reponse": "Solution :\n$72 = 2 \\times 36 = 2 \\times 2 \\times 18 = 2 \\times 2 \\times 2 \\times 9$\n$= 2 \\times 2 \\times 2 \\times 3 \\times 3 = 2^3 \\times 3^2$"
+          "reponse": "Solution :\n$72 = 2 \\cdot 36 = 2 \\cdot 2 \\cdot 18 = 2 \\cdot 2 \\cdot 2 \\cdot 9$\n$= 2 \\cdot 2 \\cdot 2 \\cdot 3 \\cdot 3 = 2^3 \\cdot 3^2$"
         },
         {
           "question": "450 est-il divisible par 25 ?",
-          "reponse": "Solution :\nDeux derniers chiffres : 50\n$50 = 2 \\times 25$\nDonc 450 est divisible par 25"
+          "reponse": "Solution :\nDeux derniers chiffres : 50\n$50 = 2 \\cdot 25$\nDonc 450 est divisible par 25"
         },
         {
           "question": "Décompose 150 en produit de facteurs premiers.",
-          "reponse": "Solution :\n$150 = 2 \\times 75 = 2 \\times 3 \\times 25 = 2 \\times 3 \\times 5 \\times 5$\n$= 2 \\times 3 \\times 5^2$"
+          "reponse": "Solution :\n$150 = 2 \\cdot 75 = 2 \\cdot 3 \\cdot 25 = 2 \\cdot 3 \\cdot 5 \\cdot 5$\n$= 2 \\cdot 3 \\cdot 5^2$"
         },
         {
           "question": "$84$ est-il divisible par $7$ ?",
@@ -2378,7 +2378,7 @@
         },
         {
           "question": "Décompose $60$ en produit de facteurs premiers",
-          "reponse": "Solution :\n$60 = 2 \\times 30 = 2 \\times 2 \\times 15 = 2 \\times 2 \\times 3 \\times 5$\n$60 = 2^2 \\times 3 \\times 5$"
+          "reponse": "Solution :\n$60 = 2 \\cdot 30 = 2 \\cdot 2 \\cdot 15 = 2 \\cdot 2 \\cdot 3 \\cdot 5$\n$60 = 2^2 \\cdot 3 \\cdot 5$"
         },
         {
           "question": "Quel est le PGDC de $18$ et $24$ ?",
@@ -2386,7 +2386,7 @@
         },
         {
           "question": "$91$ est-il un nombre premier ?",
-          "reponse": "Solution :\n$91 = 7 \\times 13$\nNon, $91$ n'est pas premier."
+          "reponse": "Solution :\n$91 = 7 \\cdot 13$\nNon, $91$ n'est pas premier."
         },
         {
           "question": "Quel est le PPMC de $4$ et $6$ ?",
@@ -2451,7 +2451,7 @@
         },
         {
           "question": "Extrais le nombre de milliers de 3456.",
-          "reponse": "Solution :\n$3456 = 3 \\times 1000 + 456$\nLe nombre de milliers est 3"
+          "reponse": "Solution :\n$3456 = 3 \\cdot 1000 + 456$\nLe nombre de milliers est 3"
         },
         {
           "question": "Extrais le nombre d'unités de 5728.",
@@ -2466,8 +2466,8 @@
           "reponse": "Solution :\n$(-5) - (-9) = (-5) + (+9) = 4$"
         },
         {
-          "question": "Calcule : $(-4) \\times (-7)$",
-          "reponse": "Solution :\n$(-4) \\times (-7) = 28$"
+          "question": "Calcule : $(-4) \\cdot (-7)$",
+          "reponse": "Solution :\n$(-4) \\cdot (-7) = 28$"
         },
         {
           "question": "Calcule : $(-36) \\div (+4)$",
@@ -2530,7 +2530,7 @@
         },
         {
           "question": "Un cercle a un rayon de 4 cm. Calcule son diamètre.",
-          "reponse": "Solution :\n$d = 2r = 2 \\times 4 = 8$ cm"
+          "reponse": "Solution :\n$d = 2r = 2 \\cdot 4 = 8$ cm"
         },
         {
           "question": "Dans un triangle rectangle, un angle aigu mesure 35°. Calcule l'autre angle aigu.",
@@ -2546,11 +2546,11 @@
         },
         {
           "question": "Réalise un croquis d'un rectangle de 8 cm sur 5 cm.",
-          "reponse": "Solution :\nCroquis (proportions respectées)\n8 cm × 5 cm"
+          "reponse": "Solution :\nCroquis (proportions respectées)\n8 cm · 5 cm"
         },
         {
           "question": "Calcule le périmètre d'un triangle équilatéral de côté $7$ cm",
-          "reponse": "Solution :\n$P = 3 \\times 7 = 21$ cm"
+          "reponse": "Solution :\n$P = 3 \\cdot 7 = 21$ cm"
         },
         {
           "question": "Un angle mesure $35^\\circ$. Quelle est la mesure de son complémentaire ?",
@@ -2562,7 +2562,7 @@
         },
         {
           "question": "Calcule l'aire d'un triangle de base $8$ cm et de hauteur $5$ cm",
-          "reponse": "Solution :\n$A = \\frac{8 \\times 5}{2} = \\frac{40}{2} = 20$ cm²"
+          "reponse": "Solution :\n$A = \\frac{8 \\cdot 5}{2} = \\frac{40}{2} = 20$ cm²"
         },
         {
           "question": "Deux angles opposés par le sommet : l'un mesure $47^\\circ$. Quelle est la mesure de l'autre ?",
@@ -2693,7 +2693,7 @@
         },
         {
           "question": "Calcule le volume d'une pyramide de base $12$ cm² et de hauteur $9$ cm",
-          "reponse": "Solution :\n$V = \\frac{12 \\times 9}{3} = \\frac{108}{3} = 36$ cm³"
+          "reponse": "Solution :\n$V = \\frac{12 \\cdot 9}{3} = \\frac{108}{3} = 36$ cm³"
         },
         {
           "question": "Quel solide a $5$ faces, $8$ arêtes et $5$ sommets ?",
@@ -2701,7 +2701,7 @@
         },
         {
           "question": "Calcule le volume d'un cylindre de rayon $3$ cm et de hauteur $10$ cm (valeur exacte)",
-          "reponse": "Solution :\n$V = \\pi \\times 3^2 \\times 10 = 90\\pi$ cm³"
+          "reponse": "Solution :\n$V = \\pi \\cdot 3^2 \\cdot 10 = 90\\pi$ cm³"
         },
         {
           "question": "Combien de carrés compte le patron d'un cube ?",
@@ -2877,7 +2877,7 @@
         },
         {
           "question": "Convertis $72$ km/h en m/s",
-          "reponse": "Solution :\n$72$ km/h $= \\frac{72 \\times 1\\,000}{3\\,600} = 20$ m/s"
+          "reponse": "Solution :\n$72$ km/h $= \\frac{72 \\cdot 1\\,000}{3\\,600} = 20$ m/s"
         }
       ]
     },
@@ -2918,7 +2918,7 @@
         },
         {
           "question": "Complète : 2, 6, 18, 54, __",
-          "reponse": "Solution :\nOn multiplie par 3\n$54 \\times 3 = 162$"
+          "reponse": "Solution :\nOn multiplie par 3\n$54 \\cdot 3 = 162$"
         },
         {
           "question": "Exprime la loi de formation : 5, 10, 15, 20",
@@ -2930,7 +2930,7 @@
         },
         {
           "question": "Complète : 1, 3, 9, 27, __",
-          "reponse": "Solution :\nOn multiplie par 3\n$27 \\times 3 = 81$"
+          "reponse": "Solution :\nOn multiplie par 3\n$27 \\cdot 3 = 81$"
         },
         {
           "question": "Quelle est la raison de : 50, 45, 40, 35 ?",
@@ -2942,7 +2942,7 @@
         },
         {
           "question": "Complète : 2, 4, 8, 16, __",
-          "reponse": "Solution :\nOn multiplie par 2\n$16 \\times 2 = 32$"
+          "reponse": "Solution :\nOn multiplie par 2\n$16 \\cdot 2 = 32$"
         },
         {
           "question": "Soit la suite $2, 5, 8, 11, ...$. Quel est le prochain terme ?",
@@ -2950,15 +2950,15 @@
         },
         {
           "question": "Soit la suite $3, 6, 12, 24, ...$. Quel est le prochain terme ?",
-          "reponse": "Solution :\nSuite géométrique de raison $\\times 2$.\n$24 \\times 2 = 48$"
+          "reponse": "Solution :\nSuite géométrique de raison $\\cdot 2$.\n$24 \\cdot 2 = 48$"
         },
         {
           "question": "Une suite arithmétique a pour premier terme $5$ et raison $4$. Quel est son $6^e$ terme ?",
-          "reponse": "Solution :\n$u_n = 5 + (n-1) \\times 4$\n$u_6 = 5 + 5 \\times 4 = 5 + 20 = 25$"
+          "reponse": "Solution :\n$u_n = 5 + (n-1) \\cdot 4$\n$u_6 = 5 + 5 \\cdot 4 = 5 + 20 = 25$"
         },
         {
           "question": "Soit $u_n = 2n + 1$. Calcule $u_{10}$",
-          "reponse": "Solution :\n$u_{10} = 2 \\times 10 + 1 = 21$"
+          "reponse": "Solution :\n$u_{10} = 2 \\cdot 10 + 1 = 21$"
         },
         {
           "question": "Soit la suite $50, 45, 40, ...$. Quelle est sa raison ?",

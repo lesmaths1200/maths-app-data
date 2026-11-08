@@ -1700,7 +1700,7 @@
         },
         {
           "cle": "masse",
-          "texte": "Unités de masse :\n\n$\\text{t} \\rightarrow \\text{q} \\rightarrow \\text{XX} \\rightarrow \\text{kg} \\rightarrow \\text{hg} \\rightarrow \\text{dag} \\rightarrow \\text{g} \\rightarrow \\text{dg} \\rightarrow \\text{cg} \\rightarrow \\text{mg}$\n\n📌 Exemples :\n• $1 \\text{ t} = 1000 \\text{ kg}$\n• $2.5 \\text{ kg} = 2500 \\text{ g}$\n• $750 \\text{ g} = 0.75 \\text{ kg}$\n• $3 \\text{ t} = 3000 \\text{ kg}$"
+          "texte": "Unités de masse :\n\n$\\text{t} \\rightarrow \\text{q} \\rightarrow \\text{(rien)} \\rightarrow \\text{kg} \\rightarrow \\text{hg} \\rightarrow \\text{dag} \\rightarrow \\text{g} \\rightarrow \\text{dg} \\rightarrow \\text{cg} \\rightarrow \\text{mg}$\n\n📌 Exemples :\n• $1 \\text{ t} = 1000 \\text{ kg}$\n• $2.5 \\text{ kg} = 2500 \\text{ g}$\n• $750 \\text{ g} = 0.75 \\text{ kg}$\n• $3 \\text{ t} = 3000 \\text{ kg}$\n\n⚠️ Entre le quintal et le kilogramme, une colonne reste **vide** : il n'y a pas d'unité à ce rang, mais le rang existe. Ne l'oublie pas en comptant les décalages."
         },
         {
           "cle": "capacite",
@@ -1781,16 +1781,6 @@
           ]
         },
         {
-          "question": "Convertis : $3{,}5$ km en m",
-          "reponse": "Solution :\n$3{,}5 \\times 1\\,000 = 3\\,500$ m",
-          "reponseCourte": "$3\\,500$ m",
-          "distracteurs": [
-            "$0{,}0035$ m",
-            "$350$ m",
-            "$35\\,000$ m"
-          ]
-        },
-        {
           "question": "Convertis : $250$ cm en m",
           "reponse": "Solution :\n$250 \\div 100 = 2{,}5$ m",
           "reponseCourte": "$2{,}5$ m",
@@ -1829,6 +1819,18 @@
             "$7\\,500$ mL",
             "$75$ mL"
           ]
+        },
+        {
+          "question": "Convertis 4,2 kg en g.",
+          "reponse": "Solution :\n$4,2$ kg $= 4,2 \\times 1000 = 4200$ g"
+        },
+        {
+          "question": "Convertis 5600 mL en L.",
+          "reponse": "Solution :\n$5600$ mL $= 5600 \\div 1000 = 5,6$ L"
+        },
+        {
+          "question": "Convertis 2,5 m² en cm².",
+          "reponse": "Solution :\n$2,5$ m² $= 2,5 \\times 10000 = 25000$ cm²"
         }
       ]
     },
@@ -1858,7 +1860,12 @@
         "sphère",
         "sphere",
         "cône",
-        "cone"
+        "cone",
+        "figure composée",
+        "aire totale",
+        "faces",
+        "découper",
+        "decouper"
       ],
       "explanations": [
         {
@@ -1880,6 +1887,14 @@
         {
           "cle": "pyramidesCones",
           "texte": "🔺 PYRAMIDES ET CÔNES :\n\n**Pyramide** (aire de base $A_b$, hauteur $h$) :\n• Volume : $V = \\frac{A_b \\times h}{3}$\n\n**Cône** (rayon $r$, hauteur $h$) :\n• Volume : $V = \\frac{\\pi r^2 h}{3}$\n\n**Boule/Sphère** (rayon $r$) :\n• Volume : $V = \\frac{4\\pi r^3}{3}$\n• Aire : $A = 4\\pi r^2$"
+        },
+        {
+          "cle": "figuresComposees",
+          "texte": "**Figures composées :**\n\nOn **découpe** la figure en figures simples — rectangles, triangles, demi-disques — puis on **additionne** leurs aires. Si la figure a un trou, on **soustrait** l'aire du trou.\n\n📌 Un rectangle de $8 \\times 5$ surmonté d'un demi-disque de rayon $2{,}5$ :\n$A = 8 \\cdot 5 + \\frac{\\pi \\cdot 2{,}5^2}{2} \\approx 40 + 9{,}8 = 49{,}8$\n\n⚠️ Pour le **périmètre**, on ne fait pas la somme des périmètres : on suit le **contour** de la figure, et les côtés intérieurs ne comptent pas."
+        },
+        {
+          "cle": "airePave",
+          "texte": "**Aire des faces d'un pavé droit :**\n\nUn pavé droit a $6$ faces rectangulaires, égales **deux à deux**. Son aire totale est donc :\n\n$A = 2(L \\cdot l + L \\cdot h + l \\cdot h)$\n\n📌 Pour $L = 8$, $l = 5$, $h = 3$ :\n$A = 2(8 \\cdot 5 + 8 \\cdot 3 + 5 \\cdot 3) = 2(40 + 24 + 15) = 2 \\cdot 79 = 158$\n\n⚠️ Ne pas confondre avec le **volume**, $V = L \\cdot l \\cdot h$ : une aire se mesure en $\\text{cm}^2$, un volume en $\\text{cm}^3$."
         }
       ],
       "exercices": [
@@ -2032,6 +2047,74 @@
             "$16$ cm²",
             "$40$ cm²"
           ]
+        },
+        {
+          "question": "Calcule l'aire totale d'un pavé droit de dimensions $8$ cm, $5$ cm et $3$ cm.",
+          "reponse": "Solution :\n$A = 2(8 \\cdot 5 + 8 \\cdot 3 + 5 \\cdot 3) = 2(40 + 24 + 15) = 158 \\text{ cm}^2$",
+          "reponseCourte": "$158 \\text{ cm}^2$",
+          "distracteurs": [
+            "$120 \\text{ cm}^2$",
+            "$79 \\text{ cm}^2$",
+            "$316 \\text{ cm}^2$"
+          ]
+        },
+        {
+          "question": "Calcule l'aire totale d'un cube d'arête $4$ cm.",
+          "reponse": "Solution :\nSix faces carrées de $4 \\cdot 4 = 16 \\text{ cm}^2$ :\n$A = 6 \\cdot 16 = 96 \\text{ cm}^2$",
+          "reponseCourte": "$96 \\text{ cm}^2$",
+          "distracteurs": [
+            "$64 \\text{ cm}^2$",
+            "$16 \\text{ cm}^2$",
+            "$24 \\text{ cm}^2$"
+          ]
+        },
+        {
+          "question": "Une figure est formée d'un rectangle de $10$ cm sur $6$ cm dans lequel on a découpé un carré de côté $2$ cm. Quelle est son aire ?",
+          "reponse": "Solution :\nOn soustrait l'aire du trou :\n$10 \\cdot 6 - 2 \\cdot 2 = 60 - 4 = 56 \\text{ cm}^2$",
+          "reponseCourte": "$56 \\text{ cm}^2$",
+          "distracteurs": [
+            "$64 \\text{ cm}^2$",
+            "$60 \\text{ cm}^2$",
+            "$52 \\text{ cm}^2$"
+          ]
+        },
+        {
+          "question": "Une figure est formée d'un carré de côté $6$ cm et d'un triangle de base $6$ cm et de hauteur $4$ cm posé dessus. Quelle est son aire ?",
+          "reponse": "Solution :\n$6 \\cdot 6 + \\frac{6 \\cdot 4}{2} = 36 + 12 = 48 \\text{ cm}^2$",
+          "reponseCourte": "$48 \\text{ cm}^2$",
+          "distracteurs": [
+            "$60 \\text{ cm}^2$",
+            "$42 \\text{ cm}^2$",
+            "$36 \\text{ cm}^2$"
+          ]
+        },
+        {
+          "question": "Un rectangle a pour dimensions 8 m et 5 m. Calcule son aire.",
+          "reponse": "Solution :\n$A = L \\times l = 8 \\times 5 = 40$ m²"
+        },
+        {
+          "question": "Un cube a un côté de 3 dm. Calcule son volume.",
+          "reponse": "Solution :\n$V = c^3 = 3^3 = 27$ dm³ $= 27$ L"
+        },
+        {
+          "question": "Un carré a un côté de 12 cm. Calcule son périmètre.",
+          "reponse": "Solution :\n$P = 4 \\times c = 4 \\times 12 = 48$ cm"
+        },
+        {
+          "question": "Un rectangle a une longueur de 15 cm et une largeur de 8 cm. Calcule son périmètre.",
+          "reponse": "Solution :\n$P = 2(L + l) = 2(15 + 8) = 2 \\times 23 = 46$ cm"
+        },
+        {
+          "question": "Un disque a un rayon de 5 cm. Calcule son aire. (Utilise $\\pi = 3$)",
+          "reponse": "Solution :\n$A = \\pi r^2 = 3 \\times 5^2 = 3 \\times 25 = 75$ cm²"
+        },
+        {
+          "question": "Un cylindre a un rayon de 4 cm et une hauteur de 10 cm. Calcule son volume. (Utilise $\\pi = 3$)",
+          "reponse": "Solution :\n$V = \\pi r^2 h = 3 \\times 4^2 \\times 10 = 3 \\times 16 \\times 10 = 480$ cm³"
+        },
+        {
+          "question": "Un parallélépipède rectangle a pour dimensions : L = 8 cm, l = 5 cm, h = 3 cm. Calcule l'aire d'une face de 8 cm × 5 cm.",
+          "reponse": "Solution :\n$A = L \\times l = 8 \\times 5 = 40$ cm²"
         }
       ]
     },
@@ -2408,7 +2491,11 @@
         "angle",
         "droite",
         "parallèle",
-        "perpendiculaire"
+        "perpendiculaire",
+        "somme des angles",
+        "180",
+        "angle manquant",
+        "troisième angle"
       ],
       "explanations": [
         {
@@ -2418,6 +2505,10 @@
         {
           "cle": "quadrilateres",
           "texte": "**Quadrilatères :**\n\n• **Carré :** 4 côtés égaux, 4 angles droits, côtés opposés parallèles deux à deux, diagonales de même longueur qui se coupent en leur milieu et sont perpendiculaires, 4 axes de symétrie (les médiatrices des côtés et les diagonales), un centre de symétrie (le point d'intersection des diagonales)\n• **Rectangle :** 4 angles droits, côtés opposés parallèles et de même longueur, diagonales de même longueur qui se coupent en leur milieu, 2 axes de symétrie\n• **Losange :** 4 côtés égaux, diagonales qui se coupent en leur milieu et sont perpendiculaires, 2 axes de symétrie (ses diagonales)\n• **Parallélogramme :** Côtés opposés parallèles\n• **Trapèze :** 2 côtés parallèles"
+        },
+        {
+          "cle": "sommeAngles",
+          "texte": "**Somme des angles d'un triangle :**\n\nDans **tout** triangle, la somme des trois angles vaut $180°$.\n\n$\\alpha + \\beta + \\gamma = 180°$\n\n📌 Si deux angles mesurent $40°$ et $75°$, le troisième vaut :\n$180° - 40° - 75° = 65°$\n\nCas utiles :\n• triangle **équilatéral** : trois angles de $60°$ ;\n• triangle **rectangle** : les deux angles aigus font ensemble $90°$ ;\n• triangle **isocèle** : les deux angles à la base sont égaux."
         }
       ],
       "exercices": [
@@ -2476,6 +2567,46 @@
         {
           "question": "Deux angles opposés par le sommet : l'un mesure $47^\\circ$. Quelle est la mesure de l'autre ?",
           "reponse": "Solution :\nDeux angles opposés par le sommet sont toujours égaux.\nL'autre angle mesure aussi $47^\\circ$."
+        },
+        {
+          "question": "Dans un triangle, deux angles mesurent $40°$ et $75°$. Combien mesure le troisième ?",
+          "reponse": "Solution :\n$180° - 40° - 75° = 65°$",
+          "reponseCourte": "$65°$",
+          "distracteurs": [
+            "$115°$",
+            "$45°$",
+            "$75°$"
+          ]
+        },
+        {
+          "question": "Un triangle est rectangle et l'un de ses angles aigus mesure $35°$. Combien mesure l'autre ?",
+          "reponse": "Solution :\nLes deux angles aigus font ensemble $90°$ :\n$90° - 35° = 55°$",
+          "reponseCourte": "$55°$",
+          "distracteurs": [
+            "$145°$",
+            "$65°$",
+            "$35°$"
+          ]
+        },
+        {
+          "question": "Combien mesure chaque angle d'un triangle équilatéral ?",
+          "reponse": "Solution :\nLes trois angles sont égaux :\n$180° \\div 3 = 60°$",
+          "reponseCourte": "$60°$",
+          "distracteurs": [
+            "$90°$",
+            "$45°$",
+            "$120°$"
+          ]
+        },
+        {
+          "question": "Un triangle isocèle a un angle au sommet de $100°$. Combien mesure chaque angle à la base ?",
+          "reponse": "Solution :\nIl reste $180° - 100° = 80°$ pour les deux angles à la base, qui sont égaux :\n$80° \\div 2 = 40°$",
+          "reponseCourte": "$40°$",
+          "distracteurs": [
+            "$80°$",
+            "$50°$",
+            "$100°$"
+          ]
         }
       ]
     },
@@ -2495,12 +2626,20 @@
         "sphère",
         "sphere",
         "développement",
-        "developpement"
+        "developpement",
+        "patron",
+        "déplier",
+        "deplier",
+        "faces"
       ],
       "explanations": [
         {
           "cle": "types",
           "texte": "**Types de solides :**\n\n• **Polyèdres :** faces planes (cube, prisme, pyramide)\n• **Non-polyèdres :** faces courbes (cylindre, cône, sphère)"
+        },
+        {
+          "cle": "patron",
+          "texte": "**Le patron d'un solide :**\n\nLe patron, ou **développement**, est le solide **déplié à plat**. Il montre toutes les faces, chacune une seule fois.\n\n📌 Nombre de faces du patron :\n• cube : $6$ carrés identiques\n• pavé droit : $6$ rectangles, égaux deux à deux\n• prisme droit à base triangulaire : $2$ triangles et $3$ rectangles\n• pyramide à base carrée : $1$ carré et $4$ triangles\n• cylindre : $2$ disques et $1$ rectangle\n\n⚠️ La **sphère** n'a pas de patron : on ne peut pas l'aplatir sans la déformer."
         }
       ],
       "exercices": [
@@ -2563,6 +2702,46 @@
         {
           "question": "Calcule le volume d'un cylindre de rayon $3$ cm et de hauteur $10$ cm (valeur exacte)",
           "reponse": "Solution :\n$V = \\pi \\times 3^2 \\times 10 = 90\\pi$ cm³"
+        },
+        {
+          "question": "Combien de carrés compte le patron d'un cube ?",
+          "reponse": "Solution :\nUn cube a $6$ faces carrées, donc son patron compte $6$ carrés.",
+          "reponseCourte": "$6$",
+          "distracteurs": [
+            "$4$",
+            "$8$",
+            "$12$"
+          ]
+        },
+        {
+          "question": "De combien de faces est fait le patron d'un prisme droit à base triangulaire ?",
+          "reponse": "Solution :\nDeux bases triangulaires et trois faces latérales rectangulaires : $2 + 3 = 5$ faces.",
+          "reponseCourte": "$5$",
+          "distracteurs": [
+            "$6$",
+            "$3$",
+            "$9$"
+          ]
+        },
+        {
+          "question": "Le patron d'une pyramide à base carrée comporte combien de triangles ?",
+          "reponse": "Solution :\nUn pour chaque côté de la base carrée : $4$ triangles, plus le carré de la base.",
+          "reponseCourte": "$4$",
+          "distracteurs": [
+            "$3$",
+            "$5$",
+            "$6$"
+          ]
+        },
+        {
+          "question": "Peut-on dessiner le patron d'une sphère ?",
+          "reponse": "Solution :\nNon : une sphère ne se déplie pas à plat sans se déformer. C'est pour cela qu'une carte du monde déforme toujours les continents.",
+          "reponseCourte": "Non",
+          "distracteurs": [
+            "Oui, 2 disques",
+            "Oui, 1 rectangle",
+            "Oui, 6 carrés"
+          ]
         }
       ]
     },
@@ -2642,100 +2821,47 @@
       ]
     },
     "grandeurs_mesures": {
-      "nom": "Grandeurs et mesures",
+      "nom": "Grandeurs composées",
       "keywords": [
-        "grandeur",
-        "grandeurs",
-        "mesure",
-        "mesures",
-        "longueur",
-        "masse",
-        "aire",
-        "volume",
-        "capacité",
-        "capacite",
-        "conversion",
-        "unité",
-        "unite"
+        "grandeur composée",
+        "grandeurs composées",
+        "vitesse",
+        "vitesse moyenne",
+        "km/h",
+        "débit",
+        "debit",
+        "masse volumique",
+        "densité",
+        "densite",
+        "quotient",
+        "distance",
+        "durée",
+        "duree",
+        "parcourt",
+        "remplit"
       ],
       "explanations": [
         {
-          "cle": "longueurs",
-          "texte": "**Unités de longueur :**\n\n$1$ km $= 1000$ m\n$1$ m $= 10$ dm $= 100$ cm $= 1000$ mm"
+          "cle": "vitesse",
+          "texte": "**Vitesse moyenne :**\n\n$v = \\frac{d}{t}$ — la distance parcourue en **une** unité de temps.\n\n📌 $180$ km en $2$ h : $v = \\frac{180}{2} = 90$ km/h\n\nL'unité se lit dans la formule : des km divisés par des h donnent des km/h."
         },
         {
-          "cle": "masses",
-          "texte": "**Unités de masse :**\n\n$1$ t $= 1000$ kg\n$1$ kg $= 1000$ g"
+          "cle": "masseVolumique",
+          "texte": "**Masse volumique :**\n\n$\\rho = \\frac{m}{V}$ — la masse d'**une** unité de volume.\n\n📌 $500$ g pour $200$ cm³ : $\\rho = \\frac{500}{200} = 2{,}5$ g/cm³\n\nC'est elle qui dit si un objet flotte : l'eau vaut $1$ g/cm³."
         },
         {
-          "cle": "aires",
-          "texte": "**Unités d'aire :**\n\n$1$ m² $= 100$ dm² $= 10000$ cm²"
+          "cle": "debit",
+          "texte": "**Débit :**\n\n$Q = \\frac{V}{t}$ — le volume écoulé en **une** unité de temps.\n\n📌 $15$ L en $3$ min : $Q = \\frac{15}{3} = 5$ L/min"
         },
         {
-          "cle": "volumes",
-          "texte": "**Unités de volume et capacité :**\n\n$1$ m³ $= 1000$ dm³\n$1$ dm³ $= 1$ L\n$1$ L $= 1000$ mL"
+          "cle": "isoler",
+          "texte": "**Les trois questions :**\n\nD'une même formule on tire trois calculs, selon ce qu'on cherche.\n\nAvec $v = \\frac{d}{t}$ :\n• la vitesse : $v = \\frac{d}{t}$\n• la distance : $d = v \\cdot t$\n• la durée : $t = \\frac{d}{v}$\n\n⚠️ Contrôle de bon sens : à distance égale, **plus** on va vite, **moins** on met de temps."
         }
       ],
       "exercices": [
         {
-          "question": "Convertis 3.5 km en m.",
-          "reponse": "Solution :\n$3.5$ km $= 3.5 \\times 1000 = 3500$ m"
-        },
-        {
-          "question": "Convertis 250 cm en m.",
-          "reponse": "Solution :\n$250$ cm $= 250 \\div 100 = 2.5$ m"
-        },
-        {
-          "question": "Convertis 4.2 kg en g.",
-          "reponse": "Solution :\n$4.2$ kg $= 4.2 \\times 1000 = 4200$ g"
-        },
-        {
-          "question": "Convertis 5600 mL en L.",
-          "reponse": "Solution :\n$5600$ mL $= 5600 \\div 1000 = 5.6$ L"
-        },
-        {
-          "question": "Un rectangle a pour dimensions 8 m et 5 m. Calcule son aire.",
-          "reponse": "Solution :\n$A = L \\times l = 8 \\times 5 = 40$ m²"
-        },
-        {
-          "question": "Convertis 2.5 m² en cm².",
-          "reponse": "Solution :\n$2.5$ m² $= 2.5 \\times 10000 = 25000$ cm²"
-        },
-        {
-          "question": "Un cube a un côté de 3 dm. Calcule son volume.",
-          "reponse": "Solution :\n$V = c^3 = 3^3 = 27$ dm³ $= 27$ L"
-        },
-        {
-          "question": "Un carré a un côté de 12 cm. Calcule son périmètre.",
-          "reponse": "Solution :\n$P = 4 \\times c = 4 \\times 12 = 48$ cm"
-        },
-        {
-          "question": "Un rectangle a une longueur de 15 cm et une largeur de 8 cm. Calcule son périmètre.",
-          "reponse": "Solution :\n$P = 2(L + l) = 2(15 + 8) = 2 \\times 23 = 46$ cm"
-        },
-        {
-          "question": "Un disque a un rayon de 5 cm. Calcule son aire. (Utilise $\\pi = 3$)",
-          "reponse": "Solution :\n$A = \\pi r^2 = 3 \\times 5^2 = 3 \\times 25 = 75$ cm²"
-        },
-        {
-          "question": "Un cylindre a un rayon de 4 cm et une hauteur de 10 cm. Calcule son volume. (Utilise $\\pi = 3$)",
-          "reponse": "Solution :\n$V = \\pi r^2 h = 3 \\times 4^2 \\times 10 = 3 \\times 16 \\times 10 = 480$ cm³"
-        },
-        {
-          "question": "Un parallélépipède rectangle a pour dimensions : L = 8 cm, l = 5 cm, h = 3 cm. Calcule l'aire d'une face de 8 cm × 5 cm.",
-          "reponse": "Solution :\n$A = L \\times l = 8 \\times 5 = 40$ cm²"
-        },
-        {
           "question": "Une voiture parcourt $180$ km en $2$ h. Quelle est sa vitesse moyenne ?",
           "reponse": "Solution :\n$v = \\frac{180}{2} = 90$ km/h"
-        },
-        {
-          "question": "Un objet de $500$ g a un volume de $200$ cm³. Quelle est sa masse volumique ?",
-          "reponse": "Solution :\n$\\frac{500}{200} = 2,5$ g/cm³"
-        },
-        {
-          "question": "Convertis $72$ km/h en m/s",
-          "reponse": "Solution :\n$72$ km/h $= \\frac{72 \\times 1\\,000}{3\\,600} = 20$ m/s"
         },
         {
           "question": "Un robinet remplit $15$ L en $3$ min. Quel est son débit en L/min ?",
@@ -2744,6 +2870,234 @@
         {
           "question": "Calcule la durée d'un trajet de $150$ km à $50$ km/h",
           "reponse": "Solution :\n$t = \\frac{150}{50} = 3$ h"
+        },
+        {
+          "question": "Un objet de $500$ g a un volume de $200$ cm³. Quelle est sa masse volumique ?",
+          "reponse": "Solution :\n$\\frac{500}{200} = 2,5$ g/cm³"
+        },
+        {
+          "question": "Convertis $72$ km/h en m/s",
+          "reponse": "Solution :\n$72$ km/h $= \\frac{72 \\times 1\\,000}{3\\,600} = 20$ m/s"
+        }
+      ]
+    },
+    "suites": {
+      "nom": "Suites numériques",
+      "keywords": [
+        "suite",
+        "suites",
+        "sequence",
+        "terme",
+        "raison",
+        "loi de formation",
+        "compléter",
+        "completer",
+        "terme suivant",
+        "rang",
+        "arithmétique",
+        "géométrique"
+      ],
+      "explanations": [
+        {
+          "cle": "definition",
+          "texte": "**Suite numérique :**\n\nUne liste ordonnée de nombres suivant une règle.\n\n📌 Exemple : 2, 5, 8, 11, 14...\nRègle : +3 à chaque fois"
+        },
+        {
+          "cle": "loi",
+          "texte": "**Trouver la loi d'une suite :**\n\nOn regarde comment on passe d'un terme au suivant.\n\n• On **ajoute** toujours le même nombre : la suite est **arithmétique**.\n  $3 ; 7 ; 11 ; 15 ; \\ldots$ — on ajoute $4$ à chaque fois.\n• On **multiplie** toujours par le même nombre : la suite est **géométrique**.\n  $2 ; 6 ; 18 ; 54 ; \\ldots$ — on multiplie par $3$.\n\n📌 Exprimer la loi, c'est écrire la règle en toutes lettres : « on ajoute $4$ au terme précédent », ou « le terme de rang $n$ vaut $4n - 1$ ».\n\n⚠️ Vérifie la règle sur **tous** les termes donnés, pas seulement sur les deux premiers."
+        }
+      ],
+      "exercices": [
+        {
+          "question": "Complète : 7, 11, 15, 19, __",
+          "reponse": "Solution :\nRaison : $+4$\n$19 + 4 = 23$"
+        },
+        {
+          "question": "Quelle est la raison de : 20, 17, 14, 11 ?",
+          "reponse": "Solution :\n$17 - 20 = -3$\nRaison : $r = -3$"
+        },
+        {
+          "question": "Complète : 2, 6, 18, 54, __",
+          "reponse": "Solution :\nOn multiplie par 3\n$54 \\times 3 = 162$"
+        },
+        {
+          "question": "Exprime la loi de formation : 5, 10, 15, 20",
+          "reponse": "Solution :\nSuite arithmétique de raison $+5$\nFormule : $5n$ où $n = 1, 2, 3, 4...$"
+        },
+        {
+          "question": "Complète : 100, 90, 80, 70, __",
+          "reponse": "Solution :\nRaison : $-10$\n$70 - 10 = 60$"
+        },
+        {
+          "question": "Complète : 1, 3, 9, 27, __",
+          "reponse": "Solution :\nOn multiplie par 3\n$27 \\times 3 = 81$"
+        },
+        {
+          "question": "Quelle est la raison de : 50, 45, 40, 35 ?",
+          "reponse": "Solution :\n$45 - 50 = -5$\nRaison : $r = -5$"
+        },
+        {
+          "question": "Complète : 3, 7, 11, 15, __",
+          "reponse": "Solution :\nRaison : $+4$\n$15 + 4 = 19$"
+        },
+        {
+          "question": "Complète : 2, 4, 8, 16, __",
+          "reponse": "Solution :\nOn multiplie par 2\n$16 \\times 2 = 32$"
+        },
+        {
+          "question": "Soit la suite $2, 5, 8, 11, ...$. Quel est le prochain terme ?",
+          "reponse": "Solution :\nSuite arithmétique de raison $+3$.\n$11 + 3 = 14$"
+        },
+        {
+          "question": "Soit la suite $3, 6, 12, 24, ...$. Quel est le prochain terme ?",
+          "reponse": "Solution :\nSuite géométrique de raison $\\times 2$.\n$24 \\times 2 = 48$"
+        },
+        {
+          "question": "Une suite arithmétique a pour premier terme $5$ et raison $4$. Quel est son $6^e$ terme ?",
+          "reponse": "Solution :\n$u_n = 5 + (n-1) \\times 4$\n$u_6 = 5 + 5 \\times 4 = 5 + 20 = 25$"
+        },
+        {
+          "question": "Soit $u_n = 2n + 1$. Calcule $u_{10}$",
+          "reponse": "Solution :\n$u_{10} = 2 \\times 10 + 1 = 21$"
+        },
+        {
+          "question": "Soit la suite $50, 45, 40, ...$. Quelle est sa raison ?",
+          "reponse": "Solution :\n$45 - 50 = -5$\nLa raison est $-5$."
+        },
+        {
+          "question": "Complète : $3 ; 7 ; 11 ; 15 ; \\ldots$ et donne la loi.",
+          "reponse": "Solution :\nOn ajoute $4$ à chaque fois : la suite est arithmétique.\nTerme suivant : $15 + 4 = 19$",
+          "reponseCourte": "$19$",
+          "distracteurs": [
+            "$18$",
+            "$20$",
+            "$22$"
+          ]
+        },
+        {
+          "question": "Complète : $2 ; 6 ; 18 ; 54 ; \\ldots$ et donne la loi.",
+          "reponse": "Solution :\nOn multiplie par $3$ à chaque fois : la suite est géométrique.\nTerme suivant : $54 \\cdot 3 = 162$",
+          "reponseCourte": "$162$",
+          "distracteurs": [
+            "$108$",
+            "$57$",
+            "$216$"
+          ]
+        },
+        {
+          "question": "Complète : $20 ; 17 ; 14 ; 11 ; \\ldots$",
+          "reponse": "Solution :\nOn retire $3$ à chaque fois.\n$11 - 3 = 8$",
+          "reponseCourte": "$8$",
+          "distracteurs": [
+            "$7$",
+            "$9$",
+            "$14$"
+          ]
+        },
+        {
+          "question": "Quel est le terme de rang $10$ de la suite $5 ; 8 ; 11 ; 14 ; \\ldots$ ?",
+          "reponse": "Solution :\nOn ajoute $3$ à chaque fois. Le premier terme est $5$, donc le terme de rang $n$ vaut $5 + 3(n - 1) = 3n + 2$.\nPour $n = 10$ : $3 \\cdot 10 + 2 = 32$",
+          "reponseCourte": "$32$",
+          "distracteurs": [
+            "$35$",
+            "$30$",
+            "$29$"
+          ]
+        },
+        {
+          "question": "Complète : $1 ; 4 ; 9 ; 16 ; \\ldots$ et donne la loi.",
+          "reponse": "Solution :\nCe sont les **carrés** des entiers : $1^2 ; 2^2 ; 3^2 ; 4^2 ; \\ldots$\nTerme suivant : $5^2 = 25$",
+          "reponseCourte": "$25$",
+          "distracteurs": [
+            "$20$",
+            "$23$",
+            "$24$"
+          ]
+        }
+      ]
+    },
+    "numeration": {
+      "nom": "Numération : rangs et chiffres",
+      "keywords": [
+        "rang",
+        "rangs",
+        "numération",
+        "numeration",
+        "milliers",
+        "millier",
+        "centaines",
+        "centaine",
+        "dizaines",
+        "dizaine",
+        "unités",
+        "unites",
+        "chiffre",
+        "chiffres",
+        "position",
+        "extraire",
+        "combien de milliers",
+        "tableau de numération"
+      ],
+      "explanations": [
+        {
+          "cle": "rangs",
+          "texte": "**Les rangs d'un nombre :**\n\nDe droite à gauche : unités, dizaines, centaines, milliers, dizaines de milliers…\n\n📌 Dans $24\\,357$ :\n• chiffre des unités : $7$\n• chiffre des dizaines : $5$\n• chiffre des centaines : $3$\n• chiffre des milliers : $4$"
+        },
+        {
+          "cle": "extraire",
+          "texte": "**Extraire un nombre entier de milliers, de centaines…**\n\n⚠️ Ne pas confondre le **chiffre** d'un rang et le **nombre** de ce rang.\n\n📌 Dans $24\\,357$ :\n• le **chiffre** des milliers est $4$ ;\n• le **nombre** de milliers est $24$, car $24\\,357 = 24 \\cdot 1000 + 357$.\n\nPour l'obtenir, on divise par $1000$ et on garde la partie entière :\n$24\\,357 \\div 1000 = 24{,}357$, donc $24$ milliers."
+        }
+      ],
+      "exercices": [
+        {
+          "question": "Dans $24\\,357$, quel est le **nombre** de milliers ?",
+          "reponse": "Solution :\n$24\\,357 = 24 \\cdot 1000 + 357$\nIl y a donc $24$ milliers.\n\nAttention : le *chiffre* des milliers, lui, vaut $4$.",
+          "reponseCourte": "$24$",
+          "distracteurs": [
+            "$4$",
+            "$2$",
+            "$357$"
+          ]
+        },
+        {
+          "question": "Dans $24\\,357$, quel est le **chiffre** des centaines ?",
+          "reponse": "Solution :\nDe droite à gauche : $7$ unités, $5$ dizaines, $3$ centaines.",
+          "reponseCourte": "$3$",
+          "distracteurs": [
+            "$5$",
+            "$243$",
+            "$4$"
+          ]
+        },
+        {
+          "question": "Dans $8\\,042$, quel est le nombre de centaines ?",
+          "reponse": "Solution :\n$8\\,042 = 80 \\cdot 100 + 42$\nIl y a donc $80$ centaines.",
+          "reponseCourte": "$80$",
+          "distracteurs": [
+            "$0$",
+            "$8$",
+            "$804$"
+          ]
+        },
+        {
+          "question": "Dans $1\\,205$, quel est le nombre de dizaines ?",
+          "reponse": "Solution :\n$1\\,205 = 120 \\cdot 10 + 5$\nIl y a donc $120$ dizaines.",
+          "reponseCourte": "$120$",
+          "distracteurs": [
+            "$0$",
+            "$20$",
+            "$12$"
+          ]
+        },
+        {
+          "question": "Écris le nombre qui a $3$ milliers, $0$ centaine, $7$ dizaines et $2$ unités.",
+          "reponse": "Solution :\n$3 \\cdot 1000 + 0 \\cdot 100 + 7 \\cdot 10 + 2 = 3072$",
+          "reponseCourte": "$3072$",
+          "distracteurs": [
+            "$372$",
+            "$3702$",
+            "$30\\,072$"
+          ]
         }
       ]
     }

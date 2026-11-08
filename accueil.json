@@ -9,17 +9,17 @@
   ],
   "version": "1.1.5",
   "bienvenue": [
-    "Cette application réunit une partie des cours qui couvrent le programme du cycle d'orientation, ainsi que les principaux thèmes des EVACOM et du TAF.",
-    "Tu y trouveras plus de **230** exercices corrigés en vidéos, avec l'accès aux anciennes EVACOM et anciens TAF.",
-    "Plus de **600** exercices dans l'Assistant pour réviser thème par thème, avec un mode TAF.",
-    "Un quiz rapide de 5 questions à choix multiples, sur les thèmes du TAF.",
-    "Dans l'onglet **S'entraîner**, tous les exercices à cocher au fur et à mesure, et les corrections de 3 exercices offertes."
+    "Les cours du cycle d'orientation, et les thèmes des EVACOM et du TAF.",
+    "Plus de **230** exercices corrigés en vidéo.",
+    "Plus de **600** exercices dans l'**Assistant**, avec un mode TAF.",
+    "Un quiz rapide de 5 questions à choix multiples.",
+    "Dans **S'entraîner**, les exercices à cocher au fur et à mesure."
   ],
   "nouveautes": [
-    "**Vérifier**, un nouvel onglet : tu fais l'exercice sur ta feuille, puis l'app te montre **la méthode, ligne par ligne**. Fractions, priorités, puissances, racines, équations, pourcentages, conversions, Pythagore… 35 outils.",
-    "**Les solides en 3D** : fais-les tourner du doigt. Les faces opposées ont la même couleur, sur le volume comme sur le patron — et les **11 patrons du cube** sont tous dessinés.",
-    "**Revoir le cours** : sous chaque correction, un bouton ouvre le cours du chapitre. Plus besoin de le chercher.",
-    "**L'Assistant** range les thèmes dans les quatre domaines du programme, et tu en ouvres un d'un simple **toucher** : il n'y a plus rien à écrire.",
-    "**Espace classe** : l'emploi du temps et les agendas sont passés dans l'onglet **Cours**, tout en bas. Même code qu'avant."
+    "**Vérifier**, un nouvel onglet : tu fais l'exercice sur ta feuille, l'app te montre la méthode **ligne par ligne**. 35 outils.",
+    "**Les solides en 3D**, à faire tourner du doigt — et les 11 patrons du cube.",
+    "**Revoir le cours** : un bouton sous chaque correction.",
+    "**L'Assistant** est rangé par domaines : un toucher suffit, plus rien à écrire.",
+    "**Espace classe** : il est passé en bas de l'onglet Cours. Même code."
   ]
 }

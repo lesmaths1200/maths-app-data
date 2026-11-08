@@ -1,0 +1,25 @@
+{
+  "_lisez_moi": [
+    "Les textes du panneau qui s'ouvre au lancement de Maths 1200 (iOS).",
+    "Modifiables ici : l'app les relit a chaque ouverture, sans republier.",
+    "«version» doit valoir exactement la version de l'app, sinon le texte",
+    "embarque est utilise — pour ne jamais annoncer d'anciennes nouveautes.",
+    "«bienvenue» : au tout premier lancement. «nouveautes» : apres une mise a jour.",
+    "Le gras s'ecrit entre deux etoiles : **comme ceci**."
+  ],
+  "version": "1.1.5",
+  "bienvenue": [
+    "Cette application réunit une partie des cours qui couvrent le programme du cycle d'orientation, ainsi que les principaux thèmes des EVACOM et du TAF.",
+    "Tu y trouveras plus de **230** exercices corrigés en vidéos, avec l'accès aux anciennes EVACOM et anciens TAF.",
+    "Plus de **600** exercices dans l'Assistant pour réviser thème par thème, avec un mode TAF.",
+    "Un quiz rapide de 5 questions à choix multiples, sur les thèmes du TAF.",
+    "Dans l'onglet **S'entraîner**, tous les exercices à cocher au fur et à mesure, et les corrections de 3 exercices offertes."
+  ],
+  "nouveautes": [
+    "**Vérifier**, un nouvel onglet : tu fais l'exercice sur ta feuille, puis l'app te montre **la méthode, ligne par ligne**. Fractions, priorités, puissances, racines, équations, pourcentages, conversions, Pythagore… 35 outils.",
+    "**Les solides en 3D** : fais-les tourner du doigt. Les faces opposées ont la même couleur, sur le volume comme sur le patron — et les **11 patrons du cube** sont tous dessinés.",
+    "**Revoir le cours** : sous chaque correction, un bouton ouvre le cours du chapitre. Plus besoin de le chercher.",
+    "**L'Assistant** range les thèmes dans les quatre domaines du programme, et tu en ouvres un d'un simple **toucher** : il n'y a plus rien à écrire.",
+    "**Espace classe** : l'emploi du temps et les agendas sont passés dans l'onglet **Cours**, tout en bas. Même code qu'avant."
+  ]
+}

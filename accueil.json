@@ -1,6 +1,6 @@
 {
   "_lisez_moi": [
-    "Les textes du panneau qui s'ouvre au lancement de Maths 1200 (iOS).",
+    "Les textes du panneau qui s'ouvre au lancement de Maths 1200 (iOS et Android).",
     "Modifiables ici : l'app les relit a chaque ouverture, sans republier.",
     "«version» doit valoir exactement la version de l'app, sinon le texte",
     "embarque est utilise — pour ne jamais annoncer d'anciennes nouveautes.",
@@ -14,10 +14,10 @@
     "Dans **S'entraîner**, les exercices à cocher au fur et à mesure."
   ],
   "nouveautes": [
-    "**Vérifier**, un nouvel onglet : tu fais l'exercice sur ta feuille, l'app te montre la méthode **ligne par ligne**. 35 outils.",
+    "**Vérifier**, un nouvel onglet : tu fais l'exercice sur ta feuille, l'app te montre la méthode **ligne par ligne**. 36 outils.",
     "**Les solides en 3D**, à faire tourner du doigt — et les 11 patrons du cube.",
     "**Revoir le cours** : un bouton sous chaque correction.",
-    "**L'Assistant** est rangé par domaines : un toucher suffit, plus rien à écrire.",
+    "**L'Assistant** est rangé par domaines, aux couleurs de l'aide-mémoire : un toucher suffit.",
     "**Espace classe** : il est passé en bas de l'onglet Cours. Même code."
   ]
 }
